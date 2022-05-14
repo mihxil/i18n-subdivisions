@@ -30,16 +30,6 @@ jobs:
         with:
           gpg-private-key: ${{ secrets.GPG_SECRET_KEY }}
           passphrase: ${{ secrets.GPG_SECRET_KEY_PASSPHRASE }}
-      - name: Fix bom
-        run: |
-          sudo apt-get install libxml2-utils
-          .github/fix-bom.sh -B
-      - name: Commit changes in bom if necessary
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: bom changes
-      - name: Build and deploy BOM with Maven
-        run: (cd i18n-regions-bom ; mvn -B -Pdeploy clean deploy)
       - name: Build and deploy with Maven
         run: |
           mvn -B test
