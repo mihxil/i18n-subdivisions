@@ -9,7 +9,7 @@ import org.jsoup.select.Elements
 
 
 @Field
-private static final String JAVA_PACKAGE = "be.olsson.i18n.subdivision"
+private static final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
 
 @Field
 final def JCodeModel cm = new JCodeModel();

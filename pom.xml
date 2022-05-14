@@ -23,11 +23,16 @@
       <name>Tobias Olsson</name>
       <email>tobias@olsson.be</email>
     </developer>
+    <developer>
+      <id>mihxil</id>
+      <name>Michiel Meeuwissen</name>
+      <email>michiel.meeuwissen@gmail.com</email>
+    </developer>
   </developers>
   <scm>
-    <connection>scm:git:git@github.com:tobias-/i18n-subdivisions.git</connection>
-    <developerConnection>scm:git:git@github.com:tobias-/i18n-subdivisions.git</developerConnection>
-    <url>git@github.com:tobias-/i18n-subdivisions.git</url>
+    <connection>scm:git:${project.scm.url}.git</connection>
+    <developerConnection>scm:git:${project.scm.url}.git</developerConnection>
+    <url>https://github.com/mihxil/i18n-subdivisions</url>
     <tag>HEAD</tag>
   </scm>
   <properties>
