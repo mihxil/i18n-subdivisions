@@ -42,12 +42,33 @@
     <nvi18n.version>1.29</nvi18n.version>
     <groovy.version>3.0.10</groovy.version>
   </properties>
+
+
   <distributionManagement>
-    <repository>
+    <snapshotRepository>
       <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh-release</id>
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+
+
+  <repositories>
+    <repository>
+      <id>sonatype_snapshot</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>com.neovisionaries</groupId>

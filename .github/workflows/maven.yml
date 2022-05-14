@@ -32,14 +32,9 @@ jobs:
           passphrase: ${{ secrets.GPG_SECRET_KEY_PASSPHRASE }}
       - name: Build and deploy with Maven
         run: |
-          mvn -B test
-          mvn -B -DskipTests=true -P'deploy,!blackboxtesting' deploy
+          mvn -B test deploy
       - uses: codecov/codecov-action@v2
-        with:
-          files: report-aggregation/target/site/jacoco-aggregate/jacoco.xml
-          verbose: true
       - name: Publish Test Report
         uses: scacap/action-surefire-report@v1
         if: always()
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+
