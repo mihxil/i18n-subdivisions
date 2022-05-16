@@ -36,6 +36,9 @@ jobs:
           which pinentry
           mvn -B test deploy
       - uses: codecov/codecov-action@v3
+        with:
+          files: ./target/site/jacoco/jacoco.xml
+          verbose: true
       - name: Publish Test Report
         uses: scacap/action-surefire-report@v1
         if: always()
