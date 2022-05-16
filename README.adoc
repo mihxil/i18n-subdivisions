@@ -13,7 +13,7 @@ defined in ISO 3166-2.
 
 It depends on the neovisionaries i18n (nv-i18n) package for defining all the CountryCodes used.
 
-This is formed from https://github.com/tobias-/i18n-subdivisions which doesn't seem to be maintained.
+This is forked from https://github.com/tobias-/i18n-subdivisions which doesn't seem to be maintained. I changed the coordinates and package and am maintaining it myself now.
 
 The author is well aware that there are bound to be problems in the data set. If nothing else, the data changes over time, so please submit issues when something is wrong (preferably with a verifiably link to the correct data).
 
