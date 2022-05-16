@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.meeuw.i18n</groupId>
-  <artifactId>i18n-subdivisions</artifactId>
+  <artifactId>i18n-subdivision-enums</artifactId>
   <version>0.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Subdivision(State/Province) extension for the Neo Visionaries Internationalization Package</name>
-  <url>https://github.com/tobias-/i18n-subdivisions</url>
+  <url>https://github.com/mihxil/i18n-subdivisions</url>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -143,6 +143,18 @@
       </plugin>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Built-By>Michiel Meeuwissen</Built-By>
+              <Automatic-Module-Name>org.meeuw.i18n.subdivision_enums</Automatic-Module-Name>
+            </manifestEntries>
+          </archive>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.gmaven</groupId>
