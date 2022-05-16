@@ -34,7 +34,7 @@ countrySubdivisionClass.with {
  Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl) {
     Map<String, SubDiv> parsedData = [:]
     try {
-        def html = uri.text
+        def html = uri.getText("UTF-8")
         Document parse = Jsoup.parse(html)
         // Caveat JSoup magic that makes regex seem easy.
         // All <tr> tags from <tbody> (inserted by Jsoup when parsing) from <table>
@@ -61,7 +61,8 @@ countrySubdivisionClass.with {
 Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
     Map<String, String> parsedData = [:]
     try {
-        def html = uri.text
+        def html = uri.getText("UTF-8")
+
         Document parse = Jsoup.parse(html)
 
         Elements rows = parse.select("table.wikitable > tbody > tr:gt(0)")

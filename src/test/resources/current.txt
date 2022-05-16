@@ -1,10 +1,10 @@
-Undefined
+UNDEFINED	Undefined
 	NA	No Subdivisions
 
-Ascension Island
+AC	Ascension Island
 	NA	No Subdivisions
 
-Andorra
+AD	Andorra
 	02	Canillo
 	03	Encamp
 	04	La Massana
@@ -13,7 +13,7 @@ Andorra
 	07	Andorra la Vella
 	08	Escaldes-Engordany
 
-United Arab Emirates
+AE	United Arab Emirates
 	AJ	'Ajman
 	AZ	Abū Ȥaby[Abu Dhabi]
 	DU	Dubayy [Dubai]
@@ -22,7 +22,7 @@ United Arab Emirates
 	SH	Ash Shāriqah [Sharjah]
 	UQ	Umm al Qaywayn
 
-Afghanistan
+AF	Afghanistan
 	BAL	Balkh
 	BAM	Bāmyān
 	BDG	Bādghīs
@@ -58,7 +58,7 @@ Afghanistan
 	WAR	Wardak
 	ZAB	Zābul
 
-Antigua and Barbuda
+AG	Antigua and Barbuda
 	03	Saint George
 	04	Saint John's
 	05	Saint Mary
@@ -68,10 +68,10 @@ Antigua and Barbuda
 	10	Barbuda
 	11	Redonda
 
-Anguilla
+AI	Anguilla
 	NA	No Subdivisions
 
-Albania
+AL	Albania
 	BR	Berat
 	BU	Bulqizë
 	DI	Dibër
@@ -121,7 +121,7 @@ Albania
 	11	Tiranë
 	12	Vlorë
 
-Armenia
+AM	Armenia
 	AG	Aragaçotn
 	AR	Ararat
 	AV	Armavir
@@ -134,10 +134,10 @@ Armenia
 	TV	Tavuš
 	VD	Vayoć Jor
 
-Netherlands Antilles
+AN	Netherlands Antilles
 	NA	No Subdivisions
 
-Angola
+AO	Angola
 	BGO	Bengo
 	BGU	Benguela
 	BIE	Bié
@@ -157,10 +157,10 @@ Angola
 	UIG	Uíge
 	ZAI	Zaire
 
-Antarctica
+AQ	Antarctica
 	NA	No Subdivisions
 
-Argentina
+AR	Argentina
 	A	Salta
 	B	Buenos Aires
 	C	Ciudad Autónoma de Buenos Aires
@@ -186,10 +186,10 @@ Argentina
 	Y	Jujuy
 	Z	Santa Cruz
 
-American Samoa
+AS	American Samoa
 	NA	No Subdivisions
 
-Austria
+AT	Austria
 	1	Burgenland
 	2	Kärnten
 	3	Niederösterreich
@@ -200,7 +200,7 @@ Austria
 	8	Vorarlberg
 	9	Wien
 
-Australia
+AU	Australia
 	ACT	Australian Capital Territory
 	NSW	New South Wales
 	NT	Northern Territory
@@ -210,13 +210,13 @@ Australia
 	VIC	Victoria
 	WA	Western Australia
 
-Aruba
+AW	Aruba
 	NA	No Subdivisions
 
-Åland Islands
+AX	Åland Islands
 	NA	No Subdivisions
 
-Azerbaijan
+AZ	Azerbaijan
 	NX	Naxçıvan
 	BA	Bakı
 	GA	Gәncә
@@ -296,7 +296,7 @@ Azerbaijan
 	ZAQ	Zaqatala
 	ZAR	Zәrdab
 
-Bosnia and Herzegovina
+BA	Bosnia and Herzegovina
 	01	Unsko-Sanski Kanton
 	02	Posavski Kanton
 	03	Tuzlanski Kanton
@@ -311,7 +311,7 @@ Bosnia and Herzegovina
 	BIH	Federacija Bosne i Hercegovine
 	SRP	Republika Srpska
 
-Barbados
+BB	Barbados
 	01	Christ Church
 	02	Saint Andrew
 	03	Saint George
@@ -324,7 +324,7 @@ Barbados
 	10	Saint Philip
 	11	Saint Thomas
 
-Bangladesh
+BD	Bangladesh
 	01	Bandarban
 	02	Barguna
 	03	Bogra
@@ -399,7 +399,7 @@ Bangladesh
 	G	Sylhet
 	2E	Chittagong Hill Tracts
 
-Belgium
+BE	Belgium
 	BRU	Bruxelles-Capitale, Région de (fr), Brussels Hoofdstedelijk Gewest (nl)
 	VAN	Antwerpen (VLG)
 	VBR	Vlaams Brabant (VLG)
@@ -414,7 +414,7 @@ Belgium
 	WLX	Luxembourg (WAL)
 	WNA	Namur (WAL)
 
-Burkina Faso
+BF	Burkina Faso
 	BAL	Balé
 	BAM	Bam
 	BAN	Banwa
@@ -474,7 +474,7 @@ Burkina Faso
 	12	Sahel
 	13	Sud-Ouest
 
-Bulgaria
+BG	Bulgaria
 	01	Blagoevgrad
 	02	Burgas
 	03	Varna
@@ -504,7 +504,7 @@ Bulgaria
 	27	Shumen
 	28	Yambol
 
-Bahrain
+BH	Bahrain
 	13	Al Manāmah
 	14	Al Janūbīyah
 	15	Al Muḩarraq
@@ -521,7 +521,7 @@ Bahrain
 	11	Minţaqat Juzur Ḩawār
 	06	Sitrah
 
-Burundi
+BI	Burundi
 	BB	Bubanza
 	BL	Bujumbura Rural
 	BM	Bujumbura Mairie
@@ -541,7 +541,7 @@ Burundi
 	RY	Ruyigi
 	RM	Rumonge
 
-Benin
+BJ	Benin
 	AK	Atakora
 	AL	Alibori
 	AQ	Atlantique
@@ -555,19 +555,19 @@ Benin
 	PL	Plateau
 	ZO	Zou
 
-Saint Barthélemy
+BL	Saint Barthélemy
 	NA	No Subdivisions
 
-Bermuda
+BM	Bermuda
 	NA	No Subdivisions
 
-Brunei Darussalam
+BN	Brunei Darussalam
 	BE	Belait
 	BM	Brunei-Muara
 	TE	Temburong
 	TU	Tutong
 
-Bolivia, Plurinational State of
+BO	Bolivia, Plurinational State of
 	B	El Beni
 	C	Cochabamba
 	H	Chuquisaca
@@ -578,12 +578,12 @@ Bolivia, Plurinational State of
 	S	Santa Cruz
 	T	Tarija
 
-Bonaire, Sint Eustatius and Saba
+BQ	Bonaire, Sint Eustatius and Saba
 	BO	Boneiru
 	SA	Saba
 	SE	Sint Eustatius
 
-Brazil
+BR	Brazil
 	AC	Acre
 	AL	Alagoas
 	AM	Amazonas
@@ -612,7 +612,7 @@ Brazil
 	SP	São Paulo
 	TO	Tocantins
 
-Bahamas
+BS	Bahamas
 	AK	Acklins
 	BI	Bimini
 	BP	Black Point
@@ -656,7 +656,7 @@ Bahamas
 	RS	Rock Sound
 	SP	Sandy Point
 
-Bhutan
+BT	Bhutan
 	11	Paro
 	12	Chhukha
 	13	Ha
@@ -678,13 +678,13 @@ Bhutan
 	GA	Gasa
 	TY	Trashi Yangtse
 
-Burma
+BU	Burma
 	NA	No Subdivisions
 
-Bouvet Island
+BV	Bouvet Island
 	NA	No Subdivisions
 
-Botswana
+BW	Botswana
 	CE	Central
 	GH	Ghanzi
 	KG	Kgalagadi
@@ -702,7 +702,7 @@ Botswana
 	SP	Selibe Phikwe
 	ST	Sowa Town
 
-Belarus
+BY	Belarus
 	HM	Horad Minsk (be) - BrestGorod Minsk (ru)
 	BR	Brestskaya voblasts' (be) - Brestskaya oblast' (ru)
 	HO	Homyel'skaya voblasts' (be) - Gomel'skaya oblast' (ru)
@@ -711,7 +711,7 @@ Belarus
 	MI	Minskaya voblasts' (be) - Minskaya oblast' (ru)
 	VI	Vitsyebskaya voblasts' (be) - Vitebskaya oblast' (ru)
 
-Belize
+BZ	Belize
 	BZ	Belize
 	CY	Cayo
 	CZL	Corozal
@@ -719,7 +719,7 @@ Belize
 	SC	Stann Creek
 	TOL	Toledo
 
-Canada
+CA	Canada
 	AB	Alberta
 	BC	British Columbia
 	MB	Manitoba
@@ -734,10 +734,10 @@ Canada
 	SK	Saskatchewan
 	YT	Yukon Territory
 
-Cocos (Keeling) Islands
+CC	Cocos (Keeling) Islands
 	NA	No Subdivisions
 
-Congo, the Democratic Republic of the
+CD	Congo, the Democratic Republic of the
 	BC	Bas-Congo
 	BN	Bandundu
 	EQ	Équateur
@@ -769,7 +769,7 @@ Congo, the Democratic Republic of the
 	TO	Tshopo
 	TU	Tshuapa
 
-Central African Republic
+CF	Central African Republic
 	AC	Ouham
 	BB	Bamingui-Bangoran
 	BGF	Bangui
@@ -788,7 +788,7 @@ Central African Republic
 	UK	Ouaka
 	VK	Vakaga
 
-Congo
+CG	Congo
 	11	Bouenza
 	12	Pool
 	13	Sangha
@@ -802,7 +802,7 @@ Congo
 	BZV	Brazzaville
 	16	Pointe-Noire
 
-Switzerland
+CH	Switzerland
 	AG	Aargau (de)
 	AI	Appenzell Innerrhoden (de)
 	AR	Appenzell Ausserrhoden (de)
@@ -830,7 +830,7 @@ Switzerland
 	ZG	Zug (de)
 	ZH	Zürich (de)
 
-Côte d'Ivoire
+CI	Côte d'Ivoire
 	01	Lagunes (Région des)
 	02	Haut-Sassandra (Région du)
 	03	Savanes (Région des)
@@ -865,10 +865,10 @@ Côte d'Ivoire
 	YM	Yamoussoukro
 	ZZ	Zanzan
 
-Cook Islands
+CK	Cook Islands
 	NA	No Subdivisions
 
-Chile
+CL	Chile
 	AI	Aisén del General Carlos Ibáñez del Campo
 	AN	Antofagasta
 	AP	Arica y Parinacota
@@ -886,7 +886,7 @@ Chile
 	VS	Valparaíso
 	NB	Ñuble
 
-Cameroon
+CM	Cameroon
 	AD	Adamaoua
 	CE	Centre
 	EN	Far North
@@ -898,7 +898,7 @@ Cameroon
 	SU	South
 	SW	South-West
 
-China
+CN	China
 	11	Beijing
 	12	Tianjin
 	13	Hebei
@@ -968,7 +968,7 @@ China
 	YN	Yunnan Sheng
 	ZJ	Zhejiang Sheng
 
-Colombia
+CO	Colombia
 	AMA	Amazonas
 	ANT	Antioquia
 	ARA	Arauca
@@ -1003,10 +1003,10 @@ Colombia
 	VAU	Vaupés
 	VID	Vichada
 
-Clipperton Island
+CP	Clipperton Island
 	NA	No Subdivisions
 
-Costa Rica
+CR	Costa Rica
 	A	Alajuela
 	C	Cartago
 	G	Guanacaste
@@ -1015,10 +1015,10 @@ Costa Rica
 	P	Puntarenas
 	SJ	San José
 
-Serbia and Montenegro
+CS	Serbia and Montenegro
 	NA	No Subdivisions
 
-Cuba
+CU	Cuba
 	01	Pinar del Río
 	02	La Habana
 	03	Ciudad de La Habana
@@ -1037,7 +1037,7 @@ Cuba
 	15	Artemisa
 	16	Mayabeque
 
-Cape Verde
+CV	Cape Verde
 	BR	Brava
 	BV	Boa Vista
 	CA	Santa Catarina
@@ -1063,13 +1063,13 @@ Cape Verde
 	S	Ilhas de Sotavento
 	SO	São Lourenço dos Órgãos
 
-Curaçao
+CW	Curaçao
 	NA	No Subdivisions
 
-Christmas Island
+CX	Christmas Island
 	NA	No Subdivisions
 
-Cyprus
+CY	Cyprus
 	01	Lefkosia
 	02	Lemesos
 	03	Larnaka
@@ -1077,7 +1077,7 @@ Cyprus
 	05	Pafos
 	06	Keryneia
 
-Czech Republic
+CZ	Czech Republic
 	JC	Jihoceský kraj
 	JM	Jihomoravský kraj
 	KA	Karlovarský kraj
@@ -1166,7 +1166,7 @@ Czech Republic
 	647	Znojmo
 	635	Žďár nad Sázavou
 
-Germany
+DE	Germany
 	BB	Brandenburg
 	BE	Berlin
 	BW	Baden-Württemberg
@@ -1184,10 +1184,10 @@ Germany
 	ST	Sachsen-Anhalt
 	TH	Thüringen
 
-Diego Garcia
+DG	Diego Garcia
 	NA	No Subdivisions
 
-Djibouti
+DJ	Djibouti
 	AR	‘Artā / Arta
 	AS	‘Alī Sābiḩ / Ali Sabieh
 	DI	Dikhīl / Dikhil
@@ -1195,7 +1195,7 @@ Djibouti
 	OB	Ūbūk / Obock
 	TA	Tājūrah / Tadjoura
 
-Denmark
+DK	Denmark
 	81	Region Nordjylland
 	82	Region Midtjylland
 	83	Region Syddanmark
@@ -1218,7 +1218,7 @@ Denmark
 	101	København
 	147	Frederiksberg
 
-Dominica
+DM	Dominica
 	02	Saint Andrew
 	03	Saint David
 	04	Saint George
@@ -1230,7 +1230,7 @@ Dominica
 	10	Saint Paul
 	11	Saint Peter
 
-Dominican Republic
+DO	Dominican Republic
 	01	Distrito Nacional (Santo Domingo)
 	02	Azua
 	03	Bahoruco
@@ -1264,7 +1264,7 @@ Dominican Republic
 	31	San José de Ocoa
 	32	Santo Domingo
 
-Algeria
+DZ	Algeria
 	01	Adrar
 	02	Chlef
 	03	Laghouat
@@ -1314,10 +1314,10 @@ Algeria
 	47	Ghardaïa
 	48	Relizane
 
-Ceuta, Melilla
+EA	Ceuta, Melilla
 	NA	No Subdivisions
 
-Ecuador
+EC	Ecuador
 	A	Azuay
 	B	Bolívar
 	C	Carchi
@@ -1343,7 +1343,7 @@ Ecuador
 	Y	Pastaza
 	Z	Zamora-Chinchipe
 
-Estonia
+EE	Estonia
 	37	Harjumaa
 	39	Hiiumaa
 	44	Ida-Virumaa
@@ -1368,7 +1368,7 @@ Estonia
 	81	Valgamaa
 	87	Võrumaa
 
-Egypt
+EG	Egypt
 	ALX	Al Iskandarīyah
 	ASN	Aswān
 	AST	Asyūţ
@@ -1399,10 +1399,10 @@ Egypt
 	SUZ	As Suways
 	WAD	Al Wādī al Jadīd
 
-Western Sahara
+EH	Western Sahara
 	NA	No Subdivisions
 
-Eritrea
+ER	Eritrea
 	AN	Anseba
 	DK	Debubawi Keyih Bahri
 	DU	Debub
@@ -1420,7 +1420,7 @@ Eritrea
 	SN	Senhit
 	SR	Seraye
 
-Spain
+ES	Spain
 	A	Alicante / Alacant
 	AB	Albacete
 	AL	Almería
@@ -1490,7 +1490,7 @@ Spain
 	PV	País Vasco
 	VC	Valenciana, Comunitat
 
-Ethiopia
+ET	Ethiopia
 	AA	Ādīs Ābeba / Adis Abeba
 	AF	Āfar / Afar
 	AM	Āmara / Amara
@@ -1503,13 +1503,13 @@ Ethiopia
 	SO	Sumalē / Sumale
 	TI	Tigray / Tigray
 
-European Union
+EU	European Union
 	NA	No Subdivisions
 
-Eurozone
+EZ	Eurozone
 	NA	No Subdivisions
 
-Finland
+FI	Finland
 	01	Ahvenanmaan maakunta
 	02	Etelä-Karjala
 	03	Etelä-Pohjanmaa
@@ -1530,7 +1530,7 @@ Finland
 	18	Uusimaa
 	19	Varsinais-Suomi
 
-Fiji
+FJ	Fiji
 	C	Central
 	E	Eastern
 	N	Northern
@@ -1551,19 +1551,19 @@ Fiji
 	13	Serua
 	14	Tailevu
 
-Falkland Islands (Malvinas)
+FK	Falkland Islands (Malvinas)
 	NA	No Subdivisions
 
-Micronesia, Federated States of
+FM	Micronesia, Federated States of
 	KSA	Kosrae
 	PNI	Pohnpei
 	TRK	Chuuk
 	YAP	Yap
 
-Faroe Islands
+FO	Faroe Islands
 	NA	No Subdivisions
 
-France
+FR	France
 	CP	Clipperton
 	01	Ain
 	02	Aisne
@@ -1696,10 +1696,10 @@ France
 	S	Picardie
 	T	Poitou-Charentes
 
-France, Metropolitan
+FX	France, Metropolitan
 	NA	No Subdivisions
 
-Gabon
+GA	Gabon
 	1	Estuaire
 	2	Haut-Ogooué
 	3	Moyen-Ogooué
@@ -1710,7 +1710,7 @@ Gabon
 	8	Ogooué-Maritime
 	9	Woleu-Ntem
 
-United Kingdom
+GB	United Kingdom
 	ABD	Aberdeenshire
 	ABE	Aberdeen City
 	AGB	Argyll and Bute
@@ -1962,7 +1962,7 @@ United Kingdom
 	MUL	Mid-Ulster
 	NMD	Newry, Mourne and Down
 
-Grenada
+GD	Grenada
 	01	Saint Andrew
 	02	Saint David
 	03	Saint George
@@ -1971,7 +1971,7 @@ Grenada
 	06	Saint Patrick
 	10	Southern Grenadine Islands
 
-Georgia
+GE	Georgia
 	AB	Abkhazia
 	AJ	Ajaria
 	GU	Guria
@@ -2057,13 +2057,13 @@ Georgia
 	62	Zestap'onis Raioni
 	63	Zugdidis Raioni
 
-French Guiana
+GF	French Guiana
 	NA	No Subdivisions
 
-Guernsey
+GG	Guernsey
 	NA	No Subdivisions
 
-Ghana
+GH	Ghana
 	AA	Greater Accra
 	AH	Ashanti
 	BA	Brong-Ahafo
@@ -2082,10 +2082,10 @@ Ghana
 	SV	Savannah
 	WN	Western North
 
-Gibraltar
+GI	Gibraltar
 	NA	No Subdivisions
 
-Greenland
+GL	Greenland
 	KU	Kommune Kujalleq
 	QA	Qaasuitsup Kommunia
 	QE	Qeqqata Kommunia
@@ -2093,7 +2093,7 @@ Greenland
 	AV	Avannaata Kommunia
 	QT	Kommune Qeqertalik
 
-Gambia
+GM	Gambia
 	B	Banjul
 	L	Lower River
 	M	Central River
@@ -2101,7 +2101,7 @@ Gambia
 	U	Upper River
 	W	Western
 
-Guinea
+GN	Guinea
 	BE	Beyla
 	BF	Boffa
 	BK	Boké
@@ -2144,10 +2144,10 @@ Guinea
 	N	Nzérékoré
 	C	Conakry
 
-Guadeloupe
+GP	Guadeloupe
 	NA	No Subdivisions
 
-Equatorial Guinea
+GQ	Equatorial Guinea
 	AN	Annobón
 	BN	Bioko Norte
 	BS	Bioko Sur
@@ -2159,7 +2159,7 @@ Equatorial Guinea
 	I	Región Insular
 	DJ	Djibloho
 
-Greece
+GR	Greece
 	01	Aitolia kai Akarnania
 	03	Voiotia
 	04	Evvoia
@@ -2226,10 +2226,10 @@ Greece
 	E	Thessalía
 	K	Vóreio Aigaío
 
-South Georgia and the South Sandwich Islands
+GS	South Georgia and the South Sandwich Islands
 	NA	No Subdivisions
 
-Guatemala
+GT	Guatemala
 	AV	Alta Verapaz
 	BV	Baja Verapaz
 	CM	Chimaltenango
@@ -2275,10 +2275,10 @@ Guatemala
 	08	Totonicapán
 	19	Zacapa
 
-Guam
+GU	Guam
 	NA	No Subdivisions
 
-Guinea-Bissau
+GW	Guinea-Bissau
 	BA	Bafatá
 	BL	Bolama
 	BM	Biombo
@@ -2289,7 +2289,7 @@ Guinea-Bissau
 	QU	Quinara
 	TO	Tombali
 
-Guyana
+GY	Guyana
 	BA	Barima-Waini
 	CU	Cuyuni-Mazaruni
 	DE	Demerara-Mahaica
@@ -2301,13 +2301,13 @@ Guyana
 	UD	Upper Demerara-Berbice
 	UT	Upper Takutu-Upper Essequibo
 
-Hong Kong
+HK	Hong Kong
 	NA	No Subdivisions
 
-Heard Island and McDonald Islands
+HM	Heard Island and McDonald Islands
 	NA	No Subdivisions
 
-Honduras
+HN	Honduras
 	AT	Atlántida
 	CH	Choluteca
 	CL	Colón
@@ -2327,7 +2327,7 @@ Honduras
 	VA	Valle
 	YO	Yoro
 
-Croatia
+HR	Croatia
 	01	Zagrebačka županija
 	02	Krapinsko-zagorska županija
 	03	Sisačko-moslavačka županija
@@ -2350,7 +2350,7 @@ Croatia
 	20	Međimurska županija
 	21	Grad Zagreb
 
-Haiti
+HT	Haiti
 	AR	Artibonite
 	CE	Centre
 	GA	Grande-Anse
@@ -2362,7 +2362,7 @@ Haiti
 	SD	Sud
 	SE	Sud-Est
 
-Hungary
+HU	Hungary
 	BA	Baranya
 	BC	Békéscsaba
 	BE	Békés
@@ -2406,10 +2406,10 @@ Hungary
 	ZA	Zala
 	ZE	Zalaegerszeg
 
-Canary Islands
+IC	Canary Islands
 	NA	No Subdivisions
 
-Indonesia
+ID	Indonesia
 	AC	Aceh
 	BA	Bali
 	BB	Bangka Belitung
@@ -2452,7 +2452,7 @@ Indonesia
 	KU	Kalimantan Utara
 	SR	Sulawesi Barat
 
-Ireland
+IE	Ireland
 	CE	Clare
 	CN	Cavan
 	CO	Cork
@@ -2484,7 +2484,7 @@ Ireland
 	M	Munster
 	U	Ulster
 
-Israel
+IL	Israel
 	D	El Janūbī / HaDarom
 	HA	Ḥeifā / H̱efa
 	JM	Al Quds / Yerushalayim
@@ -2492,10 +2492,10 @@ Israel
 	TA	Tell Abīb / Tel-Aviv
 	Z	Esh Shamālī / Ha Ẕafon
 
-Isle of Man
+IM	Isle of Man
 	NA	No Subdivisions
 
-India
+IN	India
 	AN	Andaman and Nicobar Islands
 	AP	Andhra Pradesh
 	AR	Arunachal Pradesh
@@ -2535,10 +2535,10 @@ India
 	DH	Dādra and Nagar Haveli and Damān and Diu
 	LA	Ladākh
 
-British Indian Ocean Territory
+IO	British Indian Ocean Territory
 	NA	No Subdivisions
 
-Iraq
+IQ	Iraq
 	AN	Al Anbār
 	AR	Arbīl
 	BA	Al Başrah
@@ -2560,7 +2560,7 @@ Iraq
 	KR	Iqlīm Kūrdistān
 	KI	Kirkūk
 
-Iran, Islamic Republic of
+IR	Iran, Islamic Republic of
 	01	Āz̄arbāyjān-e Sharqī
 	02	Āz̄arbāyjān-e Gharbī
 	03	Ardabīl
@@ -2594,7 +2594,7 @@ Iran, Islamic Republic of
 	09	Khorāsān-e Raẕavī
 	00	Markazī
 
-Iceland
+IS	Iceland
 	0	Reykjavík
 	1	Höfuðborgarsvæði utan Reykjavíkur
 	2	Suðurnes
@@ -2674,7 +2674,7 @@ Iceland
 	VER	Vesturbyggð
 	VOP	Vopnafjarðarhreppur
 
-Italy
+IT	Italy
 	AG	Agrigento
 	AL	Alessandria
 	AN	Ancona
@@ -2807,10 +2807,10 @@ Italy
 	23	Valle d'Aosta fr
 	SU	Sud Sardegna
 
-Jersey
+JE	Jersey
 	NA	No Subdivisions
 
-Jamaica
+JM	Jamaica
 	01	Kingston
 	02	Saint Andrew
 	03	Saint Thomas
@@ -2826,7 +2826,7 @@ Jamaica
 	13	Clarendon
 	14	Saint Catherine
 
-Jordan
+JO	Jordan
 	AJ	ʽAjlūn
 	AM	‘Ammān (Al ‘A̅şimah)
 	AQ	Al'Aqaba
@@ -2840,7 +2840,7 @@ Jordan
 	MD	Mādabā
 	MN	Ma'ān
 
-Japan
+JP	Japan
 	01	Hokkaidô [Hokkaido]
 	02	Aomori
 	03	Iwate
@@ -2889,7 +2889,7 @@ Japan
 	46	Kagosima [Kagoshima]
 	47	Okinawa
 
-Kenya
+KE	Kenya
 	110	Nairobi
 	200	Central
 	300	Coast
@@ -2946,7 +2946,7 @@ Kenya
 	46	Wajir
 	47	West Pokot
 
-Kyrgyzstan
+KG	Kyrgyzstan
 	B	Batken
 	C	Chü
 	GB	Bishkek
@@ -2957,7 +2957,7 @@ Kyrgyzstan
 	Y	Ysyk-Köl
 	GO	Osh Shaary
 
-Cambodia
+KH	Cambodia
 	1	Banteay Mean Chey
 	10	Kracheh
 	11	Mondol Kiri
@@ -2984,17 +2984,17 @@ Cambodia
 	9	Kaoh Kong
 	25	Tbong Khmum
 
-Kiribati
+KI	Kiribati
 	G	Gilbert Islands
 	L	Line Islands
 	P	Phoenix Islands
 
-Comoros
+KM	Comoros
 	A	Anjouan
 	G	Grande Comore
 	M	Mohéli
 
-Saint Kitts and Nevis
+KN	Saint Kitts and Nevis
 	01	Christ Church Nichola Town
 	02	Saint Anne Sandy Point
 	03	Saint George Basseterre
@@ -3012,7 +3012,7 @@ Saint Kitts and Nevis
 	K	Saint Kitts
 	N	Nevis
 
-Korea, Democratic People's Republic of
+KP	Korea, Democratic People's Republic of
 	01	Phyeongyang
 	02	Phyeongannamto
 	03	Phyeonganpukto
@@ -3026,7 +3026,7 @@ Korea, Democratic People's Republic of
 	13	Nasǒn
 	14	Nampo
 
-Korea, Republic of
+KR	Korea, Republic of
 	11	Seoul Teugbyeolsi
 	26	Busan Gwang'yeogsi
 	27	Daegu Gwang'yeogsi
@@ -3045,7 +3045,7 @@ Korea, Republic of
 	49	Jejudo
 	50	Sejong
 
-Kuwait
+KW	Kuwait
 	AH	Al Aḩmadī
 	FA	Al Farwānīyah
 	HA	Ḩawallī
@@ -3053,10 +3053,10 @@ Kuwait
 	KU	Al Kuwayt (Al ‘Āşimah)
 	MU	Mubārak al Kabīr
 
-Cayman Islands
+KY	Cayman Islands
 	NA	No Subdivisions
 
-Kazakhstan
+KZ	Kazakhstan
 	AKM	Aqmola oblysy
 	AKT	Aqtöbe oblysy
 	ALA	Almaty
@@ -3075,7 +3075,7 @@ Kazakhstan
 	ZHA	Zhambyl oblysy
 	SHY	Shymkent
 
-Lao People's Democratic Republic
+LA	Lao People's Democratic Republic
 	AT	Attapu [Attopeu]
 	BK	Bokèo
 	BL	Bolikhamxai [Borikhane]
@@ -3096,7 +3096,7 @@ Lao People's Democratic Republic
 	XN	Xaisômboun
 	XS	Xaisômboun
 
-Lebanon
+LB	Lebanon
 	AK	Aakkârâli
 	AS	Liban-Nordâli
 	BA	Beyrouth
@@ -3106,7 +3106,7 @@ Lebanon
 	JL	Mont-Liban
 	NA	Nabatîyé
 
-Saint Lucia
+LC	Saint Lucia
 	01	Anse la Raye
 	02	Castries
 	03	Choiseul
@@ -3120,7 +3120,7 @@ Saint Lucia
 	11	Vieux Fort
 	12	Canaries
 
-Liechtenstein
+LI	Liechtenstein
 	01	Balzers
 	02	Eschen
 	03	Gamprin
@@ -3133,7 +3133,7 @@ Liechtenstein
 	10	Triesenberg
 	11	Vaduz
 
-Sri Lanka
+LK	Sri Lanka
 	1	Basnāhira paḷāta
 	11	Kŏḷamba
 	12	Gampaha
@@ -3169,7 +3169,7 @@ Sri Lanka
 	91	Ratnapura
 	92	Kægalla
 
-Liberia
+LR	Liberia
 	BG	Bong
 	BM	Bomi
 	CM	Grand Cape Mount
@@ -3186,7 +3186,7 @@ Liberia
 	RI	Rivercess
 	SI	Sinoe
 
-Lesotho
+LS	Lesotho
 	A	Maseru
 	B	Butha-Buthe
 	C	Leribe
@@ -3198,7 +3198,7 @@ Lesotho
 	J	Mokhotlong
 	K	Thaba-Tseka
 
-Lithuania
+LT	Lithuania
 	AL	Alytaus Apskritis
 	KL	Klaipėdos Apskritis
 	KU	Kauno Apskritis
@@ -3270,7 +3270,7 @@ Lithuania
 	59	Visaginas
 	60	Zarasai
 
-Luxembourg
+LU	Luxembourg
 	D	Diekirch
 	G	Grevenmacher
 	L	Luxembourg (fr)
@@ -3287,7 +3287,7 @@ Luxembourg
 	VD	Vianden
 	WI	Wiltz
 
-Latvia
+LV	Latvia
 	DGV	Daugavpils
 	JEL	Jelgava
 	JKB	Jēkabpils
@@ -3437,7 +3437,7 @@ Latvia
 	VM	Valmieras Apriņķis
 	VE	Ventspils Apriņķis
 
-Libya
+LY	Libya
 	BA	Banghāzī
 	BU	Al Buţnān
 	DR	Darnah
@@ -3472,7 +3472,7 @@ Libya
 	TM	Tarhūnah-Masallātah
 	YJ	Yafran-Jādū
 
-Morocco
+MA	Morocco
 	01	Tanger-Tétouan
 	02	Gharb-Chrarda-Beni Hssen
 	03	Taza-Al Hoceima-Taounate
@@ -3567,7 +3567,7 @@ Morocco
 	TIN	Tinghir
 	YUS	Youssoufia
 
-Monaco
+MC	Monaco
 	CL	La Colle
 	CO	La Condamine
 	FO	Fontvieille
@@ -3586,7 +3586,7 @@ Monaco
 	SR	Saint-Roman
 	VR	Vallon de la Rousse
 
-Moldova, Republic of
+MD	Moldova, Republic of
 	GA	Găgăuzia, Unitatea teritorială autonomă (UTAG)
 	BA	Bălţi
 	BD	Tighina
@@ -3637,7 +3637,7 @@ Moldova, Republic of
 	LA	Lăpuşna
 	TI	Tighina
 
-Montenegro
+ME	Montenegro
 	01	Andrijevica
 	02	Bar
 	03	Berane
@@ -3663,10 +3663,10 @@ Montenegro
 	23	Petnjica
 	24	Tuzi
 
-Saint Martin (French part)
+MF	Saint Martin (French part)
 	NA	No Subdivisions
 
-Madagascar
+MG	Madagascar
 	A	Toamasina
 	D	Antsiranana
 	F	Fianarantsoa
@@ -3674,7 +3674,7 @@ Madagascar
 	T	Antananarivo
 	U	Toliara
 
-Marshall Islands
+MH	Marshall Islands
 	ALK	Ailuk
 	ALL	Ailinglapalap
 	ARN	Arno
@@ -3702,7 +3702,7 @@ Marshall Islands
 	WTH	Wotho
 	WTJ	Wotje
 
-North Macedonia, Republic of
+MK	North Macedonia, Republic of
 	01	Aerodrom
 	02	Aračinovo
 	03	Berovo
@@ -3862,7 +3862,7 @@ North Macedonia, Republic of
 	204	Zrnovci
 	605	Želino
 
-Mali
+ML	Mali
 	1	Kayes
 	2	Koulikoro
 	3	Sikasso
@@ -3875,7 +3875,7 @@ Mali
 	9	Ménaka
 	10	Taoudénit
 
-Myanmar
+MM	Myanmar
 	01	Sagaing
 	02	Bago
 	03	Magway
@@ -3892,7 +3892,7 @@ Myanmar
 	17	Shan
 	18	Nay Pyi Taw
 
-Mongolia
+MN	Mongolia
 	035	Orhon
 	037	Darhan uul
 	039	Hentiy
@@ -3916,16 +3916,16 @@ Mongolia
 	073	Arhangay
 	1	Ulaanbaatar
 
-Macao
+MO	Macao
 	NA	No Subdivisions
 
-Northern Mariana Islands
+MP	Northern Mariana Islands
 	NA	No Subdivisions
 
-Martinique
+MQ	Martinique
 	NA	No Subdivisions
 
-Mauritania
+MR	Mauritania
 	01	Hodh ech Chargui
 	02	Hodh el Gharbi
 	03	Assaba
@@ -3940,10 +3940,10 @@ Mauritania
 	12	Inchiri
 	NKC	Nouakchott
 
-Montserrat
+MS	Montserrat
 	NA	No Subdivisions
 
-Malta
+MT	Malta
 	01	Attard
 	02	Balzan
 	03	Birgu
@@ -4013,7 +4013,7 @@ Malta
 	67	Żejtun
 	68	Żurrieq
 
-Mauritius
+MU	Mauritius
 	AG	Agalega Islands
 	BL	Black River
 	BR	Beau Bassin-Rose Hill
@@ -4032,7 +4032,7 @@ Mauritius
 	SA	Savanne
 	VP	Vacoas-Phoenix
 
-Maldives
+MV	Maldives
 	00	Alifu Dhaalu
 	01	Seenu
 	02	Alifu Alifu
@@ -4062,7 +4062,7 @@ Maldives
 	UN	Upper North
 	US	Upper South
 
-Malawi
+MW	Malawi
 	BA	Balaka
 	BL	Blantyre
 	C	Central
@@ -4095,7 +4095,7 @@ Malawi
 	TH	Thyolo
 	ZO	Zomba
 
-Mexico
+MX	Mexico
 	AGU	Aguascalientes
 	BCN	Baja California
 	BCS	Baja California Sur
@@ -4130,7 +4130,7 @@ Mexico
 	ZAC	Zacatecas
 	CMX	Ciudad de México
 
-Malaysia
+MY	Malaysia
 	01	Johor
 	02	Kedah
 	03	Kelantan
@@ -4148,7 +4148,7 @@ Malaysia
 	15	Wilayah Persekutuan Labuan
 	16	Wilayah Persekutuan Putrajaya
 
-Mozambique
+MZ	Mozambique
 	MPM	Maputo
 	A	Niaosa
 	B	Manica
@@ -4161,7 +4161,7 @@ Mozambique
 	S	Sofala
 	T	Tete
 
-Namibia
+NA	Namibia
 	CA	Caprivi
 	ER	Erongo
 	HA	Hardap
@@ -4178,10 +4178,10 @@ Namibia
 	KE	Kavango East
 	KW	Kavango West
 
-New Caledonia
+NC	New Caledonia
 	NA	No Subdivisions
 
-Niger
+NE	Niger
 	1	Agadez
 	2	Diffa
 	3	Dosso
@@ -4191,10 +4191,10 @@ Niger
 	7	Zinder
 	8	Niamey
 
-Norfolk Island
+NF	Norfolk Island
 	NA	No Subdivisions
 
-Nigeria
+NG	Nigeria
 	AB	Abia
 	AD	Adamawa
 	AK	Akwa Ibom
@@ -4233,7 +4233,7 @@ Nigeria
 	YO	Yobe
 	ZA	Zamfara
 
-Nicaragua
+NI	Nicaragua
 	AN	Atlántico Norte
 	AS	Atlántico Sur
 	BO	Boaco
@@ -4252,7 +4252,7 @@ Nicaragua
 	RI	Rivas
 	SJ	Río San Juan
 
-Netherlands
+NL	Netherlands
 	DR	Drenthe
 	FL	Flevoland
 	FR	Friesland
@@ -4272,7 +4272,7 @@ Netherlands
 	BQ2	Saba
 	BQ3	Sint Eustatius
 
-Norway
+NO	Norway
 	01	Østfold
 	02	Akershus
 	03	Oslo
@@ -4302,7 +4302,7 @@ Norway
 	22	Jan Mayen
 	21	Svalbard
 
-Nepal
+NP	Nepal
 	1	Madhyamanchal
 	2	Madhya Pashchimanchal
 	3	Pashchimanchal
@@ -4330,7 +4330,7 @@ Nepal
 	P6	Karnali
 	P7	Sudūr Pashchim
 
-Nauru
+NR	Nauru
 	01	Aiwo
 	02	Anabar
 	03	Anetan
@@ -4346,13 +4346,13 @@ Nauru
 	13	Uaboe
 	14	Yaren
 
-Neutral Zone
+NT	Neutral Zone
 	NA	No Subdivisions
 
-Niue
+NU	Niue
 	NA	No Subdivisions
 
-New Zealand
+NZ	New Zealand
 	AUK	Auckland
 	BOP	Bay of Plenty
 	CAN	Canterbury
@@ -4371,7 +4371,7 @@ New Zealand
 	WKO	Waikato
 	WTC	West Coast
 
-Oman
+OM	Oman
 	BU	Al Buraymī
 	MA	Masqaţ
 	MU	Musandam
@@ -4382,7 +4382,7 @@ Oman
 	WU	Al Wusţá
 	ZA	Aȥ Ȥāhirah
 
-Panama
+PA	Panama
 	EM	Emberá
 	KY	Kuna Yala
 	NB	Ngöbe-Buglé
@@ -4398,7 +4398,7 @@ Panama
 	NT	Naso Tjër Di
 	10	Panamá Oeste
 
-Peru
+PE	Peru
 	CAL	El Callao
 	AMA	Amazonas
 	ANC	Ancash
@@ -4427,10 +4427,10 @@ Peru
 	LMA	Municipalidad Metropolitana de Lima
 	LAM	Lambayeque
 
-French Polynesia
+PF	French Polynesia
 	NA	No Subdivisions
 
-Papua New Guinea
+PG	Papua New Guinea
 	NSB	Bougainville
 	NCD	National Capital District (Port Moresby)
 	CPK	Chimbu
@@ -4454,7 +4454,7 @@ Papua New Guinea
 	HLA	Hela
 	JWK	Jiwaka
 
-Philippines
+PH	Philippines
 	ABR	Abra
 	AGN	Agusan del Norte
 	AGS	Agusan del Sur
@@ -4554,7 +4554,7 @@ Philippines
 	09	Zamboanga Peninsula
 	DVO	Davao Occidental
 
-Pakistan
+PK	Pakistan
 	IS	Islamabad
 	GB	Gilgit-Baltistan
 	JK	Azad Kashmir
@@ -4564,7 +4564,7 @@ Pakistan
 	SD	Sind
 	TA	Federally Administered Tribal Areas
 
-Poland
+PL	Poland
 	DS	Dolnoslaskie
 	KP	Kujawsko-pomorskie
 	LB	Lubuskie
@@ -4633,16 +4633,16 @@ Poland
 	ZA	Zamość
 	ZG	Zielona Góra
 
-Saint Pierre and Miquelon
+PM	Saint Pierre and Miquelon
 	NA	No Subdivisions
 
-Pitcairn
+PN	Pitcairn
 	NA	No Subdivisions
 
-Puerto Rico
+PR	Puerto Rico
 	NA	No Subdivisions
 
-Palestine, State of
+PS	Palestine, State of
 	BTH	Bethlehem
 	DEB	Deir El Balah
 	GZA	Gaza
@@ -4660,7 +4660,7 @@ Palestine, State of
 	TBS	Tubas
 	TKM	Tulkarm
 
-Portugal
+PT	Portugal
 	01	Aveiro
 	02	Beja
 	03	Braga
@@ -4682,7 +4682,7 @@ Portugal
 	20	Região Autónoma dos Açores
 	30	Região Autónoma da Madeira
 
-Palau
+PW	Palau
 	002	Aimeliik
 	004	Airai
 	010	Angaur
@@ -4700,7 +4700,7 @@ Palau
 	350	Peleliu
 	370	Sonsorol
 
-Paraguay
+PY	Paraguay
 	1	Concepción
 	10	Alto Paraná
 	11	Central
@@ -4720,7 +4720,7 @@ Paraguay
 	9	Paraguarí
 	ASU	Asunción
 
-Qatar
+QA	Qatar
 	DA	Ad Dawḩah
 	KH	Al Khawr wa adh Dhakhīrah
 	MS	Ash Shamāl
@@ -4730,10 +4730,10 @@ Qatar
 	ZA	Az̧ Z̧a‘āyin
 	SH	Ash Shīḩānīyah
 
-Réunion
+RE	Réunion
 	NA	No Subdivisions
 
-Romania
+RO	Romania
 	AB	Alba
 	AG	Argeş
 	AR	Arad
@@ -4777,7 +4777,7 @@ Romania
 	VN	Vrancea
 	VS	Vaslui
 
-Serbia
+RS	Serbia
 	KM	Kosovo-Metohija
 	VO	Vojvodina
 	00	Beograd
@@ -4811,7 +4811,7 @@ Serbia
 	28	Kosovsko-Mitrovački okrug
 	29	Kosovsko-Pomoravski okrug
 
-Russian Federation
+RU	Russian Federation
 	AMU	Amurskaya oblast'
 	ARK	Arkhangel'skaya oblast,
 	AST	Astrakhanskaya oblast'
@@ -4896,7 +4896,7 @@ Russian Federation
 	TY	Tyva, Respublika
 	UD	Udmurtskaya Respublika
 
-Rwanda
+RW	Rwanda
 	02	Est
 	03	Nord
 	04	Ouest
@@ -4915,7 +4915,7 @@ Rwanda
 	M	Mutara
 	H	Ruhengeri
 
-Saudi Arabia
+SA	Saudi Arabia
 	01	Ar Riyāḑ
 	02	Makkah
 	03	Al Madīnah
@@ -4930,7 +4930,7 @@ Saudi Arabia
 	12	AI Jawf
 	14	'Asīr
 
-Solomon Islands
+SB	Solomon Islands
 	CE	Central
 	CH	Choiseul
 	CT	Capital Territory (Honiara)
@@ -4942,7 +4942,7 @@ Solomon Islands
 	TE	Temotu
 	WE	Western
 
-Seychelles
+SC	Seychelles
 	01	Anse aux Pins
 	02	Anse Boileau
 	03	Anse Étoile
@@ -4971,7 +4971,7 @@ Seychelles
 	26	Ile Perseverance I
 	27	Ile Perseverance II
 
-Sudan
+SD	Sudan
 	DC	Central Darfur
 	DE	East Darfur
 	DN	North Darfur
@@ -5016,7 +5016,7 @@ Sudan
 	25	Sinnār
 	21	Wārāb
 
-Sweden
+SE	Sweden
 	AB	Stockholms län[SE-01]
 	AC	Västerbottens län[SE-24]
 	BD	Norrbottens län[SE-25]
@@ -5039,22 +5039,22 @@ Sweden
 	Y	Västernorrlands län[SE-22]
 	Z	Jämtlands län[SE-23]
 
-Finland
+SF	Finland
 	NA	No Subdivisions
 
-Singapore
+SG	Singapore
 	01	Central Singapore
 	02	North East
 	03	North West
 	04	South East
 	05	South West
 
-Saint Helena, Ascension and Tristan da Cunha
+SH	Saint Helena, Ascension and Tristan da Cunha
 	AC	Ascension
 	HL	Saint Helena
 	TA	Tristan da Cunha
 
-Slovenia
+SI	Slovenia
 	001	Ajdovščina
 	002	Beltinci
 	003	Bled
@@ -5279,10 +5279,10 @@ Slovenia
 	06	Spodnjeposavska
 	05	Zasavska
 
-Svalbard and Jan Mayen
+SJ	Svalbard and Jan Mayen
 	NA	No Subdivisions
 
-Slovakia
+SK	Slovakia
 	BC	Banskobystrický kraj
 	BL	Bratislavský kraj
 	KI	Košický kraj
@@ -5292,14 +5292,14 @@ Slovakia
 	TC	Trenčiansky kraj
 	ZI	Žilinský kraj
 
-Sierra Leone
+SL	Sierra Leone
 	E	Eastern
 	N	Northern
 	S	Southern
 	W	Western Area (Freetown)
 	NW	North Western
 
-San Marino
+SM	San Marino
 	01	Acquaviva
 	02	Chiesanuova
 	03	Domagnano
@@ -5310,7 +5310,7 @@ San Marino
 	08	Montegiardino
 	09	Serravalle
 
-Senegal
+SN	Senegal
 	DB	Diourbel
 	DK	Dakar
 	FK	Fatick
@@ -5326,7 +5326,7 @@ Senegal
 	TH	Thiès
 	ZG	Ziguinchor
 
-Somalia
+SO	Somalia
 	AW	Awdal
 	BK	Bakool
 	BN	Banaadir
@@ -5346,7 +5346,7 @@ Somalia
 	TO	Togdheer
 	WO	Woqooyi Galbeed
 
-Suriname
+SR	Suriname
 	BR	Brokopondo
 	CM	Commewijne
 	CR	Coronie
@@ -5358,7 +5358,7 @@ Suriname
 	SI	Sipaliwini
 	WA	Wanica
 
-South Sudan
+SS	South Sudan
 	BN	Northern Bahr el-Ghazal
 	BW	Western Bahr el-Ghazal
 	EC	Central Equatoria
@@ -5370,7 +5370,7 @@ South Sudan
 	UY	Unity
 	WR	Warrap
 
-Sao Tome and Principe
+ST	Sao Tome and Principe
 	P	Príncipe
 	S	São Tomé
 	01	Água Grande
@@ -5380,10 +5380,10 @@ Sao Tome and Principe
 	05	Lobata
 	06	Mé-Zóchi
 
-USSR
+SU	USSR
 	NA	No Subdivisions
 
-El Salvador
+SV	El Salvador
 	AH	Ahuachapán
 	CA	Cabañas
 	CH	Chalatenango
@@ -5399,10 +5399,10 @@ El Salvador
 	UN	La Unión
 	US	Usulután
 
-Sint Maarten (Dutch part)
+SX	Sint Maarten (Dutch part)
 	NA	No Subdivisions
 
-Syrian Arab Republic
+SY	Syrian Arab Republic
 	DI	Dimashq
 	DR	Dar'ā
 	DY	Dayr az Zawr
@@ -5419,19 +5419,19 @@ Syrian Arab Republic
 	TA	Ţarţūs
 	QU	Al Qunayţirah
 
-Eswatini
+SZ	Eswatini
 	HH	Hhohho
 	LU	Lubombo
 	MA	Manzini
 	SH	Shiselweni
 
-Tristan da Cunha
+TA	Tristan da Cunha
 	NA	No Subdivisions
 
-Turks and Caicos Islands
+TC	Turks and Caicos Islands
 	NA	No Subdivisions
 
-Chad
+TD	Chad
 	BA	Batha
 	BG	Bahr el Gazel
 	BO	Borkou
@@ -5458,17 +5458,17 @@ Chad
 	BET	Borkou-Ennedi-Tibesti
 	MK	Mayo-Kébbi
 
-French Southern Territories
+TF	French Southern Territories
 	NA	No Subdivisions
 
-Togo
+TG	Togo
 	C	Centre
 	K	Kara
 	M	Maritime (Région)
 	P	Plateaux
 	S	Savannes
 
-Thailand
+TH	Thailand
 	10	Krung Thep Maha Nakhon [Bangkok]
 	11	Samut Prakan
 	12	Nonthaburi
@@ -5548,17 +5548,17 @@ Thailand
 	S	Phatthaya
 	38	Bueng Kan
 
-Tajikistan
+TJ	Tajikistan
 	GB	Gorno-Badakhshan
 	KT	Khatlon
 	SU	Sughd
 	DU	Dushanbe
 	RA	nohiyahoi tobei jumhurí
 
-Tokelau
+TK	Tokelau
 	NA	No Subdivisions
 
-Timor-Leste
+TL	Timor-Leste
 	AL	Aileu
 	AN	Ainaro
 	BA	Baucau
@@ -5573,7 +5573,7 @@ Timor-Leste
 	OE	Oecussi
 	VI	Viqueque
 
-Turkmenistan
+TM	Turkmenistan
 	A	Ahal
 	B	Balkan
 	D	Daşoguz
@@ -5581,7 +5581,7 @@ Turkmenistan
 	M	Mary
 	S	Aşgabat
 
-Tunisia
+TN	Tunisia
 	11	Tunis
 	12	L'Ariana
 	13	Ben Arous
@@ -5607,17 +5607,17 @@ Tunisia
 	82	Medenine
 	83	Tataouine
 
-Tonga
+TO	Tonga
 	01	'Eua
 	02	Ha'apai
 	03	Niuas
 	04	Tongatapu
 	05	Vava'u
 
-East Timor
+TP	East Timor
 	NA	No Subdivisions
 
-Turkey
+TR	Turkey
 	01	Adana
 	02	Adiyaman
 	03	Afyon
@@ -5700,7 +5700,7 @@ Turkey
 	80	Osmaniye
 	81	Düzce
 
-Trinidad and Tobago
+TT	Trinidad and Tobago
 	ARI	Arima
 	CHA	Chaguanas
 	CTT	Couva-Tabaquite-Talparo
@@ -5720,7 +5720,7 @@ Trinidad and Tobago
 	MRC	Mayaro-Rio Claro
 	TOB	Tobago
 
-Tuvalu
+TV	Tuvalu
 	FUN	Funafuti
 	NIT	Niutao
 	NIU	Nui
@@ -5731,7 +5731,7 @@ Tuvalu
 	VAI	Vaitupu
 	NUI	Nui
 
-Taiwan, Province of China
+TW	Taiwan, Province of China
 	CHA	Changhua
 	CYQ	Chiayi
 	HSZQ	Hsinchu
@@ -5760,7 +5760,7 @@ Taiwan, Province of China
 	LIE	Lienchiang
 	NWT	New Taipei
 
-Tanzania, United Republic of
+TZ	Tanzania, United Republic of
 	01	Arusha
 	02	Dar es Salaam
 	03	Dodoma
@@ -5793,7 +5793,7 @@ Tanzania, United Republic of
 	30	Simiyu
 	31	Songwe
 
-Ukraine
+UA	Ukraine
 	05	Vinnyts'ka Oblast'
 	07	Volyns'ka Oblast'
 	09	Luhans'ka Oblast'
@@ -5822,7 +5822,7 @@ Ukraine
 	43	Respublika Krym
 	65	Khersonska oblast
 
-Uganda
+UG	Uganda
 	101	Kalangala
 	102	Kampala
 	103	Kiboga
@@ -5958,10 +5958,10 @@ Uganda
 	426	Sheema
 	330	Zombo
 
-United Kingdom
+UK	United Kingdom
 	NA	No Subdivisions
 
-United States Minor Outlying Islands
+UM	United States Minor Outlying Islands
 	67	Johnston Atoll (ISO reserved code = JT)
 	71	Midway Islands (ISO reserved code = I)
 	76	Navassa Island (ISO reserved code = NV)
@@ -5972,7 +5972,7 @@ United States Minor Outlying Islands
 	89	Kingman Reef
 	95	Palmyra Atoll
 
-United States
+US	United States
 	AK	Alaska
 	AL	Alabama
 	AR	Arkansas
@@ -6031,7 +6031,7 @@ United States
 	WV	West Virginia
 	WY	Wyoming
 
-Uruguay
+UY	Uruguay
 	AR	Artigas
 	CA	Canelones
 	CL	Cerro Largo
@@ -6052,7 +6052,7 @@ Uruguay
 	TA	Tacuarembó
 	TT	Treinta y Tres
 
-Uzbekistan
+UZ	Uzbekistan
 	AN	Andijon
 	BU	Bukhoro
 	FA	Farghona
@@ -6069,10 +6069,10 @@ Uzbekistan
 	TO	Toshkent
 	XO	Xorazm
 
-Holy See (Vatican City State)
+VA	Holy See (Vatican City State)
 	NA	No Subdivisions
 
-Saint Vincent and the Grenadines
+VC	Saint Vincent and the Grenadines
 	01	Charlotte
 	02	Saint Andrew
 	03	Saint David
@@ -6080,7 +6080,7 @@ Saint Vincent and the Grenadines
 	05	Saint Patrick
 	06	Grenadines
 
-Venezuela, Bolivarian Republic of
+VE	Venezuela, Bolivarian Republic of
 	A	Distrito Capital
 	B	Anzoátegui
 	C	Apure
@@ -6107,13 +6107,13 @@ Venezuela, Bolivarian Republic of
 	Y	Delta Amacuro
 	Z	Amazonas
 
-Virgin Islands, British
+VG	Virgin Islands, British
 	NA	No Subdivisions
 
-Virgin Islands, U.S.
+VI	Virgin Islands, U.S.
 	NA	No Subdivisions
 
-Viet Nam
+VN	Viet Nam
 	CT	Can Tho
 	DN	Da Nang
 	HN	Ha Noi
@@ -6181,7 +6181,7 @@ Viet Nam
 	72	Dak Nong
 	73	Hau Giang
 
-Vanuatu
+VU	Vanuatu
 	MAP	Malampa
 	PAM	Pénama
 	SAM	Sanma
@@ -6189,12 +6189,12 @@ Vanuatu
 	TAE	Taféa
 	TOB	Torba
 
-Wallis and Futuna
+WF	Wallis and Futuna
 	AL	Alo
 	SG	Sigave
 	UV	Uvea
 
-Samoa
+WS	Samoa
 	AA	Alana
 	AL	Aiga-I-le-Tai
 	AT	Atua
@@ -6207,16 +6207,16 @@ Samoa
 	VF	Va'a-o-Fonoti
 	VS	Vaisigano
 
-Northern Ireland
+XI	Northern Ireland
 	NA	No Subdivisions
 
-United Kingdom (excluding Northern Ireland)
+XU	United Kingdom (excluding Northern Ireland)
 	NA	No Subdivisions
 
-Kosovo, Republic of
+XK	Kosovo, Republic of
 	NA	No Subdivisions
 
-Yemen
+YE	Yemen
 	AB	Abyan
 	AD	'Adan
 	AM	'Amrān
@@ -6240,13 +6240,13 @@ Yemen
 	SA	Şanʻā' [city]
 	SU	Arkhabīl Suquţrá
 
-Mayotte
+YT	Mayotte
 	NA	No Subdivisions
 
-Yugoslavia
+YU	Yugoslavia
 	NA	No Subdivisions
 
-South Africa
+ZA	South Africa
 	EC	Eastern Cape
 	FS	Free State
 	GT	Gauteng
@@ -6259,7 +6259,7 @@ South Africa
 	GP	Gauteng
 	KZN	Kwazulu-Natal
 
-Zambia
+ZM	Zambia
 	01	Western
 	02	Central
 	03	Eastern
@@ -6271,10 +6271,10 @@ Zambia
 	09	Lusaka
 	10	Muchinga
 
-Zaire
+ZR	Zaire
 	NA	No Subdivisions
 
-Zimbabwe
+ZW	Zimbabwe
 	BU	Bulawayo
 	HA	Harare
 	MA	Manicaland
