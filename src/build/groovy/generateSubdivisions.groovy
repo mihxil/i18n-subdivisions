@@ -214,9 +214,8 @@ CountryCode.values().each {
 
 cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassType.CLASS).with { factoryClass ->
     def narrowListClass = cm.ref(List.class).narrow(countrySubdivisionClass)
-    def narrowArrayListClass = cm.ref(ArrayList.class).narrow(countrySubdivisionClass)
-    def arraysClass = cm.ref(Arrays.class)
-
+	  def arraysClass = cm.ref(Arrays.class)
+	  def collectionsClass = cm.ref(Collections.class)
     def narrowMapClass = cm.ref(Map.class).narrow(countryCodeClass, narrowListClass)
     def narrowHashMapClass = cm.ref(HashMap.class).narrow(countryCodeClass, narrowListClass)
     def map = field(JMod.PRIVATE | JMod.STATIC | JMod.FINAL, narrowMapClass, "map", )
@@ -227,10 +226,10 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
             def countryCodeRef = countryCodeClass.staticRef(code.alpha2)
             add(initMap.invoke("put").with {
                 arg(countryCodeRef)
-                arg(JExpr._new(narrowArrayListClass).arg(arraysClass.staticInvoke("asList").arg(clazz.staticInvoke("values"))))
+                arg(collectionsClass.staticInvoke("unmodifiableList").arg(arraysClass.staticInvoke("asList").arg(clazz.staticInvoke("values"))))
             })
         }
-        assign(map, cm.ref(Collections.class).staticInvoke("unmodifiableMap").arg(initMap));
+        assign(map, collectionsClass.staticInvoke("unmodifiableMap").arg(initMap));
 
     }
 
