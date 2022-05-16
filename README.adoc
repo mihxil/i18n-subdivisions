@@ -58,22 +58,16 @@ for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions(CountryCod
 }
 ----
 
-Find the region with a specific code and in a specific country. Codes are not unique across countries, ergo country must be specified.
-
-----
-for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions(CountryCode.BE)) {
-    System.out.format("[%s] %s\n", code, code.getName());
-}
-----
+This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-countries[i18n-regions], which would make every enum defined in this project available as a more generic 'Region' object.
 
 == Maven
 
 [source,xml]
 ----
 <dependency>
-    <groupId>be.olsson</groupId>
-    <artifactId>i18n-subdivisions</artifactId>
-    <version>0.1</version>
+    <groupId>org.meeuw.i18n</groupId>
+    <artifactId>i18n-subdivision-enums</artifactId>
+    <version>0.3</version>
 </dependency>
 ----
 
@@ -82,7 +76,7 @@ for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions(CountryCod
 [source,gradle]
 ----
 dependencies {
-    compile 'org.meeuw:i18n-subdivisions:0.3'
+    compile 'org.meeuw:i18n-subdivision-enums:0.3'
 }
 ----
 
