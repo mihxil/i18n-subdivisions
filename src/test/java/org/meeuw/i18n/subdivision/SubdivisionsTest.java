@@ -6,6 +6,7 @@ import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.List;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -15,15 +16,14 @@ class SubdivisionsTest {
     public void showAll() throws ClassNotFoundException, URISyntaxException, IOException {
         StringBuilder builder = new StringBuilder();
         for (CountryCode cc : CountryCode.values()) {
-            Class<?> subdivision = Class.forName("org.meeuw.i18n.subdivision.Subdivision" + cc.name());
+            List<CountryCodeSubdivision> subdivisions = SubdivisionFactory.getSubdivisions(cc);
             if (builder.length() > 0) {
                 builder.append("\n");
             }
             builder.append(cc.getName()).append("\n");
             //System.out.println("Found " + subdivision.getEnumConstants().length + " for " + cc);
 
-            for (Object e : subdivision.getEnumConstants()) {
-                CountryCodeSubdivision sd = (CountryCodeSubdivision) e;
+            for (CountryCodeSubdivision sd : subdivisions) {
                 builder.append("\t").append(sd.getCode()).append("\t").append(sd.getName()).append("\n");
             }
         }

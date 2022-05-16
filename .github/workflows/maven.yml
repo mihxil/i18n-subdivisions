@@ -20,7 +20,7 @@ jobs:
         continue-on-error: true  # for act
       - uses: actions/checkout@v2
       - name: Set up JDK 11
-        uses: actions/setup-java@v1
+        uses: actions/setup-java@v3
         with:
           java-version: 11
       - uses: s4u/maven-settings-action@v2
@@ -32,8 +32,9 @@ jobs:
           passphrase: ${{ secrets.GPG_SECRET_KEY_PASSPHRASE }}
       - name: Build and deploy with Maven
         run: |
+          which pinentry
           mvn -B test deploy
-      - uses: codecov/codecov-action@v2
+      - uses: codecov/codecov-action@v3
       - name: Publish Test Report
         uses: scacap/action-surefire-report@v1
         if: always()
