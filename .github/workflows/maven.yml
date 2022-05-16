@@ -28,7 +28,7 @@ jobs:
           servers: '[{"id": "ossrh", "username": "mihxil", "password": "${{secrets.OSSRH_PASSWORD}}"}]'
       - uses: crazy-max/ghaction-import-gpg@v4
         with:
-          gpg-private-key: ${{ secrets.GPG_SECRET_KEY }}
+          gpg_private_key: ${{ secrets.GPG_SECRET_KEY }}
           passphrase: ${{ secrets.GPG_SECRET_KEY_PASSPHRASE }}
       - name: Build and deploy with Maven
         run: |
