@@ -154,6 +154,12 @@
       </plugin>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <detectJavaApiLink />
+          <links>
+            <link>https://javadoc.io/doc/com.neovisionaries/nv-i18n/${nvi18n.version}/</link>
+          </links>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>

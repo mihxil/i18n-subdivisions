@@ -124,9 +124,11 @@ JClass parseHtml(CountryCode cc, URL uneceUri, URL sourceUri,  URL wikiUri, URL 
 
 
 JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
-    JDefinedClass dc = cm._class(0, "${JAVA_PACKAGE}.Subdivision${countryCode.alpha2}", ClassType.ENUM)
+    JDefinedClass dc = cm._class(JMod.PUBLIC, "${JAVA_PACKAGE}.Subdivision${countryCode.alpha2}", ClassType.ENUM)
     dc._implements(countrySubdivisionClass)
 	  dc.annotate(Generated.class).param("value", this.class.getName())
+	  JDocComment classDoc = dc.javadoc()
+	  classDoc.append("Subdivisions of {@link " + CountryCode.class.getName() + "#" + countryCode.name() + "} (" + countryCode.getName() + ")")
 
     JFieldVar name = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "name")
     JFieldVar code = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "code")
@@ -159,8 +161,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
     dc.constructor(0).with {
         def subDivName = param(String.class, "subDivisionName")
         def subDivCode = param(String.class, "subDivisionCode")
-        def subDivSource = varParam(String.class, "subDivisionSource")
-
+    	  def subDivSource = varParam(String.class, "subDivisionSource")
         body().with {
             assign(JExpr._this().ref(name), subDivName)
             assign(JExpr._this().ref(code), subDivCode)
@@ -168,20 +169,31 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
         }
     }
 
+
     if (parsedData) {
+			  boolean addedToClass = false
+
         parsedData.each { subDivisionCode, subDiv ->
+
+
             String escapedCode = subDiv.code
             if (Character.valueOf(escapedCode.charAt(0)).isDigit()) {
                 escapedCode = "_" + escapedCode;
             }
-            dc.enumConstant(escapedCode).with {
+					 dc.enumConstant(escapedCode).with {
                 arg(JExpr.lit(subDiv.name))
                 arg(JExpr.lit(subDiv.code))
                 for (String  so : subDiv.source) {
+									  if (! addedToClass) {
+											classDoc.append("\n@see <a href='" + so + "'>" + so + "</a>")
+										}
                     arg(JExpr.lit(so))
                 }
-
+						   addedToClass = true;
+						   JDocComment constantDoc = javadoc()
+					     constantDoc.append("Code for " + subDiv.name)
             }
+
         }
         dc.method(JMod.PUBLIC, boolean.class, "isRealRegion").with {
             body().with {
@@ -193,14 +205,16 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             arg(JExpr.lit("No Subdivisions"))
             arg(JExpr.lit("NA"))
             arg(JExpr._null())
-        }
+					 JDocComment constantDoc = javadoc()
+					 constantDoc.append("Place holder enum value. No known subdivisions for " + countryCode.name())
+				}
         dc.method(JMod.PUBLIC, boolean.class, "isRealRegion").with {
             body().with {
                 _return(JExpr.lit(false))
             }
         }
     }
-    dc
+
 }
 
 String trim(String str) {
@@ -231,10 +245,19 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
         def initMap = decl(narrowMapClass, "initMap", JExpr._new(narrowHashMapClass))
         classes.each { code, clazz ->
             def countryCodeRef = countryCodeClass.staticRef(code.alpha2)
-            add(initMap.invoke("put").with {
-                arg(countryCodeRef)
-                arg(collectionsClass.staticInvoke("unmodifiableList").arg(arraysClass.staticInvoke("asList").arg(clazz.staticInvoke("values"))))
-            })
+					  if (clazz == null) {
+							System.out.print("No clazz for " + code)
+
+						} else {
+							add(initMap.invoke("put").with {
+								arg(countryCodeRef)
+								arg(
+									collectionsClass.staticInvoke("unmodifiableList").arg(
+										arraysClass.staticInvoke("asList").arg(clazz.staticInvoke("values"))
+									)
+								)
+							})
+						}
         }
         assign(map, collectionsClass.staticInvoke("unmodifiableMap").arg(initMap));
 
