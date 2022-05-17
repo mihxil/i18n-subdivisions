@@ -191,7 +191,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
                 }
 						   addedToClass = true;
 						   JDocComment constantDoc = javadoc()
-					     constantDoc.append("Code for " + subDiv.name)
+					     constantDoc.append(subDiv.name)
             }
 
         }
@@ -201,6 +201,8 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             }
         }
     } else {
+			  classDoc.append("<br />There are no known subdivisions of " + countryCode.getName())
+
         dc.enumConstant("NA").with {
             arg(JExpr.lit("No Subdivisions"))
             arg(JExpr.lit("NA"))
