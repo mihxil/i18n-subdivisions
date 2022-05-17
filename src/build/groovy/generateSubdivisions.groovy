@@ -7,6 +7,8 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.select.Elements
 
+import javax.annotation.Generated
+
 
 @Field
 private static final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
@@ -29,7 +31,9 @@ countrySubdivisionClass.with {
     method(0, boolean.class, "isRealRegion")
     method(0, String.class, "getName")
     method(0, String[].class, "getSource")
+	  annotate(Generated.class).param("value", this.class.getName())
 }
+
 
  Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl) {
     Map<String, SubDiv> parsedData = [:]
@@ -122,6 +126,8 @@ JClass parseHtml(CountryCode cc, URL uneceUri, URL sourceUri,  URL wikiUri, URL 
 JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
     JDefinedClass dc = cm._class(0, "${JAVA_PACKAGE}.Subdivision${countryCode.alpha2}", ClassType.ENUM)
     dc._implements(countrySubdivisionClass)
+	  dc.annotate(Generated.class).param("value", this.class.getName())
+
     JFieldVar name = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "name")
     JFieldVar code = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "code")
     JFieldVar source = dc.field(JMod.PRIVATE | JMod.FINAL, String[].class, "source")
@@ -219,6 +225,7 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
     def narrowMapClass = cm.ref(Map.class).narrow(countryCodeClass, narrowListClass)
     def narrowHashMapClass = cm.ref(HashMap.class).narrow(countryCodeClass, narrowListClass)
     def map = field(JMod.PRIVATE | JMod.STATIC | JMod.FINAL, narrowMapClass, "map", )
+ 	  factoryClass.annotate(Generated.class).param("value", this.class.getName())
 
     init().with {
         def initMap = decl(narrowMapClass, "initMap", JExpr._new(narrowHashMapClass))
