@@ -14,16 +14,16 @@ import javax.annotation.Generated
 private static final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
 
 @Field
-final def JCodeModel cm = new JCodeModel();
+final JCodeModel cm = new JCodeModel()
 @Field
 final JClass countryCodeClass = cm.ref(CountryCode.class)
 @Field
 final JClass countrySubdivisionClass = cm._class("${JAVA_PACKAGE}.CountryCodeSubdivision", ClassType.INTERFACE)
 
 class SubDiv {
-    String code;
-    String name;
-    final List<String> source = new ArrayList<>();
+    String code
+	String name
+	final List<String> source = new ArrayList<>()
 }
 countrySubdivisionClass.with {
     method(0, String.class, "getCode")
@@ -35,7 +35,7 @@ countrySubdivisionClass.with {
 }
 
 
- Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl) {
+static Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl) {
     Map<String, SubDiv> parsedData = [:]
     try {
         def html = uri.getText("UTF-8")
@@ -45,12 +45,12 @@ countrySubdivisionClass.with {
         // <table> is found by checking if any of the <td> nodes below contains the string "Level"
         Elements rows = parse.select("table:has(td:contains(Level)) > tbody > tr:gt(0)")
         rows.each { row ->
-            def newCC = CountryCode.getByCode(trim(row.child(0).text()), false);
-            if (cc != null && cc != newCC) {
+            def newCC = CountryCode.getByCode(trim(row.child(0).text()), false)
+					if (cc != null && cc != newCC) {
                 throw new RuntimeException("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
             }
             def subDivisionCode = trim(row.child(1).text())
-            def subDivisionName = trim(row.child(2).text().replaceFirst(/\(.+separate entry[^\)]+\)/,""))
+            def subDivisionName = trim(row.child(2).text().replaceFirst(/\(.+separate entry[^)]+\)/,""))
             SubDiv subDiv = new SubDiv()
             subDiv.code = subDivisionCode
             subDiv.name = subDivisionName
@@ -62,8 +62,8 @@ countrySubdivisionClass.with {
      return parsedData
  }
 
-Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
-    Map<String, String> parsedData = [:]
+static Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
+    Map<String, SubDiv> parsedData = [:]
     try {
         def html = uri.getText("UTF-8")
 
@@ -76,9 +76,9 @@ Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
             //System.out.println("" + newCode)
             if (newCode != null) {
                 def parts = newCode.split('-', 2)
-                def newCC = CountryCode.getByCode(parts[0], false);
+                def newCC = CountryCode.getByCode(parts[0], false)
 
-                if (cc != null && cc != newCC) {
+							if (cc != null && cc != newCC) {
                     //System.out.println("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
 
                 } else {
@@ -115,8 +115,8 @@ JClass parseHtml(CountryCode cc, URL uneceUri, URL sourceUri,  URL wikiUri, URL 
             System.out.println("Found in wiki, but not in unece " + cc + " " + k + " = " + v)
             parsedData.put(k, v)
         } else {
-            SubDiv subDiv = parsedData.get(k);
-            subDiv.source.add(wikiSourceUri.text)
+            SubDiv subDiv = parsedData.get(k)
+					subDiv.source.add(wikiSourceUri.text)
         }
     }
     generateClass(cc, parsedData)
@@ -142,8 +142,8 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
     dc.method(JMod.PUBLIC, String.class, "getCode").with {
         //annotate(Override.class)
         body().with {
-            _return(code);
-        }
+            _return(code)
+				}
     }
     dc.method(JMod.PUBLIC, String.class, "getName").with {
         //annotate(Override.class)
@@ -178,8 +178,8 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
 
             String escapedCode = subDiv.code
             if (Character.valueOf(escapedCode.charAt(0)).isDigit()) {
-                escapedCode = "_" + escapedCode;
-            }
+                escapedCode = "_" + escapedCode
+						}
 					 dc.enumConstant(escapedCode).with {
                 arg(JExpr.lit(subDiv.name))
                 arg(JExpr.lit(subDiv.code))
@@ -189,8 +189,8 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
 										}
                     arg(JExpr.lit(so))
                 }
-						   addedToClass = true;
-						   JDocComment constantDoc = javadoc()
+						   addedToClass = true
+						 JDocComment constantDoc = javadoc()
 					     constantDoc.append(subDiv.name)
             }
 
@@ -216,21 +216,24 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             }
         }
     }
+	  return dc
 
 }
 
-String trim(String str) {
-    StringUtils.trim(StringUtils.normalizeSpace(str));
+static String trim(String str) {
+	StringUtils.trim(StringUtils.normalizeSpace(str))
 }
 
 Map<CountryCode, JClass> classes = [:]
 CountryCode.values().each {
-    classes[it] = parseHtml(it,
-            new URL("file://${properties.buildresources}${it.alpha2}.html"),
-            new URL("file://${properties.buildresources}${it.alpha2}.url"),
-            new URL("file://${properties.buildresources}${it.alpha2}.wiki.html"),
-            new URL("file://${properties.buildresources}${it.alpha2}.wiki.url")
-    )
+    dir = "${properties.buildresources}"
+	//dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
+	classes[it] = parseHtml(it,
+		new URL("file://${dir}${it.alpha2}.html"),
+		new URL("file://${dir}${it.alpha2}.url"),
+		new URL("file://${dir}${it.alpha2}.wiki.html"),
+		new URL("file://${dir}${it.alpha2}.wiki.url")
+	)
 
 }
 
@@ -249,7 +252,6 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
             def countryCodeRef = countryCodeClass.staticRef(code.alpha2)
 					  if (clazz == null) {
 							System.out.print("No clazz for " + code)
-
 						} else {
 							add(initMap.invoke("put").with {
 								arg(countryCodeRef)
@@ -261,9 +263,9 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
 							})
 						}
         }
-        assign(map, collectionsClass.staticInvoke("unmodifiableMap").arg(initMap));
+        assign(map, collectionsClass.staticInvoke("unmodifiableMap").arg(initMap))
 
-    }
+		}
 
     method(JMod.STATIC | JMod.PUBLIC, narrowListClass, "getSubdivisions").with {
         def param1 = param(countryCodeClass, "countryCode")
