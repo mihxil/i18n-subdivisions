@@ -9,7 +9,6 @@ import org.jsoup.select.Elements
 
 import javax.annotation.Generated
 
-
 @Field
 private static final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
 
@@ -25,15 +24,15 @@ class SubDiv {
 	String name
 	final List<String> source = new ArrayList<>()
 }
+
 countrySubdivisionClass.with {
     method(0, String.class, "getCode")
     method(0, CountryCode.class, "getCountryCode")
     method(0, boolean.class, "isRealRegion")
     method(0, String.class, "getName")
     method(0, String[].class, "getSource")
-	  annotate(Generated.class).param("value", this.class.getName())
+    annotate(Generated.class).param("value", this.class.getName())
 }
-
 
 static Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl) {
     Map<String, SubDiv> parsedData = [:]
@@ -46,7 +45,7 @@ static Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl
         Elements rows = parse.select("table:has(td:contains(Level)) > tbody > tr:gt(0)")
         rows.each { row ->
             def newCC = CountryCode.getByCode(trim(row.child(0).text()), false)
-					if (cc != null && cc != newCC) {
+            if (cc != null && cc != newCC) {
                 throw new RuntimeException("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
             }
             def subDivisionCode = trim(row.child(1).text())
@@ -139,25 +138,28 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             _return(countryCodeClass.staticRef(countryCode.alpha2))
         }
     }
+
     dc.method(JMod.PUBLIC, String.class, "getCode").with {
         //annotate(Override.class)
         body().with {
             _return(code)
 				}
     }
+
     dc.method(JMod.PUBLIC, String.class, "getName").with {
         //annotate(Override.class)
         body().with {
             _return(name)
         }
     }
+
     dc.method(JMod.PUBLIC, String[].class, "getSource").with {
         //annotate(Override.class)
         body().with {
             _return(source)
         }
-
     }
+
     dc.constructor(0).with {
         def subDivName = param(String.class, "subDivisionName")
         def subDivCode = param(String.class, "subDivisionCode")
@@ -171,7 +173,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
 
 
     if (parsedData) {
-			  boolean addedToClass = false
+        boolean addedToClass = false
 
         parsedData.each { subDivisionCode, subDiv ->
 
@@ -179,19 +181,19 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             String escapedCode = subDiv.code
             if (Character.valueOf(escapedCode.charAt(0)).isDigit()) {
                 escapedCode = "_" + escapedCode
-						}
-					 dc.enumConstant(escapedCode).with {
+            }
+            dc.enumConstant(escapedCode).with {
                 arg(JExpr.lit(subDiv.name))
                 arg(JExpr.lit(subDiv.code))
                 for (String  so : subDiv.source) {
-									  if (! addedToClass) {
-											classDoc.append("\n@see <a href='" + so + "'>" + so + "</a>")
-										}
+                    if (! addedToClass) {
+                        classDoc.append("\n@see <a href='" + so + "'>" + so + "</a>")
+                    }
                     arg(JExpr.lit(so))
                 }
-						   addedToClass = true
-						 JDocComment constantDoc = javadoc()
-					     constantDoc.append(subDiv.name)
+                addedToClass = true
+                JDocComment constantDoc = javadoc()
+                constantDoc.append(subDiv.name)
             }
 
         }
@@ -201,7 +203,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             }
         }
     } else {
-			  classDoc.append("<br />There are no known subdivisions of " + countryCode.getName())
+        classDoc.append("<br />There are no known subdivisions of " + countryCode.getName())
 
         dc.enumConstant("NA").with {
             arg(JExpr.lit("No Subdivisions"))
@@ -216,8 +218,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             }
         }
     }
-	  return dc
-
+    return dc
 }
 
 static String trim(String str) {
@@ -234,38 +235,37 @@ CountryCode.values().each {
 		new URL("file://${dir}${it.alpha2}.wiki.html"),
 		new URL("file://${dir}${it.alpha2}.wiki.url")
 	)
-
 }
 
 cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassType.CLASS).with { factoryClass ->
     def narrowListClass = cm.ref(List.class).narrow(countrySubdivisionClass)
-	  def arraysClass = cm.ref(Arrays.class)
-	  def collectionsClass = cm.ref(Collections.class)
+    def arraysClass = cm.ref(Arrays.class)
+    def collectionsClass = cm.ref(Collections.class)
     def narrowMapClass = cm.ref(Map.class).narrow(countryCodeClass, narrowListClass)
     def narrowHashMapClass = cm.ref(HashMap.class).narrow(countryCodeClass, narrowListClass)
     def map = field(JMod.PRIVATE | JMod.STATIC | JMod.FINAL, narrowMapClass, "map", )
- 	  factoryClass.annotate(Generated.class).param("value", this.class.getName())
+    factoryClass.annotate(Generated.class).param("value", this.class.getName())
 
     init().with {
         def initMap = decl(narrowMapClass, "initMap", JExpr._new(narrowHashMapClass))
         classes.each { code, clazz ->
             def countryCodeRef = countryCodeClass.staticRef(code.alpha2)
-					  if (clazz == null) {
-							System.out.print("No clazz for " + code)
-						} else {
-							add(initMap.invoke("put").with {
-								arg(countryCodeRef)
-								arg(
-									collectionsClass.staticInvoke("unmodifiableList").arg(
-										arraysClass.staticInvoke("asList").arg(clazz.staticInvoke("values"))
-									)
-								)
-							})
-						}
+            if (clazz == null) {
+                System.out.print("No clazz for " + code)
+            } else {
+                add(initMap.invoke("put").with {
+                    arg(countryCodeRef)
+                    arg(
+                        collectionsClass.staticInvoke("unmodifiableList").arg(
+                            arraysClass.staticInvoke("asList").arg(clazz.staticInvoke("values"))
+                        )
+                    )
+                })
+            }
         }
         assign(map, collectionsClass.staticInvoke("unmodifiableMap").arg(initMap))
 
-		}
+    }
 
     method(JMod.STATIC | JMod.PUBLIC, narrowListClass, "getSubdivisions").with {
         def param1 = param(countryCodeClass, "countryCode")
@@ -288,7 +288,6 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
         }
     }
 }
-
 
 
 def outputDir = new File(properties["subdivision.java.sources"] as String)
