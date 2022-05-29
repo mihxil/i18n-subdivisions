@@ -227,7 +227,7 @@ static String trim(String str) {
 
 Map<CountryCode, JClass> classes = [:]
 CountryCode.values().each {
-    dir = "${properties.buildresources}"
+    dir = "${project.properties.buildresources}"
 	//dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
 	classes[it] = parseHtml(it,
 		new URL("file://${dir}${it.alpha2}.html"),
@@ -290,6 +290,6 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
 }
 
 
-def outputDir = new File(properties["subdivision.java.sources"] as String)
+def outputDir = new File(project.properties["subdivision.java.sources"] as String)
 outputDir.mkdirs()
 cm.build(outputDir)

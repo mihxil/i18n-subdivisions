@@ -1,6 +1,6 @@
 import com.neovisionaries.i18n.CountryCode
 
-File buildResources = new File(properties.buildresources as String)
+File buildResources = new File(project.properties.buildresources as String)
 buildResources.mkdirs()
 CountryCode.values().each {
     if (it.assignment == CountryCode.Assignment.OFFICIALLY_ASSIGNED) {

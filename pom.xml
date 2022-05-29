@@ -40,7 +40,7 @@
     <buildresources>${project.basedir}/src/build/resources/</buildresources>
     <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions/</subdivision.java.sources>
     <nvi18n.version>1.29</nvi18n.version>
-    <groovy.version>3.0.10</groovy.version>
+    <groovy.version>4.0.2</groovy.version>
   </properties>
 
 
@@ -100,8 +100,8 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>org.codehaus.gmaven</groupId>
-            <artifactId>groovy-maven-plugin</artifactId>
+            <groupId>org.codehaus.gmavenplus</groupId>
+            <artifactId>gmavenplus-plugin</artifactId>
             <executions>
               <execution>
                 <id>download-subdivisions</id>
@@ -110,7 +110,9 @@
                   <goal>execute</goal>
                 </goals>
                 <configuration>
-                  <source>${project.basedir}/src/build/groovy/downloadSubdivisions.groovy</source>
+                  <scripts>
+                    <source>${project.basedir}/src/build/groovy/downloadSubdivisions.groovy</source>
+                  </scripts>
                 </configuration>
               </execution>
             </executions>
@@ -193,8 +195,8 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.codehaus.gmaven</groupId>
-        <artifactId>groovy-maven-plugin</artifactId>
+        <groupId>org.codehaus.gmavenplus</groupId>
+        <artifactId>gmavenplus-plugin</artifactId>
         <executions>
           <execution>
             <id>generate-subdivisions</id>
@@ -203,7 +205,9 @@
               <goal>execute</goal>
             </goals>
             <configuration>
-              <source>${project.basedir}/src/build/groovy/generateSubdivisions.groovy</source>
+              <scripts>
+                <source>${project.basedir}/src/build/groovy/generateSubdivisions.groovy</source>
+              </scripts>
             </configuration>
           </execution>
         </executions>
@@ -291,12 +295,12 @@
           <version>3.3.0</version>
         </plugin>
         <plugin>
-          <groupId>org.codehaus.gmaven</groupId>
-          <artifactId>groovy-maven-plugin</artifactId>
-          <version>2.1.1</version>
+          <groupId>org.codehaus.gmavenplus</groupId>
+          <artifactId>gmavenplus-plugin</artifactId>
+          <version>1.13.1</version>
           <dependencies>
             <dependency>
-              <groupId>org.codehaus.groovy</groupId>
+              <groupId>org.apache.groovy</groupId>
               <artifactId>groovy</artifactId>
               <version>${groovy.version}</version>
             </dependency>
