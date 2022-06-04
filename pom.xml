@@ -40,7 +40,13 @@
     <buildresources>${project.basedir}/src/build/resources/</buildresources>
     <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions/</subdivision.java.sources>
     <nvi18n.version>1.29</nvi18n.version>
+
+    <!-- build/test/debug dependenies only -->
     <groovy.version>4.0.2</groovy.version>
+    <jsoup.version>1.15.1</jsoup.version>
+    <commons.lang.version>3.12.0</commons.lang.version>
+    <codemodel.version>4.0.0-M4</codemodel.version>
+
   </properties>
 
 
@@ -93,6 +99,29 @@
       <version>2.11.0</version>
       <scope>test</scope>
     </dependency>
+    <!--
+    <dependency>
+      <groupId>org.apache.groovy</groupId>
+      <artifactId>groovy</artifactId>
+      <version>${groovy.version}</version>
+      <scope>test</scope>
+    </dependency>
+     <dependency>
+       <groupId>org.jsoup</groupId>
+       <artifactId>jsoup</artifactId>
+       <version>${jsoup.version}</version>
+     </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${commons.lang.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>codemodel</artifactId>
+      <version>${codemodel.version}</version>
+    </dependency>
+    -->
   </dependencies>
   <profiles>
     <profile>
@@ -215,17 +244,17 @@
           <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.15.1</version>
+            <version>${jsoup.version}</version>
           </dependency>
           <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.12.0</version>
+            <version>${commons.lang.version}</version>
           </dependency>
           <dependency>
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>codemodel</artifactId>
-            <version>4.0.0-M4</version>
+            <version>${codemodel.version}</version>
           </dependency>
         </dependencies>
       </plugin>

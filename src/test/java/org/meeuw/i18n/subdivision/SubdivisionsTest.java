@@ -14,7 +14,7 @@ import com.neovisionaries.i18n.CountryCode;
 class SubdivisionsTest {
 
     @Test
-    public void showAll() throws ClassNotFoundException, URISyntaxException, IOException {
+    public void showAll() throws URISyntaxException, IOException {
         StringBuilder builder = new StringBuilder();
         for (CountryCode cc : CountryCode.values()) {
             List<CountryCodeSubdivision> subdivisions = SubdivisionFactory.getSubdivisions(cc);

@@ -10,7 +10,7 @@ import org.jsoup.select.Elements
 import javax.annotation.Generated
 
 @Field
-private static final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
+final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
 
 @Field
 final JCodeModel cm = new JCodeModel()
@@ -21,7 +21,7 @@ final JClass countrySubdivisionClass = cm._class("${JAVA_PACKAGE}.CountryCodeSub
 
 class SubDiv {
     String code
-	String name
+    String name
 	final List<String> source = new ArrayList<>()
 }
 
@@ -77,19 +77,28 @@ static Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl)
                 def parts = newCode.split('-', 2)
                 def newCC = CountryCode.getByCode(parts[0], false)
 
-							if (cc != null && cc != newCC) {
+                if (cc != null && cc != newCC) {
                     //System.out.println("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
 
                 } else {
                     // some fuzzy logic, not every wiki page is the same
                     def subDivisionCode = parts[1]
-                    def link = row.select("> td:nth-child(2) > a")
-                    if (link == null) {
-                        link = row.select("> td:nth-child(3) > a")
+
+                    def link = null
+                    for (s in [
+                        "> td:nth-child(2) > a",
+                        "> td:nth-child(3) > a",
+                        "> td:nth-child(2) a",
+                        "> td:nth-child(3) a",
+                        "> td:nth-child(2)"]) {
+                        link = row.select(s)
+                        if (link != null && link.size() > 0 && StringUtils.isNotBlank(link.get(0).text())) {
+                            break
+                        }
                     }
                     def subDivisionName = trim(link.text())
                     if (subDivisionName == "") {
-                        System.err.println("Name not found in " + row)
+                       System.err.println("Name not found in " + uri + "\n"+ row + "(" + newCode + ":" + link + ")" )
                     } else {
                         SubDiv sub = new SubDiv()
                         sub.code = subDivisionCode
@@ -111,7 +120,7 @@ JClass parseHtml(CountryCode cc, URL uneceUri, URL sourceUri,  URL wikiUri, URL 
     parsedData.putAll(parseHtmlUnece(cc, uneceUri, sourceUri))
     parseHtmlWiki(cc, wikiUri, wikiSourceUri).forEach{k, v ->
         if (! parsedData.containsKey(k)) {
-            System.out.println("Found in wiki, but not in unece " + cc + " " + k + " = " + v)
+            //System.out.println("Found in wiki, but not in unece " + cc + " " + k + " = " + v)
             parsedData.put(k, v)
         } else {
             SubDiv subDiv = parsedData.get(k)
@@ -174,10 +183,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
 
     if (parsedData) {
         boolean addedToClass = false
-
         parsedData.each { subDivisionCode, subDiv ->
-
-
             String escapedCode = subDiv.code
             if (Character.valueOf(escapedCode.charAt(0)).isDigit()) {
                 escapedCode = "_" + escapedCode
