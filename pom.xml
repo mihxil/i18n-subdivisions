@@ -111,7 +111,7 @@
   </dependencies>
   <profiles>
     <profile>
-      <id>download-subdivisions</id>
+      <id>download</id>
       <build>
         <plugins>
           <plugin>
