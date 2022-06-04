@@ -5,6 +5,8 @@ import groovy.transform.Field
 import org.apache.commons.lang3.StringUtils
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
+import org.jsoup.safety.Cleaner
+import org.jsoup.safety.Safelist
 import org.jsoup.select.Elements
 
 import javax.annotation.Generated
@@ -19,11 +21,18 @@ final JClass countryCodeClass = cm.ref(CountryCode.class)
 @Field
 final JClass countrySubdivisionClass = cm._class("${JAVA_PACKAGE}.CountryCodeSubdivision", ClassType.INTERFACE)
 
+@Field
+final Safelist safelist = Safelist.relaxed()
+    .addAttributes("table", "class")
+    .removeAttributes("a", "title")
+
 class SubDiv {
     String code
     String name
+    String row
 	final List<String> source = new ArrayList<>()
 }
+
 
 countrySubdivisionClass.with {
     method(0, String.class, "getCode")
@@ -39,6 +48,7 @@ static Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl
     try {
         def html = uri.getText("UTF-8")
         Document parse = Jsoup.parse(html)
+
         // Caveat JSoup magic that makes regex seem easy.
         // All <tr> tags from <tbody> (inserted by Jsoup when parsing) from <table>
         // <table> is found by checking if any of the <td> nodes below contains the string "Level"
@@ -61,12 +71,18 @@ static Map<String, SubDiv> parseHtmlUnece(CountryCode cc, URL uri, URL sourceUrl
      return parsedData
  }
 
-static Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
+Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
     Map<String, SubDiv> parsedData = [:]
     try {
         def html = uri.getText("UTF-8")
-
-        Document parse = Jsoup.parse(html)
+        def unclean = Jsoup.parse(html)
+        unclean.select("img").forEach(e -> {
+            URI src = new URI(e.attr("src"))
+            if (src.scheme == null) {
+                e.attr("src", "https:" + e.attr("src"))
+            }
+        })
+        Document parse = new Cleaner(safelist).clean(unclean)
 
         Elements rows = parse.select("table.wikitable > tbody > tr:gt(0)")
         rows.each { row ->
@@ -104,6 +120,7 @@ static Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl)
                         sub.code = subDivisionCode
                         sub.name= subDivisionName
                         sub.source.add(sourceUrl.text)
+                        sub.row = row.html()
                         parsedData[subDivisionCode] = sub
                     }
                 }
@@ -124,7 +141,8 @@ JClass parseHtml(CountryCode cc, URL uneceUri, URL sourceUri,  URL wikiUri, URL 
             parsedData.put(k, v)
         } else {
             SubDiv subDiv = parsedData.get(k)
-					subDiv.source.add(wikiSourceUri.text)
+            subDiv.source.add(wikiSourceUri.text)
+            subDiv.row = v.row
         }
     }
     generateClass(cc, parsedData)
@@ -172,7 +190,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
     dc.constructor(0).with {
         def subDivName = param(String.class, "subDivisionName")
         def subDivCode = param(String.class, "subDivisionCode")
-    	  def subDivSource = varParam(String.class, "subDivisionSource")
+        def subDivSource = varParam(String.class, "subDivisionSource")
         body().with {
             assign(JExpr._this().ref(name), subDivName)
             assign(JExpr._this().ref(code), subDivCode)
@@ -200,6 +218,9 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
                 addedToClass = true
                 JDocComment constantDoc = javadoc()
                 constantDoc.append(subDiv.name)
+                if (subDiv.row != null) {
+                    constantDoc.append("\n<table><caption></caption><tr>" + subDiv.row + "</tr></table>\n")
+                }
             }
 
         }
@@ -233,8 +254,11 @@ static String trim(String str) {
 
 Map<CountryCode, JClass> classes = [:]
 CountryCode.values().each {
-    dir = "${project.properties.buildresources}"
-	//dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
+    try {
+        dir = "${project.properties.buildresources}"
+    } catch (MissingPropertyException pe) {
+        dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
+    }
 	classes[it] = parseHtml(it,
 		new URL("file://${dir}${it.alpha2}.html"),
 		new URL("file://${dir}${it.alpha2}.url"),
