@@ -127,7 +127,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
     dc._implements(countrySubdivisionClass)
 	  dc.annotate(Generated.class).param("value", this.class.getName())
 	  JDocComment classDoc = dc.javadoc()
-	  classDoc.append("Subdivisions of {@link " + CountryCode.class.getName() + "#" + countryCode.name() + "} (" + countryCode.getName() + ")")
+	  classDoc.append("<p>Subdivisions of {@link " + CountryCode.class.getName() + "#" + countryCode.name() + "} (" + countryCode.getName() + ")</p>")
 
     JFieldVar name = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "name")
     JFieldVar code = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "code")
@@ -203,14 +203,14 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
             }
         }
     } else {
-        classDoc.append("<br />There are no known subdivisions of " + countryCode.getName())
+        classDoc.append("<p>There are no known subdivisions of " + countryCode.getName() + "</p>")
 
         dc.enumConstant("NA").with {
             arg(JExpr.lit("No Subdivisions"))
             arg(JExpr.lit("NA"))
             arg(JExpr._null())
 					 JDocComment constantDoc = javadoc()
-					 constantDoc.append("Place holder enum value. No known subdivisions for " + countryCode.name())
+					 constantDoc.append("<p>Place holder enum value. No known subdivisions for " + countryCode.name() + "</p>")
 				}
         dc.method(JMod.PUBLIC, boolean.class, "isRealRegion").with {
             body().with {
