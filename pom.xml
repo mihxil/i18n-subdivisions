@@ -166,6 +166,14 @@
       </plugin>
       <plugin>
         <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
@@ -194,6 +202,10 @@
       </plugin>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <branchName>${project.version}</branchName>
+          <tagNameFormat>@{project.version}</tagNameFormat>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
