@@ -33,7 +33,6 @@ jobs:
           passphrase: ${{ secrets.GPG_SECRET_KEY_PASSPHRASE }}
       - name: Build and deploy with Maven
         run: |
-          which pinentry
           mvn -B test deploy
       - uses: codecov/codecov-action@v2
         with:
