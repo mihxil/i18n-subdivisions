@@ -78,6 +78,7 @@ Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
         def unclean = Jsoup.parse(html)
         unclean.select("img").forEach(e -> {
             URI src = new URI(e.attr("src"))
+            e.attr("alt", "flag for " + cc.getName())
             if (src.scheme == null) {
                 e.attr("src", "https:" + e.attr("src"))
             }
@@ -218,8 +219,8 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
                 addedToClass = true
                 JDocComment constantDoc = javadoc()
                 constantDoc.append(subDiv.name)
-                if (subDiv.row != null) {
-                    constantDoc.append("\n<table><caption></caption><tr>" + subDiv.row + "</tr></table>\n")
+                if (subDiv.row != null && subDiv.row != "") {
+                    constantDoc.append("\n<table><caption>" + subDiv.name + "</caption><tr>" + subDiv.row + "</tr></table>\n")
                 }
             }
 
