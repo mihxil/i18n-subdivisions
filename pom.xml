@@ -84,28 +84,33 @@
       <scope>test</scope>
     </dependency>
     <!--
+      these dependencies are only needed for the build
+      They could be removed, but it helps intellij to have them here.
+    -->
     <dependency>
       <groupId>org.apache.groovy</groupId>
       <artifactId>groovy</artifactId>
       <version>${groovy.version}</version>
-      <scope>test</scope>
+      <scope>provided</scope>
     </dependency>
      <dependency>
        <groupId>org.jsoup</groupId>
        <artifactId>jsoup</artifactId>
        <version>${jsoup.version}</version>
+       <scope>provided</scope>
      </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>${commons.lang.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>codemodel</artifactId>
       <version>${codemodel.version}</version>
+      <scope>provided</scope>
     </dependency>
-    -->
   </dependencies>
   <profiles>
     <profile>
@@ -222,6 +227,9 @@
       <plugin>
         <groupId>org.codehaus.gmavenplus</groupId>
         <artifactId>gmavenplus-plugin</artifactId>
+        <configuration>
+
+        </configuration>
         <executions>
           <execution>
             <id>generate-subdivisions</id>
