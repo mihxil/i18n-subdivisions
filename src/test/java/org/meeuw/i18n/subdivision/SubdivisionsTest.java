@@ -17,15 +17,18 @@ class SubdivisionsTest {
     public void showAll() throws URISyntaxException, IOException {
         StringBuilder builder = new StringBuilder();
         for (CountryCode cc : CountryCode.values()) {
-            List<CountryCodeSubdivision> subdivisions = SubdivisionFactory.getSubdivisions(cc);
+
             if (builder.length() > 0) {
                 builder.append("\n");
             }
             builder.append(cc.name()).append("\t").append(cc.getName()).append("\n");
             //System.out.println("Found " + subdivision.getEnumConstants().length + " for " + cc);
 
-            for (CountryCodeSubdivision sd : subdivisions) {
-                builder.append("\t").append(sd.getCode()).append("\t").append(sd.getName()).append("\n");
+            List<CountryCodeSubdivision> subdivisions = SubdivisionFactory.getSubdivisions(cc);        
+            if (subdivisions != null) {
+                for (CountryCodeSubdivision sd : subdivisions) {
+                    builder.append("\t").append(sd.getCode()).append("\t").append(sd.getName()).append("\n");
+                }
             }
         }
         String expected = IOUtils.toString(getClass().getResource("/current.txt").toURI(), StandardCharsets.UTF_8);

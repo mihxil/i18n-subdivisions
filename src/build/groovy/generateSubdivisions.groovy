@@ -2,14 +2,16 @@
 import com.neovisionaries.i18n.CountryCode
 import com.sun.codemodel.*
 import groovy.transform.Field
+import jakarta.annotation.Generated
 import org.apache.commons.lang3.StringUtils
+import org.checkerframework.checker.nullness.qual.Nullable
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.safety.Cleaner
 import org.jsoup.safety.Safelist
 import org.jsoup.select.Elements
 
-import javax.annotation.Generated
+import static org.apache.commons.text.StringEscapeUtils.escapeHtml4
 
 @Field
 final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
@@ -49,7 +51,7 @@ Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
     if (cc === CountryCode.EU) {
         throw new RuntimeException("EU is not a country")
     }
-    Map<String, SubDiv> parsedData = new HashMap<>();
+    Map<String, SubDiv> parsedData = new TreeMap<>();
     try {
         def html = uri.getText("UTF-8")
         def unclean = Jsoup.parse(html)
@@ -74,18 +76,20 @@ Map<String, SubDiv> parseHtmlWiki(CountryCode cc, URL uri, URL sourceUrl) {
                 }
                 def newCC = CountryCode.getByCode(parts[0], false)
 
-                if (cc != null && cc != newCC) {
-                    throw new RuntimeException("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
+                if (newCC != null && cc != null && cc != newCC) {
+                    throw new IllegalArgumentException("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
                 } else {
                     // some fuzzy logic, not every wiki page is the same
                     def subDivisionCode = parts[1]
 
 
                     def link = null
+                    // Try to guess which column contains the name
+                    
                     for (s in [
                         "> td:nth-child(2) > a",
-                        "> td:nth-child(3) > a",
                         "> td:nth-child(2) a",
+                        "> td:nth-child(3) > a",
                         "> td:nth-child(3) a",
                         "> td:nth-child(2)"]) {
                         link = row.select(s)
@@ -184,12 +188,12 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
     }
 
 
-    if (parsedData) {
+    if (parsedData && parsedData.size() > 0) {
         boolean addedToClass = false
-        parsedData.each { subDivisionCode, subDiv ->
+        parsedData.values().each { subDiv ->
             String escapedCode = subDiv.code
             if (Character.valueOf(escapedCode.charAt(0)).isDigit()) {
-                escapedCode = "_" + escapedCode
+                escapedCode = ("_" + escapedCode).replaceAll("-", "_")
             }
             dc.enumConstant(escapedCode).with {
                 arg(JExpr.lit(subDiv.name))
@@ -202,13 +206,13 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
                 }
                 addedToClass = true
                 JDocComment constantDoc = javadoc()
-                constantDoc.append(subDiv.name)
+                constantDoc.append(escapeHtml4(subDiv.name))
                 if (subDiv.row != null && subDiv.row != "") {
-                    constantDoc.append("\n<table><caption>" + subDiv.name + "</caption><tr>" + subDiv.row + "</tr></table>\n")
+                    constantDoc.append("\n<table><caption>" + escapeHtml4(subDiv.name) + "</caption><tr>" + subDiv.row + "</tr></table>\n")
                 }
             }
-
         }
+        
         dc.method(JMod.PUBLIC, boolean.class, "isRealRegion").with {
             body().with {
                 _return(JExpr.lit(true))
@@ -281,6 +285,8 @@ cm._class(JMod.PUBLIC | JMod.FINAL, "${JAVA_PACKAGE}.SubdivisionFactory", ClassT
     }
 
     method(JMod.STATIC | JMod.PUBLIC, narrowListClass, "getSubdivisions").with {
+        javadoc().append("Get all subdivisions for a country. Or {@code null} if not known, not found, or not applicable")
+        annotate(Nullable.class)
         def param1 = param(countryCodeClass, "countryCode")
         body().with {
             _return(map.invoke("get").arg(param1))
