@@ -149,28 +149,28 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
     JFieldVar code = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "code")
     JFieldVar source = dc.field(JMod.PRIVATE | JMod.FINAL, String[].class, "source")
     dc.method(JMod.PUBLIC, CountryCode.class, "getCountryCode").with {
-        //annotate(Override.class)
+        annotate(Override.class)
         body().with {
             _return(countryCodeClass.staticRef(countryCode.alpha2))
         }
     }
 
     dc.method(JMod.PUBLIC, String.class, "getCode").with {
-        //annotate(Override.class)
+        annotate(Override.class)
         body().with {
             _return(code)
                 }
     }
 
     dc.method(JMod.PUBLIC, String.class, "getName").with {
-        //annotate(Override.class)
+        annotate(Override.class)
         body().with {
             _return(name)
         }
     }
 
     dc.method(JMod.PUBLIC, String[].class, "getSource").with {
-        //annotate(Override.class)
+        annotate(Override.class)
         body().with {
             _return(source)
         }
@@ -214,6 +214,7 @@ JClass generateClass(CountryCode countryCode, Map<String, SubDiv> parsedData) {
         }
         
         dc.method(JMod.PUBLIC, boolean.class, "isRealRegion").with {
+            annotate(Override)
             body().with {
                 _return(JExpr.lit(true))
             }
