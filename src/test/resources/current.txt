@@ -12,14 +12,15 @@ AD	Andorra
 	06	Sant Julià de Lòria
 	07	Andorra la Vella
 	08	Escaldes-Engordany
+	11-27	Update List Source
 
 AE	United Arab Emirates
-	AJ	'Ajman
-	AZ	Abū Ȥaby[Abu Dhabi]
-	DU	Dubayy [Dubai]
+	AJ	‘Ajmān
+	AZ	Abū Z̧aby
+	DU	Dubayy
 	FU	Al Fujayrah
-	RK	Rā's al Khaymah
-	SH	Ash Shāriqah [Sharjah]
+	RK	Ra’s al Khaymah
+	SH	Ash Shāriqah
 	UQ	Umm al Qaywayn
 
 AF	Afghanistan
@@ -41,7 +42,7 @@ AF	Afghanistan
 	KAP	Kāpīsā
 	KDZ	Kunduz
 	KHO	Khōst
-	KNR	Kunar
+	KNR	Kunaṟ
 	LAG	Laghmān
 	LOG	Lōgar
 	NAN	Nangarhār
@@ -49,7 +50,7 @@ AF	Afghanistan
 	NUR	Nūristān
 	PAN	Panjshayr
 	PAR	Parwān
-	PIA	Paktīā
+	PIA	Paktiyā
 	PKA	Paktīkā
 	SAM	Samangān
 	SAR	Sar-e Pul
@@ -60,7 +61,7 @@ AF	Afghanistan
 
 AG	Antigua and Barbuda
 	03	Saint George
-	04	Saint John's
+	04	Saint John
 	05	Saint Mary
 	06	Saint Paul
 	07	Saint Peter
@@ -72,6 +73,18 @@ AI	Anguilla
 	NA	No Subdivisions
 
 AL	Albania
+	01	Berat
+	02	Durrës
+	03	Elbasan
+	04	Fier
+	05	Gjirokastër
+	06	Korçë
+	07	Kukës
+	08	Lezhë
+	09	Dibër
+	10	Shkodër
+	11	Tiranë
+	12	Vlorë
 	BR	Berat
 	BU	Bulqizë
 	DI	Dibër
@@ -108,27 +121,16 @@ AL	Albania
 	TP	Tropojë
 	TR	Tiranë
 	VL	Vlorë
-	01	Berat
-	09	Dibër
-	02	Durrës
-	03	Elbasan
-	04	Fier
-	05	Gjirokastër
-	06	Korçë
-	07	Kukës
-	08	Lezhë
-	10	Shkodër
-	11	Tiranë
-	12	Vlorë
 
 AM	Armenia
-	AG	Aragaçotn
+	11-26	Correction of the romanization system label
+	AG	Aragac̣otn
 	AR	Ararat
 	AV	Armavir
 	ER	Erevan
 	GR	Geġark'unik'
 	KT	Kotayk'
-	LO	Loṙy
+	LO	Loṙi
 	SH	Širak
 	SU	Syunik'
 	TV	Tavuš
@@ -142,14 +144,14 @@ AO	Angola
 	BGU	Benguela
 	BIE	Bié
 	CAB	Cabinda
-	CCU	Cuando-Cubango
+	CCU	Cuando Cubango
 	CNN	Cunene
-	CNO	Cuanza Norte
-	CUS	Cuanza Sul
+	CNO	Cuanza-Norte
+	CUS	Cuanza-Sul
 	HUA	Huambo
 	HUI	Huíla
-	LNO	Lunda Norte
-	LSU	Lunda Sul
+	LNO	Lunda-Norte
+	LSU	Lunda-Sul
 	LUA	Luanda
 	MAL	Malange
 	MOX	Moxico
@@ -217,25 +219,14 @@ AX	Åland Islands
 	NA	No Subdivisions
 
 AZ	Azerbaijan
-	NX	Naxçıvan
-	BA	Bakı
-	GA	Gәncә
-	LA	Lәnkәran
-	MI	Mingәçevir
-	NA	Naftalan
-	NV	Naxçıvan
-	SA	Şәki
-	SM	Sumqayıt
-	SR	Şirvan
-	XA	Xankәndi
-	YE	Yevlax
 	ABS	Abşeron
 	AGA	Ağstafa
-	AGC	Ağcabәdi
+	AGC	Ağcabədi
 	AGM	Ağdam
 	AGS	Ağdaş
 	AGU	Ağsu
 	AST	Astara
+	BA	Bakı
 	BAB	Babək
 	BAL	Balakən
 	BAR	Bərdə
@@ -246,69 +237,80 @@ AZ	Azerbaijan
 	CUL	Culfa
 	DAS	Daşkəsən
 	FUZ	Füzuli
+	GA	Gəncə
 	GAD	Gədəbəy
 	GOR	Goranboy
 	GOY	Göyçay
 	GYG	Göygöl
-	HAC	Haciqabul
+	HAC	Hacıqabul
 	IMI	İmişli
 	ISM	İsmayıllı
 	KAL	Kəlbəcər
 	KAN	Kǝngǝrli
 	KUR	Kürdəmir
-	LAC	Laçin
+	LA	Lənkəran
+	LAC	Laçın
 	LAN	Lənkəran
 	LER	Lerik
 	MAS	Masallı
+	MI	Mingəçevir
+	NA	Naftalan
 	NEF	Neftçala
+	NV	Naxçıvan
+	NX	Naxçıvan
 	OGU	Oğuz
 	ORD	Ordubad
-	QAB	Qәbәlә
+	QAB	Qəbələ
 	QAX	Qax
 	QAZ	Qazax
 	QBA	Quba
 	QBI	Qubadlı
 	QOB	Qobustan
 	QUS	Qusar
+	SA	Şəki
 	SAB	Sabirabad
-	SAD	Sәdәrәk
+	SAD	Sədərək
 	SAH	Şahbuz
-	SAK	Şәki
+	SAK	Şəki
 	SAL	Salyan
-	SAR	Şәrur
+	SAR	Şərur
 	SAT	Saatlı
 	SBN	Şabran
-	SIY	Siyәzәn
-	SKR	Şәmkir
+	SIY	Siyəzən
+	SKR	Şəmkir
+	SM	Sumqayıt
 	SMI	Şamaxı
 	SMX	Samux
+	SR	Şirvan
 	SUS	Şuşa
-	TAR	Tәrtәr
+	TAR	Tərtər
 	TOV	Tovuz
 	UCA	Ucar
+	XA	Xankəndi
 	XAC	Xaçmaz
 	XCI	Xocalı
 	XIZ	Xızı
-	XVD	Xocavәnd
+	XVD	Xocavənd
 	YAR	Yardımlı
+	YE	Yevlax
 	YEV	Yevlax
-	ZAN	Zәngilan
+	ZAN	Zəngilan
 	ZAQ	Zaqatala
-	ZAR	Zәrdab
+	ZAR	Zərdab
 
 BA	Bosnia and Herzegovina
-	01	Unsko-Sanski Kanton
-	02	Posavski Kanton
-	03	Tuzlanski Kanton
-	04	Zeničko-dobojski Kanton
-	05	Bosansko-Podrinjski Kanton
-	06	Srednjobosanski Kanton
-	07	Hercegovačko-neretvanski Kanton
-	08	Zapadnohercegovački Kanton
+	01	Unsko-sanski kanton
+	02	Posavski kanton
+	03	Tuzlanski kanton
+	04	Zeničko-dobojski kanton
+	05	Bosansko-podrinjski kanton
+	06	Srednjobosanski kanton
+	07	Hercegovačko-neretvanski kanton
+	08	Zapadnohercegovački kanton
 	09	Kanton Sarajevo
-	10	Kanton br. 10 (Livanjski kanton)
-	BRC	Brčko Distrikt
+	10	Kanton br. 10
 	BIH	Federacija Bosne i Hercegovine
+	BRC	Brčko Distrikt
 	SRP	Republika Srpska
 
 BB	Barbados
@@ -327,14 +329,14 @@ BB	Barbados
 BD	Bangladesh
 	01	Bandarban
 	02	Barguna
-	03	Bogra
+	03	Bogura
 	04	Brahmanbaria
 	05	Bagerhat
-	06	Barisal
+	06	Barishal
 	07	Bhola
-	08	Comilla
+	08	Cumilla
 	09	Chandpur
-	10	Chittagong
+	10	Chattogram
 	11	Cox's Bazar
 	12	Chuadanga
 	13	Dhaka
@@ -344,16 +346,24 @@ BD	Bangladesh
 	17	Gopalganj
 	18	Gazipur
 	19	Gaibandha
+	1B	1
+	1Q	1
 	20	Habiganj
 	21	Jamalpur
-	22	Jessore
+	22	Jashore
 	23	Jhenaidah
-	24	Jaipurhat
-	25	Jhalakati
+	24	Joypurhat
+	25	Jhalakathi
 	26	Kishoreganj
 	27	Khulna
 	28	Kurigram
-	29	Khagrachari
+	29	Khagrachhari
+	2A	2
+	2D	2
+	2E	Chittagong Hill Tracts
+	2F	2
+	2O	2
+	2T	2
 	30	Kushtia
 	31	Lakshmipur
 	32	Lalmonirhat
@@ -364,16 +374,24 @@ BD	Bangladesh
 	37	Magura
 	38	Moulvibazar
 	39	Meherpur
+	3G	3
+	3I	3
+	3J	3
+	3N	3
+	3U	3
 	40	Narayanganj
 	41	Netrakona
 	42	Narsingdi
 	43	Narail
 	44	Natore
-	45	Nawabganj
+	45	Chapai Nawabganj
 	46	Nilphamari
 	47	Noakhali
 	48	Naogaon
 	49	Pabna
+	4K	4
+	4L	4
+	4M	4
 	50	Pirojpur
 	51	Patuakhali
 	52	Panchagarh
@@ -384,6 +402,11 @@ BD	Bangladesh
 	57	Sherpur
 	58	Satkhira
 	59	Sirajganj
+	5C	5
+	5H	5
+	5P	5
+	5R	5
+	5S	5
 	60	Sylhet
 	61	Sunamganj
 	62	Shariatpur
@@ -393,52 +416,44 @@ BD	Bangladesh
 	B	Chattogram
 	C	Dhaka
 	D	Khulna
-	H	Mymensingh
 	E	Rajshahi
 	F	Rangpur
 	G	Sylhet
-	2A	2
-	1B	1
-	5C	5
-	2D	2
-	2E	Chittagong Hill Tracts
-	2F	2
-	3G	3
-	5H	5
-	3I	3
-	3J	3
-	4K	4
-	4L	4
-	4M	4
-	3N	3
-	2O	2
-	5P	5
-	1Q	1
-	5R	5
-	5S	5
-	2T	2
-	3U	3
+	H	Mymensingh
 
 BE	Belgium
-	BRU	Bruxelles-Capitale, Région de (fr), Brussels Hoofdstedelijk Gewest (nl)
-	VAN	Antwerpen (VLG)
-	VBR	Vlaams Brabant (VLG)
-	VLG	Vlaamse Gewest (nl)
-	VLI	Limburg (VLG)
-	VOV	Oost-Vlaanderen (VLG)
-	VWV	West-Vlaanderen (VLG)
-	WAL	Wallonne, Région (fr)
-	WBR	Brabant Wallon (WAL)
-	WHT	Hainaut (WAL)
-	WLG	Liège (WAL)
-	WLX	Luxembourg (WAL)
-	WNA	Namur (WAL)
+	BRU	Brussels Hoofdstedelijk Gewest
+	VAN	Antwerpen
+	VBR	Vlaams-Brabant
+	VLG	Vlaams Gewest
+	VLI	Limburg
+	VOV	Oost-Vlaanderen
+	VWV	West-Vlaanderen
+	WAL	Waals Gewest
+	WBR	Brabant wallon
+	WHT	Hainaut
+	WLG	Liège
+	WLX	Luxembourg
+	WNA	Namur
 
 BF	Burkina Faso
+	01	Boucle du Mouhoun
+	02	Cascades
+	03	Centre
+	04	Centre-Est
+	05	Centre-Nord
+	06	Centre-Ouest
+	07	Centre-Sud
+	08	Est
+	09	Hauts-Bassins
+	10	Nord
+	11	Plateau-Central
+	12	Sahel
+	13	Sud-Ouest
 	BAL	Balé
 	BAM	Bam
 	BAN	Banwa
-	BAZ	Bazéga
+	BAZ	Bazèga
 	BGR	Bougouriba
 	BLG	Boulgou
 	BLK	Boulkiemdé
@@ -474,37 +489,24 @@ BF	Burkina Faso
 	SOM	Soum
 	SOR	Sourou
 	TAP	Tapoa
-	TUI	Tui
+	TUI	Tuy
 	YAG	Yagha
 	YAT	Yatenga
 	ZIR	Ziro
 	ZON	Zondoma
 	ZOU	Zoundwéogo
-	01	Boucle du Mouhoun
-	02	Cascades
-	03	Centre
-	04	Centre-Est
-	05	Centre-Nord
-	06	Centre-Ouest
-	07	Centre-Sud
-	08	Est
-	09	Hauts-Bassins
-	10	Nord
-	11	Plateau-Central
-	12	Sahel
-	13	Sud-Ouest
 
 BG	Bulgaria
-	01	Blagoevgrad
+	01	Sofija-Grad
 	02	Burgas
 	03	Varna
-	04	Veliko Tarnovo
-	05	Vidin
-	06	Vratsa
-	07	Gabrovo
-	08	Dobrich
-	09	Kardzhali
-	10	Kjustendil
+	04	Loveč
+	05	Montana
+	06	Plovdiv
+	07	Ruse
+	08	Sofija
+	09	Haskovo
+	10	Kyustendil
 	11	Lovech
 	12	Montana
 	13	Pazardzhik
@@ -516,7 +518,7 @@ BG	Bulgaria
 	19	Silistra
 	20	Sliven
 	21	Smolyan
-	22	Sofija-Grad
+	22	Sofia (stolitsa)
 	23	Sofia
 	24	Stara Zagora
 	25	Targovishte
@@ -525,23 +527,22 @@ BG	Bulgaria
 	28	Yambol
 
 BH	Bahrain
-	13	Al Manāmah
+	01	Al Ḩadd
+	02	Al Muḩarraq
+	03	Al Manāmah
+	04	Jidd Ḩafş
+	05	Al Minţaqah ash Shamālīyah
+	06	Sitrah
+	07	Al Minţaqah al Wusţá
+	08	Madīnat ٰĪsá
+	09	Ar Rifāٰ
+	10	Al Minţaqah al Gharbīyah
+	11	Minţaqat Juzur Ḩawār
+	12	Madīnat Ḩamad
+	13	Al ‘Āşimah
 	14	Al Janūbīyah
 	15	Al Muḩarraq
-	16	Al Wusţá
 	17	Ash Shamālīyah
-	01	Al Ḩadd
-	03	Al Manāmah
-	10	Al Minţaqah al Gharbīyah
-	07	Al Minţaqah al Wusţá
-	05	Al Minţaqah ash Shamālīyah
-	02	Al Muḩarraq
-	09	Ar Rifāٰ
-	04	Jidd Ḩafş
-	12	Madīnat Ḩamad
-	08	Madīnat ٰĪsá
-	11	Minţaqat Juzur Ḩawār
-	06	Sitrah
 
 BI	Burundi
 	BB	Bubanza
@@ -559,18 +560,18 @@ BI	Burundi
 	MW	Mwaro
 	MY	Muyinga
 	NG	Ngozi
+	RM	Rumonge
 	RT	Rutana
 	RY	Ruyigi
-	RM	Rumonge
 
 BJ	Benin
-	AK	Atakora
+	AK	Atacora
 	AL	Alibori
 	AQ	Atlantique
 	BO	Borgou
 	CO	Collines
 	DO	Donga
-	KO	Kouffo
+	KO	Couffo
 	LI	Littoral
 	MO	Mono
 	OU	Ouémé
@@ -601,7 +602,7 @@ BO	Bolivia, Plurinational State of
 	T	Tarija
 
 BQ	Bonaire, Sint Eustatius and Saba
-	BO	Boneiru
+	BO	Bonaire
 	SA	Saba
 	SE	Sint Eustatius
 
@@ -635,6 +636,7 @@ BR	Brazil
 	TO	Tocantins
 
 BS	Bahamas
+	AC	Acklins and Crooked Islands
 	AK	Acklins
 	BI	Bimini
 	BP	Black Point
@@ -647,42 +649,41 @@ BS	Bahamas
 	EG	East Grand Bahama
 	EX	Exuma
 	FC	Fresh Creek
-	FP	City of Freeport
+	FP	Freeport
 	GC	Grand Cay
+	GH	Governor's Harbour
+	GT	Green Turtle Cay
 	HI	Harbour Island
+	HR	High Rock
 	HT	Hope Town
 	IN	Inagua
+	KB	Kemps Bay
 	LI	Long Island
 	MC	Mangrove Cay
 	MG	Mayaguana
-	MI	Moores Island
+	MH	Marsh Harbour
+	MI	Moore's Island
+	NB	Nicholls Town and Berry Islands
 	NE	North Eleuthera
 	NO	North Abaco
+	NP	New Providence
 	NS	North Andros
 	RC	Rum Cay
 	RI	Ragged Island
+	RS	Rock Sound
 	SA	South Andros
 	SE	South Eleuthera
 	SO	South Abaco
+	SP	Sandy Point
+	SR	San Salvador and Rum Cay
 	SS	San Salvador
 	SW	Spanish Wells
 	WG	West Grand Bahama
-	NP	New Providence
-	AC	Acklins and Crooked Islands
-	GH	Governor's Harbour
-	GT	Green Turtle Cay
-	HR	High Rock
-	KB	Kemps Bay
-	MH	Marsh Harbour
-	NB	Nicholls Town and Berry Islands
-	RS	Rock Sound
-	SP	Sandy Point
-	SR	San Salvador and Rum Cay
 
 BT	Bhutan
 	11	Paro
 	12	Chhukha
-	13	Ha
+	13	Haa
 	14	Samtse
 	15	Thimphu
 	21	Tsirang
@@ -695,9 +696,9 @@ BT	Bhutan
 	34	Zhemgang
 	41	Trashigang
 	42	Monggar
-	43	Pemagatshel
+	43	Pema Gatshel
 	44	Lhuentse
-	45	Samdrup Jongkha
+	45	Samdrup Jongkhar
 	GA	Gasa
 	TY	Trashi Yangtse
 
@@ -709,30 +710,30 @@ BV	Bouvet Island
 
 BW	Botswana
 	CE	Central
-	GH	Ghanzi
-	KG	Kgalagadi
-	KL	Kgatleng
-	KW	Kweneng
-	NE	North-East
-	NW	North-West
-	SE	South-East
-	SO	Southern
 	CH	Chobe
 	FR	Francistown
 	GA	Gaborone
+	GH	Ghanzi
 	JW	Jwaneng
+	KG	Kgalagadi
+	KL	Kgatleng
+	KW	Kweneng
 	LO	Lobatse
+	NE	North East
+	NW	North West
+	SE	South East
+	SO	Southern
 	SP	Selibe Phikwe
 	ST	Sowa Town
 
 BY	Belarus
-	HM	Horad Minsk (be) - BrestGorod Minsk (ru)
-	BR	Brestskaya voblasts' (be) - Brestskaya oblast' (ru)
-	HO	Homyel'skaya voblasts' (be) - Gomel'skaya oblast' (ru)
-	HR	Hrodzenskaya voblasts' (be) - Grodnenskaya oblast' (ru)
-	MA	Mahilyowskaya voblasts' (be) - Mogilevskaya oblast' (ru)
-	MI	Minskaya voblasts' (be) - Minskaya oblast' (ru)
-	VI	Vitsyebskaya voblasts' (be) - Vitebskaya oblast' (ru)
+	BR	Brestskaya voblasts'
+	HM	Horad Minsk
+	HO	Homyel'skaya voblasts'
+	HR	Hrodzyenskaya voblasts'
+	MA	Mahilyowskaya voblasts'
+	MI	Minskaya voblasts'
+	VI	Vitsyebskaya voblasts'
 
 BZ	Belize
 	BZ	Belize
@@ -743,50 +744,34 @@ BZ	Belize
 	TOL	Toledo
 
 CA	Canada
-	AB	Alberta
-	BC	British Columbia
-	MB	Manitoba
-	NB	New Brunswick
-	NL	Newfoundland and Labrador
-	NS	Nova Scotia
-	NT	Northwest Territories
-	NU	Nunavut
-	ON	Ontario
-	PE	Prince Edward Island
-	QC	Quebec
-	SK	Saskatchewan
-	YT	Yukon Territory
+	NA	No Subdivisions
 
 CC	Cocos (Keeling) Islands
 	NA	No Subdivisions
 
 CD	Congo, the Democratic Republic of the
-	BC	Bas-Congo
-	BN	Bandundu
-	EQ	Équateur
-	KA	Katanga
-	KE	Kasai-Oriental
-	KN	Kinshasa
-	KW	Kasai-Occidental
-	MA	Maniema
-	NK	Nord-Kivu
-	OR	Orientale
-	SK	Sud-Kivu
+	BC	Kongo Central
 	BU	Bas-Uélé
+	EQ	Équateur
 	HK	Haut-Katanga
 	HL	Haut-Lomami
 	HU	Haut-Uélé
 	IT	Ituri
 	KC	Kasaï Central
+	KE	Kasaï Oriental
 	KG	Kwango
 	KL	Kwilu
+	KN	Kinshasa
 	KS	Kasaï
 	LO	Lomami
 	LU	Lualaba
+	MA	Maniema
 	MN	Mai-Ndombe
 	MO	Mongala
+	NK	Nord-Kivu
 	NU	Nord-Ubangi
 	SA	Sankuru
+	SK	Sud-Kivu
 	SU	Sud-Ubangi
 	TA	Tanganyika
 	TO	Tshopo
@@ -817,41 +802,41 @@ CG	Congo
 	13	Sangha
 	14	Plateaux
 	15	Cuvette-Ouest
+	16	Pointe-Noire
 	2	Lékoumou
 	5	Kouilou
 	7	Likouala
 	8	Cuvette
 	9	Niari
 	BZV	Brazzaville
-	16	Pointe-Noire
 
 CH	Switzerland
-	AG	Aargau (de)
-	AI	Appenzell Innerrhoden (de)
-	AR	Appenzell Ausserrhoden (de)
-	BE	Bern (de)
-	BL	Basel-Landschaft (de)
-	BS	Basel-Stadt (de)
-	FR	Fribourg (fr)
-	GE	Genève (fr)
-	GL	Glarus (de)
-	GR	Graubünden (de)
-	JU	Jura (fr)
-	LU	Luzern (de)
-	NE	Neuchâtel (fr)
-	NW	Nidwalden (de)
-	OW	Obwalden (de)
-	SG	Sankt Gallen (de)
-	SH	Schaffhausen (de)
-	SO	Solothurn (de)
-	SZ	Schwyz (de)
-	TG	Thurgau (de)
-	TI	Ticino (it)
-	UR	Uri (de)
-	VD	Vaud (fr)
-	VS	Valais (fr)
-	ZG	Zug (de)
-	ZH	Zürich (de)
+	AG	Aargau
+	AI	Appenzell Innerrhoden
+	AR	Appenzell Ausserrhoden
+	BE	Bern
+	BL	Basel-Landschaft
+	BS	Basel-Stadt
+	FR	Fribourg
+	GE	Genève
+	GL	Glarus
+	GR	Graubünden
+	JU	Jura
+	LU	Luzern
+	NE	Neuchâtel
+	NW	Nidwalden
+	OW	Obwalden
+	SG	Sankt Gallen
+	SH	Schaffhausen
+	SO	Solothurn
+	SZ	Schwyz
+	TG	Thurgau
+	TI	Ticino
+	UR	Uri
+	VD	Vaud
+	VS	Valais
+	ZG	Zug
+	ZH	Zürich
 
 CI	Côte d'Ivoire
 	01	Lagunes (Région des)
@@ -892,22 +877,22 @@ CK	Cook Islands
 	NA	No Subdivisions
 
 CL	Chile
-	AI	Aisén del General Carlos Ibáñez del Campo
+	AI	Aisén del General Carlos Ibañez del Campo
 	AN	Antofagasta
 	AP	Arica y Parinacota
-	AR	Araucanía
+	AR	La Araucanía
 	AT	Atacama
-	BI	Bío-Bío
+	BI	Biobío
 	CO	Coquimbo
 	LI	Libertador General Bernardo O'Higgins
 	LL	Los Lagos
 	LR	Los Ríos
 	MA	Magallanes
 	ML	Maule
+	NB	Ñuble
 	RM	Región Metropolitana de Santiago
 	TA	Tarapacá
 	VS	Valparaíso
-	NB	Ñuble
 
 CM	Cameroon
 	AD	Adamaoua
@@ -922,40 +907,7 @@ CM	Cameroon
 	SW	South-West
 
 CN	China
-	11	Beijing
-	12	Tianjin
-	13	Hebei
-	14	Shanxi
-	15	Nei Mongol (mn)
-	21	Liaoning
-	22	Jilin
-	23	Heilongjiang
-	31	Shanghai
-	32	Jiangsu
-	33	Zhejiang
-	34	Anhui
-	35	Fujian
-	36	Jiangxi
-	37	Shandong
-	41	Henan
-	42	Hubei
-	43	Hunan
-	44	Guangdong
-	45	Guangxi
-	46	Hainan
-	50	Chongqing
-	51	Sichuan
-	52	Guizhou
-	53	Yunnan
-	54	Xizang
-	61	Shaanxi
-	62	Gansu
-	63	Qinghai
-	64	Ningxia
-	65	Xinjiang
-	71	Taiwan
-	91	Xianggang
-	92	Aomen
+	11-23	Change of subdivision codes change of subdivision name of CN-NM, CN-GX, CN-XZ, CN-NX, CN-XJ, CN-BJ, CN-TJ, CN-SH, CN-CQ, CN-HE, CN-SX, CN-LN, CN-JL, CN-HL CN-JS, CN-ZJ, CN-AH, CN-FJ, CN-JX, CN-SD, CN-HA, CN-HB, CN-HN, CN-GD, CN-HI, CN-SC, CN-GZ, CN-YN, CN-SN, CN-GS, CN-QH, CN-TW, CN-HK, CN-MO addition of remark in parentheses to subdivision name for CN-HK, CN-MO in English addition of region CN-MO in Portuguese update code source update list source
 	AH	Anhui Sheng
 	BJ	Beijing Shi
 	CQ	Chongqing Shi
@@ -985,7 +937,7 @@ CN	China
 	SN	Shaanxi Sheng
 	SX	Shanxi Sheng
 	TJ	Tianjin Shi
-	TW	Taiwan
+	TW	Republic of China (Taiwan)
 	XJ	Xinjiang Uygur Zizhiqu
 	XZ	Xizang Zizhiqu
 	YN	Yunnan Sheng
@@ -1039,12 +991,14 @@ CR	Costa Rica
 	SJ	San José
 
 CS	Serbia and Montenegro
-	NA	No Subdivisions
+	CG	Crna Gora
+	KM	Kosovo i Metohija
+	SR	Srbija
+	VO	Vojvodina
 
 CU	Cuba
 	01	Pinar del Río
-	02	La Habana
-	03	Ciudad de La Habana
+	03	La Habana
 	04	Matanzas
 	05	Villa Clara
 	06	Cienfuegos
@@ -1056,11 +1010,12 @@ CU	Cuba
 	12	Granma
 	13	Santiago de Cuba
 	14	Guantánamo
-	99	Isla de la Juventud
 	15	Artemisa
 	16	Mayabeque
+	99	Isla de la Juventud
 
 CV	Cape Verde
+	B	Ilhas de Barlavento
 	BR	Brava
 	BV	Boa Vista
 	CA	Santa Catarina
@@ -1074,17 +1029,16 @@ CV	Cape Verde
 	RB	Ribeira Brava
 	RG	Ribeira Grande
 	RS	Ribeira Grande de Santiago
+	S	Ilhas de Sotavento
 	SD	São Domingos
 	SF	São Filipe
 	SL	Sal
 	SM	São Miguel
+	SO	São Lourenço dos Órgãos
 	SS	São Salvador do Mundo
 	SV	São Vicente
 	TA	Tarrafal
 	TS	Tarrafal de São Nicolau
-	B	Ilhas de Barlavento
-	S	Ilhas de Sotavento
-	SO	São Lourenço dos Órgãos
 
 CW	Curaçao
 	NA	No Subdivisions
@@ -1099,113 +1053,104 @@ CY	Cyprus
 	04	Ammochostos
 	05	Pafos
 	06	Keryneia
+	11-03	Update List Source
 
 CZ	Czech Republic
-	JC	Jihoceský kraj
-	JM	Jihomoravský kraj
-	KA	Karlovarský kraj
-	KR	Královéhradecký kraj
-	LI	Liberecký kraj
-	MO	Moravskoslezský kraj
-	OL	Olomoucký kraj
-	PA	Pardubický kraj
-	PL	Plzeňský kraj
-	PR	Praha, hlavní mešto
-	ST	Středočeský kraj
-	US	Ústecký kraj
-	VY	Vysočina
-	ZL	Zlínský kraj
-	31	Jihočeský kraj
-	64	Jihomoravský kraj
-	41	Karlovarský kraj
-	52	Královéhradecký kraj
-	51	Liberecký kraj
-	80	Moravskoslezský kraj
-	71	Olomoucký kraj
-	53	Pardubický kraj
-	32	Plzeňský kraj
+	02-19	Addition of the country code prefix as the first code element, alphabetical re-ordering
+	03-02	Typographical correction of subdivision name of CZ-10, CZ-802; Typographical correction of subdivision category name in Czech
+	09-28	Change of the short name
 	10	Praha, Hlavní město
+	11-15	Addition of category name of “capital city” in eng, fra, ces; change of subdivision category of CZ-10 from region to capital city; change of spelling of CZ-802, CZ-806, CZ-63; typographical correction of CZ-615; addition of districts CZ-116 to CZ-122; change of parent subdivision from CZ-JC to CZ-31, CZ-JM to CZ-64, CZ-KA to CZ-41, CZ-KR to CZ-52, CZ-LI to CZ-51, Z-O to CZ-80, CZ-OL to CZ-71, CZ-PA to CZ-53, CZ-PL to CZ-32, CZ-ST to CZ-20, CZ-US to CZ-42, CZ-VY to CZ-63, CZ-ZL to CZ-72; change of subdivision code from CZ-621 to CZ 641, CZ-624 to CZ 644; CZ-622 to CZ 642, CZ-623 to CZ 643, CZ-611 to CZ 631, CZ-612 to CZ 632, CZ-613 to CZ 633, CZ-10A to CZ 110, CZ-10B to CZ 111, CZ-10C to CZ 112, CZ-10D to CZ 113, CZ-0E to CZ 114, CZ-10F to CZ 115, CZ-614 to CZ 634, CZ-626 to CZ 646, CZ-615 to CZ 635, CZ-627 to CZ 647, CZ-PR to CZ-10; update List Source
+	11-26	Deletion of districts CZ-101, CZ-102, CZ-103, CZ-104, CZ-105, CZ-106, CZ-107, CZ-108, CZ-109, CZ-110, CZ-111, CZ-112, CZ-113, CZ-114, CZ-115, CZ-116, CZ-117, CZ-118, CZ-119, CZ-120, CZ-121, CZ-122; Update List Source
 	20	Středočeský kraj
-	42	Ústecký kraj
-	63	Kraj Vysočina
-	72	Zlínský kraj
 	201	Benešov
 	202	Beroun
+	203	Kladno
+	204	Kolín
+	205	Kutná Hora
+	206	Mělník
+	207	Mladá Boleslav
+	208	Nymburk
+	209	Praha-východ
+	20A	Praha-západ
+	20B	Příbram
+	20C	Rakovník
+	31	Jihočeský kraj
+	311	České Budějovice
+	312	Český Krumlov
+	313	Jindřichův Hradec
+	314	Písek
+	315	Prachatice
+	316	Strakonice
+	317	Tábor
+	32	Plzeňský kraj
+	321	Domažlice
+	322	Klatovy
+	323	Plzeň-město
+	324	Plzeň-jih
+	325	Plzeň-sever
+	326	Rokycany
+	327	Tachov
+	41	Karlovarský kraj
+	411	Cheb
+	412	Karlovy Vary
+	413	Sokolov
+	42	Ústecký kraj
+	421	Děčín
+	422	Chomutov
+	423	Litoměřice
+	424	Louny
+	425	Most
+	426	Teplice
+	427	Ústí nad Labem
+	51	Liberecký kraj
+	511	Česká Lípa
+	512	Jablonec nad Nisou
+	513	Liberec
+	514	Semily
+	52	Královéhradecký kraj
+	521	Hradec Králové
+	522	Jičín
+	523	Náchod
+	524	Rychnov nad Kněžnou
+	525	Trutnov
+	53	Pardubický kraj
+	531	Chrudim
+	532	Pardubice
+	533	Svitavy
+	534	Ústí nad Orlicí
+	63	Kraj Vysočina
+	631	Havlíčkův Brod
+	632	Jihlava
+	633	Pelhřimov
+	634	Třebíč
+	635	Žďár nad Sázavou
+	64	Jihomoravský kraj
 	641	Blansko
 	642	Brno-město
 	643	Brno-venkov
-	801	Bruntál
 	644	Břeclav
-	511	51
-	311	31
-	312	31
-	421	42
-	321	Domažlice
-	802	Frýdek-Místek
-	631	Havlíčkův Brod
 	645	Hodonín
-	521	Hradec Králové
-	411	41
-	422	42
-	531	53
-	512	Jablonec nad Nisou
+	646	Vyškov
+	647	Znojmo
+	71	Olomoucký kraj
 	711	Jeseník
-	522	52
-	632	Jihlava
-	313	Jindřichův Hradec
-	412	Karlovy Vary
-	803	Karviná
-	203	Kladno
-	322	Klatovy
-	204	Kolín
-	721	Kroměříž
-	205	Kutná Hora
-	513	Liberec
-	423	Litoměřice
-	424	Louny
-	206	20
-	207	Mladá Boleslav
-	425	Most
-	523	52
-	804	Nový Jičín
-	208	Nymburk
 	712	Olomouc
-	805	Opava
-	806	Ostrava-město
-	532	Pardubice
-	633	Pelhřimov
-	314	31
-	324	Plzeň-jih
-	323	Plzeň-město
-	325	Plzeň-sever
-	209	Praha-východ
-	20A	Praha-západ
-	315	31
 	713	Prostějov
 	714	Přerov
-	20B	Příbram
-	20C	Rakovník
-	326	Rokycany
-	524	Rychnov nad Kněžnou
-	514	Semily
-	413	Sokolov
-	316	Strakonice
-	533	Svitavy
-	715	71
-	317	31
-	327	Tachov
-	426	Teplice
-	525	Trutnov
-	634	Třebíč
+	715	Šumperk
+	72	Zlínský kraj
+	721	Kroměříž
 	722	Uherské Hradiště
-	427	42
-	534	53
 	723	Vsetín
-	646	Vyškov
 	724	Zlín
-	647	Znojmo
-	635	Žďár nad Sázavou
-	PRG	Praha
+	80	Moravskoslezský kraj
+	801	Bruntál
+	802	Frýdek-Místek
+	803	Karviná
+	804	Nový Jičín
+	805	Opava
+	806	Ostrava-město
 	CJC	Jihočeský kraj
 	CJM	Jihomoravský kraj
 	CSC	Severočeský kraj
@@ -1213,6 +1158,7 @@ CZ	Czech Republic
 	CST	Středočeský kraj
 	CVC	Východočeský kraj
 	CZC	Západočeský kraj
+	PRG	Praha
 
 DE	Germany
 	BB	Brandenburg
@@ -1236,19 +1182,14 @@ DG	Diego Garcia
 	NA	No Subdivisions
 
 DJ	Djibouti
-	AR	‘Artā / Arta
-	AS	‘Alī Sābiḩ / Ali Sabieh
-	DI	Dikhīl / Dikhil
-	DJ	Jībūtī / Djibouti
-	OB	Ūbūk / Obock
-	TA	Tājūrah / Tadjoura
+	AR	Arta
+	AS	Ali Sabieh
+	DI	Dikhil
+	DJ	Djibouti
+	OB	Obock
+	TA	Tadjourah
 
 DK	Denmark
-	81	Region Nordjylland
-	82	Region Midtjylland
-	83	Region Syddanmark
-	84	Region Hovedstaden
-	85	Region Sjælland
 	015	København
 	020	Frederiksborg
 	025	Roskilde
@@ -1265,6 +1206,11 @@ DK	Denmark
 	080	Nordjylland
 	101	København
 	147	Frederiksberg
+	81	Nordjylland
+	82	Midtjylland
+	83	Syddanmark
+	84	Hovedstaden
+	85	Sjælland
 
 DM	Dominica
 	02	Saint Andrew
@@ -1279,14 +1225,14 @@ DM	Dominica
 	11	Saint Peter
 
 DO	Dominican Republic
-	01	Distrito Nacional (Santo Domingo)
+	01	Distrito Nacional
 	02	Azua
-	03	Bahoruco
+	03	Baoruco
 	04	Barahona
 	05	Dajabón
 	06	Duarte
-	07	La Estrelleta
-	08	El Seybo
+	07	Elías Piña
+	08	El Seibo
 	09	Espaillat
 	10	Independencia
 	11	La Altagracia
@@ -1297,7 +1243,7 @@ DO	Dominican Republic
 	16	Pedernales
 	17	Peravia
 	18	Puerto Plata
-	19	Salcedo
+	19	Hermanas Mirabal
 	20	Samaná
 	21	San Cristóbal
 	22	San Juan
@@ -1321,35 +1267,35 @@ DO	Dominican Republic
 	40	Ozama
 	41	Valdesia
 	42	Yuma
-	DN	Distrito Nacional
+	AL	La Altagracia
 	AZ	Azua
-	BR	Bahoruco
 	BH	Barahona
+	BR	Bahoruco
+	CR	San Cristóbal
 	DA	Dajabón
+	DN	Distrito Nacional
 	DU	Duarte
-	SE	El Seybo
 	EP	La Estrelleta
 	HM	Hato Mayor
 	IN	Independencia
-	AL	La Altagracia
-	RO	La Romana
-	VE	La Vega
-	MT	María Trinidad Sánchez
-	MN	Monseñor Nouel
-	MC	Monte Cristi
-	MP	Monte Plata
-	PN	Pedernales
-	PR	Peravia
-	PP	Puerto Plata
-	SC	Salcedo
-	SM	Samaná
-	CR	San Cristóbal
 	JU	San Juan
+	MC	Monte Cristi
+	MN	Monseñor Nouel
+	MP	Monte Plata
+	MT	María Trinidad Sánchez
 	PM	San Pedro de Macorís
-	SZ	Sánchez Ramírez
-	ST	Santiago
+	PN	Pedernales
+	PP	Puerto Plata
+	PR	Peravia
+	RO	La Romana
+	SC	Salcedo
+	SE	El Seybo
+	SM	Samaná
 	SR	Santiago Rodríguez
+	ST	Santiago
+	SZ	Sánchez Ramírez
 	VA	Valverde
+	VE	La Vega
 
 DZ	Algeria
 	01	Adrar
@@ -1362,7 +1308,7 @@ DZ	Algeria
 	08	Béchar
 	09	Blida
 	10	Bouira
-	11	Tamanghasset
+	11	Tamanrasset
 	12	Tébessa
 	13	Tlemcen
 	14	Tiaret
@@ -1379,7 +1325,7 @@ DZ	Algeria
 	25	Constantine
 	26	Médéa
 	27	Mostaganem
-	28	Msila
+	28	M'sila
 	29	Mascara
 	30	Ouargla
 	31	Oran
@@ -1400,6 +1346,16 @@ DZ	Algeria
 	46	Aïn Témouchent
 	47	Ghardaïa
 	48	Relizane
+	49	Timimoun
+	50	Bordj Badji Mokhtar
+	51	Ouled Djellal
+	52	Béni Abbès
+	53	In Salah
+	54	In Guezzam
+	55	Touggourt
+	56	Djanet
+	57	El Meghaier
+	58	El Meniaa
 
 EA	Ceuta, Melilla
 	NA	No Subdivisions
@@ -1420,7 +1376,7 @@ EC	Ecuador
 	O	El Oro
 	P	Pichincha
 	R	Los Ríos
-	S	Morona-Santiago
+	S	Morona Santiago
 	SD	Santo Domingo de los Tsáchilas
 	SE	Santa Elena
 	T	Tungurahua
@@ -1428,35 +1384,103 @@ EC	Ecuador
 	W	Galápagos
 	X	Cotopaxi
 	Y	Pastaza
-	Z	Zamora-Chinchipe
+	Z	Zamora Chinchipe
 
 EE	Estonia
+	130	Alutaguse
+	141	Anija
+	142	Antsla
+	171	Elva
+	184	Haapsalu
+	191	Haljala
+	198	Harku
+	205	Hiiumaa
+	214	Häädemeeste
+	245	Jõelähtme
+	247	Jõgeva
+	251	Jõhvi
+	255	Järva
+	272	Kadrina
+	283	Kambja
+	284	Kanepi
+	291	Kastre
+	293	Kehtna
+	296	Keila
+	303	Kihnu
+	305	Kiili
+	317	Kohila
+	321	Kohtla-Järve
+	338	Kose
+	353	Kuusalu
 	37	Harjumaa
 	39	Hiiumaa
-	44	Ida-Virumaa
-	49	Jõgevamaa
-	51	Järvamaa
-	57	Läänemaa
-	59	Lääne-Virumaa
-	65	Põlvamaa
-	67	Pärnumaa
-	70	Raplamaa
-	74	Saaremaa
-	78	Tartumaa
-	82	Valgamaa
-	84	Viljandimaa
-	86	Võrumaa
+	424	Loksa
+	430	Lääneranna
+	431	Lääne-Harju
+	432	Luunja
+	441	Lääne-Nigula
+	442	Lüganuse
+	446	Maardu
 	45	Ida-Virumaa
+	478	Muhu
+	480	Mulgi
+	486	Mustvee
 	50	Jõgevamaa
+	503	Märjamaa
+	511	Narva
+	514	Narva-Jõesuu
 	52	Järvamaa
+	528	Nõo
+	557	Otepää
 	56	Läänemaa
+	567	Paide
+	586	Peipsiääre
 	60	Lääne-Virumaa
+	615	Põhja-Sakala
+	618	Põltsamaa
+	622	Põlva
+	624	Pärnu
+	638	Põhja-Pärnumaa
 	64	Põlvamaa
+	651	Raasiku
+	653	Rae
+	661	Rakvere
+	663	Rakvere
+	668	Rapla
 	68	Pärnumaa
+	689	Ruhnu
+	698	Rõuge
+	708	Räpina
 	71	Raplamaa
+	712	Saarde
+	714	Saaremaa
+	719	Saku
+	726	Saue
+	732	Setomaa
+	735	Sillamäe
+	74	Saaremaa
+	784	Tallinn
 	79	Tartumaa
+	792	Tapa
+	793	Tartu
+	796	Tartu
+	803	Toila
+	809	Tori
 	81	Valgamaa
+	824	Tõrva
+	834	Türi
+	84	Viljandimaa
+	855	Valga
 	87	Võrumaa
+	890	Viimsi
+	897	Viljandi
+	899	Viljandi
+	901	Vinni
+	903	Viru-Nigula
+	907	Vormsi
+	917	Võru
+	919	Võru
+	928	Väike-Maarja
 
 EG	Egypt
 	ALX	Al Iskandarīyah
@@ -1471,7 +1495,6 @@ EG	Egypt
 	FYM	Al Fayyūm
 	GH	Al Gharbīyah
 	GZ	Al Jīzah
-	HU	Ḩulwān
 	IS	Al Ismā'īlīyah
 	JS	Janūb Sīnā'
 	KB	Al Qalyūbīyah
@@ -1485,7 +1508,6 @@ EG	Egypt
 	SHG	Sūhāj
 	SHR	Ash Sharqīyah
 	SIN	Shamāl Sīnā'
-	SU	As Sādis min Uktūbar
 	SUZ	As Suways
 	WAD	Al Wādī al Jadīd
 
@@ -1493,110 +1515,114 @@ EH	Western Sahara
 	NA	No Subdivisions
 
 ER	Eritrea
-	AN	Anseba
-	DK	Debubawi Keyih Bahri
-	DU	Debub
-	GB	Gash-Barka
-	MA	Maakel
-	SK	Semenawi Keyih Bahri
 	AG	Akele Guzai
+	AN	Ansabā
 	AS	Asmara
 	BA	Barka
 	DE	Denkalia
+	DK	Janūbī al Baḩrī al Aḩmar
+	DU	Al Janūbī
+	GB	Qāsh-Barkah
 	GS	Gash-Setit
 	HA	Hamasien
+	MA	Al Awsaţ
 	SA	Sahel
+	SK	Shimālī al Baḩrī al Aḩmar
 	SM	Semhar
 	SN	Senhit
 	SR	Seraye
 
 ES	Spain
-	A	Alicante / Alacant
+	A	Alicante
 	AB	Albacete
 	AL	Almería
+	AN	Andalucía
+	AR	Aragón
+	AS	Asturias, Principado de
 	AV	Ávila
-	B	Barcelona [Barcelona]
+	B	Barcelona
 	BA	Badajoz
-	BI	Vizcaya / Biskaia
+	BI	Bizkaia
 	BU	Burgos
-	C	A Coruña [La Coruña]
+	C	A Coruña
 	CA	Cádiz
+	CB	Cantabria
 	CC	Cáceres
 	CE	Ceuta
+	CL	Castilla y León
+	CM	Castilla-La Mancha
+	CN	Canarias
 	CO	Córdoba
 	CR	Ciudad Real
-	CS	Castellón / Castelló
+	CS	Castellón
+	CT	Catalunya
 	CU	Cuenca
+	EX	Extremadura
+	GA	Galicia
 	GC	Las Palmas
-	GI	Girona [Gerona]
+	GI	Girona
 	GR	Granada
 	GU	Guadalajara
 	H	Huelva
 	HU	Huesca
+	IB	Illes Balears
 	J	Jaén
-	L	Lleida [Lérida]
+	L	Lleida
 	LE	León
 	LO	La Rioja
-	LU	Lugo [Lugo]
+	LU	Lugo
 	M	Madrid
 	MA	Málaga
+	MC	Murcia, Región de
+	MD	Madrid, Comunidad de
 	ML	Melilla
 	MU	Murcia
-	NA	Navarra / Nafarroa
+	NA	Navarra
+	NC	Navarra, Comunidad Foral de
 	O	Asturias
-	OR	Ourense [Orense]
+	OR	Ourense
 	P	Palencia
-	PM	Balears [Baleares]
-	PO	Pontevedra [Pontevedra]
+	PM	Illes Balears
+	PO	Pontevedra
+	PV	País Vasco
+	RI	La Rioja
 	S	Cantabria
 	SA	Salamanca
 	SE	Sevilla
 	SG	Segovia
 	SO	Soria
-	SS	Guipúzcoa / Gipuzkoa
-	T	Tarragona [Tarragona]
+	SS	Gipuzkoa
+	T	Tarragona
 	TE	Teruel
 	TF	Santa Cruz de Tenerife
 	TO	Toledo
-	V	Valencia / València
+	V	Valencia
 	VA	Valladolid
-	VI	Álava / Araba
+	VC	Valenciana, Comunidad
+	VI	Álava
 	Z	Zaragoza
 	ZA	Zamora
-	AN	Andalucía
-	AR	Aragón
-	AS	Asturias, Principado de
-	CN	Canarias
-	CB	Cantabria
-	CL	Castilla y León
-	CM	Castilla-La Mancha
-	CT	Catalunya
-	EX	Extremadura
-	GA	Galicia
-	IB	Illes Balears
-	RI	La Rioja
-	MD	Madrid, Comunidad de
-	MC	Murcia, Región de
-	NC	Navarra, Comunidad Foral de
-	PV	País Vasco
-	VC	Valenciana, Comunitat
 
 ET	Ethiopia
-	AA	Ādīs Ābeba / Adis Abeba
-	AF	Āfar / Afar
-	AM	Āmara / Amara
-	BE	Bīnshangul Gumuz / Binshangul Gumuz
-	DD	Dirē Dawa / Dire Dawa
-	GA	Gambēla Hizboch / Gambela Hizboch
-	HA	Hārerī Hizb / Hareri Hizb
-	OR	Oromīya / Oromiya
-	SN	YeDebub Bihēroch Bihēreseboch na Hizboch / YeDebub Biheroch Bihereseboch na Hizboch
-	SO	Sumalē / Sumale
-	TI	Tigray / Tigray
-	SI	Sidama
+	04-09	Change of eng subdivision category from state to regional state; Update List Source
+	11-25	Sidama
+	11-27	Deletion of the romanization system for subdivisions in eng; update List Source
+	11-29	Southwest Ethiopia Peoples
+	AA	Ādīs Ābeba
+	AF	Āfar
+	AM	Āmara
+	BE	Bīnshangul Gumuz
+	DD	Dirē Dawa
+	GA	Gambēla Hizboch
+	HA	Hārerī Hizb
+	OR	Oromīya
+	SI	Sīdama
+	SN	YeDebub Bihēroch Bihēreseboch na Hizboch
+	SO	Sumalē
+	SW	YeDebub M‘irab Ītyop’iya Hizboch
+	TI	Tigray
 
 EU	European Union
-	NA	No Subdivisions
 
 EZ	Eurozone
 	NA	No Subdivisions
@@ -1629,11 +1655,6 @@ FI	Finland
 	OL	Oulun lääni
 
 FJ	Fiji
-	C	Central
-	E	Eastern
-	N	Northern
-	R	Rotuma
-	W	Western
 	01	Ba
 	02	Bua
 	03	Cakaudrove
@@ -1648,6 +1669,11 @@ FJ	Fiji
 	12	Rewa
 	13	Serua
 	14	Tailevu
+	C	Central
+	E	Eastern
+	N	Northern
+	R	Rotuma
+	W	Western
 
 FK	Falkland Islands (Malvinas)
 	NA	No Subdivisions
@@ -1662,7 +1688,6 @@ FO	Faroe Islands
 	NA	No Subdivisions
 
 FR	France
-	CP	Clipperton
 	01	Ain
 	02	Aisne
 	03	Allier
@@ -1675,6 +1700,7 @@ FR	France
 	10	Aube
 	11	Aude
 	12	Aveyron
+	12-07	Correction of parent subdivision of FR-02, FR-60, FR-80 from FR-PDL to FR-HDF
 	13	Bouches-du-Rhône
 	14	Calvados
 	15	Cantal
@@ -1682,6 +1708,7 @@ FR	France
 	17	Charente-Maritime
 	18	Cher
 	19	Corrèze
+	20R	Corse
 	21	Côte-d'Or
 	22	Côtes-d'Armor
 	23	Creuse
@@ -1733,12 +1760,14 @@ FR	France
 	67	Bas-Rhin
 	68	Haut-Rhin
 	69	Rhône
+	69M	Métropole de Lyon
+	6AE	Alsace
 	70	Haute-Saône
 	71	Saône-et-Loire
 	72	Sarthe
 	73	Savoie
 	74	Haute-Savoie
-	75	Paris
+	75C	Paris
 	76	Seine-Maritime
 	77	Seine-et-Marne
 	78	Yvelines
@@ -1759,56 +1788,53 @@ FR	France
 	93	Seine-Saint-Denis
 	94	Val-de-Marne
 	95	Val-d'Oise
-	ARA	Auvergne-Rhône-Alpes
-	BFC	Bourgogne-Franche-Comté
-	BRE	Bretagne
-	CVL	Centre-Val de Loire
-	20R	Corse
-	GES	Grand-Est
-	HDF	Hauts-de-France
-	IDF	Île-de-France
-	NOR	Normandie
-	NAQ	Nouvelle-Aquitaine
-	OCC	Occitanie
-	PDL	Pays-de-la-Loire
-	PAC	Provence-Alpes-Côte-d’Azur
-	6AE	Alsace
-	973	Guyane (française)
 	971	Guadeloupe
 	972	Martinique
-	69M	Métropole de Lyon
-	75C	Paris
-	976	Mayotte
+	973	Guyane (française)
 	974	La Réunion
-	NC	Nouvelle-Calédonie
-	PF	Polynésie française
-	BL	Saint-Barthélemy
-	MF	Saint-Martin
-	PM	Saint-Pierre-et-Miquelon
-	TF	Terres australes françaises
-	WF	Wallis-et-Futuna
+	976	Mayotte
 	A	Alsace
+	ARA	Auvergne-Rhône-Alpes
 	B	Aquitaine
+	BFC	Bourgogne-Franche-Comté
+	BL	Saint-Barthélemy
+	BRE	Bretagne
 	C	Auvergne
-	P	Basse-Normandie
+	CP	Clipperton
+	CVL	Centre-Val de Loire
 	D	Bourgogne
 	E	Bretagne
 	F	Centre-Val de Loire
 	G	Champagne-Ardenne
+	GES	Grand Est
 	H	Corse
+	HDF	Hauts-de-France
 	I	Franche-Comté
-	Q	Haute-Normandie
+	IDF	Île-de-France
 	J	Île-de-France
 	K	Languedoc-Roussillon
 	L	Limousin
 	M	Lorraine
+	MF	Saint-Martin
 	N	Midi-Pyrénées
+	NAQ	Nouvelle-Aquitaine
+	NC	Nouvelle-Calédonie
+	NOR	Normandie
 	O	Nord-Pas-de-Calais
+	OCC	Occitanie
+	P	Basse-Normandie
+	PAC	Provence-Alpes-Côte-d’Azur
+	PDL	Pays-de-la-Loire
+	PF	Polynésie française
+	PM	Saint-Pierre-et-Miquelon
+	Q	Haute-Normandie
 	R	Pays de la Loire
 	S	Picardie
 	T	Poitou-Charentes
+	TF	Terres australes françaises
 	U	Provence-Alpes-Côte d'Azur
 	V	Rhône-Alpes
+	WF	Wallis-et-Futuna
 
 FX	France, Metropolitan
 	NA	No Subdivisions
@@ -1825,29 +1851,27 @@ GA	Gabon
 	9	Woleu-Ntem
 
 GB	United Kingdom
+	11-29	Deletion of two-tier county GB-NTH; addition of unitary authorities GB-NNH, GB-WNH; change of category name from two-tier county to unitary authority for GB-BKM; update list source.
+	ABC	Armagh City, Banbridge and Craigavon
 	ABD	Aberdeenshire
 	ABE	Aberdeen City
 	AGB	Argyll and Bute
-	AGY	Isle of Anglesey [Sir Ynys Môn GB-YNM]
+	AGY	Isle of Anglesey
+	AND	Ards and North Down
+	ANN	Antrim and Newtownabbey
 	ANS	Angus
-	ANT	Antrim
-	ARD	Ards
-	ARM	Armagh
 	BAS	Bath and North East Somerset
 	BBD	Blackburn with Darwen
-	BDF	Bedfordshire
+	BCP	Bournemouth, Christchurch and Poole
+	BDF	Bedford
 	BDG	Barking and Dagenham
 	BEN	Brent
 	BEX	Bexley
-	BFS	Belfast
-	BGE	Bridgend [Pen-y-bont ar Ogwr GB-POG]
+	BFS	Belfast City
+	BGE	Bridgend
 	BGW	Blaenau Gwent
 	BIR	Birmingham
 	BKM	Buckinghamshire
-	BLA	Ballymena
-	BLY	Ballymoney
-	BMH	Bournemouth
-	BNB	Banbridge
 	BNE	Barnet
 	BNH	Brighton and Hove
 	BNS	Barnsley
@@ -1859,56 +1883,53 @@ GB	United Kingdom
 	BST	Bristol, City of
 	BUR	Bury
 	CAM	Cambridgeshire
-	CAY	Caerphilly [Caerffili GB-CAF]
+	CAY	Caerphilly
 	CBF	Central Bedfordshire
-	CGN	Ceredigion [Sir Ceredigion]
-	CGV	Craigavon
+	CCG	Causeway Coast and Glens
+	CGN	Ceredigion
 	CHE	Cheshire East
 	CHW	Cheshire West and Chester
-	CKF	Carrickfergus
-	CKT	Cookstown
 	CLD	Calderdale
 	CLK	Clackmannanshire
-	CLR	Coleraine
 	CMA	Cumbria
 	CMD	Camden
-	CMN	Carmarthenshire [Sir Gaerfyrddin GB-GFY]
+	CMN	Carmarthenshire
 	CON	Cornwall
 	COV	Coventry
-	CRF	Cardiff [Caerdydd GB-CRD]
+	CRF	Cardiff
 	CRY	Croydon
-	CSR	Castlereagh
 	CWY	Conwy
 	DAL	Darlington
 	DBY	Derbyshire
-	DEN	Denbighshire [Sir Ddinbych GB-DDB]
+	DEN	Denbighshire
 	DER	Derby
 	DEV	Devon
-	DGN	Dungannon
 	DGY	Dumfries and Galloway
 	DNC	Doncaster
 	DND	Dundee City
 	DOR	Dorset
-	DOW	Down
-	DRY	Derry
+	DRS	Derry and Strabane
 	DUD	Dudley
-	DUR	Durham
+	DUR	Durham, County
 	EAL	Ealing
+	EAW	England and Wales
 	EAY	East Ayrshire
 	EDH	Edinburgh, City of
 	EDU	East Dunbartonshire
 	ELN	East Lothian
 	ELS	Eilean Siar
 	ENF	Enfield
+	ENG	England
 	ERW	East Renfrewshire
 	ERY	East Riding of Yorkshire
 	ESS	Essex
 	ESX	East Sussex
 	FAL	Falkirk
-	FER	Fermanagh
 	FIF	Fife
-	FLN	Flintshire [Sir y Fflint GB-FFL]
+	FLN	Flintshire
+	FMO	Fermanagh and Omagh
 	GAT	Gateshead
+	GBN	Great Britain
 	GLG	Glasgow City
 	GLS	Gloucestershire
 	GRE	Greenwich
@@ -1917,7 +1938,7 @@ GB	United Kingdom
 	HAM	Hampshire
 	HAV	Havering
 	HCK	Hackney
-	HEF	Herefordshire, County of
+	HEF	Herefordshire
 	HIL	Hillingdon
 	HLD	Highland
 	HMF	Hammersmith and Fulham
@@ -1926,16 +1947,18 @@ GB	United Kingdom
 	HRT	Hertfordshire
 	HRW	Harrow
 	HRY	Haringey
+	IOS	Isles of Scilly
 	IOW	Isle of Wight
 	ISL	Islington
 	IVC	Inverclyde
 	KEC	Kensington and Chelsea
 	KEN	Kent
-	KHL	Kingston upon Hull, City of
+	KHL	Kingston upon Hull
 	KIR	Kirklees
 	KTT	Kingston upon Thames
 	KWL	Knowsley
 	LAN	Lancashire
+	LBC	Lisburn and Castlereagh
 	LBH	Lambeth
 	LCE	Leicester
 	LDS	Leeds
@@ -1943,55 +1966,49 @@ GB	United Kingdom
 	LEW	Lewisham
 	LIN	Lincolnshire
 	LIV	Liverpool
-	LMV	Limavady
 	LND	London, City of
-	LRN	Larne
-	LSB	Lisburn
 	LUT	Luton
 	MAN	Manchester
 	MDB	Middlesbrough
 	MDW	Medway
-	MFT	Magherafelt
+	MEA	Mid and East Antrim
 	MIK	Milton Keynes
 	MLN	Midlothian
-	MON	Monmouthshire [Sir Fynwy GB-FYN]
+	MON	Monmouthshire
 	MRT	Merton
 	MRY	Moray
-	MTY	Merthyr Tydfil [Merthyr Tudful GB-MTU]
-	MYL	Moyle
+	MTY	Merthyr Tydfil
+	MUL	Mid-Ulster
 	NAY	North Ayrshire
 	NBL	Northumberland
-	NDN	North Down
 	NEL	North East Lincolnshire
 	NET	Newcastle upon Tyne
 	NFK	Norfolk
 	NGM	Nottingham
+	NIR	Northern Ireland
 	NLK	North Lanarkshire
 	NLN	North Lincolnshire
+	NMD	Newry, Mourne and Down
+	NNH	North Northamptonshire
 	NSM	North Somerset
-	NTA	Newtownabbey
-	NTH	Northamptonshire
-	NTL	Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]
+	NTL	Neath Port Talbot
 	NTT	Nottinghamshire
 	NTY	North Tyneside
 	NWM	Newham
-	NWP	Newport [Casnewydd GB-CNW]
+	NWP	Newport
 	NYK	North Yorkshire
-	NYM	Newry and Mourne
 	OLD	Oldham
-	OMH	Omagh
 	ORK	Orkney Islands
 	OXF	Oxfordshire
-	PEM	Pembrokeshire [Sir Benfro GB-BNF]
+	PEM	Pembrokeshire
 	PKN	Perth and Kinross
 	PLY	Plymouth
-	POL	Poole
 	POR	Portsmouth
 	POW	Powys
 	PTE	Peterborough
 	RCC	Redcar and Cleveland
 	RCH	Rochdale
-	RCT	Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]
+	RCT	Rhondda Cynon Taff
 	RDB	Redbridge
 	RDG	Reading
 	RFW	Renfrewshire
@@ -2000,7 +2017,8 @@ GB	United Kingdom
 	RUT	Rutland
 	SAW	Sandwell
 	SAY	South Ayrshire
-	SCB	Scottish Borders, The
+	SCB	Scottish Borders
+	SCT	Scotland
 	SFK	Suffolk
 	SFT	Sefton
 	SGC	South Gloucestershire
@@ -2016,7 +2034,6 @@ GB	United Kingdom
 	SOM	Somerset
 	SOS	Southend-on-Sea
 	SRY	Surrey
-	STB	Strabane
 	STE	Stoke-on-Trent
 	STG	Stirling
 	STH	Southampton
@@ -2024,17 +2041,18 @@ GB	United Kingdom
 	STS	Staffordshire
 	STT	Stockton-on-Tees
 	STY	South Tyneside
-	SWA	Swansea [Abertawe GB-ATA]
+	SWA	Swansea
 	SWD	Swindon
 	SWK	Southwark
 	TAM	Tameside
 	TFW	Telford and Wrekin
 	THR	Thurrock
 	TOB	Torbay
-	TOF	Torfaen [Tor-faen]
+	TOF	Torfaen
 	TRF	Trafford
 	TWH	Tower Hamlets
-	VGL	Vale of Glamorgan, The [Bro Morgannwg GB-BMG]
+	UKM	United Kingdom
+	VGL	Vale of Glamorgan, The
 	WAR	Warwickshire
 	WBK	West Berkshire
 	WDU	West Dunbartonshire
@@ -2044,37 +2062,20 @@ GB	United Kingdom
 	WKF	Wakefield
 	WLL	Walsall
 	WLN	West Lothian
+	WLS	Wales
 	WLV	Wolverhampton
 	WND	Wandsworth
+	WNH	West Northamptonshire
 	WNM	Windsor and Maidenhead
 	WOK	Wokingham
 	WOR	Worcestershire
 	WRL	Wirral
 	WRT	Warrington
-	WRX	Wrexham [Wrecsam GB-WRC]
+	WRX	Wrexham
 	WSM	Westminster
 	WSX	West Sussex
 	YOR	York
 	ZET	Shetland Islands
-	ENG	England
-	NIR	Northern Ireland
-	SCT	Scotland
-	WLS	Wales
-	EAW	England and Wales
-	GBN	Great Britain
-	UKM	United Kingdom
-	BCP	Bournemouth, Christchurch and Poole
-	IOS	Isles of Scilly
-	ANN	Antrim and Newtownabbey
-	AND	Ards and North Down
-	ABC	Armagh City, Banbridge and Craigavon
-	CCG	Causeway Coast and Glens
-	DRS	Derry and Strabane
-	FMO	Fermanagh and Omagh
-	LBC	Lisburn and Castlereagh
-	MEA	Mid and East Antrim
-	MUL	Mid-Ulster
-	NMD	Newry, Mourne and Down
 
 GD	Grenada
 	01	Saint Andrew
@@ -2086,31 +2087,6 @@ GD	Grenada
 	10	Southern Grenadine Islands
 
 GE	Georgia
-	AB	Abkhazia
-	AJ	Ajaria
-	GU	Guria
-	IM	Imeret'i
-	KA	Kakhet'i
-	KK	K'vemo K'art'li
-	MM	Mts'khet'a-Mt'ianet'i
-	RL	Racha-Lech'khumi-K'vemo Svanet'i
-	SJ	Samts'khe-Javakhet'i
-	SK	Shida K'art'li
-	SZ	Samegrelo-Zemo Svanet'i
-	TB	T'bilisi
-	BUS	Bat'umi
-	CHI	Chiat'ura
-	GAG	Gagra
-	GOR	Gori
-	KUT	Kutaisi
-	PTI	Poti
-	RUS	Rustavi
-	SUI	Sokhumi
-	TBS	T'bilisi
-	TQI	Tqibuli
-	TQV	Tqvarch'eli
-	TSQ	Tsqaltubo
-	ZUG	Zugdidi
 	01	Abashis Raioni
 	02	Adigenis Raioni
 	03	Akhalgoris Raioni
@@ -2130,8 +2106,8 @@ GE	Georgia
 	17	Galis Raioni
 	18	Gardabnis Raioni
 	19	Goris Raioni
-	20	Gudaut'is Raioni
-	21	Gulrip'shis Raioni
+	20	Gudauta District
+	21	Gulripshi District
 	22	Gurjaanis Raioni
 	23	Javis Raioni
 	24	K'arelis Raioni
@@ -2163,7 +2139,7 @@ GE	Georgia
 	50	Senakis Raioni
 	51	Shuakhevis Raioni
 	52	Sighnaghis Raioni
-	53	Sokhumis Raioni
+	53	Sukhumi District
 	54	T'elavis Raioni
 	55	T'erjolis Raioni
 	56	T'et'ritsqaros Raioni
@@ -2174,6 +2150,31 @@ GE	Georgia
 	61	Vanis Raioni
 	62	Zestap'onis Raioni
 	63	Zugdidis Raioni
+	AB	Abkhazia
+	AJ	Ajaria
+	BUS	Batumi
+	CHI	Chiat'ura
+	GAG	Gagra
+	GOR	Gori
+	GU	Guria
+	IM	Imereti
+	KA	K'akheti
+	KK	Kvemo Kartli
+	KUT	Kutaisi
+	MM	Mtskheta-Mtianeti
+	PTI	Poti
+	RL	Rach'a-Lechkhumi-Kvemo Svaneti
+	RUS	Rustavi
+	SJ	Samtskhe-Javakheti
+	SK	Shida Kartli
+	SUI	Sokhumi
+	SZ	Samegrelo-Zemo Svaneti
+	TB	Tbilisi
+	TBS	T'bilisi
+	TQI	Tqibuli
+	TQV	Tqvarcheli
+	TSQ	Tsqaltubo
+	ZUG	Zugdidi
 
 GF	French Guiana
 	NA	No Subdivisions
@@ -2183,33 +2184,32 @@ GG	Guernsey
 
 GH	Ghana
 	AA	Greater Accra
+	AF	Ahafo
 	AH	Ashanti
 	BA	Brong-Ahafo
+	BE	Bono East
+	BO	Bono
 	CP	Central
 	EP	Eastern
+	NE	North East
 	NP	Northern
+	OT	Oti
+	SV	Savannah
 	TV	Volta
 	UE	Upper East
 	UW	Upper West
-	WP	Western
-	AF	Ahafo
-	BO	Bono
-	BE	Bono East
-	NE	North East
-	OT	Oti
-	SV	Savannah
 	WN	Western North
+	WP	Western
 
 GI	Gibraltar
 	NA	No Subdivisions
 
 GL	Greenland
-	KU	Kommune Kujalleq
-	QA	Qaasuitsup Kommunia
-	QE	Qeqqata Kommunia
-	SM	Kommuneqarfik Sermersooq
 	AV	Avannaata Kommunia
+	KU	Kommune Kujalleq
+	QE	Qeqqata Kommunia
 	QT	Kommune Qeqertalik
+	SM	Kommuneqarfik Sermersooq
 
 GM	Gambia
 	B	Banjul
@@ -2220,19 +2220,24 @@ GM	Gambia
 	W	Western
 
 GN	Guinea
+	B	Boké
 	BE	Beyla
 	BF	Boffa
 	BK	Boké
+	C	Conakry
 	CO	Coyah
+	D	Kindia
 	DB	Dabola
 	DI	Dinguiraye
 	DL	Dalaba
 	DU	Dubréka
+	F	Faranah
 	FA	Faranah
 	FO	Forécariah
 	FR	Fria
 	GA	Gaoual
 	GU	Guékédou
+	K	Kankan
 	KA	Kankan
 	KB	Koubia
 	KD	Kindia
@@ -2240,27 +2245,22 @@ GN	Guinea
 	KN	Koundara
 	KO	Kouroussa
 	KS	Kissidougou
+	L	Labé
 	LA	Labé
 	LE	Lélouma
 	LO	Lola
+	M	Mamou
 	MC	Macenta
 	MD	Mandiana
 	ML	Mali
 	MM	Mamou
+	N	Nzérékoré
 	NZ	Nzérékoré
 	PI	Pita
 	SI	Siguiri
 	TE	Télimélé
 	TO	Tougué
 	YO	Yomou
-	B	Boké
-	F	Faranah
-	K	Kankan
-	D	Kindia
-	L	Labé
-	M	Mamou
-	N	Nzérékoré
-	C	Conakry
 
 GP	Guadeloupe
 	NA	No Subdivisions
@@ -2269,158 +2269,136 @@ GQ	Equatorial Guinea
 	AN	Annobón
 	BN	Bioko Norte
 	BS	Bioko Sur
-	CS	Centro Sur
-	KN	Kie-Ntem
-	LI	Litoral
-	WN	Wele-Nzás
 	C	Región Continental
-	I	Región Insular
+	CS	Centro Sur
 	DJ	Djibloho
+	I	Región Insular
+	KN	Kié-Ntem
+	LI	Litoral
+	WN	Wele-Nzas
 
 GR	Greece
-	01	Aitolia kai Akarnania
-	03	Voiotia
-	04	Evvoia
-	05	Evrytania
-	06	Fthiotida
-	07	Fokida
-	11	Argolida
-	12	Arkadia
-	13	Achaïa
-	14	Ileia
-	15	Korinthia
-	16	Lakonia
-	17	Messinia
-	21	Zakynthos
-	22	Kerkyra
-	23	Kefallonia
-	24	Lefkada
-	31	Arta
-	32	Thesprotia
-	33	Ioannina
-	34	Preveza
-	41	Karditsa
-	42	Larisa
-	43	Magnisia
-	44	Trikala
-	51	Grevena
-	52	Drama
-	53	Imathia
-	54	Thessaloniki
-	55	Kavala
-	56	Kastoria
-	57	Kilkis
-	58	Kozani
-	59	Pella
-	61	Pieria
-	62	Serres
-	63	Florina
-	64	Chalkidiki
-	69	Agio Oros
-	71	Evros
-	72	Xanthi
-	73	Rodopi
-	81	Dodekanisos
-	82	Kyklades
-	83	Lesvos
-	84	Samos
-	85	Chios
-	91	Irakleio
-	92	Lasithi
-	93	Rethymno
-	94	Chania
-	A1	Attiki
+	01	Aitoloakarnanía
+	03	Voiotía
+	04	Évvoia
+	05	Evrytanía
+	06	Fthiótida
+	07	Fokída
+	11	Argolída
+	12	Arkadía
+	13	Achaḯa
+	14	Ileía
+	15	Korinthía
+	16	Lakonía
+	17	Messinía
+	21	Zákynthos
+	22	Kérkyra
+	23	Kefallinía
+	24	Lefkáda
+	31	Árta
+	32	Thesprotía
+	33	Ioánnina
+	34	Préveza
+	41	Kardítsa
+	42	Lárisa
+	43	Magnisía
+	44	Tríkala
+	51	Grevená
+	52	Dráma
+	53	Imathía
+	54	Thessaloníki
+	55	Kavála
+	56	Kastoriá
+	57	Kilkís
+	58	Kozáni
+	59	Pélla
+	61	Piería
+	62	Sérres
+	63	Flórina
+	64	Chalkidikí
+	69	Ágion Óros
+	71	Évros
+	72	Xánthi
+	73	Rodópi
+	81	Dodekánisa
+	82	Kykládes
+	83	Lésvos
+	84	Sámos
+	85	Chíos
+	91	Irakleío
+	92	Lasíthi
+	93	Rethýmnis
+	94	Chaniá
 	A	Anatolikí Makedonía kai Thráki
-	I	Anatoliki Makedonia kai Thraki
-	G	Dytikí Elláda
-	C	Dytikí Makedonía
-	F	Ionía Nísia
-	D	Ípeiros
+	A1	Attikí
 	B	Kentrikí Makedonía
-	M	Kríti
-	L	Nótio Aigaío
-	J	Pelopónnisos
-	H	Stereá Elláda
+	C	Dytikí Makedonía
+	D	Ípeiros
 	E	Thessalía
-	K	Vóreio Aigaío
-	IX	Attiki
-	VII	Dytiki Ellada
-	III	Dytiki Makedonia
-	VI	Ionia Nisia
-	IV	Ipeiros
+	F	Ionía Nísia
+	G	Dytikí Elláda
+	H	Stereá Elláda
+	I	Anatoliki Makedonia kai Thraki
 	II	Kentriki Makedonia
-	XIII	Kriti
-	XII	Notio Aigaio
-	X	Peloponnisos
-	VIII	Sterea Ellada
+	III	Dytiki Makedonia
+	IV	Ipeiros
+	IX	Attiki
+	J	Pelopónnisos
+	K	Vóreio Aigaío
+	L	Nótio Aigaío
+	M	Kríti
 	V	Thessalia
+	VI	Ionia Nisia
+	VII	Dytiki Ellada
+	VIII	Sterea Ellada
+	X	Peloponnisos
 	XI	Voreio Aigaio
+	XII	Notio Aigaio
+	XIII	Kriti
 
 GS	South Georgia and the South Sandwich Islands
 	NA	No Subdivisions
 
 GT	Guatemala
-	AV	Alta Verapaz
-	BV	Baja Verapaz
-	CM	Chimaltenango
-	CQ	Chiquimula
-	ES	Escuintla
-	GU	Guatemala
-	HU	Huehuetenango
-	IZ	Izabal
-	JA	Jalapa
-	JU	Jutiapa
-	PE	Petén
-	PR	El Progreso
-	QC	Quiché
-	QZ	Quetzaltenango
-	RE	Retalhuleu
-	SA	Sacatepéquez
-	SM	San Marcos
-	SO	Sololá
-	SR	Santa Rosa
-	SU	Suchitepéquez
-	TO	Totonicapán
-	ZA	Zacapa
-	16	Alta Verapaz
-	15	Baja Verapaz
-	04	Chimaltenango
-	20	Chiquimula
-	02	El Progreso
-	05	Escuintla
 	01	Guatemala
-	13	Huehuetenango
-	18	Izabal
-	21	Jalapa
-	22	Jutiapa
-	17	Petén
-	09	Quetzaltenango
-	14	Quiché
-	11	Retalhuleu
+	02	El Progreso
 	03	Sacatepéquez
-	12	San Marcos
+	04	Chimaltenango
+	05	Escuintla
 	06	Santa Rosa
 	07	Sololá
-	10	Suchitepéquez
 	08	Totonicapán
+	09	Quetzaltenango
+	10	Suchitepéquez
+	11	Retalhuleu
+	12	San Marcos
+	13	Huehuetenango
+	14	Quiché
+	15	Baja Verapaz
+	16	Alta Verapaz
+	17	Petén
+	18	Izabal
 	19	Zacapa
+	20	Chiquimula
+	21	Jalapa
+	22	Jutiapa
 
 GU	Guam
 	NA	No Subdivisions
 
 GW	Guinea-Bissau
 	BA	Bafatá
-	BL	Bolama
+	BL	Bolama / Bijagós
 	BM	Biombo
 	BS	Bissau
 	CA	Cacheu
 	GA	Gabú
-	OI	Oio
-	QU	Quinara
-	TO	Tombali
 	L	Leste
 	N	Norte
+	OI	Oio
+	QU	Quinara
 	S	Sul
+	TO	Tombali
 
 GY	Guyana
 	BA	Barima-Waini
@@ -2441,6 +2419,7 @@ HM	Heard Island and McDonald Islands
 	NA	No Subdivisions
 
 HN	Honduras
+	12-13	Comment taken into account and source list update.
 	AT	Atlántida
 	CH	Choluteca
 	CL	Colón
@@ -2476,8 +2455,8 @@ HR	Croatia
 	13	Zadarska županija
 	14	Osječko-baranjska županija
 	15	Šibensko-kninska županija
-	16	Vukovarsko-srijemska �upanija
-	17	Vukovarsko-srijemska županija
+	16	Vukovarsko-srijemska županija
+	17	Splitsko-dalmatinska županija
 	18	Istarska županija
 	19	Dubrovačko-neretvanska županija
 	20	Međimurska županija
@@ -2486,7 +2465,7 @@ HR	Croatia
 HT	Haiti
 	AR	Artibonite
 	CE	Centre
-	GA	Grande-Anse
+	GA	Grande’Anse
 	ND	Nord
 	NE	Nord-Est
 	NI	Nippes
@@ -2502,16 +2481,17 @@ HU	Hungary
 	BK	Bács-Kiskun
 	BU	Budapest
 	BZ	Borsod-Abaúj-Zemplén
-	CS	Csongrád
+	CS	Csongrád-Csanád
 	DE	Debrecen
-	DU	Dunaujváros
+	DU	Dunaújváros
 	EG	Eger
+	ER	Érd
 	FE	Fejér
-	GS	Gyór-Moson-Sopron
-	GY	Gyór
+	GS	Győr-Moson-Sopron
+	GY	Győr
 	HB	Hajdú-Bihar
 	HE	Heves
-	HV	Hódmezóvásárhely
+	HV	Hódmezővásárhely
 	JN	Jász-Nagykun-Szolnok
 	KE	Komárom-Esztergom
 	KM	Kecskemét
@@ -2538,7 +2518,6 @@ HU	Hungary
 	VM	Veszprém
 	ZA	Zala
 	ZE	Zalaegerszeg
-	ER	Érd
 
 IC	Canary Islands
 	NA	No Subdivisions
@@ -2546,7 +2525,7 @@ IC	Canary Islands
 ID	Indonesia
 	AC	Aceh
 	BA	Bali
-	BB	Bangka Belitung
+	BB	Kepulauan Bangka Belitung
 	BE	Bengkulu
 	BT	Banten
 	GO	Gorontalo
@@ -2555,38 +2534,43 @@ ID	Indonesia
 	JI	Jawa Timur
 	JK	Jakarta Raya
 	JT	Jawa Tengah
+	JW	Jawa
+	KA	Kalimantan
 	KB	Kalimantan Barat
 	KI	Kalimantan Timur
 	KR	Kepulauan Riau
 	KS	Kalimantan Selatan
 	KT	Kalimantan Tengah
+	KU	Kalimantan Utara
 	LA	Lampung
 	MA	Maluku
+	ML	Maluku
 	MU	Maluku Utara
 	NB	Nusa Tenggara Barat
 	NT	Nusa Tenggara Timur
+	NU	Nusa Tenggara
 	PA	Papua
 	PB	Papua Barat
+	PD	Papua Barat Daya
+	PE	Papua Pengunungan
+	PP	Papua
+	PS	Papua Selatan
+	PT	Papua Tengah
 	RI	Riau
 	SA	Sulawesi Utara
 	SB	Sumatera Barat
 	SG	Sulawesi Tenggara
+	SL	Sulawesi
+	SM	Sumatera
 	SN	Sulawesi Selatan
+	SR	Sulawesi Barat
 	SS	Sumatera Selatan
 	ST	Sulawesi Tengah
 	SU	Sumatera Utara
 	YO	Yogyakarta
-	JW	Jawa
-	KA	Kalimantan
-	ML	Maluku
-	NU	Nusa Tenggara
-	PP	Papua
-	SL	Sulawesi
-	SM	Sumatera
-	KU	Kalimantan Utara
-	SR	Sulawesi Barat
 
 IE	Ireland
+	C	Connaught
 	CE	Clare
 	CN	Cavan
 	CO	Cork
@@ -2597,11 +2581,13 @@ IE	Ireland
 	KE	Kildare
 	KK	Kilkenny
 	KY	Kerry
+	L	Leinster
 	LD	Longford
 	LH	Louth
 	LK	Limerick
 	LM	Leitrim
 	LS	Laois
+	M	Munster
 	MH	Meath
 	MN	Monaghan
 	MO	Mayo
@@ -2609,22 +2595,19 @@ IE	Ireland
 	RN	Roscommon
 	SO	Sligo
 	TA	Tipperary
+	U	Ulster
 	WD	Waterford
 	WH	Westmeath
 	WW	Wicklow
 	WX	Wexford
-	C	Connaught
-	L	Leinster
-	M	Munster
-	U	Ulster
 
 IL	Israel
-	D	El Janūbī / HaDarom
-	HA	Ḥeifā / H̱efa
-	JM	Al Quds / Yerushalayim
-	M	HaDarom / HaMerkaz
-	TA	Tell Abīb / Tel-Aviv
-	Z	Esh Shamālī / Ha Ẕafon
+	D	HaDarom
+	HA	H̱efa
+	JM	Yerushalayim
+	M	HaMerkaz
+	TA	Tel Aviv
+	Z	HaTsafon
 
 IM	Isle of Man
 	NA	No Subdivisions
@@ -2632,42 +2615,40 @@ IM	Isle of Man
 IN	India
 	AN	Andaman and Nicobar Islands
 	AP	Andhra Pradesh
-	AR	Arunachal Pradesh
+	AR	Arunāchal Pradesh
 	AS	Assam
-	BR	Bihar
+	BR	Bihār
+	CG	Chhattīsgarh
 	CH	Chandigarh
-	CT	Chhattisgarh
-	DD	Daman and Diu
+	DH	Dādra and Nagar Haveli and Damān and Diu
 	DL	Delhi
-	DN	Dadra and Nagar Haveli
 	GA	Goa
-	GJ	Gujarat
-	HP	Himachal Pradesh
-	HR	Haryana
-	JH	Jharkhand
-	JK	Jammu and Kashmir
-	KA	Karnataka
+	GJ	Gujarāt
+	HP	Himāchal Pradesh
+	HR	Haryāna
+	JH	Jhārkhand
+	JK	Jammu and Kashmīr
+	KA	Karnātaka
 	KL	Kerala
+	LA	Ladākh
 	LD	Lakshadweep
-	MH	Maharashtra
-	ML	Meghalaya
+	MH	Mahārāshtra
+	ML	Meghālaya
 	MN	Manipur
 	MP	Madhya Pradesh
 	MZ	Mizoram
-	NL	Nagaland
-	OR	Orissa
+	NL	Nāgāland
+	OD	Odisha
 	PB	Punjab
-	PY	Pondicherry
-	RJ	Rajasthan
+	PY	Puducherry
+	RJ	Rājasthān
 	SK	Sikkim
-	TN	Tamil Nadu
+	TN	Tamil Nādu
 	TR	Tripura
+	TS	Telangāna
+	UK	Uttarākhand
 	UP	Uttar Pradesh
 	WB	West Bengal
-	TG	Telangāna
-	UT	Uttarākhand
-	DH	Dādra and Nagar Haveli and Damān and Diu
-	LA	Ladākh
 
 IO	British Indian Ocean Territory
 	NA	No Subdivisions
@@ -2681,56 +2662,53 @@ IQ	Iraq
 	DA	Dahūk
 	DI	Diyālá
 	DQ	Dhī Qār
-	KA	Karbalā'
+	KA	Karbalā’
+	KI	Kirkūk
+	KR	Iqlīm Kūrdistān
 	MA	Maysān
-	MU	Al Muthannáá
+	MU	Al Muthanná
 	NA	An Najaf
 	NI	Nīnawá
 	QA	Al Qādisīyah
 	SD	Şalāḩ ad Dīn
 	SU	As Sulaymānīyah
-	TS	At Ta'mīm
 	WA	Wāsiţ
-	KR	Iqlīm Kūrdistān
-	KI	Kirkūk
 
 IR	Iran, Islamic Republic of
-	01	Āz̄arbāyjān-e Sharqī
-	02	Āz̄arbāyjān-e Gharbī
-	03	Ardabīl
-	04	Eşfahānn
-	05	Īlām
-	06	Būshehr
-	07	Tehrān
-	08	Chahār Maḩāll va Bakhtīārī
-	10	Khūzestān
-	11	Zanjān
-	12	Semnān
-	13	Sīstān va Balūchestān
-	14	Fārs
-	15	Kermān
-	16	Kordestān
-	17	Kermānshāh
-	18	Kohgīlūyeh va Būyer Aḩmad
-	19	Gīlān
-	20	Lorestān
-	21	Māzandarān
-	22	Markazī
-	23	Hormozgān
-	24	Hamadān
-	25	Yazd
-	26	Qom
-	27	Golestān
-	28	Qazvīn
-	29	Khorāsān-e Janūbī
-	30	Khorāsān-e Razavī
-	31	Khorāsān-e Shemālī
-	09	Khorāsān-e Raẕavī
 	00	Markazī
+	01	Gīlān
+	02	Māzandarān
+	03	Āz̄ārbāyjān-e Shārqī
+	04	Āz̄ārbāyjān-e Ghārbī
+	05	Kermānshāh
+	06	Khūzestān
+	07	Fārs
+	08	Kermān
+	09	Khorāsān-e Raẕavī
+	10	Eşfahān
+	11	Sīstān va Balūchestān
+	12	Kordestān
+	13	Hamadān
+	14	Chahār Maḩāl va Bakhtīārī
+	15	Lorestān
+	16	Īlām
+	17	Kohgīlūyeh va Bowyer Aḩmad
+	18	Būshehr
+	19	Zanjān
+	20	Semnān
+	21	Yazd
+	22	Hormozgān
+	23	Tehrān
+	24	Ardabīl
+	25	Qom
+	26	Qazvīn
+	27	Golestān
+	28	Khorāsān-e Shomālī
+	29	Khorāsān-e Jonūbī
+	30	Alborz
 
 IS	Iceland
-	0	Reykjavík
-	1	Höfuðborgarsvæði utan Reykjavíkur
+	1	Höfuðborgarsvæði
 	2	Suðurnes
 	3	Vesturland
 	4	Vestfirðir
@@ -2738,13 +2716,11 @@ IS	Iceland
 	6	Norðurland eystra
 	7	Austurland
 	8	Suðurland
-	AKH	Akrahreppur
 	AKN	Akraneskaupstaður
 	AKU	Akureyrarbær
 	ARN	Árneshreppur
 	ASA	Ásahreppur
 	BLA	Bláskógabyggð
-	BLO	Blönduósbær
 	BOG	Borgarbyggð
 	BOL	Bolungarvíkurkaupstaður
 	DAB	Dalabyggð
@@ -2761,10 +2737,9 @@ IS	Iceland
 	GRU	Grundarfjarðarbær
 	GRY	Grýtubakkahreppur
 	HAF	Hafnarfjarðarkaupstaður
-	HEL	Helgafellssveit
 	HRG	Hörgársveit
 	HRU	Hrunamannahreppur
-	HUT	Húnavatnshreppur
+	HUG	Húnabyggð
 	HUV	Húnaþing vestra
 	HVA	Hvalfjarðarsveit
 	HVE	Hveragerðisbær
@@ -2782,7 +2757,6 @@ IS	Iceland
 	RHH	Reykhólahreppur
 	RKN	Reykjanesbær
 	RKV	Reykjavíkurborg
-	SBH	Svalbarðshreppur
 	SBT	Svalbarðsstrandarhreppur
 	SDN	Suðurnesjabær
 	SDV	Súðavíkurhreppur
@@ -2792,11 +2766,10 @@ IS	Iceland
 	SKF	Skaftárhreppur
 	SKG	Skagabyggð
 	SKO	Skorradalshreppur
-	SKU	Skútustaðahreppur
+	SKR	Skagafjörður
 	SNF	Snæfellsbær
 	SOG	Skeiða- og Gnúpverjahreppur
 	SOL	Sveitarfélagið Ölfus
-	SSF	Sveitarfélagið Skagafjörður
 	SSS	Sveitarfélagið Skagaströnd
 	STR	Strandabyggð
 	STY	Stykkishólmsbær
@@ -2809,10 +2782,32 @@ IS	Iceland
 	VOP	Vopnafjarðarhreppur
 
 IT	Italy
+	11-22	sic
+	11-24	Correction of subdivision code from IT-SD to IT-SU; Addition of category decentralized regional entity; addition of decentralized regional entity IT-GO, IT-PN, IT-TS, IT-UD; Update List Source
+	21	Piemonte
+	23	Valle d'Aosta fr
+	25	Lombardia
+	32	Trentino-Alto Adige de
+	34	Veneto
+	36	Friuli Venezia Giulia
+	42	Liguria
+	45	Emilia-Romagna
+	52	Toscana
+	55	Umbria
+	57	Marche
+	62	Lazio
+	65	Abruzzo
+	67	Molise
+	72	Campania
+	75	Puglia
+	77	Basilicata
+	78	Calabria
+	82	Sicilia
+	88	Sardegna
 	AG	Agrigento
 	AL	Alessandria
 	AN	Ancona
-	AO	Aosta / Aoste (fr)
+	AO	Aosta fr
 	AP	Ascoli Piceno
 	AQ	L'Aquila
 	AR	Arezzo
@@ -2827,7 +2822,7 @@ IT	Italy
 	BR	Brindisi
 	BS	Brescia
 	BT	Barletta-Andria-Trani
-	BZ	Bolzano / Bozen (de)
+	BZ	Bolzano de
 	CA	Cagliari
 	CB	Campobasso
 	CE	Caserta
@@ -2900,6 +2895,7 @@ IT	Italy
 	SP	La Spezia
 	SR	Siracusa
 	SS	Sassari
+	SU	Sud Sardegna
 	SV	Savona
 	TA	Taranto
 	TE	Teramo
@@ -2919,27 +2915,6 @@ IT	Italy
 	VS	Medio Campidano
 	VT	Viterbo
 	VV	Vibo Valentia
-	65	Abruzzo
-	77	Basilicata
-	78	Calabria
-	72	Campania
-	45	Emilia-Romagna
-	62	Lazio
-	42	Liguria
-	25	Lombardia
-	57	Marche
-	67	Molise
-	21	Piemonte
-	75	Puglia
-	52	Toscana
-	55	Umbria
-	34	Veneto
-	36	Friuli Venezia Giulia
-	88	Sardegna
-	82	Sicilia
-	32	Trentino-Alto Adige de
-	23	Valle d'Aosta fr
-	SU	Sud Sardegna
 
 JE	Jersey
 	NA	No Subdivisions
@@ -2961,77 +2936,69 @@ JM	Jamaica
 	14	Saint Catherine
 
 JO	Jordan
-	AJ	ʽAjlūn
-	AM	‘Ammān (Al ‘A̅şimah)
-	AQ	Al'Aqaba
+	AJ	‘Ajlūn
+	AM	Al ‘A̅şimah
+	AQ	Al ‘Aqabah
 	AT	Aţ Ţafīlah
-	AZ	Az Zarqā'
-	BA	Al Balqā'
+	AZ	Az Zarqā’
+	BA	Al Balqā’
 	IR	Irbid
 	JA	Jarash
-	KA	AI Karak
-	MA	AI Mafraq
+	KA	Al Karak
+	MA	Al Mafraq
 	MD	Mādabā
-	MN	Ma'ān
+	MN	Ma‘ān
 
 JP	Japan
-	01	Hokkaidô [Hokkaido]
+	01	Hokkaidô
 	02	Aomori
 	03	Iwate
 	04	Miyagi
 	05	Akita
 	06	Yamagata
-	07	Hukusima [Fukushima]
+	07	Hukusima
 	08	Ibaraki
-	09	Totigi [Tochigi]
+	09	Totigi
 	10	Gunma
 	11	Saitama
-	12	Tiba [Chiba]
-	13	Tôkyô [Tokyo]
+	12	Tiba
+	13	Tôkyô
 	14	Kanagawa
 	15	Niigata
 	16	Toyama
-	17	Isikawa [Ishikawa]
-	18	Hukui [Fukui]
-	19	Yamanasi [Yamanashi]
+	17	Isikawa
+	18	Hukui
+	19	Yamanasi
 	20	Nagano
-	21	Gihu [Gifu]
-	22	Sizuoka [Shizuoka]
-	23	Aiti [Aichi]
+	21	Gihu
+	22	Sizuoka
+	23	Aiti
 	24	Mie
-	25	Siga [Shiga]
-	26	Kyôto [Kyoto]
-	27	Ôsaka [Osaka]
-	28	Hyôgo [Hyogo]
+	25	Siga
+	26	Kyôto
+	27	Ôsaka
+	28	Hyôgo
 	29	Nara
 	30	Wakayama
 	31	Tottori
-	32	Simane [Shimane]
+	32	Simane
 	33	Okayama
-	34	Hirosima [Hiroshima]
-	35	Yamaguti [Yamaguchi]
-	36	Tokusima [Tokushima]
+	34	Hirosima
+	35	Yamaguti
+	36	Tokusima
 	37	Kagawa
 	38	Ehime
-	39	Kôti [Kochi]
-	40	Hukuoka [Fukuoka]
+	39	Kôti
+	40	Hukuoka
 	41	Saga
 	42	Nagasaki
 	43	Kumamoto
-	44	Ôita [Oita]
+	44	Ôita
 	45	Miyazaki
-	46	Kagosima [Kagoshima]
+	46	Kagosima
 	47	Okinawa
 
 KE	Kenya
-	110	Nairobi
-	200	Central
-	300	Coast
-	400	Eastern
-	500	North-Eastern
-	600	Nyanza
-	700	Rift Valley
-	800	Western
 	01	Baringo
 	02	Bomet
 	03	Bungoma
@@ -3043,6 +3010,7 @@ KE	Kenya
 	09	Isiolo
 	10	Kajiado
 	11	Kakamega
+	110	Nairobi
 	12	Kericho
 	13	Kiambu
 	14	Kilifi
@@ -3052,6 +3020,7 @@ KE	Kenya
 	18	Kitui
 	19	Kwale
 	20	Laikipia
+	200	Central
 	21	Lamu
 	22	Machakos
 	23	Makueni
@@ -3062,6 +3031,7 @@ KE	Kenya
 	28	Mombasa
 	29	Murang'a
 	30	Nairobi City
+	300	Coast
 	31	Nakuru
 	32	Nandi
 	33	Narok
@@ -3072,6 +3042,7 @@ KE	Kenya
 	38	Siaya
 	39	Taita/Taveta
 	40	Tana River
+	400	Eastern
 	41	Tharaka-Nithi
 	42	Trans Nzoia
 	43	Turkana
@@ -3079,20 +3050,24 @@ KE	Kenya
 	45	Vihiga
 	46	Wajir
 	47	West Pokot
+	500	North-Eastern
+	600	Nyanza
+	700	Rift Valley
+	800	Western
 
 KG	Kyrgyzstan
 	B	Batken
-	C	Chü
-	GB	Bishkek
+	C	Chüy
+	GB	Bishkek Shaary
+	GO	Osh Shaary
 	J	Jalal-Abad
 	N	Naryn
 	O	Osh
 	T	Talas
 	Y	Ysyk-Köl
-	GO	Osh Shaary
 
 KH	Cambodia
-	1	Banteay Mean Chey
+	1	Banteay Mean Choăy
 	10	Kracheh
 	11	Mondol Kiri
 	12	Phnom Penh
@@ -3101,14 +3076,15 @@ KH	Cambodia
 	15	Pousaat
 	16	Rotanak Kiri
 	17	Siem Reab
-	18	Krong Preah Sihanouk
+	18	Preah Sihanouk
 	19	Stueng Traeng
 	2	Baat Dambang
 	20	Svaay Rieng
 	21	Taakaev
 	22	Otdar Mean Chey
-	23	Krong Kaeb
-	24	Krong Pailin
+	23	Kaeb
+	24	Pailin
+	25	Tbong Khmum
 	3	Kampong Chaam
 	4	Kampong Chhnang
 	5	Kampong Spueu
@@ -3116,7 +3092,6 @@ KH	Cambodia
 	7	Kampot
 	8	Kandaal
 	9	Kaoh Kong
-	25	Tbong Khmum
 
 KI	Kiribati
 	G	Gilbert Islands
@@ -3147,47 +3122,48 @@ KN	Saint Kitts and Nevis
 	N	Nevis
 
 KP	Korea, Democratic People's Republic of
-	01	Phyeongyang
-	02	Phyeongannamto
-	03	Phyeonganpukto
-	04	Jakangto
-	05	Hwanghainamto
-	06	Hwanghaipukto
-	07	Kangweonto
-	08	Hamkyeongnamto
-	09	Hamkyeongpukto
-	10	Yanggang-do
-	13	Nasǒn
-	14	Nampo
+	01	P'yǒngyang
+	02	P'yǒngan-namdo
+	03	P'yǒngan-bukto
+	04	Chagang-do
+	05	Hwanghae-namdo
+	06	Hwanghae-bukto
+	07	Kangwǒn-do
+	08	Hamgyǒng-namdo
+	09	Hamgyǒng-bukto
+	10	Ryanggang-do
+	13	Rasǒn
+	14	Namp’o
+	15	Kaesŏng
 	CHA	Chagang-do
 	HAB	Hamgyongbuk-do
 	HAN	Hamgyongnam-do
 	HWB	Hwanghaebuk-do
 	HWN	Hwanghaenam-do
 	KAN	Kangwon-do
+	NAJ	Najin Sonbong-si
 	PYB	Pyonganbuk-do
 	PYN	Pyongannam-do
-	YAN	Yanggang-do
-	NAJ	Najin Sonbong-si
 	PYO	Pyongyang-si
+	YAN	Yanggang-do
 
 KR	Korea, Republic of
-	11	Seoul Teugbyeolsi
-	26	Busan Gwang'yeogsi
-	27	Daegu Gwang'yeogsi
-	28	Incheon Gwang'yeogsiv
-	29	Gwangju Gwang'yeogsi
-	30	Daejeon Gwang'yeogsi
-	31	Ulsan Gwang'yeogsi
-	41	Gyeonggido
-	42	Gang'weondo
-	43	Chungcheongbugdo
-	44	Chungcheongnamdo
-	45	Jeonrabugdo
-	46	Jeonranamdo
-	47	Gyeongsangbugdo
-	48	Gyeongsangnamdo
-	49	Jejudo
+	11	Seoul-teukbyeolsi
+	26	Busan-gwangyeoksi
+	27	Daegu-gwangyeoksi
+	28	Incheon-gwangyeoksi
+	29	Gwangju-gwangyeoksi
+	30	Daejeon-gwangyeoksi
+	31	Ulsan-gwangyeoksi
+	41	Gyeonggi-do
+	42	Gangwon-teukbyeoljachido
+	43	Chungcheongbuk-do
+	44	Chungcheongnam-do
+	45	Jeollabuk-do
+	46	Jeollanam-do
+	47	Gyeongsangbuk-do
+	48	Gyeongsangnam-do
+	49	Jeju-teukbyeoljachido
 	50	Sejong
 
 KW	Kuwait
@@ -3195,59 +3171,61 @@ KW	Kuwait
 	FA	Al Farwānīyah
 	HA	Ḩawallī
 	JA	Al Jahrā’
-	KU	Al Kuwayt (Al ‘Āşimah)
+	KU	Al ‘Āşimah
 	MU	Mubārak al Kabīr
 
 KY	Cayman Islands
 	NA	No Subdivisions
 
 KZ	Kazakhstan
-	AKM	Aqmola oblysy
-	AKT	Aqtöbe oblysy
-	ALA	Almaty
-	ALM	Almaty oblysy
-	AST	Astana
-	ATY	Atyraū oblysy
-	KAR	Qaraghandy oblysy
-	KUS	Qostanay oblysy
-	KZY	Qyzylorda oblysy
-	MAN	Mangghystaū oblysy
-	PAV	Pavlodar oblysy
-	SEV	Soltüstik Qazaqstan oblysy
-	VOS	Shyghys Qazaqstan oblysy
-	YUZ	Ongtüstik Qazaqstan oblysy
-	ZAP	Batys Qazaqstan oblysy
-	ZHA	Zhambyl oblysy
-	SHY	Shymkent
+	10	Abay oblysy
+	11	Aqmola oblysy
+	15	Aqtöbe oblysy
+	19	Almaty oblysy
+	23	Atyraū oblysy
+	27	Batys Qazaqstan oblysy
+	31	Zhambyl oblysy
+	33	Zhetisū oblysy
+	35	Qaraghandy oblysy
+	39	Qostanay oblysy
+	43	Qyzylorda oblysy
+	47	Mangghystaū oblysy
+	55	Pavlodar oblysy
+	59	Soltüstik Qazaqstan oblysy
+	61	Türkistan oblysy
+	62	Ulytaū oblysy
+	63	Shyghys Qazaqstan oblysy
+	71	Astana
+	75	Almaty
+	79	Shymkent
 
 LA	Lao People's Democratic Republic
-	AT	Attapu [Attopeu]
+	AT	Attapu
 	BK	Bokèo
-	BL	Bolikhamxai [Borikhane]
-	CH	Champasak [Champassak]
+	BL	Bolikhamxai
+	CH	Champasak
 	HO	Houaphan
 	KH	Khammouan
 	LM	Louang Namtha
-	LP	Louangphabang [Louang Prabang)
-	OU	Oudomxai [Oudomsai]
-	PH	Phôngsali [Phong Saly]
-	SL	Salavan [Saravane]
+	LP	Louangphabang
+	OU	Oudômxai
+	PH	Phôngsali
+	SL	Salavan
 	SV	Savannakhét
-	VI	Vientiane
-	VT	Vientiane
-	XA	Xaignabouli [Sayaboury]
-	XE	Xékong [Sékong]
-	XI	Xiangkhoang [Xieng Khouang]
-	XN	Xaisômboun
+	VI	Viangchan
+	VT	Viangchan
+	XA	Xaignabouli
+	XE	Xékong
+	XI	Xiangkhouang
 	XS	Xaisômboun
 
 LB	Lebanon
-	AK	Aakkârâli
-	AS	Liban-Nordâli
+	AK	Aakkâr
+	AS	Liban-Nord
 	BA	Beyrouth
 	BH	Baalbek-Hermel
 	BI	Béqaa
-	JA	Liban-Sudûbi
+	JA	Liban-Sud
 	JL	Mont-Liban
 	NA	Nabatîyé
 
@@ -3255,12 +3233,10 @@ LC	Saint Lucia
 	01	Anse la Raye
 	02	Castries
 	03	Choiseul
-	04	Dauphin
 	05	Dennery
 	06	Gros Islet
 	07	Laborie
 	08	Micoud
-	09	Praslin
 	10	Soufrière
 	11	Vieux Fort
 	12	Canaries
@@ -3282,7 +3258,7 @@ LK	Sri Lanka
 	1	Basnāhira paḷāta
 	11	Kŏḷamba
 	12	Gampaha
-	13	Kaḷutara
+	13	Kalutara
 	2	Madhyama paḷāta
 	21	Mahanuvara
 	22	Mātale
@@ -3328,12 +3304,12 @@ LR	Liberia
 	MY	Maryland
 	NI	Nimba
 	RG	River Gee
-	RI	Rivercess
+	RI	River Cess
 	SI	Sinoe
 
 LS	Lesotho
 	A	Maseru
-	B	Butha-Buthe
+	B	Botha-Bothe
 	C	Leribe
 	D	Berea
 	E	Mafeteng
@@ -3344,16 +3320,6 @@ LS	Lesotho
 	K	Thaba-Tseka
 
 LT	Lithuania
-	AL	Alytaus Apskritis
-	KL	Klaipėdos Apskritis
-	KU	Kauno Apskritis
-	MR	Marijampolės Apskritis
-	PN	Panevėžio Apskritis
-	SA	Šiaulių Apskritis
-	TA	Tauragės Apskritis
-	TE	Šiaulių Apskritis
-	UT	Utenos Apskritis
-	VL	Vilniaus Apskritis
 	01	Akmenė
 	02	Alytaus miestas
 	03	Alytus
@@ -3364,17 +3330,18 @@ LT	Lithuania
 	08	Elektrėnai
 	09	Ignalina
 	10	Jonava
+	10-31	Addition of 7 city municipalities, 44 district municipalities, and 9 municipalities
 	11	Joniškis
 	12	Jurbarkas
 	13	Kaišiadorys
 	14	Kalvarija
-	16	Kaunas
 	15	Kauno miestas
+	16	Kaunas
 	17	Kazlų Rūdos
 	18	Kėdainiai
 	19	Kelmė
-	21	Klaipėda
 	20	Klaipėdos miestas
+	21	Klaipėda
 	22	Kretinga
 	23	Kupiškis
 	24	Lazdijai
@@ -3396,8 +3363,8 @@ LT	Lithuania
 	40	Rokiškis
 	41	Šakiai
 	42	Šalčininkai
-	44	Šiauliai
 	43	Šiaulių miestas
+	44	Šiauliai
 	45	Šilalė
 	46	Šilutė
 	47	Širvintos
@@ -3414,17 +3381,27 @@ LT	Lithuania
 	58	Vilnius
 	59	Visaginas
 	60	Zarasai
+	AL	Alytaus apskritis
+	KL	Klaipėdos apskritis
+	KU	Kauno apskritis
+	MR	Marijampolės apskritis
+	PN	Panevėžio apskritis
+	SA	Šiaulių apskritis
+	TA	Tauragės apskritis
+	TE	Telšių apskritis
+	UT	Utenos apskritis
+	VL	Vilniaus apskritis
 
 LU	Luxembourg
-	D	Diekirch
-	G	Grevenmacher
-	L	Luxembourg (fr)
 	CA	Capellen
 	CL	Clervaux
+	D	Diekirch de lb
 	DI	Diekirch
 	EC	Echternach
 	ES	Esch-sur-Alzette
+	G	Grevenmacher de lb
 	GR	Grevenmacher
+	L	Luxembourg fr de lb
 	LU	Luxembourg
 	ME	Mersch
 	RD	Redange
@@ -3433,125 +3410,39 @@ LU	Luxembourg
 	WI	Wiltz
 
 LV	Latvia
-	DGV	Daugavpils
-	JEL	Jelgava
-	JKB	Jēkabpils
-	JUR	Jūrmala
-	LPX	Liepāja
-	REZ	Rēzekne
-	RIX	Rīga
-	VEN	Ventspils
-	VMR	Valmiera
-	001	Aglonas novads (Aglona)
-	002	Aizkraukles novads (Aizkraukle)
-	003	Aizputes novads (Aizpute)
-	004	Aknīstes novads (Aknīste)
-	005	Alojas novads (Aloja)
-	006	Alsungas novads (Alsunga)
-	007	Alūksnes novads (Alūksne)
-	008	Amatas novads (Amata)
-	009	Apes novads (Ape)
-	010	Auces novads (Auce)
-	011	Ādažu novads (Ādaži)
-	012	Babītes novads (Babīte)
-	013	Baldones novads (Baldone)
-	014	Baltinavas novads (Baltinava)
-	015	Balvu novads (Balvi)
-	016	Bauskas novads (Bauska)
-	017	Beverīnas novads (Beverīna)
-	018	Brocēnu novads (Brocēni)
-	019	Burtnieku novads (Burtnieki)
-	020	Carnikavas novads (Carnikava)
-	021	Cesvaines novads (Cesvaine)
-	022	Cēsu novads (Cēsis)
-	023	Ciblas novads (Cibla)
-	024	Dagdas novads (Dagda)
-	025	Daugavpils novads (Daugavpils)
-	026	Dobeles novads (Dobele)
-	027	Dundagas novads (Dundaga)
-	028	Durbes novads (Durbe)
-	029	Engures novads (Engure)
-	030	Ērgļu novads (Ērgļi)
-	031	Garkalnes novads (Garkalne))
-	032	Grobiņas novads (Grobiņa)
-	033	Gulbenes novads (Gulbene)
-	034	Iecavas novads (Iecava)
-	035	Ikšķiles novads (Ikšķile)
-	036	Ilūkstes novads (Ilūkste)
-	037	Inčukalna novads (Inčukalns)
-	038	Jaunjelgavas novads (Jaunjelgava)
-	039	Jaunpiebalgas novads (Jaunpiebalga)
-	040	Jaunpils novads (Jaunpils)
-	041	Jelgavas novads (Jelgava)
-	042	Jēkabpils novads (Jēkabpils)
-	043	Kandavas novads (Kandava)
-	044	Kārsavas novads (Kārsava)
-	045	Kocēnu novads
-	046	Kokneses novads (Koknese)
-	047	Krāslavas novads (Krāslava)
-	048	Krimuldas novads (Krimulda)
-	049	Krustpils novads (Krustpils)
-	050	Kuldīgas novads (Kuldīga)
-	051	Ķeguma novads (Ķegums)
-	052	Ķekavas novads (Ķekava)
-	053	Lielvārdes novads (Lielvārde)
-	054	Limbažu novads (Limbaži)
-	055	Līgatnes novads (Līgatne)
-	056	Līvānu novads (Līvāni)
-	057	Lubānas novads (Lubāna)
-	058	Ludzas novads (Ludza)
-	059	Madonas novads (Madona)
-	060	Mazsalacas novads (Mazsalaca)
-	061	Mālpils novads (Mālpils)
-	062	Mārupes novads (Mārupe)
-	063	Mērsraga novads
-	064	Naukšēnu novads (Naukšēni)
-	065	Neretas novads (Nereta)
-	066	Nīcas novads (Nīca)
-	067	Ogres novads (Ogre)
-	068	Olaines novads (Olaine)
-	069	Ozolnieku novads (Ozolnieki)
-	070	Pārgaujas novads (Pārgauja)
-	071	Pāvilostas novads (Pāvilosta)
-	072	Pļaviņu novads (Pļaviņas)
-	073	Preiļu novads (Preiļi)
-	074	Priekules novads (Priekule)
-	075	Priekuļu novads (Priekuļi)
-	076	Raunas novads (Rauna)
-	077	Rēzeknes novads (Rēzekne)
-	078	Riebiņu novads (Riebiņi)
-	079	Rojas novads (Roja)
-	080	Ropažu novads (Ropaži)
-	081	Rucavas novads (Rucava)
-	082	Rugāju novads (Rugāji)
-	083	Rundāles novads (Rundāle)
-	084	Rūjienas novads (Rūjiena)
-	085	Salas novads (Sala)
-	086	Salacgrīvas novads (Salacgrīva)
-	087	Salaspils novads (Salaspils)
-	088	Saldus novads (Saldus)
-	089	Saulkrastu novads (Saulkrasti)
-	090	Sējas novads (Sēja)
-	091	Siguldas novads (Sigulda)
-	092	Skrīveru novads (Skrīveri)
-	093	Skrundas novads (Skrunda)
-	094	Smiltenes novads (Smiltene)
-	095	Stopiņu novads (Stopiņi)
-	096	Strenču novads (Strenči)
-	097	Talsu novads (Talsi)
-	098	Tērvetes novads (Tērvete)
-	099	Tukuma novads (Tukums)
-	100	Vaiņodes novads (Vaiņode)
-	101	Valkas novads (Valka)
-	102	Varakļānu novads (Varakļāni)
-	103	Vārkavas novads (Vārkava)
-	104	Vecpiebalgas novads (Vecpiebalga)
-	105	Vecumnieku novads (Vecumnieki)
-	106	Ventspils novads (Ventspils)
-	107	Viesītes novads (Viesīte)
-	108	Viļakas novads (Viļaka)
-	109	Viļānu novads (Viļāni)
-	110	Zilupes novads (Zilupe)
+	002	Aizkraukles novads
+	007	Alūksnes novads
+	011	Ādažu novads
+	015	Balvu novads
+	016	Bauskas novads
+	022	Cēsu novads
+	026	Dobeles novads
+	033	Gulbenes novads
+	041	Jelgavas novads
+	042	Jēkabpils novads
+	047	Krāslavas novads
+	050	Kuldīgas novads
+	052	Ķekavas novads
+	054	Limbažu novads
+	056	Līvānu novads
+	058	Ludzas novads
+	059	Madonas novads
+	062	Mārupes novads
+	067	Ogres novads
+	068	Olaines novads
+	073	Preiļu novads
+	077	Rēzeknes novads
+	080	Ropažu novads
+	087	Salaspils novads
+	088	Saldus novads
+	089	Saulkrastu novads
+	091	Siguldas novads
+	094	Smiltenes novads
+	097	Talsu novads
+	099	Tukuma novads
+	101	Valkas novads
+	102	Varakļānu novads
+	106	Ventspils novads
 	111	Augšdaugavas novads
 	112	Dienvidkurzemes Novads
 	113	Valmieras Novads
@@ -3561,33 +3452,47 @@ LV	Latvia
 	BU	Bauskas Apriņķis
 	CE	Cēsu Apriņķis
 	DA	Daugavpils Apriņķis
+	DGV	Daugavpils
 	DO	Dobeles Apriņķis
 	GU	Gulbenes Apriņķis
-	JL	Jelgavas Apriņķis
+	JEL	Jelgava
 	JK	Jēkabpils Apriņķis
+	JL	Jelgavas Apriņķis
+	JUR	Jūrmala
 	KR	Krāslavas Apriņķis
 	KU	Kuldīgas Apriņķis
 	LE	Liepājas Apriņķis
 	LM	Limbažu Apriņķis
+	LPX	Liepāja
 	LU	Ludzas Apriņķis
 	MA	Madonas Apriņķis
 	OG	Ogres Apriņķis
 	PR	Preiļu Apriņķis
 	RE	Rēzeknes Apriņķis
+	REZ	Rēzekne
 	RI	Rīgas Apriņķis
+	RIX	Rīga
 	SA	Saldus Apriņķis
 	TA	Talsu Apriņķis
 	TU	Tukuma Apriņķis
+	VE	Ventspils Apriņķis
+	VEN	Ventspils
 	VK	Valkas Apriņķis
 	VM	Valmieras Apriņķis
-	VE	Ventspils Apriņķis
 
 LY	Libya
+	AJ	Ajdābiyā
 	BA	Banghāzī
 	BU	Al Buţnān
+	BW	Banī Walīd
 	DR	Darnah
+	FA	Fazzān
+	GD	Ghadāmis
+	GR	Gharyān
 	GT	Ghāt
+	HZ	Al Ḩizām al Akhḑar
 	JA	Al Jabal al Akhḑar
+	JB	Jaghbūb
 	JG	Al Jabal al Gharbī
 	JI	Al Jifārah
 	JU	Al Jufrah
@@ -3596,136 +3501,126 @@ LY	Libya
 	MI	Mişrātah
 	MJ	Al Marj
 	MQ	Murzuq
-	NL	Nālūt
-	NQ	An Nuqāţ al Khams
-	SB	Sabhā
-	SR	Surt
-	TB	Ţarābulus
-	WA	Al Wāḩāt
-	WD	Wādī al Ḩayāt
-	WS	Wādī ash Shāţiʾ
-	ZA	Az Zāwiyah
-	WU	Al Wusţá
-	FA	Fazzān
-	NA	Naggaza
-	SF	Sawfajjin
-	AJ	Ajdābiyā
-	HZ	Al Ḩizām al Akhḑar
-	QT	Al Qaţrūn
-	QB	Al Qubbah
-	SH	Ash Shāţi'
-	BW	Banī Walīd
-	GD	Ghadāmis
-	GR	Gharyān
-	JB	Jaghbūb
 	MZ	Mizdah
+	NA	Naggaza
+	NL	Nālūt
+	NQ	An Nuqaţ al Khams
+	QB	Al Qubbah
+	QT	Al Qaţrūn
+	SB	Sabhā
+	SF	Sawfajjin
+	SH	Ash Shāţi'
+	SR	Surt
 	SS	Şabrātah Şurmān
-	TN	Tājūrā' wa an Nawāḩī al Arbāʻ
+	TB	Ţarābulus
 	TM	Tarhūnah-Masallātah
+	TN	Tājūrā' wa an Nawāḩī al Arbāʻ
+	WA	Al Wāḩah
+	WD	Wādī al Ḩayāt
+	WS	Wādī ash Shāţi’
+	WU	Al Wusţá
 	YJ	Yafran-Jādū
+	ZA	Az Zāwiyah
 
 MA	Morocco
-	01	Tanger-Tétouan
-	02	Gharb-Chrarda-Beni Hssen
-	03	Taza-Al Hoceima-Taounate
-	04	L'Oriental
-	05	Fès-Boulemane
-	06	Meknès-Tafilalet
-	07	Rabat-Salé-Zemmour-Zaer
-	08	Grand Casablanca
-	09	Chaouia-Ouardigha
-	10	Doukhala-Abda
-	11	Marrakech-Tensift-Al Haouz
-	12	Tadla-Azilal
-	13	Sous-Massa-Draa
-	14	Guelmim-Es Smara
-	15	Laâyoune-Boujdour-Sakia el Hamra
-	16	Oued ed Dahab-Lagouira (EH)
-	AGD	Agadir-Ida-Outanane
-	AOU	Aousserd (EH)
-	CAS	Casablanca [Dar el Beïda]*
-	FAH	Fahs-Beni Makada
-	FES	Fès-Dar-Dbibegh
-	INE	Inezgane-Ait Melloul
-	MEK	Meknès
-	MMD	Marrakech-Medina
-	MMN	Marrakech-Menara
-	MOH	Mohammadia
-	OUJ	Oujda-Angad
-	RAB	Rabat
-	SAL	Salé
-	SKH	Skhirate-Témara
-	SYB	Sidi Youssef Ben Ali
-	TET	Tétouan
-	TNG	Tanger-Assilah
+	01	Tanger-Tétouan-Al Hoceïma
+	02	L'Oriental
+	03	Fès-Meknès
+	04	Rabat-Salé-Kénitra
+	04-09	Correction of parent subdivision of MA-CAS, MA-SET, MA-SIK; Typographical correction of MA-03
+	04-20	Modification of remark part 2; deletion of regions MA-01 to MA-16; addition of new regions MA-01 to MA-12; change of spelling of MA-AGD, MA-BES, MA-ESM, MA-FAH, MA-FES, MA-JRA, MA-KES, MA-OUD; change of category name from prefecture to province for MA-AOU, MA-FAH, MA-TET; addition of prefectures MA-MAR, MA-MDF; deletion of prefectures, MA-MMD, MA-MMN, MA-SYB; addition of provinces MA-BRR, MA-DRI, MA-FQH, MA-GUF, MA-MID, MA-OUZ, MA-REH, MA-SIF, MA-SIL, MA-SIB, MA-TAF, MA-TIN, MA-YUS; change of parent subdivision for MA-AGD, MA-AOU, MA-FES, MA-INE, MA-MEK, MA-MOH, MA-OUJ, MA-RAB, MA-SAL, MA-SKH, MA-ASZ, MA-AZI, MA-BEM, MA-BER, MA-BES, MA-BOD, MA-BOM, MA-CHI, MA-CHT, MA-ERR, MA-ESI, MA-ESM, MA-FIG, MA-GUE, MA-HAJ, MA-HAO, MA-HOC, MA-IFR, MA-JDI, MA-JRA, MA-KEN, MA-KES, MA-KHE, MA-KHN, MA-KHO, MA-LAA, MA-MED, MA-MOU, MA-NAD, MA-NOU, MA-OUA, MA-OUD, MA-SAF, MA-SEF, MA-SET, MA-SIK, MA-TAI, MA-TAR, MA-TAT, MA-TIZ, MA-TNT, MA-ZAG; addition of (EH) to MA-LAA; addition of (EH-partial) to MA-ASZ, MA-TNT; update List Source
+	05	Béni Mellal-Khénifra
+	06	Casablanca-Settat
+	07	Marrakech-Safi
+	08	Drâa-Tafilalet
+	09	Souss-Massa
+	10	Guelmim-Oued Noun
+	11	Laâyoune-Sakia El Hamra
+	11-24	Change of spelling of MA-KHE, MA-KHN, MA-TAR; Deletion of an asterisk of the local variation of MA-CAS; Update List Source
+	11-26	Change of spelling of MA-05; Change of (EH) to (EH-partial) for MA-ESM; Correction of the romanization system label
+	12	Dakhla-Oued Ed-Dahab
+	AGD	Agadir-Ida-Ou-Tanane
+	AOU	Aousserd
 	ASZ	Assa-Zag
 	AZI	Azilal
-	BEM	Beni Mellal
+	BEM	Béni Mellal
 	BER	Berkane
-	BES	Ben Slimane
-	BOD	Boujdour (EH)
+	BES	Benslimane
+	BOD	Boujdour
 	BOM	Boulemane
-	CHE	Chefchaouene
+	BRR	Berrechid
+	CAS	Casablanca
+	CE	AZI BEM BES BOM CAS JDI KHO SET
+	CHE	Chefchaouen
 	CHI	Chichaoua
 	CHT	Chtouka-Ait Baha
+	CN	HOC FES SEF TAO TAZ
+	CS	HAJ ERR IFR KHN MEK
+	DRI	Driouch
 	ERR	Errachidia
+	ES	BER FIG JRA NAD OUJ
 	ESI	Essaouira
-	ESM	Es Smara (EH)
+	ESM	Es-Semara
+	FAH	Fahs-Anjra
+	FES	Fès
 	FIG	Figuig
+	FQH	Fquih Ben Salah
 	GUE	Guelmim
+	GUF	Guercif
 	HAJ	El Hajeb
 	HAO	Al Haouz
 	HOC	Al Hoceïma
 	IFR	Ifrane
+	INE	Inezgane-Ait Melloul
 	JDI	El Jadida
-	JRA	Jrada
-	KEN	Kènitra
-	KES	Kelaat es Sraghna
-	KHE	Khemisset
-	KHN	Khenifra
+	JRA	Jerada
+	KEN	Kénitra
+	KES	El Kelâa des Sraghna
+	KHE	Khémisset
+	KHN	Khénifra
 	KHO	Khouribga
 	LAA	Laâyoune
 	LAR	Larache
-	MED	Médiouna
-	MOU	Moulay Yacoub
-	NAD	Nador
-	NOU	Nouaceur
-	OUA	Ouarzazate
-	OUD	Oued ed Dahab (EH)
-	SAF	Safi
-	SEF	Sefrou
-	SET	Settat
-	SIK	Sidi Kacem
-	TAI	Taourirt
-	TAO	Taounate
-	TAR	Taroudant
-	TAT	Tata
-	TAZ	Taza
-	TIZ	Tiznit
-	TNT	Tan-Tan
-	ZAG	Zagora
-	BRR	Berrechid
-	DRI	Driouch
-	FQH	Fquih Ben Salah
-	GUF	Guercif
 	MAR	Marrakech
 	MDF	M’diq-Fnideq
+	MED	Médiouna
+	MEK	Meknès
 	MID	Midelt
+	MOH	Mohammadia
+	MOU	Moulay Yacoub
+	NAD	Nador
+	NO	CHE KEN KHE LAR RBA SIK TNG TET
+	NOU	Nouaceur
+	OUA	Ouarzazate
+	OUD	Oued Ed-Dahab
+	OUJ	Oujda-Angad
 	OUZ	Ouezzane
+	RAB	Rabat
 	REH	Rehamna
+	SAF	Safi
+	SAL	Salé
+	SEF	Sefrou
+	SET	Settat
 	SIB	Sidi Bennour
 	SIF	Sidi Ifni
+	SIK	Sidi Kacem
 	SIL	Sidi Slimane
-	TAF	Tarfaya
-	TIN	Tinghir
-	YUS	Youssoufia
-	CE	AZI BEM BES BOM CAS JDI KHO SET
-	CN	HOC FES SEF TAO TAZ
-	CS	HAJ ERR IFR KHN MEK
-	ES	BER FIG JRA NAD OUJ
-	NO	CHE KEN KHE LAR RBA SIK TNG TET
+	SKH	Skhirate-Témara
 	SU	AGD BAH MEL ASZ BOD ESM GUE LAA OUA OUD TNT TAR TAT TIZ
+	TAF	Tarfaya
+	TAI	Taourirt
+	TAO	Taounate
+	TAR	Taroudannt
+	TAT	Tata
+	TAZ	Taza
+	TET	Tétouan
+	TIN	Tinghir
+	TIZ	Tiznit
+	TNG	Tanger-Assilah
+	TNT	Tan-Tan
 	TS	HAO CHI ESI KES MAR SAF
+	YUS	Youssoufia
+	ZAG	Zagora
 
 MC	Monaco
 	CL	La Colle
@@ -3747,96 +3642,96 @@ MC	Monaco
 	VR	Vallon de la Rousse
 
 MD	Moldova, Republic of
-	GA	Găgăuzia, Unitatea teritorială autonomă (UTAG)
-	BA	Bălţi
-	BD	Tighina
-	CU	Chişinău
 	AN	Anenii Noi
+	ANE	Anenii Noi
+	BA	Bălţi
+	BAL	Bălţi
+	BAS	Basarabeasca
+	BD	Bender
 	BR	Briceni
+	BRI	Brinceni
 	BS	Basarabeasca
 	CA	Cahul
-	CL	Călăraşi
-	CM	Cimişlia
-	CR	Criuleni
-	CS	Căuşeni
-	CT	Cantemir
-	DO	Donduşeni
-	DR	Drochia
-	DU	Dubăsari
-	ED	Edineţ
-	FA	Făleşti
-	FL	Floreşti
-	GL	Glodeni
-	HI	Hînceşti
-	IA	Ialoveni
-	LE	Leova
-	NI	Nisporeni
-	OC	Ocniţa
-	OR	Orhei
-	RE	Rezina
-	RI	Rîşcani
-	SD	Şoldăneşti
-	SI	Sîngerei
-	SO	Soroca
-	ST	Străşeni
-	SV	Ştefan Vodă
-	TA	Taraclia
-	TE	Teleneşti
-	UN	Ungheni
-	SN	Stînga Nistrului, unitatea teritorială din
-	BAL	Bălţi
 	CAH	Cahul
-	CHI	Chişinău
-	DUB	Dubăsari
-	ORH	Orhei
-	RIB	Rîbnița
-	SOC	Soroca
-	TIG	Tighina
-	TIR	Tiraspol
-	UNG	Ungheni
-	ANE	Anenii Noi
-	BAS	Basarabeasca
-	BRI	Brinceni
-	CHL	Cahul
-	CAM	Camenca
-	CAN	Cantemir
 	CAI	Căinari
 	CAL	Călăraşi
+	CAM	Camenca
+	CAN	Cantemir
 	CAS	Căuşeni
+	CH	Chişinău
+	CHI	Chişinău
+	CHL	Cahul
 	CIA	Ciadîr-Lunga
 	CIM	Cimișlia
+	CL	Călărași
+	CM	Cimișlia
 	COM	Comrat
+	CR	Criuleni
 	CRI	Criuleni
-	DON	Dondușeni
-	DRO	Drochia
+	CS	Căușeni
+	CT	Cantemir
+	CU	Chişinău
 	DBI	Dubăsari
+	DO	Dondușeni
+	DON	Dondușeni
+	DR	Drochia
+	DRO	Drochia
+	DU	Dubăsari
+	DUB	Dubăsari
+	ED	Edineţ
 	EDI	Edineț
+	FA	Fălești
 	FAL	Făleşti
+	FL	Florești
 	FLO	Florești
+	GA	Găgăuzia, Unitate Teritorială Autonomă
+	GL	Glodeni
 	GLO	Glodeni
 	GRI	Grigoriopol
+	HI	Hîncești
 	HIN	Hîncești
+	IA	Ialoveni
 	IAL	Ialoveni
+	LA	Lăpuşna
+	LE	Leova
 	LEO	Leova
+	NI	Nisporeni
 	NIS	Nisporeni
+	OC	Ocnița
 	OCN	Ocnița
 	OHI	Orhei
+	OR	Orhei
+	ORH	Orhei
+	RE	Rezina
 	REZ	Rezina
-	RIT	Rîbnița
+	RI	Rîșcani
+	RIB	Rîbnița
 	RIS	Rîșcani
+	RIT	Rîbnița
+	SD	Șoldănești
+	SI	Sîngerei
 	SIN	Sîngerei
 	SLO	Slobozia
+	SN	Stînga Nistrului, unitatea teritorială din
+	SO	Soroca
 	SOA	Soroca
-	STR	Strășeni
+	SOC	Soroca
 	SOL	Şoldăneşti
+	ST	Strășeni
 	STE	Ştefan Vodă
+	STR	Strășeni
+	SV	Ștefan Vodă
+	TA	Taraclia
 	TAR	Taraclia
+	TE	Telenești
 	TEL	Telenești
-	UGI	Ungheni
-	VUL	Vulcănești
-	CH	Chişinău
-	LA	Lăpuşna
 	TI	Tighina
+	TIG	Tighina
+	TIR	Tiraspol
+	UGI	Ungheni
+	UN	Ungheni
+	UNG	Ungheni
+	VUL	Vulcănești
 
 ME	Montenegro
 	01	Andrijevica
@@ -3863,6 +3758,7 @@ ME	Montenegro
 	22	Gusinje
 	23	Petnjica
 	24	Tuzi
+	25	Zeta
 
 MF	Saint Martin (French part)
 	NA	No Subdivisions
@@ -3877,14 +3773,14 @@ MG	Madagascar
 
 MH	Marshall Islands
 	ALK	Ailuk
-	ALL	Ailinglapalap
+	ALL	Ailinglaplap
 	ARN	Arno
 	AUR	Aur
 	EBO	Ebon
-	ENI	Eniwetok
+	ENI	Enewetak & Ujelang
 	JAB	Jabat
 	JAL	Jaluit
-	KIL	Kili
+	KIL	Bikini & Kili
 	KWA	Kwajalein
 	L	Ralik chain
 	LAE	Lae
@@ -3894,267 +3790,198 @@ MH	Marshall Islands
 	MAL	Maloelap
 	MEJ	Mejit
 	MIL	Mili
-	NMK	Namorik
+	NMK	Namdrik
 	NMU	Namu
 	RON	Rongelap
 	T	Ratak chain
 	UJA	Ujae
-	UTI	Utirik
+	UTI	Utrik
 	WTH	Wotho
 	WTJ	Wotje
 
 MK	North Macedonia, Republic of
 	01	Aerodrom
-	02	Aračinovo
-	03	Berovo
-	04	Bitola
-	05	Bogdanci
-	06	Bogovinje
-	07	Bosilovo
-	08	Brvenica
 	09	Butel
-	10	Valandovo
-	11	Vasilevo
-	12	Vevčani
-	13	Veles
-	14	Vinica
+	101	Veles
+	102	Gradsko
+	103	Demir Kapija
+	104	Kavadarci
+	105	Lozovo
+	106	Negotino
+	107	Rosoman
+	108	Sveti Nikole
+	109	Čaška
 	15	Vraneštica
-	16	Vrapčište
-	17	Gazi Babae
-	18	Gevgelija
-	19	Gostivar
-	20	Gradsko
-	21	Debar
-	22	Debarca
-	23	Delčevo
-	24	Demir Kapija
-	25	Demir Hisar
-	26	Dojran
-	27	Dolneni
+	17	Gazi Baba
+	201	Berovo
+	202	Vinica
+	203	Delčevo
+	204	Zrnovci
+	205	Karbinci
+	206	Kočani
+	207	Makedonska Kamenica
+	208	Pehčevo
+	209	Probištip
+	210	Češinovo-Obleševo
+	211	Štip
 	28	Drugovo
 	29	Gjorče Petrov
-	30	Želino
-	31	Zajas
-	32	Zelenikovo
-	33	Zrnovci
-	34	Ilinden
-	35	Jegunovce
-	36	Kavadarci
-	37	Karbinci
-	38	Karpoš
-	39	Kisela Voda
-	40	Kičevo
-	41	Konče
-	42	Kočani
-	43	Kratovo
-	44	Kriva Palanka
-	45	Krivogaštan
-	46	Kruševo
-	47	Kumanovo
-	48	Lipkovo
-	49	Lozovo
-	50	Mavrovo-i-Rostuša
-	51	Makedonska Kamenica
-	52	Makedonski Brod
-	53	Mogila
-	54	Negotino
-	55	Novaci
-	56	Novo Selo
-	57	Oslomej
-	58	Ohrid
-	59	Petrovec
-	60	Pehčevo
-	61	Plasnica
-	62	Prilep
-	63	Probištip
-	64	Radoviš
-	65	Rankovce
-	66	Resen
-	67	Rosoman
-	68	Saraj
-	69	Sveti Nikole
-	70	Sopište
-	71	Staro Nagoričane
-	72	Struga
-	73	Strumica
-	74	Studeničani
-	75	Tearce
-	76	Tetovo
-	77	Centar
-	78	Centar Župa
-	79	Čair
-	80	Čaška
-	81	Češinovo-Obleševo
-	82	Čučer Sandevo
-	83	Štip
-	84	Šuto Orizari
-	801	Aerodrom
-	802	Aračinovo
-	201	Berovo
-	501	Bitola
-	401	Bogdanci
-	601	Bogovinje
-	402	Bosilovo
-	602	Brvenica
-	803	Butel
-	814	Centar
-	313	Centar Župa
-	815	Čair
-	109	Čaška
-	210	Češinovo-Obleševo
-	816	Čučer-Sandevo
+	301	Vevčani
 	303	Debar
 	304	Debrca
-	203	Delčevo
-	502	Demir Hisar
-	103	Demir Kapija
-	406	Dojran
-	503	Dolneni
-	804	Gazi Baba
-	405	Gevgelija
-	805	Gjorče Petrov
-	604	Gostivar
-	102	Gradsko
-	807	Ilinden
-	606	Jegunovce
-	205	Karbinci
-	808	Karpoš
-	104	Kavadarci
 	307	Kičevo
-	809	Kisela Voda
-	206	Kočani
-	407	Konče
-	701	Kratovo
-	702	Kriva Palanka
-	504	Krivogaštani
-	505	Kruševo
-	703	Kumanovo
-	704	Lipkovo
-	105	Lozovo
-	207	Makedonska Kamenica
 	308	Makedonski Brod
-	607	Mavrovo i Rostuše
-	506	Mogila
-	106	Negotino
-	507	Novaci
-	408	Novo Selo
+	31	Zajas
 	310	Ohrid
-	208	Pehčevo
-	810	Petrovec
 	311	Plasnica
-	508	Prilep
-	209	Probištip
-	409	Radoviš
-	705	Rankovce
-	509	Resen
-	107	Rosoman
-	811	Saraj
-	812	Sopište
-	706	Staro Nagoričane
 	312	Struga
-	410	Strumica
-	813	Studeničani
-	108	Sveti Nikole
-	211	Štip
-	817	Šuto Orizari
-	608	Tearce
-	609	Tetovo
+	313	Centar Župa
+	38	Karpoš
+	39	Kisela Voda
+	401	Bogdanci
+	402	Bosilovo
 	403	Valandovo
 	404	Vasilevo
-	101	Veles
-	301	Vevčani
-	202	Vinica
+	405	Gevgelija
+	406	Dojran
+	407	Konče
+	408	Novo Selo
+	409	Radoviš
+	410	Strumica
+	501	Bitola
+	502	Demir Hisar
+	503	Dolneni
+	504	Krivogaštani
+	505	Kruševo
+	506	Mogila
+	507	Novaci
+	508	Prilep
+	509	Resen
+	57	Oslomej
+	601	Bogovinje
+	602	Brvenica
 	603	Vrapčište
-	806	Zelenikovo
-	204	Zrnovci
+	604	Gostivar
 	605	Želino
+	606	Jegunovce
+	607	Mavrovo i Rostuše
+	608	Tearce
+	609	Tetovo
+	68	Saraj
+	701	Kratovo
+	702	Kriva Palanka
+	703	Kumanovo
+	704	Lipkovo
+	705	Rankovce
+	706	Staro Nagoričane
+	77	Centar
+	79	Čair
+	801	Aerodrom
+	802	Aračinovo
+	803	Butel
+	804	Gazi Baba
+	805	Gjorče Petrov
+	806	Zelenikovo
+	807	Ilinden
+	808	Karpoš
+	809	Kisela Voda
+	810	Petrovec
+	811	Saraj
+	812	Sopište
+	813	Studeničani
+	814	Centar
+	815	Čair
+	816	Čučer-Sandevo
+	817	Šuto Orizari
+	84	Šuto Orizari
 	AD	Aerodrom
+	AJ	Saraj
 	AR	Aračinovo
-	BR	Berovo
-	TL	Bitola
+	AV	Kavadarci
 	BG	Bogdanci
-	VJ	Bogovinje
-	BS	Bosilovo
 	BN	Brvenica
+	BR	Berovo
+	BS	Bosilovo
 	BU	Butel
-	CE	Centar
-	CZ	Centar Župa
-	CI	Čair
 	CA	Čaška
+	CE	Centar
 	CH	Češinovo-Obleševo
+	CI	Čair
 	CS	Čučer Sandevo
-	DB	Debar
+	CZ	Centar Župa
 	DA	Debarca
+	DB	Debar
+	DE	Dolneni
+	DK	Demir Kapija
 	DL	Delčevo
 	DM	Demir Hisar
-	DK	Demir Kapija
-	SD	Dojran
-	DE	Dolneni
 	DR	Drugovo
+	ET	Tetovo
 	GB	Gazi Baba
-	GV	Gevgelija
 	GP	Gjorče Petrov
-	GT	Gostivar
 	GR	Gradsko
+	GT	Gostivar
+	GV	Gevgelija
 	IL	Ilinden
 	JG	Jegunovce
 	KB	Karbinci
-	KX	Karpoš
-	AV	Kavadarci
+	KG	Krivogaštani
 	KH	Kičevo
-	VD	Kisela Voda
-	OC	Kočani
 	KN	Konče
+	KS	Kruševo
+	KX	Karpoš
 	KY	Kratovo
 	KZ	Kriva Palanka
-	KG	Krivogaštani
-	KS	Kruševo
-	UM	Kumanovo
 	LI	Lipkovo
 	LO	Lozovo
-	MK	Makedonska Kamenica
 	MD	Makedonski Brod
-	MR	Mavrovo i Rostuša
 	MG	Mogila
+	MK	Makedonska Kamenica
+	MR	Mavrovo i Rostuša
+	NA	Staro Nagoričane
 	NG	Negotino
-	NV	Novaci
+	NI	Vinica
 	NS	Novo Selo
+	NV	Novaci
+	OC	Kočani
 	OD	Ohrid
 	OS	Oslomej
-	PH	Pehčevo
 	PE	Petrovec
+	PH	Pehčevo
 	PN	Plasnica
 	PP	Prilep
 	PT	Probištip
-	RV	Radoviš
-	RN	Rankovce
 	RE	Resen
 	RM	Rosoman
-	AJ	Saraj
-	SS	Sopište
-	NA	Staro Nagoričane
-	UG	Struga
+	RN	Rankovce
 	RU	Strumica
-	SU	Studeničani
+	RV	Radoviš
+	SD	Dojran
 	SL	Sveti Nikole
-	ST	Štip
 	SO	Šuto Orizari
+	SS	Sopište
+	ST	Štip
+	SU	Studeničani
+	TL	Bitola
 	TR	Tearce
-	ET	Tetovo
+	UG	Struga
+	UM	Kumanovo
 	VA	Valandovo
-	VL	Vasilevo
-	VE	Veles
-	VV	Vevčani
-	NI	Vinica
 	VC	Vraneštica
+	VD	Kisela Voda
+	VE	Veles
 	VH	Vrapčište
+	VJ	Bogovinje
+	VL	Vasilevo
+	VV	Vevčani
 	ZA	Zajas
+	ZE	Želino
 	ZK	Zelenikovo
 	ZR	Zrnovci
-	ZE	Želino
 
 ML	Mali
 	1	Kayes
+	10	Taoudénit
 	2	Koulikoro
 	3	Sikasso
 	4	Ségou
@@ -4162,9 +3989,8 @@ ML	Mali
 	6	Tombouctou
 	7	Gao
 	8	Kidal
-	BKO	Bamako
 	9	Ménaka
-	10	Taoudénit
+	BKO	Bamako
 
 MM	Myanmar
 	01	Sagaing
@@ -4187,20 +4013,20 @@ MN	Mongolia
 	035	Orhon
 	037	Darhan uul
 	039	Hentiy
-	041	Hövagöl
+	041	Hövsgöl
 	043	Hovd
 	046	Uvs
 	047	Töv
 	049	Selenge
 	051	Sühbaatar
-	053	Ömnögovi
+	053	Ömnögovĭ
 	055	Övörhangay
 	057	Dzavhan
-	059	Dundgovi
+	059	Dundgovĭ
 	061	Dornod
-	063	Dornogovi
-	064	Govi-Sumber
-	065	Govi-Altay
+	063	Dornogovĭ
+	064	Govĭ-Sümber
+	065	Govĭ-Altay
 	067	Bulgan
 	069	Bayanhongor
 	071	Bayan-Ölgiy
@@ -4229,7 +4055,6 @@ MR	Mauritania
 	10	Guidimaka
 	11	Tiris Zemmour
 	12	Inchiri
-	NKC	Nouakchott
 
 MS	Montserrat
 	NA	No Subdivisions
@@ -4279,27 +4104,27 @@ MT	Malta
 	42	Qala
 	43	Qormi
 	44	Qrendi
-	45	Rabat Gozo
+	45	Rabat Għawdex
 	46	Rabat Malta
 	47	Safi
-	48	Saint Julian’s
-	49	Saint John
-	50	Saint Lawrence
-	51	Saint Paul’s Bay
+	48	San Ġiljan
+	49	San Ġwann
+	50	San Lawrenz
+	51	San Pawl il-Baħar
 	52	Sannat
-	53	Saint Lucia’s
+	53	Santa Luċija
 	54	Santa Venera
 	55	Siġġiewi
 	56	Sliema
 	57	Swieqi
-	58	Ta’ Xbiex
+	58	Ta' Xbiex
 	59	Tarxien
 	60	Valletta
 	61	Xagħra
 	62	Xewkija
 	63	Xgħajra
 	64	Żabbar
-	65	Żebbuġ Gozo
+	65	Żebbuġ Għawdex
 	66	Żebbuġ Malta
 	67	Żejtun
 	68	Żurrieq
@@ -4307,56 +4132,51 @@ MT	Malta
 MU	Mauritius
 	AG	Agalega Islands
 	BL	Black River
-	BR	Beau Bassin-Rose Hill
 	CC	Cargados Carajos Shoals
-	CU	Curepipe
 	FL	Flacq
 	GP	Grand Port
 	MO	Moka
 	PA	Pamplemousses
-	PL	Part Louis
-	PU	Port Louis
-	PW	Plaines wilhems
-	QB	Quatre Bornes
+	PL	Port Louis
+	PW	Plaines Wilhems
 	RO	Rodrigues Island
 	RR	Rivière du Rempart
 	SA	Savanne
-	VP	Vacoas-Phoenix
 
 MV	Maldives
-	00	Alifu Dhaalu
-	01	Seenu
-	02	Alifu Alifu
-	03	Lhaviyani
-	04	Vaavu
-	05	Laamu
-	07	Haa Alifu
-	08	Thaa
-	12	Meemu
-	13	Raa
-	14	Faafu
-	17	Dhaalu
-	20	Baa
-	23	Haa Dhaalu
-	24	Shaviyani
-	25	Noonu
-	26	Kaafu
-	27	Gaaf Alifu
-	28	Gaafu Dhaalu
-	29	Gnaviyani
-	MLE	Male
+	00	Ariatholhu Dhekunuburi
+	01	Addu
+	02	Ariatholhu Uthuruburi
+	03	Faadhippolhu
+	04	Felidheatholhu
+	05	Hahdhunmathi
+	07	Thiladhunmathee Uthuruburi
+	08	Kolhumadulu
+	12	Mulakatholhu
+	13	Maalhosmadulu Uthuruburi
+	14	Nilandheatholhu Uthuruburi
+	17	Nilandheatholhu Dhekunuburi
+	20	Maalhosmadulu Dhekunuburi
+	23	Thiladhunmathee Dhekunuburi
+	24	Miladhunmadulu Uthuruburi
+	25	Miladhunmadulu Dhekunuburi
+	26	Maaleatholhu
+	27	Huvadhuatholhu Uthuruburi
+	28	Huvadhuatholhu Dhekunuburi
+	29	Fuvammulah
 	CE	Central
-	NO	North
+	MLE	Maale
 	NC	North Central
-	SU	South
+	NO	North
 	SC	South Central
+	SU	South
 	UN	Upper North
 	US	Upper South
 
 MW	Malawi
 	BA	Balaka
 	BL	Blantyre
-	C	Central
+	C	Chapakati
 	CK	Chikwawa
 	CR	Chiradzulu
 	CT	Chitipa
@@ -4365,14 +4185,14 @@ MW	Malawi
 	KR	Karonga
 	KS	Kasungu
 	LI	Lilongwe
-	LK	Likoma Island
+	LK	Likoma
 	MC	Mchinji
 	MG	Mangochi
 	MH	Machinga
 	MU	Mulanje
 	MW	Mwanza
 	MZ	Mzimba
-	N	Northern
+	N	Chakumpoto
 	NB	Nkhata Bay
 	NE	Neno
 	NI	Ntchisi
@@ -4381,7 +4201,7 @@ MW	Malawi
 	NU	Ntcheu
 	PH	Phalombe
 	RU	Rumphi
-	S	Southern
+	S	Chakumwera
 	SA	Salima
 	TH	Thyolo
 	ZO	Zomba
@@ -4393,16 +4213,16 @@ MX	Mexico
 	CAM	Campeche
 	CHH	Chihuahua
 	CHP	Chiapas
-	COA	Coahuila
+	CMX	Ciudad de México
+	COA	Coahuila de Zaragoza
 	COL	Colima
-	DIF	Distrito Federal
 	DUR	Durango
 	GRO	Guerrero
 	GUA	Guanajuato
 	HID	Hidalgo
 	JAL	Jalisco
 	MEX	México
-	MIC	Michoacán
+	MIC	Michoacán de Ocampo
 	MOR	Morelos
 	NAY	Nayarit
 	NLE	Nuevo León
@@ -4416,10 +4236,9 @@ MX	Mexico
 	TAB	Tabasco
 	TAM	Tamaulipas
 	TLA	Tlaxcala
-	VER	Veracruz
+	VER	Veracruz de Ignacio de la Llave
 	YUC	Yucatán
 	ZAC	Zacatecas
-	CMX	Ciudad de México
 
 MY	Malaysia
 	01	Johor
@@ -4438,29 +4257,29 @@ MY	Malaysia
 	14	Wilayah Persekutuan Kuala Lumpur
 	15	Wilayah Persekutuan Labuan
 	16	Wilayah Persekutuan Putrajaya
-	W	Wilayah Persekutuan Kuala Lumpur
-	L	Wilayah Persekutuan Labuan
+	A	Perak
+	B	Selangor
+	C	Pahang
+	D	Kelantan
 	J	Johor
 	K	Kedah
-	D	Kelantan
+	L	Wilayah Persekutuan Labuan
 	M	Melaka
 	N	Negeri Sembilan
-	C	Pahang
-	A	Perak
-	R	Perlis
 	P	Pulau Pinang
+	R	Perlis
 	SA	Sabah
 	SK	Sarawak
-	B	Selangor
 	T	Terengganu
+	W	Wilayah Persekutuan Kuala Lumpur
 
 MZ	Mozambique
-	MPM	Maputo
-	A	Niaosa
+	A	Niassa
 	B	Manica
 	G	Gaza
 	I	Inhambane
 	L	Maputo
+	MPM	Maputo
 	N	Nampula
 	P	Cabo Delgado
 	Q	Zambézia
@@ -4468,21 +4287,20 @@ MZ	Mozambique
 	T	Tete
 
 NA	Namibia
-	CA	Caprivi
+	CA	Zambezi
 	ER	Erongo
 	HA	Hardap
-	KA	Karas
+	KA	//Karas
+	KE	Kavango East
 	KH	Khomas
 	KU	Kunene
+	KW	Kavango West
 	OD	Otjozondjupa
 	OH	Omaheke
-	OK	Okavango
 	ON	Oshana
 	OS	Omusati
 	OT	Oshikoto
 	OW	Ohangwena
-	KE	Kavango East
-	KW	Kavango West
 
 NC	New Caledonia
 	NA	No Subdivisions
@@ -4515,7 +4333,7 @@ NG	Nigeria
 	ED	Edo
 	EK	Ekiti
 	EN	Enugu
-	FC	Abuja Capital Territory
+	FC	Abuja Federal Capital Territory
 	GO	Gombe
 	IM	Imo
 	JI	Jigawa
@@ -4526,7 +4344,7 @@ NG	Nigeria
 	KT	Katsina
 	KW	Kwara
 	LA	Lagos
-	NA	Nassarawa
+	NA	Nasarawa
 	NI	Niger
 	OG	Ogun
 	ON	Ondo
@@ -4540,8 +4358,8 @@ NG	Nigeria
 	ZA	Zamfara
 
 NI	Nicaragua
-	AN	Atlántico Norte
-	AS	Atlántico Sur
+	AN	Costa Caribe Norte
+	AS	Costa Caribe Sur
 	BO	Boaco
 	CA	Carazo
 	CI	Chinandega
@@ -4559,89 +4377,55 @@ NI	Nicaragua
 	SJ	Río San Juan
 
 NL	Netherlands
+	AW	Aruba
+	BQ1	Bonaire
+	BQ2	Saba
+	BQ3	Sint Eustatius
+	CW	Curaçao
 	DR	Drenthe
 	FL	Flevoland
-	FR	Friesland
+	FR	Fryslân fy
 	GE	Gelderland
 	GR	Groningen
 	LI	Limburg
 	NB	Noord-Brabant
 	NH	Noord-Holland
 	OV	Overijssel
+	SX	Sint Maarten
 	UT	Utrecht
 	ZE	Zeeland
 	ZH	Zuid-Holland
-	AW	Aruba
-	CW	Curaçao
-	SX	Sint Maarten
-	BQ1	Bonaire
-	BQ2	Saba
-	BQ3	Sint Eustatius
 
 NO	Norway
-	01	Østfold
-	02	Akershus
 	03	Oslo
-	04	Hedmark
-	05	Oppland
-	06	Buskerud
-	07	Vestfold
-	08	Telemark
-	09	Aust-Agder
-	10	Vest-Agder
 	11	Rogaland
-	12	Hordaland
-	14	Sogn og Fjordane
 	15	Møre og Romsdal
-	16	Sør-Trøndelag
-	17	Nord-Trøndelag
 	18	Nordland
-	19	Troms
-	20	Finnmark
-	42	Agder
-	34	Innlandet
-	54	Troms og Finnmark se -
-	50	Trøndelag -
-	38	Vestfold og Telemark
-	46	Vestland
-	30	Viken
-	22	Jan Mayen
 	21	Svalbard
+	22	Jan Mayen
+	30	Viken
+	34	Innlandet
+	38	Vestfold og Telemark
+	42	Agder
+	46	Vestland
+	50	Trøndelag sma
+	54	Troms og Finnmark se fkv
 
 NP	Nepal
-	1	Madhyamanchal
-	2	Madhya Pashchimanchal
-	3	Pashchimanchal
-	4	Purwanchal
-	5	Sudur Pashchimanchal
-	BA	Bagmati
-	BH	Bheri
-	DH	Dhawalagiri
-	GA	Gandaki
-	JA	Janakpur
-	KA	Karnali
-	KO	Kosi [Koshi]
-	LU	Lumbini
-	MA	Mahakali
-	ME	Mechi
-	NA	Narayani
-	RA	Rapti
-	SA	Sagarmatha
-	SE	Seti
-	P1	Pradesh 1
-	P2	Pradesh 2
+	P1	Koshī
+	P2	Madhesh
 	P3	Bāgmatī
-	P4	Gandaki
+	P4	Gaṇḍakī
 	P5	Lumbinī
-	P6	Karnali
-	P7	Sudūr Pashchim
+	P6	Karṇālī
+	P7	Sudūrpashchim
 
 NR	Nauru
 	01	Aiwo
 	02	Anabar
 	03	Anetan
 	04	Anibare
-	05	Baiti
+	05	Baitsi
 	06	Boe
 	07	Buada
 	08	Denigomodu
@@ -4663,40 +4447,36 @@ NZ	New Zealand
 	BOP	Bay of Plenty
 	CAN	Canterbury
 	CIT	Chatham Islands Territory
-	GIS	Gisborne District
-	HKB	Hawkes's Bay
-	MBH	Marlborough District
-	MWT	Manawatu-Wanganui
-	NSN	Nelson City
+	GIS	Gisborne
+	HKB	Hawke's Bay
+	MBH	Marlborough
+	MWT	Manawatū-Whanganui
+	NSN	Nelson
 	NTL	Northland
 	OTA	Otago
 	STL	Southland
-	TAS	Tasman District
+	TAS	Tasman
 	TKI	Taranaki
-	WGN	Wellington
+	WGN	Greater Wellington
 	WKO	Waikato
 	WTC	West Coast
 
 OM	Oman
+	BJ	Janūb al Bāţinah
+	BS	Shamāl al Bāţinah
 	BU	Al Buraymī
+	DA	Ad Dākhilīyah
 	MA	Masqaţ
 	MU	Musandam
-	ZU	Z̧ufār
-	BA	Al Bāţinah
-	DA	Ad Dākhilīyah
-	SH	Ash Sharqīyah
-	WU	Al Wusţá
-	ZA	Aȥ Ȥāhirah
-	BS	Shamāl al Bāţinah
-	BJ	Janūb al Bāţinah
-	SS	Shamāl ash Sharqīyah
 	SJ	Janūb ash Sharqīyah
+	SS	Shamāl ash Sharqīyah
+	WU	Al Wusţá
+	ZA	Az̧ Z̧āhirah
+	ZU	Z̧ufār
 
 PA	Panama
-	EM	Emberá
-	KY	Kuna Yala
-	NB	Ngöbe-Buglé
 	1	Bocas del Toro
+	10	Panamá Oeste
 	2	Coclé
 	3	Colón
 	4	Chiriquí
@@ -4705,25 +4485,29 @@ PA	Panama
 	7	Los Santos
 	8	Panamá
 	9	Veraguas
+	EM	Emberá
+	KY	Guna Yala
+	NB	Ngäbe-Buglé
 	NT	Naso Tjër Di
-	10	Panamá Oeste
 
 PE	Peru
-	CAL	El Callao
+	2	2010-06-30
 	AMA	Amazonas
 	ANC	Ancash
 	APU	Apurímac
 	ARE	Arequipa
 	AYA	Ayacucho
 	CAJ	Cajamarca
-	CUS	Cuzco [Cusco]
+	CAL	El Callao
+	CUS	Cusco
 	HUC	Huánuco
 	HUV	Huancavelica
 	ICA	Ica
 	JUN	Junín
 	LAL	La Libertad
-	LAX	Lambayeque
+	LAM	Lambayeque
 	LIM	Lima
+	LMA	Municipalidad Metropolitana de Lima
 	LOR	Loreto
 	MDD	Madre de Dios
 	MOQ	Moquegua
@@ -4734,15 +4518,11 @@ PE	Peru
 	TAC	Tacna
 	TUM	Tumbes
 	UCA	Ucayali
-	LMA	Municipalidad Metropolitana de Lima
-	LAM	Lambayeque
 
 PF	French Polynesia
 	NA	No Subdivisions
 
 PG	Papua New Guinea
-	NSB	Bougainville
-	NCD	National Capital District (Port Moresby)
 	CPK	Chimbu
 	CPM	Central
 	EBR	East New Britain
@@ -4750,21 +4530,40 @@ PG	Papua New Guinea
 	EPW	Enga
 	ESW	East Sepik
 	GPK	Gulf
+	HLA	Hela
+	JWK	Jiwaka
 	MBA	Milne Bay
 	MPL	Morobe
 	MPM	Madang
 	MRL	Manus
+	NCD	National Capital District
 	NIK	New Ireland
 	NPP	Northern
-	SAN	Sandaun (West Sepik)
+	NSB	Bougainville
+	SAN	West Sepik
 	SHM	Southern Highlands
 	WBK	West New Britain
 	WHM	Western Highlands
 	WPD	Western
-	HLA	Hela
-	JWK	Jiwaka
 
 PH	Philippines
+	00	National Capital Region
+	01	Ilocos
+	02	Cagayan Valley
+	03	Central Luzon
+	05	Bicol
+	06	Western Visayas
+	07	Central Visayas
+	08	Eastern Visayas
+	09	Zamboanga Peninsula
+	10	Northern Mindanao
+	11	Davao
+	12	Soccsksargen
+	13	Caraga
+	14	Autonomous Region in Muslim Mindanao
+	15	Cordillera Administrative Region
+	40	Calabarzon
+	41	Mimaropa
 	ABR	Abra
 	AGN	Agusan del Norte
 	AGS	Agusan del Sur
@@ -4790,35 +4589,37 @@ PH	Philippines
 	CAT	Catanduanes
 	CAV	Cavite
 	CEB	Cebu
-	COM	Compostela Valley
+	COM	Davao de Oro
 	DAO	Davao Oriental
 	DAS	Davao del Sur
-	DAV	Davao
+	DAV	Davao del Norte
 	DIN	Dinagat Islands
+	DVO	Davao Occidental
 	EAS	Eastern Samar
 	GUI	Guimaras
 	IFU	Ifugao
 	ILI	Iloilo
 	ILN	Ilocos Norte
-	ILS	Ilocoq Sur
+	ILS	Ilocos Sur
 	ISA	Isabela
-	KAL	Kalinga-Apayao
+	KAL	Kalinga
 	LAG	Laguna
 	LAN	Lanao del Norte
 	LAS	Lanao del Sur
 	LEY	Leyte
 	LUN	La Union
 	MAD	Marinduque
-	MAG	Maguindanao
 	MAS	Masbate
 	MDC	Mindoro Occidental
 	MDR	Mindoro Oriental
+	MGN	Maguindanao del Norte
+	MGS	Maguindanao del Sur
 	MOU	Mountain Province
 	MSC	Misamis Occidental
 	MSR	Misamis Oriental
-	NCO	North Cotabato
-	NEC	Negros occidental
-	NER	Negros oriental
+	NCO	Cotabato
+	NEC	Negros Occidental
+	NER	Negros Oriental
 	NSA	Northern Samar
 	NUE	Nueva Ecija
 	NUV	Nueva Vizcaya
@@ -4840,59 +4641,25 @@ PH	Philippines
 	SUR	Surigao del Sur
 	TAR	Tarlac
 	TAW	Tawi-Tawi
-	WSA	Western Samar
+	WSA	Samar
 	ZAN	Zamboanga del Norte
 	ZAS	Zamboanga del Sur
 	ZMB	Zambales
-	ZSI	Zamboanga Sibuguey [Zamboanga Sibugay]
-	14	Autonomous Region in Muslim Mindanao
-	05	Bicol
-	02	Cagayan Valley
-	40	Calabarzon
-	13	Caraga
-	03	Central Luzon
-	07	Central Visayas
-	15	Cordillera Administrative Region
-	11	Davao
-	08	Eastern Visayas
-	01	Ilocos
-	41	Mimaropa
-	00	National Capital Region
-	10	Northern Mindanao
-	12	Soccsksargen
-	06	Western Visayas
-	09	Zamboanga Peninsula
-	DVO	Davao Occidental
+	ZSI	Zamboanga Sibugay
 
 PK	Pakistan
-	IS	Islamabad
-	GB	Gilgit-Baltistan
-	JK	Azad Kashmir
-	BA	Baluchistan
-	KP	Khyber Pakhtunkhwa
-	PB	Punjab
-	SD	Sind
+	BA	Balōchistān
+	GB	Gilgit-Baltistān
+	IS	Islāmābād
+	JK	Āzād Jammūñ o Kashmīr
+	KP	Khaībar Pakhtūnkhwā
+	PB	Panjāb
+	SD	Sindh
 	TA	Federally Administered Tribal Areas
 
 PL	Poland
-	DS	Dolnoslaskie
-	KP	Kujawsko-pomorskie
-	LB	Lubuskie
-	LD	Lódzkie
-	LU	Lubelskie
-	MA	Malopolskie
-	MZ	Mazowieckie
-	OP	Opolskie
-	PD	Podlaskie
-	PK	Podkarpackie
-	PM	Pomorskie
-	SK	Swietokrzyskie
-	SL	Slaskie
-	WN	Warminsko-mazurskie
-	WP	Wielkopolskie
-	ZP	Zachodniopomorskie
 	02	Dolnośląskie
-	04	Kujawsko-pomorskie
+	04	Kujawsko-Pomorskie
 	06	Lubelskie
 	08	Lubuskie
 	10	Łódzkie
@@ -4904,53 +4671,69 @@ PL	Poland
 	22	Pomorskie
 	24	Śląskie
 	26	Świętokrzyskie
-	28	Warmińsko-mazurskie
+	28	Warmińsko-Mazurskie
 	30	Wielkopolskie
 	32	Zachodniopomorskie
-	BP	Biała Podlaska
-	BK	Białystok
 	BB	Bielsko-Biała
+	BK	Białystok
+	BP	Biała Podlaska
 	BY	Bydgoszcz
 	CH	Chełm
 	CI	Ciechanów
 	CZ	Częstochowa
+	DS	Dolnośląskie
 	EL	Elbląg
 	GD	Gdańsk
 	GO	Gorzów
 	JG	Jelenia Góra
-	KL	Kalisz
 	KA	Katowice
 	KI	Kielce
+	KL	Kalisz
 	KN	Konin
 	KO	Koszalin
+	KP	Kujawsko-pomorskie
 	KR	Kraków
 	KS	Krosno
-	LG	Legnica
+	LB	Lubuskie
+	LD	Łódzkie
 	LE	Leszno
+	LG	Legnica
 	LO	Łomża
+	LU	Lubelskie
+	MA	Małopolskie
+	MZ	Mazowieckie
 	NS	Nowy Sącz
 	OL	Olsztyn
+	OP	Opolskie
 	OS	Ostrołęka
+	PD	Podlaskie
 	PI	Piła
-	PT	Piotrków
+	PK	Podkarpackie
 	PL	Płock
+	PM	Pomorskie
 	PO	Poznań
 	PR	Przemyśl
+	PT	Piotrków
 	RA	Radom
 	RZ	Rzeszów
 	SE	Siedlce
 	SI	Sieradz
+	SK	Świętokrzyskie
+	SL	Śląskie
 	SU	Suwałki
 	SZ	Szczecin
-	TG	Tarnobrzeg
 	TA	Tarnów
+	TG	Tarnobrzeg
 	TO	Toruń
-	WB	Wałbrzych
 	WA	Warszawa
+	WB	Wałbrzych
 	WL	Włocławek
+	WN	Warmińsko-mazurskie
+	WP	Wielkopolskie
 	WR	Wrocław
 	ZA	Zamość
 	ZG	Zielona Góra
+	ZP	Zachodniopomorskie
 
 PM	Saint Pierre and Miquelon
 	NA	No Subdivisions
@@ -4962,22 +4745,22 @@ PR	Puerto Rico
 	NA	No Subdivisions
 
 PS	Palestine, State of
-	BTH	Bethlehem
-	DEB	Deir El Balah
-	GZA	Gaza
-	HBN	Hebron
-	JEM	Jerusalem
-	JEN	Jenin
-	JRH	Jericho – Al Aghwar
-	KYS	Khan Yunis
-	NBS	Nablus
-	NGZ	North Gaza
-	QQA	Qalqilya
-	RBH	Ramallah
-	RFH	Rafah
-	SLT	Salfit
-	TBS	Tubas
-	TKM	Tulkarm
+	BTH	Bayt Laḩm
+	DEB	Dayr al Balaḩ
+	GZA	Ghazzah
+	HBN	Al Khalīl
+	JEM	Al Quds
+	JEN	Janīn
+	JRH	Arīḩā wal Aghwār
+	KYS	Khān Yūnis
+	NBS	Nāblus
+	NGZ	Shamāl Ghazzah
+	QQA	Qalqīlyah
+	RBH	Rām Allāh wal Bīrah
+	RFH	Rafaḩ
+	SLT	Salfīt
+	TBS	Ţūbās
+	TKM	Ţūlkarm
 
 PT	Portugal
 	01	Aveiro
@@ -5005,7 +4788,7 @@ PW	Palau
 	002	Aimeliik
 	004	Airai
 	010	Angaur
-	050	Hatobohei
+	050	Hatohobei
 	100	Kayangel
 	150	Koror
 	212	Melekeok
@@ -5044,45 +4827,45 @@ QA	Qatar
 	KH	Al Khawr wa adh Dhakhīrah
 	MS	Ash Shamāl
 	RA	Ar Rayyān
+	SH	Ash Shīḩānīyah
 	US	Umm Şalāl
 	WA	Al Wakrah
 	ZA	Az̧ Z̧a‘āyin
-	SH	Ash Shīḩānīyah
 
 RE	Réunion
 	NA	No Subdivisions
 
 RO	Romania
 	AB	Alba
-	AG	Argeş
+	AG	Argeș
 	AR	Arad
-	B	Bucureşti
+	B	București
 	BC	Bacău
 	BH	Bihor
-	BN	Bistriţa-Năsăud
+	BN	Bistrița-Năsăud
 	BR	Brăila
-	BT	Botoşani
-	BV	Braşov
+	BT	Botoșani
+	BV	Brașov
 	BZ	Buzău
 	CJ	Cluj
-	CL	Călăraşi
-	CS	Caraş-Severin
-	CT	Constanţa
+	CL	Călărași
+	CS	Caraș-Severin
+	CT	Constanța
 	CV	Covasna
-	DB	Dâmboviţa
+	DB	Dâmbovița
 	DJ	Dolj
 	GJ	Gorj
-	GL	Galaţi
+	GL	Galați
 	GR	Giurgiu
 	HD	Hunedoara
 	HR	Harghita
 	IF	Ilfov
-	IL	Ialomita
-	IS	Iaşi
-	MH	Mehedinţi
-	MM	Maramureş
-	MS	Mureş
-	NT	Neamţ
+	IL	Ialomița
+	IS	Iași
+	MH	Mehedinți
+	MM	Maramureș
+	MS	Mureș
+	NT	Neamț
 	OT	Olt
 	PH	Prahova
 	SB	Sibiu
@@ -5090,15 +4873,13 @@ RO	Romania
 	SM	Satu Mare
 	SV	Suceava
 	TL	Tulcea
-	TM	Timiş
+	TM	Timiș
 	TR	Teleorman
 	VL	Vâlcea
 	VN	Vrancea
 	VS	Vaslui
 
 RS	Serbia
-	KM	Kosovo-Metohija
-	VO	Vojvodina
 	00	Beograd
 	01	Severnobački okrug
 	02	Srednjebanatski okrug
@@ -5129,130 +4910,132 @@ RS	Serbia
 	27	Prizrenski okrug
 	28	Kosovsko-Mitrovački okrug
 	29	Kosovsko-Pomoravski okrug
+	KM	Kosovo-Metohija
+	VO	Vojvodina
 
 RU	Russian Federation
+	AD	Adygeya, Respublika
+	AL	Altay, Respublika
+	ALT	Altayskiy kray
 	AMU	Amurskaya oblast'
-	ARK	Arkhangel'skaya oblast,
+	ARK	Arkhangel'skaya oblast'
 	AST	Astrakhanskaya oblast'
+	BA	Bashkortostan, Respublika
 	BEL	Belgorodskaya oblast'
 	BRY	Bryanskaya oblast'
+	BU	Buryatiya, Respublika
+	CE	Chechenskaya Respublika
 	CHE	Chelyabinskaya oblast'
+	CHU	Chukotskiy avtonomnyy okrug
+	CU	Chuvashskaya Respublika
+	DA	Dagestan, Respublika
+	IN	Ingushetiya, Respublika
 	IRK	Irkutskaya oblast'
 	IVA	Ivanovskaya oblast'
+	KAM	Kamchatskiy kray
+	KB	Kabardino- Balkarskaya Respublika
+	KC	Karachayevo-Cherkesskaya Respublika
+	KDA	Krasnodarskiy kray
 	KEM	Kemerovskaya oblast'
-	KGD	Kaliningradskaya oblast,
+	KGD	Kaliningradskaya oblast'
 	KGN	Kurganskaya oblast'
+	KHA	Khabarovskiy kray
+	KHM	Khanty- Mansiyskiy avtonomnyy okrug
 	KIR	Kirovskaya oblast'
+	KK	Khakasiya, Respublika
+	KL	Kalmykiya, Respublika
 	KLU	Kaluzhskaya oblast'
+	KO	Komi, Respublika
 	KOS	Kostromskaya oblast'
+	KR	Kareliya, Respublika
 	KRS	Kurskaya oblast'
+	KYA	Krasnoyarskiy kray
 	LEN	Leningradskaya oblast'
 	LIP	Lipetskaya oblast'
 	MAG	Magadanskaya oblast'
+	ME	Mariy El, Respublika
+	MO	Mordoviya, Respublika
 	MOS	Moskovskaya oblast'
+	MOW	Moskva
 	MUR	Murmanskaya oblast'
+	NEN	Nenetskiy avtonomnyy okrug
 	NGR	Novgorodskaya oblast'
-	NIZ	Nizbegorodskaya oblast,
+	NIZ	Nizhegorodskaya oblast'
 	NVS	Novosibirskaya oblast'
 	OMS	Omskaya oblast'
 	ORE	Orenburgskaya oblast'
 	ORL	Orlovskaya oblast'
+	PER	Permskiy kray
 	PNZ	Penzenskaya oblast'
+	PRI	Primorskiy kray
 	PSK	Pskovskaya oblast'
 	ROS	Rostovskaya oblast'
 	RYA	Ryazanskaya oblast'
+	SA	Saha, Respublika
 	SAK	Sakhalinskaya oblast'
 	SAM	Samarskaya oblast'
 	SAR	Saratovskaya oblast'
+	SE	Severnaya Osetiya, Respublika
 	SMO	Smolenskaya oblast'
+	SPE	Sankt-Peterburg
+	STA	Stavropol'skiy kray
 	SVE	Sverdlovskaya oblast'
+	TA	Tatarstan, Respublika
 	TAM	Tambovskaya oblast'
 	TOM	Tomskaya oblast'
 	TUL	Tul'skaya oblast'
 	TVE	Tverskaya oblast'
+	TY	Tyva, Respublika
 	TYU	Tyumenskaya oblast'
+	UD	Udmurtskaya Respublika
 	ULY	Ul'yanovskaya oblast'
 	VGG	Volgogradskaya oblast'
 	VLA	Vladimirskaya oblast'
 	VLG	Vologodskaya oblast'
 	VOR	Voronezhskaya oblast'
+	YAN	Yamalo- Nenetskiy avtonomnyy okrug
 	YAR	Yaroslavskaya oblast'
-	ALT	Altayskiy kray
-	KAM	Kamchatskiy kray
-	KDA	Krasnodarskiy kray
-	KHA	Khabarovskiy kray
-	KYA	Krasnoyarskiy kray
-	PER	Permskiy kray
-	PRI	Primorskiy kray
-	STA	Stavropol'skiy kray
+	YEV	Yevreyskaya avtonomnaya oblast'
 	ZAB	Zabaykal'skiy kray
-	MOW	Moskva
-	SPE	Sankt-Peterburg
-	CHU	Chukotskiy avtonomnyy okrug
-	KHM	Khanty-Mansiyskiy avtonomnyy okrug-Yugra
-	NEN	Nenetskiy avtonomnyy okrug
-	YAN	Yamalo-Nenetskiy avtonomnyy okrug
-	YEV	Yevreyskaya avtonomnaya oblast'ug
-	AD	Adygeya, Respublika
-	AL	Altay, Respublika
-	BA	Bashkortostan, Respublika
-	BU	Buryatiya, Respublika
-	CE	Chechenskaya Respublika
-	CU	Chuvashskaya Respublika
-	DA	Dagestan, Respublika
-	IN	Ingushetiya, Respublika
-	KB	Kabardino-Balkarskaya Respublika
-	KL	Kalmykiya, Respublika
-	KC	Karachayevo-Cherkesskaya Respublika
-	KR	Kareliya, Respublika
-	KK	Khakasiya, Respublika
-	KO	Komi, Respublika
-	ME	Mariy El, Respublika
-	MO	Mordoviya, Respublika
-	SA	Saha, Respublika
-	SE	Severnaya Osetiya, Respublika
-	TA	Tatarstan, Respublika
-	TY	Tyva, Respublika
-	UD	Udmurtskaya Respublika
 
 RW	Rwanda
-	02	Est
-	03	Nord
-	04	Ouest
-	05	Sud
-	01	Ville de Kigali
-	C	Butare
-	v	Byumba
-	E	Cyangugu
-	D	Gikongoro
-	G	Gisenyi
+	01	City of Kigali
+	02	Eastern
+	03	Northern
+	04	Western
+	05	Southern
 	B	Gitarama
-	J	Kibungo
+	C	Butare
+	D	Gikongoro
+	E	Cyangugu
 	F	Kibuye
+	G	Gisenyi
+	H	Ruhengeri
+	J	Kibungo
 	K	Kigali-Rural
 	L	Kigali-Ville
 	M	Mutara
-	H	Ruhengeri
+	v	Byumba
 
 SA	Saudi Arabia
 	01	Ar Riyāḑ
-	02	Makkah
-	03	Al Madīnah
+	02	Makkah al Mukarramah
+	03	Al Madīnah al Munawwarah
 	04	Ash Sharqīyah
 	05	Al Qaşīm
 	06	Ḩā'il
 	07	Tabūk
 	08	Al Ḩudūd ash Shamālīyah
-	09	Jīzān
+	09	Jāzān
 	10	Najrān
 	11	Al Bāḩah
-	12	AI Jawf
+	12	Al Jawf
 	14	'Asīr
 
 SB	Solomon Islands
 	CE	Central
 	CH	Choiseul
-	CT	Capital Territory (Honiara)
+	CT	Capital Territory
 	GU	Guadalcanal
 	IS	Isabel
 	MK	Makira-Ulawa
@@ -5264,100 +5047,102 @@ SB	Solomon Islands
 SC	Seychelles
 	01	Anse aux Pins
 	02	Anse Boileau
-	03	Anse Étoile
+	03	Anse Etoile
 	04	Au Cap
 	05	Anse Royale
 	06	Baie Lazare
-	07	Baie Sainte-Anne
+	07	Baie Sainte Anne
 	08	Beau Vallon
 	09	Bel Air
 	10	Bel Ombre
 	11	Cascade
+	11-24	Addition of district SC-26, SC-27; Update List Source
 	12	Glacis
-	13	Grand' Anse Mahé
-	14	Grand' Anse Praslin
+	13	Grand Anse Mahe
+	14	Grand Anse Praslin
 	15	La Digue
-	16	La Rivière Anglaise
+	16	English River
 	17	Mont Buxton
 	18	Mont Fleuri
 	19	Plaisance
-	20	Pointe La Rue
+	20	Pointe Larue
 	21	Port Glaud
 	22	Saint Louis
 	23	Takamaka
 	24	Les Mamelles
-	25	Roche Caïman
+	25	Roche Caiman
 	26	Ile Perseverance I
 	27	Ile Perseverance II
 
 SD	Sudan
-	DC	Central Darfur
-	DE	East Darfur
-	DN	North Darfur
-	DS	South Darfur
-	DW	West Darfur
-	GD	Gedaref
-	GZ	Gezira
-	KA	Kassala
-	KH	Khartoum
-	KN10	North Kordofan
-	KS	South Kordofan
-	NB	Blue Nile
-	NO	Northern
-	NR	River Nile
-	NW	White Nile
-	RS	Red Sea
-	SI	Sennar
-	GK	Gharb Kurdufān
-	KN	Shamāl Kurdufān
-	23	Āٰālī an Nīl
-	26	Al Baḩr al Aḩmar
-	18	Al Buḩayrāt
-	07	Al Jazīrah
-	03	Al Kharţūm
-	06	Al Qaḑārif
-	22	Al Waḩdah
-	04	An Nīl
-	08	An Nīl al Abyaḑ
-	24	An Nīl al Azraq
 	01	Ash Shamālīyah
-	17	Baḩr al Jabal
-	16	Gharb al Istiwā'īyah
-	14	Gharb Baḩr al Ghazāl
-	12	Gharb Dārfūr
-	11	Janūb Dārfūr
-	13	Janūb Kurdufān
-	20	Jūnqalī
-	05	Kassalā
-	15	Shamāl Baḩr al Ghazāl
 	02	Shamāl Dārfūr
+	03	Al Kharţūm
+	04	An Nīl
+	05	Kassalā
+	06	Al Qaḑārif
+	07	Al Jazīrah
+	08	An Nīl al Abyaḑ
 	09	Shamāl Kurdufān
+	11	Janūb Dārfūr
+	11-24	Typographical correction of subdivision name of SD-KN, SD-DC; Addition of local variation of SD-DC
+	11-26	Correction of the romanization system label
+	12	Gharb Dārfūr
+	13	Janūb Kurdufān
+	14	Gharb Baḩr al Ghazāl
+	15	Shamāl Baḩr al Ghazāl
+	16	Gharb al Istiwā'īyah
+	17	Baḩr al Jabal
+	18	Al Buḩayrāt
 	19	Sharq al Istiwā'īyah
-	25	Sinnār
+	20	Jūnqalī
 	21	Wārāb
+	22	Al Waḩdah
+	23	Āٰālī an Nīl
+	24	An Nīl al Azraq
+	25	Sinnār
+	26	Al Baḩr al Aḩmar
+	DC	Wasaţ Dārfūr
+	DE	Sharq Dārfūr
+	DN	Shamāl Dārfūr
+	DS	Janūb Dārfūr
+	DW	Gharb Dārfūr
+	GD	Al Qaḑārif
+	GK	Gharb Kurdufān
+	GZ	Al Jazīrah
+	KA	Kassalā
+	KH	Al Kharţūm
+	KN	Shamāl Kurdufān
+	KS	Janūb Kurdufān
+	NB	An Nīl al Azraq
+	NO	Ash Shamālīyah
+	NR	Nahr an Nīl
+	NW	An Nīl al Abyaḑ
+	RS	Al Baḩr al Aḩmar
+	SI	Sinnār
 
 SE	Sweden
-	AB	Stockholms län[SE-01]
-	AC	Västerbottens län[SE-24]
-	BD	Norrbottens län[SE-25]
-	C	Uppsala län[SE-03]
-	D	Södermanlands län[SE-04]
-	E	Östergötlands län[SE-05]
-	F	Jönköpings län[SE-06]
-	G	Kronoborgs län[SE-07]
-	H	Kalmar län[SE-08]
-	I	Gotlands län[SE-09]
-	K	Blekinge län[SE-10]
-	M	Skåne län[SE-12]
-	N	Hallands län[SE-13]
-	O	Västra Götalands län[SE-14]
-	S	Värmlands län[SE-17]
-	T	Örebro län[SE-18]
-	U	Västmanlands län[SE-19]
-	W	Dalarnes län[SE-20]
-	X	Gävleborgs län[SE-21]
-	Y	Västernorrlands län[SE-22]
-	Z	Jämtlands län[SE-23]
+	AB	Stockholms län
+	AC	Västerbottens län
+	BD	Norrbottens län
+	C	Uppsala län
+	D	Södermanlands län
+	E	Östergötlands län
+	F	Jönköpings län
+	G	Kronobergs län
+	H	Kalmar län
+	I	Gotlands län
+	K	Blekinge län
+	M	Skåne län
+	N	Hallands län
+	O	Västra Götalands län
+	S	Värmlands län
+	T	Örebro län
+	U	Västmanlands län
+	W	Dalarnas län
+	X	Gävleborgs län
+	Y	Västernorrlands län
+	Z	Jämtlands län
 
 SF	Finland
 	NA	No Subdivisions
@@ -5384,6 +5169,7 @@ SI	Slovenia
 	007	Brda
 	008	Brezovica
 	009	Brežice
+	01	Pomurska
 	010	Tišina
 	011	Celje
 	012	Cerklje na Gorenjskem
@@ -5394,6 +5180,7 @@ SI	Slovenia
 	017	Črnomelj
 	018	Destrnik
 	019	Divača
+	02	Podravska
 	020	Dobrepolje
 	021	Dobrova-Polhov Gradec
 	022	Dol pri Ljubljani
@@ -5404,6 +5191,7 @@ SI	Slovenia
 	027	Gorenja vas-Poljane
 	028	Gorišnica
 	029	Gornja Radgona
+	03	Koroška
 	030	Gornji Grad
 	031	Gornji Petrovci
 	032	Grosuplje
@@ -5414,16 +5202,18 @@ SI	Slovenia
 	037	Ig
 	038	Ilirska Bistrica
 	039	Ivančna Gorica
+	04	Savinjska
 	040	Izola
 	041	Jesenice
 	042	Juršinci
 	043	Kamnik
-	044	Kanal
+	044	Kanal ob Soči
 	045	Kidričevo
 	046	Kobarid
 	047	Kobilje
 	048	Kočevje
 	049	Komen
+	05	Zasavska
 	050	Koper
 	051	Kozje
 	052	Kranj
@@ -5434,16 +5224,18 @@ SI	Slovenia
 	057	Laško
 	058	Lenart
 	059	Lendava
+	06	Spodnjeposavska
 	060	Litija
 	061	Ljubljana
 	062	Ljubno
 	063	Ljutomer
 	064	Logatec
-	065	Loška Dolina
+	065	Loška dolina
 	066	Loški Potok
 	067	Luče
 	068	Lukovica
 	069	Majšperk
+	07	Dolenjska
 	070	Maribor
 	071	Medvode
 	072	Mengeš
@@ -5454,16 +5246,18 @@ SI	Slovenia
 	077	Moravče
 	078	Moravske Toplice
 	079	Mozirje
+	08	Osrednjeslovenska
 	080	Murska Sobota
 	081	Muta
 	082	Naklo
 	083	Nazarje
 	084	Nova Gorica
-	085	Novo mesto
+	085	Novo Mesto
 	086	Odranci
 	087	Ormož
 	088	Osilnica
 	089	Pesnica
+	09	Gorenjska
 	090	Piran
 	091	Pivka
 	092	Podčetrtek
@@ -5474,6 +5268,7 @@ SI	Slovenia
 	097	Puconci
 	098	Rače-Fram
 	099	Radeče
+	10	Notranjsko-kraška
 	100	Radenci
 	101	Radlje ob Dravi
 	102	Radovljica
@@ -5484,16 +5279,18 @@ SI	Slovenia
 	107	Rogatec
 	108	Ruše
 	109	Semič
-	110	Semic
+	11	Goriška
+	110	Sevnica
 	111	Sežana
 	112	Slovenj Gradec
 	113	Slovenska Bistrica
 	114	Slovenske Konjice
 	115	Starše
-	116	Sveti Jurij
+	116	Sveti Jurij ob Ščavnici
 	117	Šenčur
 	118	Šentilj
 	119	Šentjernej
+	12	Obalno-kraška
 	120	Šentjur
 	121	Škocjan
 	122	Škofja Loka
@@ -5542,7 +5339,7 @@ SI	Slovenia
 	166	Križevci
 	167	Lovrenc na Pohorju
 	168	Markovci
-	169	Miklavž na Dravskem Polju
+	169	Miklavž na Dravskem polju
 	170	Mirna Peč
 	171	Oplotnica
 	172	Podlehnik
@@ -5555,10 +5352,10 @@ SI	Slovenia
 	179	Sodražica
 	180	Solčava
 	181	Sveta Ana
-	182	Sveti Andraž v Slovenskih Goricah
+	182	Sveti Andraž v Slovenskih goricah
 	183	Šempeter-Vrtojba
 	184	Tabor
-	185	Trnovska vas
+	185	Trnovska Vas
 	186	Trzin
 	187	Velika Polana
 	188	Veržej
@@ -5567,38 +5364,26 @@ SI	Slovenia
 	191	Žetale
 	192	Žirovnica
 	193	Žužemberk
+	194	Šmartno pri Litiji
 	195	Apače
 	196	Cirkulane
-	197	Kosanjevica na Krki
+	197	Kostanjevica na Krki
 	198	Makole
 	199	Mokronog-Trebelno
 	200	Poljčane
 	201	Renče-Vogrsko
 	202	Središče ob Dravi
 	203	Straža
-	204	Sveta Trojica v Slovenskih Goricah
+	204	Sveta Trojica v Slovenskih goricah
 	205	Sveti Tomaž
 	206	Šmarješke Toplice
 	207	Gorje
 	208	Log-Dragomer
 	209	Rečica ob Savinji
-	210	Sveti Jurij v Slovenskih Goricah
+	210	Sveti Jurij v Slovenskih goricah
 	211	Šentrupert
-	213	Ankaran
 	212	Mirna
-	194	Šmartno pri Litiji
-	07	Dolenjska
-	09	Gorenjska
-	11	Goriška
-	03	Koroška
-	10	Notranjsko-kraška
-	12	Obalno-kraška
-	08	Osrednjeslovenska
-	02	Podravska
-	01	Pomurska
-	04	Savinjska
-	06	Spodnjeposavska
-	05	Zasavska
+	213	Ankaran
 
 SJ	Svalbard and Jan Mayen
 	NA	No Subdivisions
@@ -5616,9 +5401,9 @@ SK	Slovakia
 SL	Sierra Leone
 	E	Eastern
 	N	Northern
-	S	Southern
-	W	Western Area (Freetown)
 	NW	North Western
+	S	Southern
+	W	Western Area
 
 SM	San Marino
 	01	Acquaviva
@@ -5627,7 +5412,7 @@ SM	San Marino
 	04	Faetano
 	05	Fiorentino
 	06	Borgo Maggiore
-	07	San Marino
+	07	Città di San Marino
 	08	Montegiardino
 	09	Serravalle
 
@@ -5673,15 +5458,15 @@ SR	Suriname
 	CR	Coronie
 	MA	Marowijne
 	NI	Nickerie
-	PM	Saramacca
+	PM	Paramaribo
 	PR	Para
 	SA	Saramacca
 	SI	Sipaliwini
 	WA	Wanica
 
 SS	South Sudan
-	BN	Northern Bahr el-Ghazal
-	BW	Western Bahr el-Ghazal
+	BN	Northern Bahr el Ghazal
+	BW	Western Bahr el Ghazal
 	EC	Central Equatoria
 	EE	Eastern Equatoria
 	EW	Western Equatoria
@@ -5692,17 +5477,94 @@ SS	South Sudan
 	WR	Warrap
 
 ST	Sao Tome and Principe
-	P	Príncipe
-	S	São Tomé
 	01	Água Grande
 	02	Cantagalo
 	03	Caué
 	04	Lembá
 	05	Lobata
 	06	Mé-Zóchi
+	P	Príncipe
 
 SU	USSR
-	NA	No Subdivisions
+	AC	Ascension Island
+	AI	French Afars and Issas
+	AP	African Regional Industrial Property Organization
+	AX	Åland Islands
+	BQ	British Antarctic Territory
+	BU	Burma
+	BX	Benelux Trademarks and Designs Office
+	CP	Clipperton Island
+	CQ	Island of Sark
+	CS	Czechoslovakia
+	CT	Canton and Enderbury Islands
+	DA	DB
+	DD	German Democratic Republic
+	DG	Diego Garcia
+	DY	Dahomey
+	EA	Ceuta Melilla
+	EF	European Community Patent Convention
+	EM	European Trademark Office
+	EP	European Patent Organization
+	EU	European Union
+	EV	Eurasian Patent Organization
+	EW	Estonia
+	EZ	Eurozone
+	FA	FB
+	FL	Liechtenstein
+	FQ	French Southern and Antarctic Territories
+	FX	France, Metropolitan
+	GC	Patent Office of the Cooperation Council for the Arab States of the Gulf
+	GE	Gilbert Islands Gilbert and Ellice Islands
+	GG	Guernsey
+	HA	HB
+	HV	Upper Volta
+	IA	IB
+	IB	WIPO
+	IC	Canary Islands
+	IM	Isle of Man
+	JA	Jamaica
+	JE	Jersey
+	JT	Johnston Island
+	KA	KB
+	LF	Libya Fezzan
+	LT	Libya Tripoli
+	ME	Western Sahara
+	MI	Midway Islands
+	NH	New Hebrides
+	NQ	Dronning Maud Land
+	NT	Neutral Zone
+	OA	African Intellectual Property Organization
+	PC	Pacific Islands (Trust Territory)
+	PI	Philippines
+	PU	United States Miscellaneous Pacific Islands
+	PZ	Panama Canal Zone
+	RA	Argentina
+	RB	Bolivia Botswana
+	RC	China
+	RH	Southern Rhodesia
+	RI	Indonesia
+	RL	Lebanon
+	RM	Madagascar
+	RN	Niger
+	RP	Philippines
+	RU	Burundi
+	SF	Finland
+	SK	Sikkim
+	SU	USSR
+	TA	Tristan da Cunha
+	UK	United Kingdom
+	UN	United Nations
+	VD	Viet-Nam, Democratic Republic of
+	WA	WB
+	WG	Grenada
+	WK	Wake Island
+	WL	Saint Lucia
+	WO	World Intellectual Property Organization
+	WV	Saint Vincent
+	YA	YB
+	YD	Yemen, Democratic
+	YV	Venezuela
+	ZR	Zaire
 
 SV	El Salvador
 	AH	Ahuachapán
@@ -5733,12 +5595,11 @@ SY	Syrian Arab Republic
 	HM	Ḩamāh
 	ID	Idlib
 	LA	Al Lādhiqīyah
-	Qu	Al Qunayţirah
+	QU	Al Qunayţirah
 	RA	Ar Raqqah
-	RD	Rif Dimashq
+	RD	Rīf Dimashq
 	SU	As Suwaydā'
 	TA	Ţarţūs
-	QU	Al Qunayţirah
 
 SZ	Eswatini
 	HH	Hhohho
@@ -5754,10 +5615,13 @@ TC	Turks and Caicos Islands
 
 TD	Chad
 	BA	Batha
-	BG	Bahr el Gazel
+	BET	Borkou-Ennedi-Tibesti
+	BG	Bahr el Ghazal
+	BI	Biltine
 	BO	Borkou
 	CB	Chari-Baguirmi
-	EN	Ennedi
+	EE	Ennedi-Est
+	EO	Ennedi-Ouest
 	GR	Guéra
 	HL	Hadjer Lamis
 	KA	Kanem
@@ -5766,33 +5630,29 @@ TD	Chad
 	LR	Logone-Oriental
 	MA	Mandoul
 	MC	Moyen-Chari
-	ME	Mayo-Kébbi-Est
-	MO	Mayo-Kébbi-Ouest
-	ND	Ndjamena
+	ME	Mayo-Kebbi-Est
+	MK	Mayo-Kébbi
+	MO	Mayo-Kebbi-Ouest
+	ND	Ville de Ndjamena
 	OD	Ouaddaï
 	SA	Salamat
 	SI	Sila
 	TA	Tandjilé
 	TI	Tibesti
 	WF	Wadi Fira
-	EO	Ennedi-Ouest
-	EE	Ennedi-Est
-	BI	Biltine
-	BET	Borkou-Ennedi-Tibesti
-	MK	Mayo-Kébbi
 
 TF	French Southern Territories
 	NA	No Subdivisions
 
 TG	Togo
-	C	Centre
+	C	Centrale
 	K	Kara
-	M	Maritime (Région)
+	M	Maritime
 	P	Plateaux
-	S	Savannes
+	S	Savanes
 
 TH	Thailand
-	10	Krung Thep Maha Nakhon [Bangkok]
+	10	Bangkok
 	11	Samut Prakan
 	12	Nonthaburi
 	13	Pathum Thani
@@ -5818,6 +5678,7 @@ TH	Thailand
 	35	Yasothon
 	36	Chaiyaphum
 	37	Amnat Charoen
+	38	Bueng Kan
 	39	Nong Bua Lam Phu
 	40	Khon Kaen
 	41	Udon Thani
@@ -5869,14 +5730,13 @@ TH	Thailand
 	95	Yala
 	96	Narathiwat
 	S	Phatthaya
-	38	Bueng Kan
 
 TJ	Tajikistan
-	GB	Gorno-Badakhshan
-	KT	Khatlon
-	SU	Sughd
 	DU	Dushanbe
+	GB	Kŭhistoni Badakhshon
+	KT	Khatlon
 	RA	nohiyahoi tobei jumhurí
+	SU	Sughd
 
 TK	Tokelau
 	NA	No Subdivisions
@@ -5887,13 +5747,13 @@ TL	Timor-Leste
 	BA	Baucau
 	BO	Bobonaro
 	CO	Cova Lima
-	DI	Dili
+	DI	Díli
 	ER	Ermera
-	LA	Lautem
+	LA	Lautém
 	LI	Liquiça
 	MF	Manufahi
 	MT	Manatuto
-	OE	Oecussi
+	OE	Oé-Cusse Ambeno
 	VI	Viqueque
 
 TM	Turkmenistan
@@ -5925,9 +5785,9 @@ TN	Tunisia
 	61	Sfax
 	71	Gafsa
 	72	Tozeur
-	73	Kebili
+	73	Kébili
 	81	Gabès
-	82	Medenine
+	82	Médenine
 	83	Tataouine
 
 TO	Tonga
@@ -5938,19 +5798,18 @@ TO	Tonga
 	05	Vava'u
 
 TP	East Timor
-	NA	No Subdivisions
 
 TR	Turkey
 	01	Adana
-	02	Adiyaman
-	03	Afyon
+	02	Adıyaman
+	03	Afyonkarahisar
 	04	Ağrı
 	05	Amasya
 	06	Ankara
 	07	Antalya
 	08	Artvin
-	09	Aydin
-	10	Balikesir
+	09	Aydın
+	10	Balıkesir
 	11	Bilecik
 	12	Bingöl
 	13	Bitlis
@@ -5961,7 +5820,7 @@ TR	Turkey
 	18	Çankırı
 	19	Çorum
 	20	Denizli
-	21	Diyarbakir
+	21	Diyarbakır
 	22	Edirne
 	23	Elazığ
 	24	Erzincan
@@ -5973,13 +5832,13 @@ TR	Turkey
 	30	Hakkâri
 	31	Hatay
 	32	Isparta
-	33	Icel
-	34	Istanbul
-	35	Izmir
+	33	Mersin
+	34	İstanbul
+	35	İzmir
 	36	Kars
 	37	Kastamonu
 	38	Kayseri
-	39	Kirklareli
+	39	Kırklareli
 	40	Kırşehir
 	41	Kocaeli
 	42	Konya
@@ -6011,10 +5870,10 @@ TR	Turkey
 	68	Aksaray
 	69	Bayburt
 	70	Karaman
-	71	Kirkkale
+	71	Kırıkkale
 	72	Batman
 	73	Şırnak
-	74	Bartin
+	74	Bartın
 	75	Ardahan
 	76	Iğdır
 	77	Yalova
@@ -6028,60 +5887,51 @@ TT	Trinidad and Tobago
 	CHA	Chaguanas
 	CTT	Couva-Tabaquite-Talparo
 	DMN	Diego Martin
-	ETO	Eastern Tobago
+	MRC	Mayaro-Rio Claro
 	PED	Penal-Debe
 	POS	Port of Spain
 	PRT	Princes Town
 	PTF	Point Fortin
-	RCM	Rio Claro-Mayaro
 	SFO	San Fernando
 	SGE	Sangre Grande
 	SIP	Siparia
 	SJL	San Juan-Laventille
-	TUP	Tunapuna-Piarco
-	WTO	Western Tobago
-	MRC	Mayaro-Rio Claro
 	TOB	Tobago
+	TUP	Tunapuna-Piarco
 
 TV	Tuvalu
 	FUN	Funafuti
 	NIT	Niutao
-	NIU	Nui
 	NKF	Nukufetau
 	NKL	Nukulaelae
 	NMA	Nanumea
-	NMG	Nanumanga
-	VAI	Vaitupu
+	NMG	Nanumaga
 	NUI	Nui
+	VAI	Vaitupu
 
 TW	Taiwan, Province of China
 	CHA	Changhua
+	CYI	Chiayi
 	CYQ	Chiayi
-	HSZQ	Hsinchu
+	HSQ	Hsinchu
+	HSZ	Hsinchu
 	HUA	Hualien
-	ILA	Ilan
-	KHQ	Kaohsiung
+	ILA	Yilan
+	KEE	Keelung
+	KHH	Kaohsiung
+	KIN	Kinmen
+	LIE	Lienchiang
 	MIA	Miaoli
 	NAN	Nantou
+	NWT	New Taipei
 	PEN	Penghu
 	PIF	Pingtung
 	TAO	Taoyuan
-	TNQ	Tainan
-	TPQ	Taipei
-	TTT	Taitung
-	TXQ	Taichung
-	YUN	Yunlin
-	CYI	Chiayi
-	HSZ	Hsinchu
-	KEE	Keelung
 	TNN	Tainan
-	TXG	Taichung
-	KHH	Kaohsiung
 	TPE	Taipei
-	HSQ	Hsinchu
-	KIN	Kinmen
-	LIE	Lienchiang
-	NWT	New Taipei
+	TTT	Taitung
+	TXG	Taichung
+	YUN	Yunlin
 
 TZ	Tanzania, United Republic of
 	01	Arusha
@@ -6117,33 +5967,33 @@ TZ	Tanzania, United Republic of
 	31	Songwe
 
 UA	Ukraine
-	05	Vinnyts'ka Oblast'
-	07	Volyns'ka Oblast'
-	09	Luhans'ka Oblast'
-	12	Dnipropetrovs'ka Oblast'
-	14	Donets'ka Oblast'
-	18	Zhytomyrs'ka Oblast'
-	21	Zakarpats'ka Oblast'
-	23	Zaporiz'ka Oblast'
-	26	Ivano-Frankivs'ka Oblast'
-	30	Kyïv
-	32	Kylvs'ka Oblast'
-	35	Kirovohrads'ka Oblast'
-	40	Sevastopol'
-	46	L'vivs'ka Oblast'
-	48	Mykolaivs'ka Oblast'
-	51	Odes'ka Oblast'
-	53	Poltavs'ka Oblast'
-	56	Rivnens'ka Oblast'
-	59	Sums'ka Oblast'
-	61	Ternopil's'ka Oblast'
-	63	Kharkivs'ka Oblast'
-	68	Khmel'nyts'ka Oblast'
-	71	Cherkas'ka Oblast'
-	74	Chernihivs'ka Oblast'
-	77	Chernivets'ka Oblast'
-	43	Respublika Krym
+	05	Vinnytska oblast
+	07	Volynska oblast
+	09	Luhanska oblast
+	12	Dnipropetrovska oblast
+	14	Donetska oblast
+	18	Zhytomyrska oblast
+	21	Zakarpatska oblast
+	23	Zaporizka oblast
+	26	Ivano-Frankivska oblast
+	30	Kyiv
+	32	Kyivska oblast
+	35	Kirovohradska oblast
+	40	Sevastopol
+	43	Avtonomna Respublika Krym
+	46	Lvivska oblast
+	48	Mykolaivska oblast
+	51	Odeska oblast
+	53	Poltavska oblast
+	56	Rivnenska oblast
+	59	Sumska oblast
+	61	Ternopilska oblast
+	63	Kharkivska oblast
 	65	Khersonska oblast
+	68	Khmelnytska oblast
+	71	Cherkaska oblast
+	74	Chernihivska oblast
+	77	Chernivetska oblast
 
 UG	Uganda
 	101	Kalangala
@@ -6159,9 +6009,19 @@ UG	Uganda
 	111	Sembabule
 	112	Kayunga
 	113	Wakiso
-	114	Mityana
-	115	Nakaseke
-	116	Lyantonde
+	114	Lyantonde
+	115	Mityana
+	116	Nakaseke
+	117	Buikwe
+	118	Bukomansibi
+	119	Butambala
+	120	Buvuma
+	121	Gomba
+	122	Kalungu
+	123	Kyankwanzi
+	124	Lwengo
+	125	Kyotera
+	126	Kasanda
 	201	Bugiri
 	202	Busia
 	203	Iganga
@@ -6179,13 +6039,26 @@ UG	Uganda
 	215	Sironko
 	216	Amuria
 	217	Budaka
-	218	Bukwa
-	219	Butaleja
-	220	Kaliro
-	221	Manafwa
-	222	Namutumba
-	223	Bududa
-	224	Bukedea
+	218	Bududa
+	219	Bukedea
+	220	Bukwo
+	221	Butaleja
+	222	Kaliro
+	223	Manafwa
+	224	Namutumba
+	225	Bulambuli
+	226	Buyende
+	227	Kibuku
+	228	Kween
+	229	Luuka
+	230	Namayingo
+	231	Ngora
+	232	Serere
+	233	Butebo
+	234	Namisindwa
+	235	Bugweri
+	236	Kapelebyong
+	237	Kalaki
 	301	Adjumani
 	302	Apac
 	303	Arua
@@ -6199,14 +6072,30 @@ UG	Uganda
 	311	Nakapiripirit
 	312	Pader
 	313	Yumbe
-	314	Amolatar
-	315	Kaabong
-	316	Koboko
-	317	Abim
-	318	Dokolo
-	319	Amuru
+	314	Abim
+	315	Amolatar
+	316	Amuru
+	317	Dokolo
+	318	Kaabong
+	319	Koboko
 	320	Maracha
 	321	Oyam
+	322	Agago
+	323	Alebtong
+	324	Amudat
+	325	Kole
+	326	Lamwo
+	327	Napak
+	328	Nwoya
+	329	Otuke
+	330	Zombo
+	331	Omoro
+	332	Pakwach
+	333	Kwania
+	334	Nabilatuk
+	335	Karenga
+	336	Madi-Okollo
+	337	Obongi
 	401	Bundibugyo
 	402	Bushenyi
 	403	Hoima
@@ -6222,105 +6111,65 @@ UG	Uganda
 	413	Kamwenge
 	414	Kanungu
 	415	Kyenjojo
-	416	Ibanda
-	417	Isingiro
-	418	Kiruhura
-	419	Buliisa
-	C	Central
-	E	Eastern
-	N	Northern
-	W	Western
-	322	Agago
-	323	Alebtong
-	324	Amudat
-	235	Bugweri
+	416	Buliisa
+	417	Ibanda
+	418	Isingiro
+	419	Kiruhura
 	420	Buhweju
-	117	Buikwe
-	118	Bukomansibi
-	225	Bulambuli
-	430	Bunyangabu
-	119	Butambala
-	233	Butebo
-	120	Buvuma
-	226	Buyende
-	121	Gomba
+	421	Kiryandongo
+	422	Kyegegwa
+	423	Mitooma
+	424	Ntoroko
+	425	Rubirizi
+	426	Sheema
 	427	Kagadi
 	428	Kakumiro
-	237	Kalaki
-	122	Kalungu
-	236	Kapelebyong
-	335	Karenga
-	126	Kasanda
-	433	Kazo
-	227	Kibuku
-	432	Kikuube
-	421	Kiryandongo
-	434	Kitagwenda
-	325	Kole
-	333	Kwania
-	228	Kween
-	123	Kyankwanzi
-	422	Kyegegwa
-	125	Kyotera
-	326	Lamwo
-	229	Luuka
-	124	Lwengo
-	336	Madi-Okollo
-	423	Mitooma
-	334	Nabilatuk
-	230	Namayingo
-	234	Namisindwa
-	327	Napak
-	231	Ngora
-	424	Ntoroko
-	328	Nwoya
-	337	Obongi
-	331	Omoro
-	329	Otuke
-	332	Pakwach
 	429	Rubanda
-	425	Rubirizi
+	430	Bunyangabu
 	431	Rukiga
+	432	Kikuube
+	433	Kazo
+	434	Kitagwenda
 	435	Rwampara
-	232	Serere
-	426	Sheema
-	330	Zombo
 	AJM	Adjumani
 	APA	Apac
 	ARU	Arua
+	BUA	Busia
 	BUG	Bugiri
 	BUN	Bundibugyo
 	BUS	Bushenyi
-	BUA	Busia
+	C	Central
+	E	Eastern
 	GUL	Gulu
 	HOI	Hoima
 	IGA	Iganga
 	JIN	Jinja
-	KBL	Kabale
-	KBR	Kabarole
-	KLG	Kalangala
-	KLA	Kampala
-	KLI	Kamuli
 	KAP	Kapchorwa
 	KAS	Kasese
 	KAT	Katakwi
-	KLE	Kibaale
+	KBL	Kabale
+	KBR	Kabarole
 	KIB	Kiboga
 	KIS	Kisoro
 	KIT	Kitgum
+	KLA	Kampala
+	KLE	Kibaale
+	KLG	Kalangala
+	KLI	Kamuli
 	KOT	Kotido
 	KUM	Kumi
 	LIR	Lira
 	LUW	Luwero
-	MSK	Masaka
-	MSI	Masindi
 	MBL	Mbale
 	MBR	Mbarara
 	MOR	Moroto
 	MOY	Moyo
 	MPI	Mpigi
+	MSI	Masindi
+	MSK	Masaka
 	MUB	Mubende
 	MUK	Mukono
+	N	Northern
 	NAK	Nakasongola
 	NEB	Nebbi
 	NTU	Ntungamo
@@ -6330,15 +6179,15 @@ UG	Uganda
 	SEM	Sembabule
 	SOR	Soroti
 	TOR	Tororo
+	W	Western
 
 UK	United Kingdom
-	NA	No Subdivisions
 
 UM	United States Minor Outlying Islands
-	67	Johnston Atoll (ISO reserved code = JT)
-	71	Midway Islands (ISO reserved code = I)
-	76	Navassa Island (ISO reserved code = NV)
-	79	Wake Island (ISO reserved code = WK)
+	67	Johnston Atoll
+	71	Midway Islands
+	76	Navassa Island
+	79	Wake Island
 	81	Baker Island
 	84	Howland Island
 	86	Jarvis Island
@@ -6346,63 +6195,7 @@ UM	United States Minor Outlying Islands
 	95	Palmyra Atoll
 
 US	United States
-	AK	Alaska
-	AL	Alabama
-	AR	Arkansas
-	AS	American Samoa
-	AZ	Arizona
-	CA	California
-	CO	Colorado
-	CT	Connecticut
-	DC	District of Columbia
-	DE	Delaware
-	FL	Florida
-	GA	Georgia
-	GU	Guam
-	HI	Hawaii
-	IA	Iowa
-	ID	Idaho
-	IL	Illinois
-	IN	Indiana
-	KS	Kansas
-	KY	Kentucky
-	LA	Louisiana
-	MA	Massachusetts
-	MD	Maryland
-	ME	Maine
-	MI	Michigan
-	MN	Minnesota
-	MO	Missouri
-	MP	Northern Mariana Islands
-	MS	Mississippi
-	MT	Montana
-	NC	North Carolina
-	ND	North Dakota
-	NE	Nebraska
-	NH	New Hampshire
-	NJ	New Jersey
-	NM	New Mexico
-	NV	Nevada
-	NY	New York
-	OH	Ohio
-	OK	Oklahoma
-	OR	Oregon
-	PA	Pennsylvania
-	PR	Puerto Rico
-	RI	Rhode Island
-	SC	South Carolina
-	SD	South Dakota
-	TN	Tennessee
-	TX	Texas
-	UM	U.S. Minor Outlying Islands
-	UT	Utah
-	VA	Virginia
-	VI	Virgin Islands of the U.S.
-	VT	Vermont
-	WA	Washington
-	WI	Wisconsin
-	WV	West Virginia
-	WY	Wyoming
+	NA	No Subdivisions
 
 UY	Uruguay
 	AR	Artigas
@@ -6427,17 +6220,16 @@ UY	Uruguay
 
 UZ	Uzbekistan
 	AN	Andijon
-	BU	Bukhoro
-	FA	Farghona
-	JI	Jizzakh
-	KH	Khorazm
+	BU	Buxoro
+	FA	Farg‘ona
+	JI	Jizzax
 	NG	Namangan
-	NW	Nawoiy
+	NW	Navoiy
 	QA	Qashqadaryo
-	QR	Qoraqalpoghiston Respublikasi
+	QR	Qoraqalpog‘iston Respublikasi
 	SA	Samarqand
 	SI	Sirdaryo
-	SU	Surkhondaryo
+	SU	Surxondaryo
 	TK	Toshkent
 	TO	Toshkent
 	XO	Xorazm
@@ -6454,6 +6246,10 @@ VC	Saint Vincent and the Grenadines
 	06	Grenadines
 
 VE	Venezuela, Bolivarian Republic of
+	02-29	Change of short name upper case: replace the parentheses with a comma
+	11-24	Change of subdivision name of VE-X; Update List Source; Correction of the Code Source
+	11-27	Change of spelling of category name in fra and spa
+	12-18	Alignment of the English and French short names upper and lower case with UNTERM; update of the remarks in French
 	A	Distrito Capital
 	B	Anzoátegui
 	C	Apure
@@ -6476,7 +6272,7 @@ VE	Venezuela, Bolivarian Republic of
 	U	Yaracuy
 	V	Zulia
 	W	Dependencias Federales
-	X	vargas
+	X	La Guaira
 	Y	Delta Amacuro
 	Z	Amazonas
 
@@ -6487,72 +6283,69 @@ VI	Virgin Islands, U.S.
 	NA	No Subdivisions
 
 VN	Viet Nam
-	CT	Can Tho
-	DN	Da Nang
-	HN	Ha Noi
-	HP	Hai Phong
-	SG	Ho Chi Minh
-	01	Lai Chau
-	02	Lao Cai
-	03	Ha Giang
-	04	Cao Bang
-	05	Son La
-	06	Yen Bai
-	07	Tuyen Quang
-	09	Lang Son
-	13	Quang Ninh
-	14	Hoa Binh
-	15	Ha Tay
-	18	Ninh Binh
-	20	Thai Binh
-	21	Thanh Hoa
-	22	Nghe An
-	23	Ha Tinh
-	24	Quang Binh
-	25	Quang Tri
-	26	Thua Thien-Hue
-	27	Quang Nam
+	01	Lai Châu
+	02	Lào Cai
+	03	Hà Giang
+	04	Cao Bằng
+	05	Sơn La
+	06	Yên Bái
+	07	Tuyên Quang
+	09	Lạng Sơn
+	13	Quảng Ninh
+	14	Hòa Bình
+	18	Ninh Bình
+	20	Thái Bình
+	21	Thanh Hóa
+	22	Nghệ An
+	23	Hà Tĩnh
+	24	Quảng Bình
+	25	Quảng Trị
+	26	Thừa Thiên-Huế
+	27	Quảng Nam
 	28	Kon Tum
-	29	Quang Ngai
+	29	Quảng Ngãi
 	30	Gia Lai
-	31	Binh Dinh
-	32	Phu Yen
-	33	Dac Lac
-	34	Khanh Hoa
-	35	Lam Dong
-	36	Ninh Thuan
-	37	Tay Ninh
-	39	Dong Nai
-	40	Binh Thuan
+	31	Bình Định
+	32	Phú Yên
+	33	Đắk Lắk
+	34	Khánh Hòa
+	35	Lâm Đồng
+	36	Ninh Thuận
+	37	Tây Ninh
+	39	Đồng Nai
+	40	Bình Thuận
 	41	Long An
-	43	Ba Ria - Vung Tau
+	43	Bà Rịa - Vũng Tàu
 	44	An Giang
-	45	Dong Thap
-	46	Tien Giang
-	47	Kien Giang
-	49	Vinh Long
-	50	Ben Tre
-	51	Tra Vinh
-	52	Soc Trang
-	53	Bac Can
-	54	Bac Giang
-	55	Bac Lieu
-	56	Bac Ninh
-	57	Binh Duong
-	58	Binh Phuoc
-	59	Ca Mau
-	60	Da Nang, thanh pho
-	61	Hai Duong
-	62	Hai Phong, thanh pho
-	63	Ha Nam
-	66	Hung Yen
-	67	Nam Dinh
-	68	Phu Tho
-	69	Thai Nguyen
-	70	Vinh Yen
-	71	Dien Bien
-	72	Dak Nong
-	73	Hau Giang
+	45	Đồng Tháp
+	46	Tiền Giang
+	47	Kiến Giang
+	49	Vĩnh Long
+	50	Bến Tre
+	51	Trà Vinh
+	52	Sóc Trăng
+	53	Bắc Kạn
+	54	Bắc Giang
+	55	Bạc Liêu
+	56	Bắc Ninh
+	57	Bình Dương
+	58	Bình Phước
+	59	Cà Mau
+	61	Hải Dương
+	63	Hà Nam
+	66	Hưng Yên
+	67	Nam Định
+	68	Phú Thọ
+	69	Thái Nguyên
+	70	Vĩnh Phúc
+	71	Điện Biên
+	72	Đắk Nông
+	73	Hậu Giang
+	CT	Cần Thơ
+	DN	Đà Nẵng
+	HN	Hà Nội
+	HP	Hải Phòng
+	SG	Hồ Chí Minh
 
 VU	Vanuatu
 	MAP	Malampa
@@ -6568,14 +6361,14 @@ WF	Wallis and Futuna
 	UV	Uvea
 
 WS	Samoa
-	AA	Alana
-	AL	Aiga-I-le-Tai
+	AA	A'ana
+	AL	Aiga-i-le-Tai
 	AT	Atua
 	FA	Fa'asaleleaga
 	GE	Gaga'emauga
 	GI	Gagaifomauga
 	PA	Palauli
-	SA	Satupa 'itea
+	SA	Satupa'itea
 	TU	Tuamasaga
 	VF	Va'a-o-Fonoti
 	VS	Vaisigano
@@ -6591,10 +6384,10 @@ XK	Kosovo, Republic of
 
 YE	Yemen
 	AB	Abyan
-	AD	'Adan
-	AM	'Amrān
-	BA	Al Bayḑā'
-	DA	Aḑ Ḑāli'
+	AD	‘Adan
+	AM	‘Amrān
+	BA	Al Bayḑā’
+	DA	Aḑ Ḑāli‘
 	DH	Dhamār
 	HD	Ḩaḑramawt
 	HJ	Ḩajjah
@@ -6602,35 +6395,33 @@ YE	Yemen
 	IB	Ibb
 	JA	Al Jawf
 	LA	Laḩij
-	MA	Ma'rib
+	MA	Ma’rib
 	MR	Al Mahrah
 	MW	Al Maḩwīt
 	RA	Raymah
+	SA	Amānat al ‘Āşimah
 	SD	Şāʻdah
 	SH	Shabwah
-	SN	Şanʻā'
-	TA	Tāʻizz
-	SA	Şanʻā' [city]
+	SN	Şanʻā’
 	SU	Arkhabīl Suquţrá
+	TA	Tāʻizz
 
 YT	Mayotte
 	NA	No Subdivisions
 
 YU	Yugoslavia
-	NA	No Subdivisions
 
 ZA	South Africa
+	03-02	Change of subdivision code from ZA-GT to ZA-GP, ZA-NL to ZA-KZN; Update Code Source
 	EC	Eastern Cape
 	FS	Free State
-	GT	Gauteng
+	GP	Gauteng
+	KZN	Kwazulu-Natal
 	LP	Limpopo
 	MP	Mpumalanga
 	NC	Northern Cape
-	NL	Kwazulu-Natal
 	NW	North-West
 	WC	Western Cape
-	GP	Gauteng
-	KZN	Kwazulu-Natal
 
 ZM	Zambia
 	01	Western
