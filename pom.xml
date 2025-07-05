@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.meeuw.i18n</groupId>
   <artifactId>i18n-subdivision-enums</artifactId>
@@ -45,7 +46,6 @@
     <commons.lang.version>3.13.0</commons.lang.version>
     <commons.text.version>1.11.0</commons.text.version>
     <codemodel.version>4.0.4</codemodel.version>
-
   </properties>
 
 
@@ -136,6 +136,12 @@
             </executions>
           </plugin>
         </plugins>
+      </build>
+    </profile>
+     <profile>
+      <id>deploy</id>
+      <build>
+
       </build>
     </profile>
   </profiles>
