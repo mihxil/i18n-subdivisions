@@ -2,7 +2,7 @@
 
 image:https://github.com/mihxil/i18n-subdivisions/actions/workflows/maven.yml/badge.svg?[Build Status,link=https://github.com/mihxil/i18n-subdivisions/actions/workflows/maven.yml]
 image:https://img.shields.io/maven-central/v/org.meeuw.i18n/i18n-subdivision-enums.svg?label=Maven%20Central[Maven Central,link=https://search.maven.org/search?q=g:%22org.meeuw.i18n%22]
-image:https://img.shields.io/nexus/s/https/oss.sonatype.org/org.meeuw.i18n/i18n-subdivision-enums.svg[snapshots,link=https://oss.sonatype.org/content/repositories/snapshots/org/meeuw/i18n/i18n-subdivision-enums/]
+//image:https://img.shields.io/nexus/s/https/oss.sonatype.org/org.meeuw.i18n/i18n-subdivision-enums.svg[snapshots,link=https://oss.sonatype.org/content/repositories/snapshots/org/meeuw/i18n/i18n-subdivision-enums/]
 // image:https://codecov.io/gh/mihxil/i18n-subdivisions/branch/main/graph/badge.svg[codecov,link=https://codecov.io/gh/mihxil/i18n-subdivisions]
 image:https://www.javadoc.io/badge/org.meeuw.i18n/i18n-subdivision-enums.svg?color=blue[javadoc,link=https://www.javadoc.io/doc/org.meeuw.i18n/i18n-subdivision-enums]
 
