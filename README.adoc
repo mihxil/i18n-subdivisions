@@ -1,5 +1,7 @@
 = I18n Country Subdivisions
 
+:version: 0.4
+
 image:https://github.com/mihxil/i18n-subdivisions/actions/workflows/maven.yml/badge.svg?[Build Status,link=https://github.com/mihxil/i18n-subdivisions/actions/workflows/maven.yml]
 image:https://img.shields.io/maven-central/v/org.meeuw.i18n/i18n-subdivision-enums.svg?label=Maven%20Central[Maven Central,link=https://search.maven.org/search?q=g:%22org.meeuw.i18n%22]
 //image:https://img.shields.io/nexus/s/https/oss.sonatype.org/org.meeuw.i18n/i18n-subdivision-enums.svg[snapshots,link=https://oss.sonatype.org/content/repositories/snapshots/org/meeuw/i18n/i18n-subdivision-enums/]
@@ -7,6 +9,7 @@ image:https://img.shields.io/maven-central/v/org.meeuw.i18n/i18n-subdivision-enu
 image:https://www.javadoc.io/badge/org.meeuw.i18n/i18n-subdivision-enums.svg?color=blue[javadoc,link=https://www.javadoc.io/doc/org.meeuw.i18n/i18n-subdivision-enums]
 
 == Overview
+
 
 Package to support internationalization, specifically the Subdivision (provinces/states/region)
 defined in ISO 3166-2.
@@ -68,21 +71,21 @@ This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-c
 
 == Maven
 
-[source,xml]
+[source,xml,subs="attributes+"]
 ----
 <dependency>
     <groupId>org.meeuw.i18n</groupId>
     <artifactId>i18n-subdivision-enums</artifactId>
-    <version>0.3</version>
+    <version>{version}</version>
 </dependency>
 ----
 
 == Gradle
 
-[source,gradle]
+[source,gradle,subs="attributes+"]
 ----
 dependencies {
-    compile 'org.meeuw.i18n:i18n-subdivision-enums:0.3'
+    compile 'org.meeuw.i18n:i18n-subdivision-enums:{version}'
 }
 ----
 
@@ -95,3 +98,6 @@ dependencies {
 
 * Verify with another source of the codes
 * If anyone wants them, include subdivision types in the enum
+* drop dependency on neovisionaries, which is unsupported
+
+== HISTORY
