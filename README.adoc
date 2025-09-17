@@ -98,6 +98,6 @@ dependencies {
 
 * Verify with another source of the codes
 * If anyone wants them, include subdivision types in the enum
-* drop dependency on neovisionaries, which is unsupported
+* drop dependency on neovisionaries, which is unmaintained
 
 == HISTORY
