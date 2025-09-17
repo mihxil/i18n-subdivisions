@@ -37,22 +37,24 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <buildresources>${project.basedir}/src/build/resources/</buildresources>
     <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions/</subdivision.java.sources>
-    <nvi18n.version>1.29</nvi18n.version>
 
-    <!-- build/test/debug dependenies only -->
+
+    <regions.version>2.5.1</regions.version>
+
+    <!-- build/test/debug dependencies only -->
     <groovy.version>4.0.15</groovy.version>
-    <jsoup.version>1.21.1</jsoup.version>
-    <commons.lang.version>3.13.0</commons.lang.version>
-    <commons.text.version>1.11.0</commons.text.version>
-    <codemodel.version>4.0.4</codemodel.version>
+    <jsoup.version>1.21.2</jsoup.version>
+    <commons.lang.version>3.18.0</commons.lang.version>
+    <commons.text.version>1.14.0</commons.text.version>
+    <codemodel.version>4.0.5</codemodel.version>
   </properties>
 
 
   <dependencies>
     <dependency>
-      <groupId>com.neovisionaries</groupId>
-      <artifactId>nv-i18n</artifactId>
-      <version>${nvi18n.version}</version>
+      <groupId>org.meeuw.i18n</groupId>
+      <artifactId>i18n-regions-countries</artifactId>
+      <version>${regions.version}</version>
     </dependency>
     <dependency>
       <groupId>jakarta.annotation</groupId>
@@ -63,7 +65,7 @@
     <dependency>
       <groupId>org.checkerframework</groupId>
       <artifactId>checker-qual</artifactId>
-      <version>3.49.5</version>
+      <version>3.51.0</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -75,7 +77,7 @@
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.19.0</version>
+      <version>2.20.0</version>
       <scope>test</scope>
     </dependency>
 
@@ -83,6 +85,9 @@
   <profiles>
     <profile>
       <id>intellij</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <dependencies>
         <dependency>
           <groupId>org.apache.groovy</groupId>
@@ -127,6 +132,12 @@
                   <goal>execute</goal>
                 </goals>
                 <configuration>
+                  <properties>
+                    <property>
+                      <name>project</name>
+                      <value>${project}</value>
+                    </property>
+                  </properties>
                   <scripts>
                     <source>${project.basedir}/src/build/groovy/downloadSubdivisions.groovy</source>
                   </scripts>
@@ -191,7 +202,7 @@
         <configuration>
           <detectJavaApiLink />
           <links>
-            <link>https://javadoc.io/doc/com.neovisionaries/nv-i18n/${nvi18n.version}/</link>
+
           </links>
         </configuration>
         <executions>
@@ -235,19 +246,24 @@
         <artifactId>gmavenplus-plugin</artifactId>
         <configuration>
 
+          <scripts>
+            <script>${project.basedir}/src/build/groovy/createSubdivisions.groovy</script>
+          </scripts>
         </configuration>
         <executions>
           <execution>
             <id>generate-subdivisions</id>
             <phase>generate-sources</phase>
             <goals>
-              <goal>execute</goal>
+              <goal>addSources</goal>
+              <goal>addTestSources</goal>
+              <goal>generateStubs</goal>
+              <goal>compile</goal>
+              <goal>generateTestStubs</goal>
+              <goal>compileTests</goal>
+              <goal>removeStubs</goal>
+              <goal>removeTestStubs</goal>
             </goals>
-            <configuration>
-              <scripts>
-                <source>${project.basedir}/src/build/groovy/generateSubdivisions.groovy</source>
-              </scripts>
-            </configuration>
           </execution>
         </executions>
         <dependencies>
@@ -344,9 +360,9 @@
               <version>${groovy.version}</version>
             </dependency>
             <dependency>
-              <groupId>com.neovisionaries</groupId>
-              <artifactId>nv-i18n</artifactId>
-              <version>${nvi18n.version}</version>
+              <groupId>org.apache.commons</groupId>
+              <artifactId>commons-lang3</artifactId>
+              <version>3.18.0</version>
             </dependency>
           </dependencies>
         </plugin>
