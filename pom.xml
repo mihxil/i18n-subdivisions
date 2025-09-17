@@ -39,7 +39,7 @@
     <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions/</subdivision.java.sources>
 
 
-    <regions.version>2.5.1</regions.version>
+    <regions.version>2.6-SNAPSHOT</regions.version>
 
     <!-- build/test/debug dependencies only -->
     <groovy.version>4.0.15</groovy.version>
@@ -170,29 +170,12 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>add-source</goal>
-            </goals>
-            <configuration>
-              <sources>
-                <source>${subdivision.java.sources}</source>
-              </sources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
         <artifactId>maven-source-plugin</artifactId>
         <executions>
           <execution>
             <id>attach-sources</id>
             <goals>
-              <goal>jar</goal>
+              <goal>jar-no-fork</goal>
             </goals>
           </execution>
         </executions>
@@ -200,10 +183,8 @@
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
-          <detectJavaApiLink />
-          <links>
 
-          </links>
+          <source>8</source>
         </configuration>
         <executions>
           <execution>
@@ -220,6 +201,10 @@
         <configuration>
           <source>8</source>
           <target>8</target>
+          <compileSourceRoots>
+            <compileSourceRoot>${subdivision.java.sources}</compileSourceRoot>
+            <compileSourceRoot>${project.basedir}/src/main/java</compileSourceRoot>
+          </compileSourceRoots>
         </configuration>
       </plugin>
       <plugin>
@@ -245,24 +230,24 @@
         <groupId>org.codehaus.gmavenplus</groupId>
         <artifactId>gmavenplus-plugin</artifactId>
         <configuration>
-
           <scripts>
-            <script>${project.basedir}/src/build/groovy/createSubdivisions.groovy</script>
+            <script>${project.basedir}/src/build/groovy/generateSubdivisions.groovy</script>
           </scripts>
+          <sources>
+            <source>
+              <directory>${project.basedir}/src/main/java</directory>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
+            </source>
+          </sources>
         </configuration>
         <executions>
           <execution>
             <id>generate-subdivisions</id>
-            <phase>generate-sources</phase>
+            <phase>initialize</phase>
             <goals>
-              <goal>addSources</goal>
-              <goal>addTestSources</goal>
-              <goal>generateStubs</goal>
-              <goal>compile</goal>
-              <goal>generateTestStubs</goal>
-              <goal>compileTests</goal>
-              <goal>removeStubs</goal>
-              <goal>removeTestStubs</goal>
+              <goal>execute</goal>
             </goals>
           </execution>
         </executions>
@@ -287,6 +272,11 @@
             <artifactId>codemodel</artifactId>
             <version>${codemodel.version}</version>
           </dependency>
+          <dependency>
+            <groupId>org.meeuw.i18n</groupId>
+            <artifactId>i18n-subdivision-enums</artifactId>
+            <version>0.5-SNAPSHOT</version>
+          </dependency>
         </dependencies>
       </plugin>
       <plugin>
@@ -303,7 +293,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.5.3</version>
+        <version>3.5.4</version>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
@@ -338,7 +328,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.11.2</version>
+          <version>3.11.3</version>
         </plugin>
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
@@ -347,24 +337,12 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>build-helper-maven-plugin</artifactId>
-          <version>3.6.0</version>
+          <version>3.6.1</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.gmavenplus</groupId>
           <artifactId>gmavenplus-plugin</artifactId>
-          <version>4.2.0</version>
-          <dependencies>
-            <dependency>
-              <groupId>org.apache.groovy</groupId>
-              <artifactId>groovy</artifactId>
-              <version>${groovy.version}</version>
-            </dependency>
-            <dependency>
-              <groupId>org.apache.commons</groupId>
-              <artifactId>commons-lang3</artifactId>
-              <version>3.18.0</version>
-            </dependency>
-          </dependencies>
+          <version>4.2.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-gpg-plugin</artifactId>
@@ -373,4 +351,17 @@
       </plugins>
     </pluginManagement>
   </build>
+  <repositories>
+    <repository>
+      <name>Central Portal Snapshots</name>
+      <id>central-portal-snapshots</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 </project>

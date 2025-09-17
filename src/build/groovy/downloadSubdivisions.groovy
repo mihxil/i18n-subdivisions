@@ -39,7 +39,7 @@ CountryCode.values().each {
         }
     }
     URL wikiUrl = findRealUrl(new URL("https://en.wikipedia.org/wiki/ISO_3166-2:" + it.alpha2))
-    System.out.println(wikiUrl);
+    //System.out.println(wikiUrl);
     String wikiHtml;
     try {
         wikiHtml = wikiUrl.getText("UTF-8")

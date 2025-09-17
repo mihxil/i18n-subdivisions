@@ -101,3 +101,23 @@ dependencies {
 * drop dependency on neovisionaries, which is unmaintained
 
 == HISTORY
+
+
+|===
+|0.5 | dropped nvi18n.version dependency, renamed interce to 'CountrySubdivision'
+
+|Column 1, row 1
+|Column 2, row 1
+|Column 3, row 1
+|Column 4, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|Column 3, row 2
+|Column 4, row 2
+
+|Column 1, row 3
+|Column 2, row 3
+|Column 3, row 3
+|Column 4, row 3
+|===

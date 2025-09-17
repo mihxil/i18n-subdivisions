@@ -10,8 +10,7 @@ import org.jsoup.safety.Safelist
 import org.jsoup.select.Elements
 import org.meeuw.i18n.countries.Country
 import org.meeuw.i18n.regions.RegionService
-import org.meeuw.i18n.subdivision.CountryCodeSubdivision
-import org.meeuw.i18n.subdivision.SubdivisionFactory
+import org.meeuw.i18n.subdivision.CountrySubdivision
 
 import static org.apache.commons.text.StringEscapeUtils.escapeHtml4
 
@@ -20,13 +19,10 @@ final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
 
 @Field
 final JCodeModel cm = new JCodeModel()
-@Field
-final JClass countryClass = cm.ref(Country.class)
-@Field
-final JClass countrySubdivisionInterface = cm.ref(CountryCodeSubdivision.class)
 
 @Field
-final JClass factory = cm.ref(SubdivisionFactory.class)
+final JClass countrySubdivisionInterface = cm.ref(CountrySubdivision.class)
+
 
 @Field
 final Safelist safelist = Safelist.relaxed()
@@ -43,7 +39,7 @@ class SubDiv {
 
 
 Map<String, SubDiv> parseHtmlWiki(Country cc, URL uri, URL sourceUrl) {
-    System.out.println("Parsing for " + uri)
+    //System.out.println("Parsing for " + uri)
     Map<String, SubDiv> parsedData = new TreeMap<>();
     try {
         def html = uri.getText("UTF-8")
@@ -65,9 +61,9 @@ Map<String, SubDiv> parseHtmlWiki(Country cc, URL uri, URL sourceUrl) {
             if (newCode != null && newCode != "") {
                 String[] parts = newCode.split('-', 2)
                 if (parts.length == 1) {
-                    parts = [cc.name(), parts[0]]
+                    parts = [cc.getCode(), parts[0]]
                 }
-                def newCC = RegionService.getInstance().getByCode(parts[0], false, Country.class).get()
+                def newCC = RegionService.getInstance().getByCode(parts[0], false, Country.class).orElseThrow(() -> new IllegalArgumentException("No country " + parts[0]))
 
                 if (newCC != null && cc != null && cc != newCC) {
                     throw new IllegalArgumentException("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
@@ -132,16 +128,18 @@ JClass parseHtml(Country cc, URL wikiUri, URL wikiSourceUri) {
 
 
 JClass generateClass(Country co, Map<String, SubDiv> parsedData) {
+
     JDefinedClass dc = cm._class(JMod.PUBLIC, "${JAVA_PACKAGE}.Subdivision${co.getCode()}", ClassType.ENUM)
+
     dc._implements(countrySubdivisionInterface)
       dc.annotate(Generated.class).param("value", this.class.getName())
       JDocComment classDoc = dc.javadoc()
-      classDoc.append("<p>Subdivisions of {@link " + co.class.getName() + "#" + co.getName() + "} (" + co.getName() + ")</p>")
+      classDoc.append("<p>Subdivisions of {@link " + co.class.getName() + "} " + co.getName() + "</p>")
 
     JFieldVar name = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "name")
     JFieldVar code = dc.field(JMod.PRIVATE | JMod.FINAL, String.class, "code")
     JFieldVar source = dc.field(JMod.PRIVATE | JMod.FINAL, String[].class, "source")
-    JFieldVar country = dc.field(JMod.PRIVATE | JMod.FINAL, String[].class, "country")
+    JFieldVar country = dc.field(JMod.PRIVATE | JMod.FINAL, Country.class, "country")
 
     dc.method(JMod.PUBLIC, Country.class, "getCountry").with {
         annotate(Override.class)
@@ -174,16 +172,22 @@ JClass generateClass(Country co, Map<String, SubDiv> parsedData) {
     dc.constructor(0).with {
         def subDivName = param(String.class, "subDivisionName")
         def subDivCode = param(String.class, "subDivisionCode")
-        def subCountryCode = param(String.class, "countryCode")
         def subDivSource = varParam(String.class, "subDivisionSource")
 
         body().with {
             assign(JExpr._this().ref(name), subDivName)
             assign(JExpr._this().ref(code), subDivCode)
             assign(JExpr._this().ref(source), subDivSource)
-            directStatement(
-                    "this.country=RegionService.getInstance().getByCode(subCountryCode, false, Country.class));"
+            assign(JExpr._this().ref(country),
+                    cm.ref(RegionService.class)
+                            .staticInvoke("getInstance")
+                            .invoke("getByCode")
+                            .arg(JExpr.lit(co.getCode()))
+                            .arg(JExpr.lit(false))
+                            .arg(cm.ref(Country.class).dotclass())
+                    .invoke("get")
             )
+
 
         }
     }
@@ -221,16 +225,16 @@ JClass generateClass(Country co, Map<String, SubDiv> parsedData) {
             }
         }
     } else {
-        classDoc.append("<p>There are no known subdivisions of " + countryCode.getName() + "</p>")
+        classDoc.append("<p>There are no known subdivisions of " + co.getName() + "</p>")
 
         dc.enumConstant("NA").with {
             arg(JExpr.lit("No Subdivisions"))
             arg(JExpr.lit("NA"))
-            arg(JExpr._null())
-                     JDocComment constantDoc = javadoc()
-                     constantDoc.append("<p>Place holder enum value. No known subdivisions for " + countryCode.name() + "</p>")
+            JDocComment constantDoc = javadoc()
+            constantDoc.append("<p>Placeholder enum value. No known subdivisions for " + co.getName() + "</p>")
                 }
         dc.method(JMod.PUBLIC, boolean.class, "isRealRegion").with {
+            annotate(Override)
             body().with {
                 _return(JExpr.lit(false))
             }
@@ -243,14 +247,13 @@ static String trim(String str) {
     StringUtils.trim(StringUtils.normalizeSpace(str))
 }
 
-Map<Country, JClass> classes = [:]
-  RegionService.getInstance().values(Country.class).each {
+RegionService.getInstance().values(Country.class).each {
     try {
         dir = "${project.properties.buildresources}"
     } catch (MissingPropertyException pe) {
         dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
     }
-    classes[it] = parseHtml(it,
+    parseHtml(it,
         new URL("file://${dir}${it.code}.wiki.html"),
         new URL("file://${dir}${it.code}.wiki.url")
     )
@@ -260,3 +263,5 @@ Map<Country, JClass> classes = [:]
 def outputDir = new File(project.properties["subdivision.java.sources"] as String)
 outputDir.mkdirs()
 cm.build(outputDir)
+System.out.println("ready")
+

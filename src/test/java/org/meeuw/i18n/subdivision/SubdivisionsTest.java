@@ -24,9 +24,9 @@ class SubdivisionsTest {
                 builder.append(country.getCode()).append("\t").append(country.getName()).append("\n");
                 //System.out.println("Found " + subdivision.getEnumConstants().length + " for " + cc);
 
-                List<CountryCodeSubdivision> subdivisions = SubdivisionFactory.getSubdivisions(country);
+                List<CountrySubdivision> subdivisions = SubdivisionProvider.getSubdivisions(country);
                 if (subdivisions != null) {
-                    for (CountryCodeSubdivision sd : subdivisions) {
+                    for (CountrySubdivision sd : subdivisions) {
                         builder.append("\t").append(sd.getCode()).append("\t").append(sd.getName()).append("\n");
                     }
                 }
