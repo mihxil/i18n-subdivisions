@@ -40,7 +40,7 @@ public class SubdivisionFactory {
     public static List<CountrySubdivision> getSubdivisions(String country) {
         return getSubdivisions(RegionService.getInstance()
             .getByCode(country, true, Country.class)
-            .get()
+            .orElseThrow(() -> new NoSuchElementException("No country found for " + country))
         );
     }
 
@@ -66,6 +66,6 @@ public class SubdivisionFactory {
     public static Optional<CountrySubdivision> getSubdivision(String country, String subdivisionCodeName) {
         return getSubdivision(RegionService.getInstance()
             .getByCode(country, true, Country.class)
-            .get(), subdivisionCodeName);
+            .orElseThrow(() -> new NoSuchElementException("No country found for " + country)), subdivisionCodeName);
     }
 }

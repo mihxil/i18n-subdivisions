@@ -22,7 +22,7 @@ public class SubdivisionsTest {
     @Test
     public void showAll() throws URISyntaxException, IOException {
         StringBuilder builder = new StringBuilder();
-        RegionService.getInstance().values(Country.class)
+        RegionService.getInstance(SubdivisionsTest.class.getClassLoader()).values(Country.class)
             .sorted(Comparator.comparing(Country::getCode))
             .forEach(country -> {
                 if (builder.length() > 0) {

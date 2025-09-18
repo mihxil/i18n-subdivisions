@@ -18,7 +18,7 @@ public final class SubdivisionProvider implements RegionProvider<CountrySubdivis
     static final Map<Country, List<CountrySubdivision>> MAP = new ConcurrentHashMap<>();
 
     static {
-        RegionService.getInstance().values(Country.class).forEach(c -> {
+        RegionService.getInstance(SubdivisionProvider.class.getClassLoader()).values(Country.class).forEach(c -> {
 
             try {
                     Class<? extends CountrySubdivision> clazz = (Class<CountrySubdivision>) Class.forName("org.meeuw.i18n.subdivision.Subdivision" + c.getCode());
@@ -26,6 +26,7 @@ public final class SubdivisionProvider implements RegionProvider<CountrySubdivis
                     registerSubdivisions(c, Arrays.asList(enumConstants));
                 } catch (ClassNotFoundException ignore) {
                     //
+                    System.err.println("No subdivisions for " + c);
                 }
             }
 
