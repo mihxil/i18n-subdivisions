@@ -44,6 +44,7 @@ jobs:
           gpg-private-key: ${{ secrets.GPG_SECRET_KEY }}
       - name: Build and deploy with Maven
         run: |
+          mvn compiler:compile jar:jar install:install
           mvn -B -Pdeploy ${{ matrix.target }}
         env:
           CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}

@@ -30,6 +30,7 @@ jobs:
         run: |
           mvn --batch-mode  -Darguments=-DskipTests  -DpushChanges=false release:prepare
           git push --atomic -v --follow-tags
+          mvn compiler:compile jar:jar install:install
           mvn --batch-mode -Pdeploy -Darguments=-DskipTests release:perform
         env:
           CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
