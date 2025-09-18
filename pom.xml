@@ -38,7 +38,7 @@
     <buildresources>${project.basedir}/src/build/resources/</buildresources>
     <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions</subdivision.java.sources>
 
-
+    <my.version>0.5-SNAPSHOT</my.version>
     <regions.version>2.5.2</regions.version>
 
     <!-- build/test/debug dependencies only -->
@@ -295,7 +295,7 @@
           <dependency>
             <groupId>org.meeuw.i18n</groupId>
             <artifactId>i18n-subdivision-enums</artifactId>
-            <version>0.5-SNAPSHOT</version>
+            <version>${my.version}</version>
           </dependency>
         </dependencies>
       </plugin>
