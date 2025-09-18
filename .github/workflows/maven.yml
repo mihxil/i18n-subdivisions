@@ -48,5 +48,5 @@ jobs:
         if: always()
         with:
           check_name: Tests results
-          files: "**/target/surefire-reports/*.xml"
+          files: "target/surefire-reports/*.xml"
 
