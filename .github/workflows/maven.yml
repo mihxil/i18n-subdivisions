@@ -58,6 +58,6 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
-          check_name: Tests results
+          check_name: Tests results ${{ matrix.java }}
           files: "target/surefire-reports/*.xml"
 
