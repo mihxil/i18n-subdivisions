@@ -1,5 +1,5 @@
 AC	Ascension Island
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AD	Andorra
 	02	Canillo
@@ -67,10 +67,10 @@ AG	Antigua and Barbuda
 	11	Redonda
 
 AI	Anguilla
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AIDJ	French Afars and Issas
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AL	Albania
 	01	Berat
@@ -137,10 +137,10 @@ AM	Armenia
 	VD	Vayoć Jor
 
 AN	Netherlands Antilles
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 ANHH	Netherlands Antilles
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AO	Angola
 	BGO	Bengo
@@ -163,7 +163,7 @@ AO	Angola
 	ZAI	Zaire
 
 AQ	Antarctica
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AR	Argentina
 	A	Salta
@@ -192,7 +192,7 @@ AR	Argentina
 	Z	Santa Cruz
 
 AS	American Samoa
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AT	Austria
 	1	Burgenland
@@ -216,10 +216,10 @@ AU	Australia
 	WA	Western Australia
 
 AW	Aruba
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AX	Åland Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 AZ	Azerbaijan
 	ABS	Abşeron
@@ -582,10 +582,10 @@ BJ	Benin
 	ZO	Zou
 
 BL	Saint Barthélemy
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 BM	Bermuda
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 BN	Brunei Darussalam
 	BE	Belait
@@ -610,7 +610,7 @@ BQ	Bonaire, Sint Eustatius and Saba
 	SE	Sint Eustatius
 
 BQAQ	British Antarctic Territory
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 BR	Brazil
 	AC	Acre
@@ -709,13 +709,13 @@ BT	Bhutan
 	TY	Trashi Yangtse
 
 BU	Burma
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 BUMM	Burma
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 BV	Bouvet Island
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 BW	Botswana
 	CE	Central
@@ -745,7 +745,7 @@ BY	Belarus
 	VI	Vitsyebskaya voblasts'
 
 BYAA	Byelorussian SSR
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 BZ	Belize
 	BZ	Belize
@@ -756,10 +756,10 @@ BZ	Belize
 	TOL	Toledo
 
 CA	Canada
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CC	Cocos (Keeling) Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CD	Congo, the Democratic Republic of the
 	BC	Kongo Central
@@ -886,7 +886,7 @@ CI	Côte d'Ivoire
 	ZZ	Zanzan
 
 CK	Cook Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CL	Chile
 	AI	Aisén del General Carlos Ibañez del Campo
@@ -991,7 +991,7 @@ CO	Colombia
 	VID	Vichada
 
 CP	Clipperton Island
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CR	Costa Rica
 	A	Alajuela
@@ -1009,13 +1009,13 @@ CS	Serbia and Montenegro
 	VO	Vojvodina
 
 CSHH	Czechoslovakia
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CSXX	Serbia and Montenegro
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CTKI	Canton and Enderbury Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CU	Cuba
 	01	Pinar del Río
@@ -1062,10 +1062,10 @@ CV	Cape Verde
 	TS	Tarrafal de São Nicolau
 
 CW	Curaçao
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CX	Christmas Island
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 CY	Cyprus
 	01	Lefkosia
@@ -1182,7 +1182,7 @@ CZ	Czech Republic
 	PRG	Praha
 
 DDDE	German Democratic Republic
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 DE	Germany
 	BB	Brandenburg
@@ -1203,7 +1203,7 @@ DE	Germany
 	TH	Thüringen
 
 DG	Diego Garcia
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 DJ	Djibouti
 	AR	Arta
@@ -1322,7 +1322,7 @@ DO	Dominican Republic
 	VE	La Vega
 
 DYBJ	Dahomey
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 DZ	Algeria
 	01	Adrar
@@ -1385,7 +1385,7 @@ DZ	Algeria
 	58	El Meniaa
 
 EA	Ceuta, Melilla
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 EC	Ecuador
 	A	Azuay
@@ -1539,7 +1539,7 @@ EG	Egypt
 	WAD	Al Wādī al Jadīd
 
 EH	Western Sahara
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 ER	Eritrea
 	AG	Akele Guzai
@@ -1650,10 +1650,10 @@ ET	Ethiopia
 	TI	Tigray
 
 EU	European Union
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 EZ	Eurozone
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 FI	Finland
 	01	Ahvenanmaan maakunta
@@ -1704,7 +1704,7 @@ FJ	Fiji
 	W	Western
 
 FK	Falkland Islands (Malvinas)
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 FM	Micronesia, Federated States of
 	KSA	Kosrae
@@ -1713,10 +1713,10 @@ FM	Micronesia, Federated States of
 	YAP	Yap
 
 FO	Faroe Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 FQHH	French Southern and Antarctic Territories
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 FR	France
 	01	Ain
@@ -1868,10 +1868,10 @@ FR	France
 	WF	Wallis-et-Futuna
 
 FX	France, Metropolitan
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 FXFR	France, Metropolitan
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GA	Gabon
 	1	Estuaire
@@ -2211,13 +2211,13 @@ GE	Georgia
 	ZUG	Zugdidi
 
 GEHH	Gilbert Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GF	French Guiana
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GG	Guernsey
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GH	Ghana
 	AA	Greater Accra
@@ -2239,7 +2239,7 @@ GH	Ghana
 	WP	Western
 
 GI	Gibraltar
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GL	Greenland
 	AV	Avannaata Kommunia
@@ -2300,7 +2300,7 @@ GN	Guinea
 	YO	Yomou
 
 GP	Guadeloupe
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GQ	Equatorial Guinea
 	AN	Annobón
@@ -2394,7 +2394,7 @@ GR	Greece
 	XIII	Kriti
 
 GS	South Georgia and the South Sandwich Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GT	Guatemala
 	01	Guatemala
@@ -2421,7 +2421,7 @@ GT	Guatemala
 	22	Jutiapa
 
 GU	Guam
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 GW	Guinea-Bissau
 	BA	Bafatá
@@ -2450,10 +2450,10 @@ GY	Guyana
 	UT	Upper Takutu-Upper Essequibo
 
 HK	Hong Kong
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 HM	Heard Island and McDonald Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 HN	Honduras
 	12-13	Comment taken into account and source list update.
@@ -2557,10 +2557,10 @@ HU	Hungary
 	ZE	Zalaegerszeg
 
 HVBF	Upper Volta
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 IC	Canary Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 ID	Indonesia
 	AC	Aceh
@@ -2650,7 +2650,7 @@ IL	Israel
 	Z	HaTsafon
 
 IM	Isle of Man
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 IN	India
 	AN	Andaman and Nicobar Islands
@@ -2691,7 +2691,7 @@ IN	India
 	WB	West Bengal
 
 IO	British Indian Ocean Territory
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 IQ	Iraq
 	AN	Al Anbār
@@ -2957,7 +2957,7 @@ IT	Italy
 	VV	Vibo Valentia
 
 JE	Jersey
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 JM	Jamaica
 	01	Kingston
@@ -3039,7 +3039,7 @@ JP	Japan
 	47	Okinawa
 
 JTUM	Johnston Island
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 KE	Kenya
 	01	Baringo
@@ -3218,7 +3218,7 @@ KW	Kuwait
 	MU	Mubārak al Kabīr
 
 KY	Cayman Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 KZ	Kazakhstan
 	10	Abay oblysy
@@ -3804,7 +3804,7 @@ ME	Montenegro
 	25	Zeta
 
 MF	Saint Martin (French part)
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 MG	Madagascar
 	A	Toamasina
@@ -3843,7 +3843,7 @@ MH	Marshall Islands
 	WTJ	Wotje
 
 MIUM	Midway Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 MK	North Macedonia, Republic of
 	01	Aerodrom
@@ -4080,13 +4080,13 @@ MN	Mongolia
 	1	Ulaanbaatar
 
 MO	Macao
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 MP	Northern Mariana Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 MQ	Martinique
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 MR	Mauritania
 	01	Hodh ech Chargui
@@ -4103,7 +4103,7 @@ MR	Mauritania
 	12	Inchiri
 
 MS	Montserrat
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 MT	Malta
 	01	Attard
@@ -4349,7 +4349,7 @@ NA	Namibia
 	OW	Ohangwena
 
 NC	New Caledonia
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 NE	Niger
 	1	Agadez
@@ -4362,7 +4362,7 @@ NE	Niger
 	8	Niamey
 
 NF	Norfolk Island
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 NG	Nigeria
 	AB	Abia
@@ -4404,7 +4404,7 @@ NG	Nigeria
 	ZA	Zamfara
 
 NHVU	New Hebrides
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 NI	Nicaragua
 	AN	Costa Caribe Norte
@@ -4470,7 +4470,7 @@ NP	Nepal
 	P7	Sudūrpashchim
 
 NQAQ	Dronning Maud Land
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 NR	Nauru
 	01	Aiwo
@@ -4489,13 +4489,13 @@ NR	Nauru
 	14	Yaren
 
 NT	Neutral Zone
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 NTHH	Neutral Zone
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 NU	Niue
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 NZ	New Zealand
 	AUK	Auckland
@@ -4546,7 +4546,7 @@ PA	Panama
 	NT	Naso Tjër Di
 
 PCHH	Pacific Islands (Trust Territory)
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 PE	Peru
 	2	2010-06-30
@@ -4578,7 +4578,7 @@ PE	Peru
 	UCA	Ucayali
 
 PF	French Polynesia
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 PG	Papua New Guinea
 	CPK	Chimbu
@@ -4794,13 +4794,13 @@ PL	Poland
 	ZP	Zachodniopomorskie
 
 PM	Saint Pierre and Miquelon
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 PN	Pitcairn
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 PR	Puerto Rico
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 PS	Palestine, State of
 	BTH	Bayt Laḩm
@@ -4843,7 +4843,7 @@ PT	Portugal
 	30	Região Autónoma da Madeira
 
 PUUM	United States Miscellaneous Pacific Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 PW	Palau
 	002	Aimeliik
@@ -4884,7 +4884,7 @@ PY	Paraguay
 	ASU	Asunción
 
 PZPA	Panama Canal Zone
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 QA	Qatar
 	DA	Ad Dawḩah
@@ -4897,16 +4897,16 @@ QA	Qatar
 	ZA	Az̧ Z̧a‘āyin
 
 QO	Outlying Oceania
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 QU	European Union
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 RE	Réunion
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 RHZW	Southern Rhodesia
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 RO	Romania
 	AB	Alba
@@ -5218,7 +5218,7 @@ SE	Sweden
 	Z	Jämtlands län
 
 SF	Finland
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 SG	Singapore
 	01	Central Singapore
@@ -5459,7 +5459,7 @@ SI	Slovenia
 	213	Ankaran
 
 SJ	Svalbard and Jan Mayen
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 SK	Slovakia
 	BC	Banskobystrický kraj
@@ -5472,7 +5472,7 @@ SK	Slovakia
 	ZI	Žilinský kraj
 
 SKIN	Sikkim
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 SL	Sierra Leone
 	E	Eastern
@@ -5562,10 +5562,10 @@ ST	Sao Tome and Principe
 	P	Príncipe
 
 SU	USSR
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 SUHH	USSR
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 SV	El Salvador
 	AH	Ahuachapán
@@ -5584,7 +5584,7 @@ SV	El Salvador
 	US	Usulután
 
 SX	Sint Maarten (Dutch part)
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 SY	Syrian Arab Republic
 	DI	Dimashq
@@ -5609,10 +5609,10 @@ SZ	Eswatini
 	SH	Shiselweni
 
 TA	Tristan da Cunha
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 TC	Turks and Caicos Islands
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 TD	Chad
 	BA	Batha
@@ -5643,7 +5643,7 @@ TD	Chad
 	WF	Wadi Fira
 
 TF	French Southern Territories
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 TG	Togo
 	C	Centrale
@@ -5740,7 +5740,7 @@ TJ	Tajikistan
 	SU	Sughd
 
 TK	Tokelau
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 TL	Timor-Leste
 	AL	Aileu
@@ -5799,10 +5799,10 @@ TO	Tonga
 	05	Vava'u
 
 TP	East Timor
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 TPTL	East Timor
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 TR	Turkey
 	01	Adana
@@ -6187,7 +6187,7 @@ UG	Uganda
 	W	Western
 
 UK	United Kingdom
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 UM	United States Minor Outlying Islands
 	67	Johnston Atoll
@@ -6201,7 +6201,7 @@ UM	United States Minor Outlying Islands
 	95	Palmyra Atoll
 
 US	United States
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 UY	Uruguay
 	AR	Artigas
@@ -6241,7 +6241,7 @@ UZ	Uzbekistan
 	XO	Xorazm
 
 VA	Holy See (Vatican City State)
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 VC	Saint Vincent and the Grenadines
 	01	Charlotte
@@ -6252,7 +6252,7 @@ VC	Saint Vincent and the Grenadines
 	06	Grenadines
 
 VDVN	Viet-Nam, Democratic Republic of
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 VE	Venezuela, Bolivarian Republic of
 	02-29	Change of short name upper case: replace the parentheses with a comma
@@ -6286,10 +6286,10 @@ VE	Venezuela, Bolivarian Republic of
 	Z	Amazonas
 
 VG	Virgin Islands, British
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 VI	Virgin Islands, U.S.
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 VN	Viet Nam
 	01	Lai Châu
@@ -6370,7 +6370,7 @@ WF	Wallis and Futuna
 	UV	Uvea
 
 WKUM	Wake Island
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 WS	Samoa
 	AA	A'ana
@@ -6386,22 +6386,22 @@ WS	Samoa
 	VS	Vaisigano
 
 XI	Northern Ireland
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 XK	Kosovo, Republic of
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 XN	Nordic Patent Institute
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 XU	United Kingdom (excluding Northern Ireland)
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 XZ	International Waters
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 YDYE	Yemen, Democratic
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 YE	Yemen
 	AB	Abyan
@@ -6428,13 +6428,13 @@ YE	Yemen
 	TA	Tāʻizz
 
 YT	Mayotte
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 YU	Yugoslavia
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 YUCS	Yugoslavia
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 ZA	South Africa
 	03-02	Change of subdivision code from ZA-GT to ZA-GP, ZA-NL to ZA-KZN; Update Code Source
@@ -6461,10 +6461,10 @@ ZM	Zambia
 	10	Muchinga
 
 ZR	Zaire
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 ZRCD	Zaire
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER
 
 ZW	Zimbabwe
 	BU	Bulawayo
@@ -6479,4 +6479,4 @@ ZW	Zimbabwe
 	MW	Mashonaland West
 
 ZZ	Unknown or Invalid Territory
-	NA	No Subdivisions
+	NA	No Subdivisions	PLACEHOLDER

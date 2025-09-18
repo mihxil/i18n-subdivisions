@@ -10,9 +10,12 @@ import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.meeuw.i18n.countries.Country;
+import org.meeuw.i18n.countries.UserAssignedCountry;
+import org.meeuw.i18n.regions.Region;
 import org.meeuw.i18n.regions.RegionService;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class SubdivisionsTest {
 
@@ -22,7 +25,6 @@ public class SubdivisionsTest {
         RegionService.getInstance().values(Country.class)
             .sorted(Comparator.comparing(Country::getCode))
             .forEach(country -> {
-
                 if (builder.length() > 0) {
                     builder.append("\n");
                 }
@@ -32,7 +34,14 @@ public class SubdivisionsTest {
                 List<CountrySubdivision> subdivisions = SubdivisionFactory.getSubdivisions(country);
                 if (subdivisions != null) {
                     for (CountrySubdivision sd : subdivisions) {
-                        builder.append("\t").append(sd.getSubdivisionCode()).append("\t").append(sd.getName()).append("\n");
+                        builder.append("\t").append(sd.getSubdivisionCode()).append("\t").append(sd.getName());
+                        assertThat(sd.getType()).isEqualTo(Region.Type.SUBDIVISION);
+                        assertThat(sd.getSource()).isNotNull();
+                        if (!sd.isRealRegion()) {
+                            builder.append("\tPLACEHOLDER");
+                        }
+                        builder.append("\n");
+
                     }
                 }
         });
@@ -76,5 +85,18 @@ public class SubdivisionsTest {
     }
     // end::belgium[]
 
+
+    @Test
+    public void notFound() {
+        assertThatThrownBy(() -> SubdivisionFactory.getSubdivisions("XX")).isInstanceOf(java.util.NoSuchElementException.class);
+        assertThat(SubdivisionFactory.getSubdivision("NL", "XX")).isEmpty();
+        assertThat(SubdivisionFactory.getSubdivision(new MyCountrySubdivision("foo", "bar", "me"), "XX") ).isEmpty();
+    }
+
+    static class MyCountrySubdivision extends UserAssignedCountry {
+        MyCountrySubdivision(String code, String name, String assignedBy) {
+            super(code, name, assignedBy);
+        }
+    }
 
 }
