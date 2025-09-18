@@ -6200,8 +6200,6 @@ UM	United States Minor Outlying Islands
 	89	Kingman Reef
 	95	Palmyra Atoll
 
-UNDEFINED	Undefined
-
 US	United States
 	NA	No Subdivisions
 
@@ -6390,19 +6388,10 @@ WS	Samoa
 XI	Northern Ireland
 	NA	No Subdivisions
 
-XI	Northern Ireland
-	NA	No Subdivisions
-
-XK	Kosovo, Republic of
-	NA	No Subdivisions
-
 XK	Kosovo, Republic of
 	NA	No Subdivisions
 
 XN	Nordic Patent Institute
-	NA	No Subdivisions
-
-XU	United Kingdom (excluding Northern Ireland)
 	NA	No Subdivisions
 
 XU	United Kingdom (excluding Northern Ireland)
