@@ -292,11 +292,6 @@
             <artifactId>jakarta.annotation-api</artifactId>
             <version>${annotation.version}</version>
           </dependency>
-          <dependency>
-            <groupId>org.meeuw.i18n</groupId>
-            <artifactId>i18n-subdivision-enums</artifactId>
-            <version>0.5-SNAPSHOT</version>
-          </dependency>
         </dependencies>
       </plugin>
       <plugin>
