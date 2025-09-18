@@ -3,6 +3,7 @@ package org.meeuw.i18n.subdivision;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
+import java.util.Comparator;
 import java.util.List;
 
 import org.apache.commons.io.IOUtils;
@@ -11,12 +12,14 @@ import org.junit.jupiter.api.Test;
 import org.meeuw.i18n.countries.Country;
 import org.meeuw.i18n.regions.RegionService;
 
-class SubdivisionsTest {
+public class SubdivisionsTest {
 
     @Test
     public void showAll() throws URISyntaxException, IOException {
         StringBuilder builder = new StringBuilder();
-        RegionService.getInstance().values(Country.class).forEach(country -> {
+        RegionService.getInstance().values(Country.class)
+            .sorted(Comparator.comparing(Country::getCode))
+            .forEach(country -> {
 
                 if (builder.length() > 0) {
                     builder.append("\n");

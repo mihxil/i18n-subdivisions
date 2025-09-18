@@ -1,6 +1,3 @@
-UNDEFINED	Undefined
-	NA	No Subdivisions
-
 AC	Ascension Island
 	NA	No Subdivisions
 
@@ -72,6 +69,9 @@ AG	Antigua and Barbuda
 AI	Anguilla
 	NA	No Subdivisions
 
+AIDJ	French Afars and Issas
+	NA	No Subdivisions
+
 AL	Albania
 	01	Berat
 	02	Durrës
@@ -137,6 +137,9 @@ AM	Armenia
 	VD	Vayoć Jor
 
 AN	Netherlands Antilles
+	NA	No Subdivisions
+
+ANHH	Netherlands Antilles
 	NA	No Subdivisions
 
 AO	Angola
@@ -606,6 +609,9 @@ BQ	Bonaire, Sint Eustatius and Saba
 	SA	Saba
 	SE	Sint Eustatius
 
+BQAQ	British Antarctic Territory
+	NA	No Subdivisions
+
 BR	Brazil
 	AC	Acre
 	AL	Alagoas
@@ -705,6 +711,9 @@ BT	Bhutan
 BU	Burma
 	NA	No Subdivisions
 
+BUMM	Burma
+	NA	No Subdivisions
+
 BV	Bouvet Island
 	NA	No Subdivisions
 
@@ -734,6 +743,9 @@ BY	Belarus
 	MA	Mahilyowskaya voblasts'
 	MI	Minskaya voblasts'
 	VI	Vitsyebskaya voblasts'
+
+BYAA	Byelorussian SSR
+	NA	No Subdivisions
 
 BZ	Belize
 	BZ	Belize
@@ -996,6 +1008,15 @@ CS	Serbia and Montenegro
 	SR	Srbija
 	VO	Vojvodina
 
+CSHH	Czechoslovakia
+	NA	No Subdivisions
+
+CSXX	Serbia and Montenegro
+	NA	No Subdivisions
+
+CTKI	Canton and Enderbury Islands
+	NA	No Subdivisions
+
 CU	Cuba
 	01	Pinar del Río
 	03	La Habana
@@ -1160,6 +1181,9 @@ CZ	Czech Republic
 	CZC	Západočeský kraj
 	PRG	Praha
 
+DDDE	German Democratic Republic
+	NA	No Subdivisions
+
 DE	Germany
 	BB	Brandenburg
 	BE	Berlin
@@ -1296,6 +1320,9 @@ DO	Dominican Republic
 	SZ	Sánchez Ramírez
 	VA	Valverde
 	VE	La Vega
+
+DYBJ	Dahomey
+	NA	No Subdivisions
 
 DZ	Algeria
 	01	Adrar
@@ -1623,6 +1650,7 @@ ET	Ethiopia
 	TI	Tigray
 
 EU	European Union
+	NA	No Subdivisions
 
 EZ	Eurozone
 	NA	No Subdivisions
@@ -1685,6 +1713,9 @@ FM	Micronesia, Federated States of
 	YAP	Yap
 
 FO	Faroe Islands
+	NA	No Subdivisions
+
+FQHH	French Southern and Antarctic Territories
 	NA	No Subdivisions
 
 FR	France
@@ -1837,6 +1868,9 @@ FR	France
 	WF	Wallis-et-Futuna
 
 FX	France, Metropolitan
+	NA	No Subdivisions
+
+FXFR	France, Metropolitan
 	NA	No Subdivisions
 
 GA	Gabon
@@ -2175,6 +2209,9 @@ GE	Georgia
 	TQV	Tqvarcheli
 	TSQ	Tsqaltubo
 	ZUG	Zugdidi
+
+GEHH	Gilbert Islands
+	NA	No Subdivisions
 
 GF	French Guiana
 	NA	No Subdivisions
@@ -2518,6 +2555,9 @@ HU	Hungary
 	VM	Veszprém
 	ZA	Zala
 	ZE	Zalaegerszeg
+
+HVBF	Upper Volta
+	NA	No Subdivisions
 
 IC	Canary Islands
 	NA	No Subdivisions
@@ -2997,6 +3037,9 @@ JP	Japan
 	45	Miyazaki
 	46	Kagosima
 	47	Okinawa
+
+JTUM	Johnston Island
+	NA	No Subdivisions
 
 KE	Kenya
 	01	Baringo
@@ -3799,6 +3842,9 @@ MH	Marshall Islands
 	WTH	Wotho
 	WTJ	Wotje
 
+MIUM	Midway Islands
+	NA	No Subdivisions
+
 MK	North Macedonia, Republic of
 	01	Aerodrom
 	09	Butel
@@ -4357,6 +4403,9 @@ NG	Nigeria
 	YO	Yobe
 	ZA	Zamfara
 
+NHVU	New Hebrides
+	NA	No Subdivisions
+
 NI	Nicaragua
 	AN	Costa Caribe Norte
 	AS	Costa Caribe Sur
@@ -4420,6 +4469,9 @@ NP	Nepal
 	P6	Karṇālī
 	P7	Sudūrpashchim
 
+NQAQ	Dronning Maud Land
+	NA	No Subdivisions
+
 NR	Nauru
 	01	Aiwo
 	02	Anabar
@@ -4437,6 +4489,9 @@ NR	Nauru
 	14	Yaren
 
 NT	Neutral Zone
+	NA	No Subdivisions
+
+NTHH	Neutral Zone
 	NA	No Subdivisions
 
 NU	Niue
@@ -4489,6 +4544,9 @@ PA	Panama
 	KY	Guna Yala
 	NB	Ngäbe-Buglé
 	NT	Naso Tjër Di
+
+PCHH	Pacific Islands (Trust Territory)
+	NA	No Subdivisions
 
 PE	Peru
 	2	2010-06-30
@@ -4784,6 +4842,9 @@ PT	Portugal
 	20	Região Autónoma dos Açores
 	30	Região Autónoma da Madeira
 
+PUUM	United States Miscellaneous Pacific Islands
+	NA	No Subdivisions
+
 PW	Palau
 	002	Aimeliik
 	004	Airai
@@ -4822,6 +4883,9 @@ PY	Paraguay
 	9	Paraguarí
 	ASU	Asunción
 
+PZPA	Panama Canal Zone
+	NA	No Subdivisions
+
 QA	Qatar
 	DA	Ad Dawḩah
 	KH	Al Khawr wa adh Dhakhīrah
@@ -4832,7 +4896,16 @@ QA	Qatar
 	WA	Al Wakrah
 	ZA	Az̧ Z̧a‘āyin
 
+QO	Outlying Oceania
+	NA	No Subdivisions
+
+QU	European Union
+	NA	No Subdivisions
+
 RE	Réunion
+	NA	No Subdivisions
+
+RHZW	Southern Rhodesia
 	NA	No Subdivisions
 
 RO	Romania
@@ -5398,6 +5471,9 @@ SK	Slovakia
 	TC	Trenčiansky kraj
 	ZI	Žilinský kraj
 
+SKIN	Sikkim
+	NA	No Subdivisions
+
 SL	Sierra Leone
 	E	Eastern
 	N	Northern
@@ -5486,85 +5562,10 @@ ST	Sao Tome and Principe
 	P	Príncipe
 
 SU	USSR
-	AC	Ascension Island
-	AI	French Afars and Issas
-	AP	African Regional Industrial Property Organization
-	AX	Åland Islands
-	BQ	British Antarctic Territory
-	BU	Burma
-	BX	Benelux Trademarks and Designs Office
-	CP	Clipperton Island
-	CQ	Island of Sark
-	CS	Czechoslovakia
-	CT	Canton and Enderbury Islands
-	DA	DB
-	DD	German Democratic Republic
-	DG	Diego Garcia
-	DY	Dahomey
-	EA	Ceuta Melilla
-	EF	European Community Patent Convention
-	EM	European Trademark Office
-	EP	European Patent Organization
-	EU	European Union
-	EV	Eurasian Patent Organization
-	EW	Estonia
-	EZ	Eurozone
-	FA	FB
-	FL	Liechtenstein
-	FQ	French Southern and Antarctic Territories
-	FX	France, Metropolitan
-	GC	Patent Office of the Cooperation Council for the Arab States of the Gulf
-	GE	Gilbert Islands Gilbert and Ellice Islands
-	GG	Guernsey
-	HA	HB
-	HV	Upper Volta
-	IA	IB
-	IB	WIPO
-	IC	Canary Islands
-	IM	Isle of Man
-	JA	Jamaica
-	JE	Jersey
-	JT	Johnston Island
-	KA	KB
-	LF	Libya Fezzan
-	LT	Libya Tripoli
-	ME	Western Sahara
-	MI	Midway Islands
-	NH	New Hebrides
-	NQ	Dronning Maud Land
-	NT	Neutral Zone
-	OA	African Intellectual Property Organization
-	PC	Pacific Islands (Trust Territory)
-	PI	Philippines
-	PU	United States Miscellaneous Pacific Islands
-	PZ	Panama Canal Zone
-	RA	Argentina
-	RB	Bolivia Botswana
-	RC	China
-	RH	Southern Rhodesia
-	RI	Indonesia
-	RL	Lebanon
-	RM	Madagascar
-	RN	Niger
-	RP	Philippines
-	RU	Burundi
-	SF	Finland
-	SK	Sikkim
-	SU	USSR
-	TA	Tristan da Cunha
-	UK	United Kingdom
-	UN	United Nations
-	VD	Viet-Nam, Democratic Republic of
-	WA	WB
-	WG	Grenada
-	WK	Wake Island
-	WL	Saint Lucia
-	WO	World Intellectual Property Organization
-	WV	Saint Vincent
-	YA	YB
-	YD	Yemen, Democratic
-	YV	Venezuela
-	ZR	Zaire
+	NA	No Subdivisions
+
+SUHH	USSR
+	NA	No Subdivisions
 
 SV	El Salvador
 	AH	Ahuachapán
@@ -5798,6 +5799,10 @@ TO	Tonga
 	05	Vava'u
 
 TP	East Timor
+	NA	No Subdivisions
+
+TPTL	East Timor
+	NA	No Subdivisions
 
 TR	Turkey
 	01	Adana
@@ -6182,6 +6187,7 @@ UG	Uganda
 	W	Western
 
 UK	United Kingdom
+	NA	No Subdivisions
 
 UM	United States Minor Outlying Islands
 	67	Johnston Atoll
@@ -6193,6 +6199,9 @@ UM	United States Minor Outlying Islands
 	86	Jarvis Island
 	89	Kingman Reef
 	95	Palmyra Atoll
+
+UNDEFINED	Undefined
+	NA	No Subdivisions
 
 US	United States
 	NA	No Subdivisions
@@ -6244,6 +6253,9 @@ VC	Saint Vincent and the Grenadines
 	04	Saint George
 	05	Saint Patrick
 	06	Grenadines
+
+VDVN	Viet-Nam, Democratic Republic of
+	NA	No Subdivisions
 
 VE	Venezuela, Bolivarian Republic of
 	02-29	Change of short name upper case: replace the parentheses with a comma
@@ -6360,6 +6372,9 @@ WF	Wallis and Futuna
 	SG	Sigave
 	UV	Uvea
 
+WKUM	Wake Island
+	NA	No Subdivisions
+
 WS	Samoa
 	AA	A'ana
 	AL	Aiga-i-le-Tai
@@ -6376,10 +6391,28 @@ WS	Samoa
 XI	Northern Ireland
 	NA	No Subdivisions
 
-XU	United Kingdom (excluding Northern Ireland)
+XI	Northern Ireland
 	NA	No Subdivisions
 
 XK	Kosovo, Republic of
+	NA	No Subdivisions
+
+XK	Kosovo, Republic of
+	NA	No Subdivisions
+
+XN	Nordic Patent Institute
+	NA	No Subdivisions
+
+XU	United Kingdom (excluding Northern Ireland)
+	NA	No Subdivisions
+
+XU	United Kingdom (excluding Northern Ireland)
+	NA	No Subdivisions
+
+XZ	International Waters
+	NA	No Subdivisions
+
+YDYE	Yemen, Democratic
 	NA	No Subdivisions
 
 YE	Yemen
@@ -6410,6 +6443,10 @@ YT	Mayotte
 	NA	No Subdivisions
 
 YU	Yugoslavia
+	NA	No Subdivisions
+
+YUCS	Yugoslavia
+	NA	No Subdivisions
 
 ZA	South Africa
 	03-02	Change of subdivision code from ZA-GT to ZA-GP, ZA-NL to ZA-KZN; Update Code Source
@@ -6438,6 +6475,9 @@ ZM	Zambia
 ZR	Zaire
 	NA	No Subdivisions
 
+ZRCD	Zaire
+	NA	No Subdivisions
+
 ZW	Zimbabwe
 	BU	Bulawayo
 	HA	Harare
@@ -6449,3 +6489,6 @@ ZW	Zimbabwe
 	MS	Matabeleland South
 	MV	Masvingo
 	MW	Mashonaland West
+
+ZZ	Unknown or Invalid Territory
+	NA	No Subdivisions

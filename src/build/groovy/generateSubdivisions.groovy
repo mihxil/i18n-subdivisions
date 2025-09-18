@@ -249,7 +249,7 @@ static String trim(String str) {
 }
 
 RegionService.getInstance().values(Country.class)
-        .filter(c -> c.code == "EU")
+        //.filter(c -> c.code == "EU")
         .each {
 
     try {
