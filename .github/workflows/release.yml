@@ -30,7 +30,7 @@ jobs:
         run: |
           mvn --batch-mode  -Darguments=-DskipTests  -DpushChanges=false -DpreparationGoals="clean compiler:compile" release:prepare
           git push --atomic -v --follow-tags
-          mvn --batch-mode -Pdeploy -Darguments=-DskipTests release:perform
+          mvn --batch-mode -Pdeploy -Darguments=-DskipTests -Dgoals="compiler:compile deploy" release:perform
         env:
           CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
           CENTRAL_PASSWORD: ${{ secrets.CENTRAL_PASSWORD }}
