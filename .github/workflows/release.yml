@@ -28,7 +28,7 @@ jobs:
           token: '${{ secrets.GITHUB_TOKEN  }}'
       - name: Release
         run: |
-          mvn --batch-mode  -Darguments=-DskipTests  -DpushChanges=false release:prepare
+          mvn --batch-mode  -Darguments=-DskipTests  -DpushChanges=false -DpreparationGoals="clean verify compiler:compile" release:prepare
           git push --atomic -v --follow-tags
           mvn --batch-mode -Pdeploy -Darguments=-DskipTests release:perform
         env:
