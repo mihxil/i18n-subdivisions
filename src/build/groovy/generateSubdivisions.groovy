@@ -149,7 +149,7 @@ JClass generateClass(Country co, Map<String, SubDiv> parsedData) {
         }
     }
 
-    dc.method(JMod.PUBLIC, String.class, "getCode").with {
+    dc.method(JMod.PUBLIC, String.class, "getSubdivisionCode").with {
         annotate(Override.class)
         body().with {
             _return(code)

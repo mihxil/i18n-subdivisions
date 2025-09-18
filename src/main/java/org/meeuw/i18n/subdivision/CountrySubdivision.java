@@ -11,11 +11,17 @@ import org.meeuw.i18n.regions.Region;
 public interface CountrySubdivision extends Region {
 
 
+
+    @Override
+    default String getCode() {
+        return getCountry().getCode() + "-" + getSubdivisionCode();
+    }
+
     /**
      * @return a code for this subdivision (relative to the country)
      */
-    @Override
-    String getCode();
+
+    String getSubdivisionCode();
 
     /**
      * The {@link Type 'type'} is {@link Type#SUBDIVISION}
