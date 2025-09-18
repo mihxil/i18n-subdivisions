@@ -120,6 +120,7 @@ JClass parseHtml(Country cc, URI wikiUri, String wikiSourceUri) {
                 subDiv.row = v.row
             }
         }
+
         generateClass(cc, parsedData)
     } catch (Exception e) {
         System.out.println("Skipped " + wikiUri + " " + e.getClass() + " " + e.getMessage())
@@ -248,20 +249,26 @@ static String trim(String str) {
     StringUtils.trim(StringUtils.normalizeSpace(str))
 }
 
+Map<String, JClass> existing = new HashMap<>()
 RegionService.getInstance().values(Country.class)
         //.filter(c -> c.code == "EU")
         .each {
 
-    try {
-        dir = "${project.properties.buildresources}"
-    } catch (MissingPropertyException pe) {
-        dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
-    }
-     parseHtml(it,
-        URI.create("file://${dir}${it.code}.wiki.html"),
-        new File("${dir}${it.code}.wiki.url").getText("UTF-8")
-    )
-}
+            try {
+                dir = "${project.properties.buildresources}"
+            } catch (MissingPropertyException pe) {
+                dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
+            }
+            if (existing.containsKey(it.code)) {
+                System.out.println("Duplicate country code " + it.code)
+            } else {
+                existing.put(it.code, parseHtml(it,
+                        URI.create("file://${dir}${it.code}.wiki.html"),
+                        new File("${dir}${it.code}.wiki.url").getText("UTF-8")
+                ))
+            }
+        }
+
 
 
 def outputDir = new File(project.properties["subdivision.java.sources"] as String)
