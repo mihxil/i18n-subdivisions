@@ -249,7 +249,7 @@ static String trim(String str) {
 }
 
 RegionService.getInstance().values(Country.class)
-        //.filter(c -> c.code == "VE")
+        .filter(c -> c.code == "EU")
         .each {
 
     try {
@@ -257,7 +257,7 @@ RegionService.getInstance().values(Country.class)
     } catch (MissingPropertyException pe) {
         dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
     }
-    parseHtml(it,
+     parseHtml(it,
         URI.create("file://${dir}${it.code}.wiki.html"),
         new File("${dir}${it.code}.wiki.url").getText("UTF-8")
     )

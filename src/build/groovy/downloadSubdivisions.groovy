@@ -1,3 +1,4 @@
+import org.jsoup.Jsoup
 import org.meeuw.i18n.countries.Country
 import org.meeuw.i18n.regions.RegionService
 
@@ -20,12 +21,14 @@ buildResources.mkdirs()
 
 
 HttpClient client = HttpClient.newBuilder()
-        .followRedirects(HttpClient.Redirect.NORMAL)
+        .followRedirects(HttpClient.Redirect.NEVER)
         .build();
 
 
 
-RegionService.getInstance().values(Country.class).each {
+RegionService.getInstance().values(Country.class)
+  //.filter(c -> c.code == "EU")
+        .each {
 
     if (false) {
         URI url = URI.create("https://unece.org/fileadmin/DAM/cefact/locode/Subdivision/${it.alpha2.toLowerCase(Locale.US)}Sub.htm")
@@ -59,7 +62,6 @@ RegionService.getInstance().values(Country.class).each {
         HttpRequest request = HttpRequest.newBuilder(wikiUrl)
                 .header("User-Agent",
                         "DownloadSubDivisions/1 (https://github.com/mihxil/i18n-subdivisions) Java-http-client/21")
-
                 .GET()
                 .build()
 
@@ -71,19 +73,31 @@ RegionService.getInstance().values(Country.class).each {
 
         if (status == 200) {
             wikiHtml = send.body()
+            def parsed = Jsoup.parse(wikiHtml);
+            def canonicalURI = URI.create(parsed.select("link[rel=canonical]").first().attr("href"));
+            if (canonicalURI != wikiUrl) {
+                println("Redirected " + wikiUrl + " to " + canonicalURI)
+                wikiHtml = null
+                wikiUrl = canonicalURI
+            }
         } else {
             println(wikiUrl.toString() + "-->" + send.statusCode());
             wikiHtml = null;
+            println("wiki html null")
         }
     } catch (IOException e) {
         println(e.getMessage())
     }
-    if (wikiHtml) {
-        new File(buildResources, "${it.code}.wiki.html").withWriter("UTF-8", {
+    var file = new File(buildResources, "${it.code}.wiki.html")
+    if (wikiHtml != null) {
+        file.withWriter("UTF-8", {
             it.write(wikiHtml)
         })
     } else {
         println("Failed to download ${wikiUrl}")
+        if (!file.delete()) {
+            println("Failed to delete file: ${file.absolutePath}")
+        }
     }
     new File(buildResources, "${it.code}.wiki.url").withWriter("UTF-8", {
         it.write(wikiUrl.toString() + "\t" + status + "\t" + lastModified)
