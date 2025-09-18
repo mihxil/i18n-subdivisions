@@ -208,10 +208,6 @@
         <configuration>
           <source>8</source>
           <target>8</target>
-          <compileSourceRoots>
-            <compileSourceRoot>${subdivision.java.sources}</compileSourceRoot>
-            <compileSourceRoot>${project.basedir}/src/main/java</compileSourceRoot>
-          </compileSourceRoots>
         </configuration>
       </plugin>
       <plugin>
@@ -240,14 +236,6 @@
           <scripts>
             <script>${project.basedir}/src/build/groovy/generateSubdivisions.groovy</script>
           </scripts>
-          <sources>
-            <source>
-              <directory>${project.basedir}/src/main/java</directory>
-              <includes>
-                <include>**/*.java</include>
-              </includes>
-            </source>
-          </sources>
         </configuration>
         <executions>
           <execution>
@@ -333,6 +321,8 @@
         </executions>
       </plugin>
     </plugins>
+
+
     <pluginManagement>
       <plugins>
         <plugin>
@@ -346,11 +336,6 @@
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
           <version>3.1.1</version>
-        </plugin>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>build-helper-maven-plugin</artifactId>
-          <version>3.6.1</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.gmavenplus</groupId>
@@ -381,6 +366,7 @@
       </plugins>
     </pluginManagement>
   </build>
+
   <repositories>
     <repository>
       <id>central_snapshots</id>
