@@ -12,6 +12,8 @@ import org.junit.jupiter.api.Test;
 import org.meeuw.i18n.countries.Country;
 import org.meeuw.i18n.regions.RegionService;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class SubdivisionsTest {
 
     @Test
@@ -27,15 +29,52 @@ public class SubdivisionsTest {
                 builder.append(country.getCode()).append("\t").append(country.getName()).append("\n");
                 //System.out.println("Found " + subdivision.getEnumConstants().length + " for " + cc);
 
-                List<CountrySubdivision> subdivisions = SubdivisionProvider.getSubdivisions(country);
+                List<CountrySubdivision> subdivisions = SubdivisionFactory.getSubdivisions(country);
                 if (subdivisions != null) {
                     for (CountrySubdivision sd : subdivisions) {
-                        builder.append("\t").append(sd.getCode()).append("\t").append(sd.getName()).append("\n");
+                        builder.append("\t").append(sd.getSubdivisionCode()).append("\t").append(sd.getName()).append("\n");
                     }
                 }
         });
         String expected = IOUtils.toString(getClass().getResource("/current.txt").toURI(), StandardCharsets.UTF_8);
         Assertions.assertEquals(expected, builder.toString());
     }
+
+    // tag::utrechtRegionService[]
+    @Test
+    public void utrechtRegionService() {
+        CountrySubdivision u = RegionService.getInstance().getByCode("NL-UT", true, CountrySubdivision.class).get();
+
+        assertThat(u.getCountry().getCode()).isEqualTo("NL");
+        assertThat(u.getName()).isEqualTo("Utrecht");
+    }
+
+    // end::utrechtRegionService[]
+
+
+    // tag::utrechtRegionFactory[]
+
+    @Test
+    public void utrechtFactory() {
+        CountrySubdivision u = SubdivisionFactory.getSubdivision("NL", "UT").get();
+
+        assertThat(u.getCountry().getCode()).isEqualTo("NL");
+        assertThat(u.getName()).isEqualTo("Utrecht");
+    }
+    // end::utrechtRegionFactory[]
+
+
+
+    // tag::belgium[]
+
+    @Test
+    public void belgium() {
+        for (CountrySubdivision code : SubdivisionFactory.getSubdivisions("BE")) {
+            System.out.format("[%s] %s\n", code, code.getName());
+        }
+
+    }
+    // end::belgium[]
+
 
 }

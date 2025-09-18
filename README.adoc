@@ -56,18 +56,20 @@ The resulting list is however converted to .txt in a test-case and compared to a
 mvn release:prepare release:perform -Pdownload-subdivisions
 ----
 
-== Example
+== Examples
 
 List all the subdivision codes available for a specific country.
 
 [source,java]
 ----
-for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions(CountryCode.BE)) {
-    System.out.format("[%s] %s\n", code, code.getName());
-}
+include::src/test/java/org/meeuw/i18n/subdivision/SubdivisionsTest.java[tag=belgium,indent=0]
 ----
 
-This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-countries[i18n-regions], which would make every enum defined in this project available as a more generic 'Region' object.
+This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-countries[i18n-regions], which would make every enum defined in this project available as a more generic 'Region' object, and also be accessible via the RegionService.
+[source,java]
+----
+include::src/test/java/org/meeuw/i18n/subdivision/SubdivisionsTest.java[tag=utrechtRegionService,indent=0]
+----
 
 == Maven
 
@@ -92,7 +94,7 @@ dependencies {
 == See Also
 
 * https://en.wikipedia.org/wiki/ISO_3166-2[ISO 3166-2 on Wikipedia]
-* http://www.unece.org/cefact/locode/subdivisions.html[Source of the codes]
+* http://www.unece.org/cefact/locode/subdivisions.html[Source of the codes] (seems to be broken)
 
 == TODO
 
@@ -104,20 +106,10 @@ dependencies {
 
 
 |===
-|0.5 | dropped nvi18n.version dependency, renamed interce to 'CountrySubdivision'
+| version | changes/remarks | date
 
-|Column 1, row 1
-|Column 2, row 1
-|Column 3, row 1
-|Column 4, row 1
+|0.5 | dropped nvi18n.version dependency, renamed interface to 'CountrySubdivision'. Being a 'RegionProvider' | september 2025
 
-|Column 1, row 2
-|Column 2, row 2
-|Column 3, row 2
-|Column 4, row 2
+|0.4 | adopted to org.meeuw |
 
-|Column 1, row 3
-|Column 2, row 3
-|Column 3, row 3
-|Column 4, row 3
 |===
