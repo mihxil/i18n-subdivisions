@@ -5,7 +5,7 @@
   <artifactId>i18n-subdivision-enums</artifactId>
   <version>0.5-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>Subdivision(State/Province) extension for the  i18n-regions package</name>
+  <name>Subdivision(State/Province) extension for the  i18n-regions-countries package</name>
   <url>https://github.com/mihxil/i18n-subdivisions</url>
   <licenses>
     <license>
@@ -14,7 +14,7 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-  <description>Package to support internationalization</description>
+  <description>Package to support subdivisions of countries. An enum for every country in the world.</description>
   <developers>
     <developer>
       <id>tobias-</id>
