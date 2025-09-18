@@ -6201,7 +6201,6 @@ UM	United States Minor Outlying Islands
 	95	Palmyra Atoll
 
 UNDEFINED	Undefined
-	NA	No Subdivisions
 
 US	United States
 	NA	No Subdivisions
