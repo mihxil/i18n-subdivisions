@@ -38,11 +38,11 @@ class SubDiv {
 
 
 
-Map<String, SubDiv> parseHtmlWiki(Country cc, URL uri, URL sourceUrl) {
+Map<String, SubDiv> parseHtmlWiki(Country cc, URI uri, String sourceUrl) {
     //System.out.println("Parsing for " + uri)
     Map<String, SubDiv> parsedData = new TreeMap<>();
     try {
-        def html = uri.getText("UTF-8")
+        def html = uri.toURL().getText("UTF-8")
         def unclean = Jsoup.parse(html)
         unclean.select("img").forEach(e -> {
             URI src = new URI(e.attr("src"))
@@ -63,7 +63,7 @@ Map<String, SubDiv> parseHtmlWiki(Country cc, URL uri, URL sourceUrl) {
                 if (parts.length == 1) {
                     parts = [cc.getCode(), parts[0]]
                 }
-                def newCC = RegionService.getInstance().getByCode(parts[0], false, Country.class).orElseThrow(() -> new IllegalArgumentException("No country " + parts[0]))
+                def newCC = RegionService.getInstance().getByCode(parts[0], false, Country.class).orElse(null);
 
                 if (newCC != null && cc != null && cc != newCC) {
                     throw new IllegalArgumentException("For ${uri}, expected (Country=${cc}) but found (Country=${newCC})")
@@ -93,7 +93,7 @@ Map<String, SubDiv> parseHtmlWiki(Country cc, URL uri, URL sourceUrl) {
                         SubDiv sub = new SubDiv()
                         sub.code = subDivisionCode
                         sub.name= subDivisionName
-                        sub.source.add(sourceUrl.text)
+                        sub.source.add(sourceUrl.split("\t")[0])
                         sub.row = row.html()
                         parsedData[subDivisionCode] = sub
                     }
@@ -106,7 +106,7 @@ Map<String, SubDiv> parseHtmlWiki(Country cc, URL uri, URL sourceUrl) {
     return parsedData
 }
 
-JClass parseHtml(Country cc, URL wikiUri, URL wikiSourceUri) {
+JClass parseHtml(Country cc, URI wikiUri, String wikiSourceUri) {
     Map<String, SubDiv> parsedData = [:]
 
     try {
@@ -122,7 +122,8 @@ JClass parseHtml(Country cc, URL wikiUri, URL wikiSourceUri) {
         }
         generateClass(cc, parsedData)
     } catch (Exception e) {
-        System.out.println("Skipped " + wikiUri + " " + e.getMessage())
+        System.out.println("Skipped " + wikiUri + " " + e.getClass() + " " + e.getMessage())
+        e.printStackTrace()
     }
 }
 
@@ -247,15 +248,18 @@ static String trim(String str) {
     StringUtils.trim(StringUtils.normalizeSpace(str))
 }
 
-RegionService.getInstance().values(Country.class).each {
+RegionService.getInstance().values(Country.class)
+        //.filter(c -> c.code == "VE")
+        .each {
+
     try {
         dir = "${project.properties.buildresources}"
     } catch (MissingPropertyException pe) {
         dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
     }
     parseHtml(it,
-        new URL("file://${dir}${it.code}.wiki.html"),
-        new URL("file://${dir}${it.code}.wiki.url")
+        URI.create("file://${dir}${it.code}.wiki.html"),
+        new File("${dir}${it.code}.wiki.url").getText("UTF-8")
     )
 }
 

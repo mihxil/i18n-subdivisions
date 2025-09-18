@@ -15,10 +15,9 @@ public final class SubdivisionProvider implements RegionProvider<CountrySubdivis
     private static final Map<Country, List<CountrySubdivision>> map = new ConcurrentHashMap<>();
 
     static {
-        System.out.println("fu");;
         RegionService.getInstance().values(Country.class).forEach(c -> {
 
-                try {
+            try {
                     Class<? extends CountrySubdivision> clazz = (Class<CountrySubdivision>) Class.forName("org.meeuw.i18n.subdivision.Subdivision" + c.getCode());
                     CountrySubdivision[] enumConstants = clazz.getEnumConstants();
                     registerSubdivisions(c, Arrays.asList(enumConstants));
