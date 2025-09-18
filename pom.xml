@@ -42,7 +42,7 @@
     <regions.version>2.5.2</regions.version>
 
     <!-- build/test/debug dependencies only -->
-    <groovy.version>4.0.15</groovy.version>
+    <groovy.version>5.0.1</groovy.version>
     <jsoup.version>1.21.2</jsoup.version>
     <commons.lang.version>3.18.0</commons.lang.version>
     <commons.text.version>1.14.0</commons.text.version>
@@ -72,7 +72,7 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>5.10.1</version>
+      <version>5.13.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
