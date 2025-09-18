@@ -14,7 +14,7 @@ image:https://www.javadoc.io/badge/org.meeuw.i18n/i18n-subdivision-enums.svg?col
 Package to support internationalization, specifically the Subdivision (provinces/states/region)
 defined in ISO 3166-2.
 
-It depends on the neovisionaries i18n (nv-i18n) package for defining all the CountryCodes used.
+It depends on the link:https://github.com/mihxil/i18n-regions#countries[i18n-regions-countries] package for defining all the Countries used.
 
 This is forked from https://github.com/tobias-/i18n-subdivisions which doesn't seem to be maintained. I changed the coordinates and package and I am maintaining it myself now.
 
