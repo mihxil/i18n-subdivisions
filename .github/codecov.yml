@@ -26,6 +26,4 @@ comment:
   behavior: default
   require_changes: false
 
-ignore:
-  - "**/org/meeuw/i18n/test/**/*"
-  - "blackbox-testing"
+
