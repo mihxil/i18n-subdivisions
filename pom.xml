@@ -39,7 +39,7 @@
     <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions/</subdivision.java.sources>
 
 
-    <regions.version>2.5.1</regions.version>
+    <regions.version>2.5.2</regions.version>
 
     <!-- build/test/debug dependencies only -->
     <groovy.version>4.0.15</groovy.version>
