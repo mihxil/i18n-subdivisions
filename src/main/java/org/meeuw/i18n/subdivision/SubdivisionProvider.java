@@ -10,6 +10,7 @@ import org.meeuw.i18n.regions.RegionService;
 import org.meeuw.i18n.regions.spi.RegionProvider;
 
 /**
+ * A provider of {@link CountrySubdivision subdivisions}
  * @since 0.5
  */
 public final class SubdivisionProvider implements RegionProvider<CountrySubdivision> {
@@ -29,10 +30,9 @@ public final class SubdivisionProvider implements RegionProvider<CountrySubdivis
             }
 
         );
-
     }
 
-    public static void registerSubdivisions(Country country, List<CountrySubdivision> subdivisions) {
+    static void registerSubdivisions(Country country, List<CountrySubdivision> subdivisions) {
         if (subdivisions == null || subdivisions.isEmpty()) {
             return;
         }

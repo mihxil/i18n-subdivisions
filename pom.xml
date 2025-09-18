@@ -47,6 +47,7 @@
     <commons.lang.version>3.18.0</commons.lang.version>
     <commons.text.version>1.14.0</commons.text.version>
     <codemodel.version>4.0.5</codemodel.version>
+    <annotation.version>3.0.0</annotation.version>
   </properties>
 
 
@@ -57,15 +58,15 @@
       <version>${regions.version}</version>
     </dependency>
     <dependency>
-      <groupId>jakarta.annotation</groupId>
-      <artifactId>jakarta.annotation-api</artifactId>
-      <version>2.1.1</version>
-      <optional>true</optional>
-     </dependency>
-    <dependency>
       <groupId>org.checkerframework</groupId>
       <artifactId>checker-qual</artifactId>
       <version>3.51.0</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.annotation</groupId>
+      <artifactId>jakarta.annotation-api</artifactId>
+      <version>${annotation.version}</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -86,6 +87,7 @@
       <version>3.27.4</version>
       <scope>test</scope>
     </dependency>
+
 
   </dependencies>
   <profiles>
@@ -278,6 +280,12 @@
             <version>${codemodel.version}</version>
           </dependency>
           <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>${annotation.version}</version>
+          </dependency>
+          <!-- this is oddly circular, but I can't think of anything else -->
+          <dependency>
             <groupId>org.meeuw.i18n</groupId>
             <artifactId>i18n-subdivision-enums</artifactId>
             <version>0.5-SNAPSHOT</version>
@@ -370,8 +378,7 @@
   </build>
   <repositories>
     <repository>
-      <name>Central Portal Snapshots</name>
-      <id>central-portal-snapshots</id>
+      <id>central_snapshots</id>
       <url>https://central.sonatype.com/repository/maven-snapshots/</url>
       <releases>
         <enabled>false</enabled>
@@ -381,4 +388,17 @@
       </snapshots>
     </repository>
   </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>central_snapshots</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
 </project>
