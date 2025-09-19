@@ -70,6 +70,12 @@ This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-c
 include::src/test/java/org/meeuw/i18n/subdivision/SubdivisionsTest.java[tag=utrechtRegionService,indent=0]
 ----
 
+Another example
+[source,java]
+----
+include::src/test/java/org/meeuw/i18n/subdivision/SubdivisionsTest.java[tag=greatbritain,indent=0]
+----
+
 == Maven
 
 [source,xml,subs="attributes+"]

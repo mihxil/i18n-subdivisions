@@ -86,6 +86,26 @@ public class SubdivisionsTest {
     // end::belgium[]
 
 
+
+    // tag::greatbritain[]
+
+    @Test
+    public void greatBritain() {
+        Country gb = RegionService.getInstance().getByCode("GB", Country.class).get();
+
+        for (CountrySubdivision code : SubdivisionFactory.getSubdivisions(gb)) {
+            System.out.format("[%s] %s\n", code, code.getName());
+        }
+
+        CountrySubdivision wales = RegionService.getInstance().getByCode("GB-WLS", CountrySubdivision.class).get();
+        assertThat(wales.getCountry()).isEqualTo(gb);
+        assertThat(wales.getName()).isEqualTo("Wales");
+
+    }
+    // end::greatbritain[]
+
+
+
     @Test
     public void notFound() {
         assertThatThrownBy(() -> SubdivisionFactory.getSubdivisions("XX")).isInstanceOf(java.util.NoSuchElementException.class);
