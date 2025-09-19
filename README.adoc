@@ -96,8 +96,10 @@ dependencies {
 
 == See Also
 
+* https://github.com/mihxil/i18n-regions
 * https://en.wikipedia.org/wiki/ISO_3166-2[ISO 3166-2 on Wikipedia]
 * http://www.unece.org/cefact/locode/subdivisions.html[Source of the codes] (seems to be broken)
+
 
 
 == Building
