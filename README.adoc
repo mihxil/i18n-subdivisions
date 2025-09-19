@@ -73,26 +73,6 @@ public void greatBritain() {
 }
 ----
 
-== Usage
-=== Maven
-
-[source,xml,subs="attributes+"]
-----
-<dependency>
-    <groupId>org.meeuw.i18n</groupId>
-    <artifactId>i18n-subdivision-enums</artifactId>
-    <version>{version}</version>
-</dependency>
-----
-
-=== Gradle
-
-[source,gradle,subs="attributes+"]
-----
-dependencies {
-    compile 'org.meeuw.i18n:i18n-subdivision-enums:{version}'
-}
-----
 
 == See Also
 
