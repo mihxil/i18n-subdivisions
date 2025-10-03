@@ -21,7 +21,7 @@ jobs:
         include:
           - java: 21
             target: 'test'
-          - java: 25-ea
+          - java: 25
             target: 'test'
           - java: 17
             target: 'test'
