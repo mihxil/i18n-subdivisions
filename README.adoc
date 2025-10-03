@@ -34,7 +34,7 @@ List all the subdivision codes available for a specific country.
 
 @Test
 public void belgium() {
-    for (CountrySubdivision code : SubdivisionFactory.getSubdivisions("BE")) {
+    for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("BE")) {
         System.out.format("[%s] %s\n", code, code.getName());
     }
 
@@ -45,10 +45,11 @@ This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-c
 [source,java]
 ----
 @Test
-public void utrechtRegionService() {
-    CountrySubdivision u = RegionService.getInstance().getByCode("NL-UT", true, CountrySubdivision.class).get();
+public void utrecht() {
 
-    assertThat(u.getCountry().getCode()).isEqualTo("NL");
+    CountrySubdivisionCode u = SubdivisionNL.valueOf("UT");
+
+    assertThat(u.getCountryCode()).isEqualTo("NL");
     assertThat(u.getName()).isEqualTo("Utrecht");
 }
 
@@ -60,15 +61,12 @@ Another example
 
 @Test
 public void greatBritain() {
-    Country gb = RegionService.getInstance().getByCode("GB", Country.class).get();
 
-    for (CountrySubdivision code : SubdivisionFactory.getSubdivisions(gb)) {
+    for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("GB")) {
         System.out.format("[%s] %s\n", code, code.getName());
     }
 
-    CountrySubdivision wales = RegionService.getInstance().getByCode("GB-WLS", CountrySubdivision.class).get();
-    assertThat(wales.getCountry()).isEqualTo(gb);
-    assertThat(wales.getName()).isEqualTo("Wales");
+
 
 }
 ----
@@ -110,7 +108,9 @@ The resulting list is however converted to .txt in a test-case and compared to a
 |===
 | version | changes/remarks | date
 
-|0.5 | dropped  direct nvi18n.version dependency, renamed interface to 'CountrySubdivision'. Being a 'RegionProvider' | september 2025
+|0.6 | also dropped region provider stuff again. This will be done in i18n-regions-subdivisions This is now just a clean set of dependency-less enums.
+
+|0.5 | dropped  direct nvi18n dependency, renamed interface to 'CountrySubdivision'. Being a 'RegionProvider' | september 2025
 
 |0.4 | adopted to org.meeuw |
 
