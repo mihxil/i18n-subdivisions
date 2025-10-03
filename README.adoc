@@ -31,44 +31,19 @@ List all the subdivision codes available for a specific country.
 
 [source,java]
 ----
-
-@Test
-public void belgium() {
-    for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("BE")) {
-        System.out.format("[%s] %s\n", code, code.getName());
-    }
-
-}
+Unresolved directive in README-source.adoc - include::src/test/java/org/meeuw/i18n/subdivisions/SubdivisionsTest.java[tag=belgium,indent=0]
 ----
 
 This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-countries[i18n-regions], which would make every enum defined in this project available as a more generic 'Region' object, and also be accessible via the RegionService.
 [source,java]
 ----
-@Test
-public void utrecht() {
-
-    CountrySubdivisionCode u = SubdivisionNL.valueOf("UT");
-
-    assertThat(u.getCountryCode()).isEqualTo("NL");
-    assertThat(u.getName()).isEqualTo("Utrecht");
-}
-
+Unresolved directive in README-source.adoc - include::src/test/java/org/meeuw/i18n/subdivisions/SubdivisionsTest.java[tag=utrecht,indent=0]
 ----
 
 Another example
 [source,java]
 ----
-
-@Test
-public void greatBritain() {
-
-    for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("GB")) {
-        System.out.format("[%s] %s\n", code, code.getName());
-    }
-
-
-
-}
+Unresolved directive in README-source.adoc - include::src/test/java/org/meeuw/i18n/subdivisions/SubdivisionsTest.java[tag=greatbritain,indent=0]
 ----
 
 
