@@ -4,7 +4,7 @@
     <setting name="path" value="file://$PROJECT_DIR$/src/build/groovy/generateSubdivisions.groovy" />
     <setting name="vmparams" value="" />
     <setting name="params" value="" />
-    <setting name="workDir" value="file://$PROJECT_DIR$/src/build/groovy" />
+    <setting name="workDir" value="file://$PROJECT_DIR$" />
     <setting name="debug" value="false" />
     <setting name="addClasspath" value="true" />
     <setting name="alternativeJrePathEnabled" value="true" />

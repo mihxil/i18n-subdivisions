@@ -1,71 +1,80 @@
 package org.meeuw.i18n.subdivision;
 
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-import org.meeuw.i18n.countries.Country;
-import org.meeuw.i18n.regions.RegionService;
-
-import static org.meeuw.i18n.subdivision.SubdivisionProvider.MAP;
 
 /**
- * A few utility methods to work with {@link CountrySubdivision subdivisions}.
+ * A few utility methods to work with {@link CountrySubdivisionCode subdivisions}.
  *
  * @author Michiel Meeuwissen
  *
  */
 public class SubdivisionFactory {
 
+    private static final Map<String, Class<? extends CountrySubdivisionCode>> enumMap;
+
+    static {
+        Map<String, Class<? extends CountrySubdivisionCode>>  map = new HashMap<>();
+        try (InputStream is = SubdivisionFactory.class.getResourceAsStream("LIST")) {
+
+            ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+            int nRead;
+            byte[] data = new byte[16384];
+            while ((nRead = is.read(data, 0, data.length)) != -1) {
+                buffer.write(data, 0, nRead);
+            }
+            buffer.flush();
+            String listContent = new String(buffer.toByteArray(), StandardCharsets.UTF_8);
+            for (String code : listContent.split("\t")) {
+                map.put(code, (Class<CountrySubdivisionCode>) Class.forName("org.meeuw.i18n.subdivision.Subdivision" + code));
+            }
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        enumMap = Collections.unmodifiableMap(map);
+
+    }
+
+    public static Class<? extends CountrySubdivisionCode> getEnum(String country) {
+        return enumMap.get(country);
+    }
     /**
      * Get all subdivisions for a country. Or {@code null} if not known, not found, or not applicable
      * @param country Country to resolve for
      * @return List of subdivisions
      */
 
-    public static List<CountrySubdivision> getSubdivisions(Country country) {
-        List<CountrySubdivision> result = MAP.get(country);
+    public static List<CountrySubdivisionCode> getSubdivisions(String country) {
+        return Collections.unmodifiableList(streamSubdivisions(country).collect(Collectors.toList()));
+
+    }
+
+
+
+    /**
+     * @param country Country to resolve for
+     * @param subdivisionCodeName The code of the subdivision to resolve
+     * @return The subdivision, if found, otherwise {@link Optional#empty()}
+     */
+    public static Optional<CountrySubdivisionCode> getSubdivision(String country, String subdivisionCodeName) {
+        return streamSubdivisions(country).filter(c -> c.getSubdivisionCode().equals(subdivisionCodeName)).findFirst();
+    }
+
+    protected static Stream<CountrySubdivisionCode> streamSubdivisions(String country) {
+        Class<? extends CountrySubdivisionCode> result = getEnum(country);
         if (result == null) {
-            return Collections.emptyList();
+            throw new NoSuchElementException("No subdivisions found for " + country);
         } else {
-            return result;
+            Object[] enumConstants = result.getEnumConstants();
+
+            return Arrays.stream(enumConstants)
+                .map(e -> (CountrySubdivisionCode) e);
+
         }
     }
 
-    /**
-     * Retrieve all known subdivisions for a country, given the country code.
-     *
-     * @param country The country code to resolve for
-     * @return List of subdivisions
-     * @throws java.util.NoSuchElementException If the country is not found
-     */
-    public static List<CountrySubdivision> getSubdivisions(String country) {
-        return getSubdivisions(RegionService.getInstance()
-            .getByCode(country, true, Country.class)
-            .orElseThrow(() -> new NoSuchElementException("No country found for " + country))
-        );
-    }
-
-    /**
-     * @param country Country to resolve for
-     * @param subdivisionCodeName The code of the subdivision to resolve
-     * @return The subdivision, if found, otherwise {@link Optional#empty()}
-     */
-    public static Optional<CountrySubdivision> getSubdivision(Country country, String subdivisionCodeName) {
-        for (CountrySubdivision subDivisionCode: getSubdivisions(country)) {
-            if (subDivisionCode.getSubdivisionCode().equals(subdivisionCodeName)) {
-                return Optional.of(subDivisionCode);
-            }
-        }
-        return Optional.empty();
-    }
-
-    /**
-     * @param country Country to resolve for
-     * @param subdivisionCodeName The code of the subdivision to resolve
-     * @return The subdivision, if found, otherwise {@link Optional#empty()}
-     */
-    public static Optional<CountrySubdivision> getSubdivision(String country, String subdivisionCodeName) {
-        return getSubdivision(RegionService.getInstance()
-            .getByCode(country, true, Country.class)
-            .orElseThrow(() -> new NoSuchElementException("No country found for " + country)), subdivisionCodeName);
-    }
 }

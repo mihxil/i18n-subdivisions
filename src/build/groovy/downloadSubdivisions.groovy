@@ -11,11 +11,11 @@ import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 
 String dir;
- try {
-        dir = "${project.properties.buildresources}"
-    } catch (MissingPropertyException pe) {
-        dir = "/Users/michiel/github/mihxil/i18n-subdivisions/src/build/resources/"
-    }
+try {
+    dir = "${project.properties.buildresources}"
+} catch (MissingPropertyException pe) {
+    dir = "/Users/michiel/github/mihxil/i18n-subdivisions-clean/src/build/resources/"
+}
 File buildResources = new File(dir)
 buildResources.mkdirs()
 
@@ -28,7 +28,8 @@ HttpClient client = HttpClient.newBuilder()
 
 RegionService.getInstance().values(Country.class)
   //.filter(c -> c.code == "EU")
-        .each {
+//
+.each {
 
     if (false) {
         URI url = URI.create("https://unece.org/fileadmin/DAM/cefact/locode/Subdivision/${it.alpha2.toLowerCase(Locale.US)}Sub.htm")
@@ -36,7 +37,7 @@ RegionService.getInstance().values(Country.class)
         String html;
         try {
             HttpRequest request = HttpRequest.newBuilder()
-            .uri(URI.create(url))
+                    .uri(URI.create(url))
 
             // seems to broken. All urls are giving 404 nowadays
             html = url.getText(["user-agent": "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"], "UTF-8")
@@ -99,7 +100,8 @@ RegionService.getInstance().values(Country.class)
             println("Failed to delete file: ${file.absolutePath}")
         }
     }
-    new File(buildResources, "${it.code}.wiki.url").withWriter("UTF-8", {
-        it.write(wikiUrl.toString() + "\t" + status + "\t" + lastModified)
+    name = it.name;
+    new File(buildResources, "${it.code}.wiki.url").withWriter("UTF-8", writer -> {
+        writer.write(wikiUrl.toString() + "\t" + status + "\t" + lastModified + "\t" + name)
     })
 }

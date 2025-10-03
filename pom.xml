@@ -36,7 +36,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <buildresources>${project.basedir}/src/build/resources/</buildresources>
-    <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions</subdivision.java.sources>
+    <subdivision.java.sources>${project.build.directory}/I cans/subdivisions</subdivision.java.sources>
 
 
     <regions.version>2.5.2</regions.version>
@@ -52,11 +52,6 @@
 
 
   <dependencies>
-    <dependency>
-      <groupId>org.meeuw.i18n</groupId>
-      <artifactId>i18n-regions-countries</artifactId>
-      <version>${regions.version}</version>
-    </dependency>
     <dependency>
       <groupId>org.checkerframework</groupId>
       <artifactId>checker-qual</artifactId>
@@ -87,7 +82,12 @@
       <version>3.27.4</version>
       <scope>test</scope>
     </dependency>
-
+    <dependency>
+      <groupId>org.meeuw.i18n</groupId>
+      <artifactId>i18n-regions-countries</artifactId>
+      <version>${regions.version}</version>
+      <scope>test</scope>
+    </dependency>
 
   </dependencies>
   <profiles>
@@ -149,19 +149,23 @@
                   <scripts>
                     <source>${project.basedir}/src/build/groovy/downloadSubdivisions.groovy</source>
                   </scripts>
+
                 </configuration>
+
               </execution>
             </executions>
+            <dependencies>
+              <dependency>
+                <groupId>org.meeuw.i18n</groupId>
+                <artifactId>i18n-regions-countries</artifactId>
+                <version>${regions.version}</version>
+              </dependency>
+            </dependencies>
           </plugin>
         </plugins>
       </build>
     </profile>
-     <profile>
-      <id>deploy</id>
-      <build>
 
-      </build>
-    </profile>
   </profiles>
   <build>
     <defaultGoal>compiler:compile package</defaultGoal>

@@ -36,7 +36,7 @@ include::src/test/java/org/meeuw/i18n/subdivision/SubdivisionsTest.java[tag=belg
 This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-countries[i18n-regions], which would make every enum defined in this project available as a more generic 'Region' object, and also be accessible via the RegionService.
 [source,java]
 ----
-include::src/test/java/org/meeuw/i18n/subdivision/SubdivisionsTest.java[tag=utrechtRegionService,indent=0]
+include::src/test/java/org/meeuw/i18n/subdivision/SubdivisionsTest.java[tag=utrecht,indent=0]
 ----
 
 Another example
@@ -82,7 +82,9 @@ The resulting list is however converted to .txt in a test-case and compared to a
 |===
 | version | changes/remarks | date
 
-|0.5 | dropped  direct nvi18n.version dependency, renamed interface to 'CountrySubdivision'. Being a 'RegionProvider' | september 2025
+|0.6 | also dropped region provider stuff again. This will be done in i18n-regions-subdivisions This is now just a clean set of dependency-less enums.
+
+|0.5 | dropped  direct nvi18n dependency, renamed interface to 'CountrySubdivision'. Being a 'RegionProvider' | september 2025
 
 |0.4 | adopted to org.meeuw |
 
