@@ -5,7 +5,7 @@
 
 
 image:https://github.com/mihxil/i18n-subdivisions/actions/workflows/maven.yml/badge.svg?[Build Status,link=https://github.com/mihxil/i18n-subdivisions/actions/workflows/maven.yml]
-image:https://codecov.io/gh/mihxil/i18n-subdivisions/branch/main/graph/badge.svg[codecov,link=https://codecov.io/gh/mihxil/i18n-subdivisions]
+image:https://codecov.io/gh/mihxil/i18n-subdivisions/graph/badge.svg?token=JhUiuqyvHO[codecov,link=https://codecov.io/gh/mihxil/i18n-subdivisions]
 image:https://img.shields.io/maven-central/v/org.meeuw.i18n/i18n-subdivision-enums.svg?label=Maven%20Central[Maven Central,link=https://central.sonatype.com/artifact/org.meeuw.i18n/i18n-subdivision-enums]
 image:https://www.javadoc.io/badge/org.meeuw.i18n/i18n-subdivision-enums.svg?color=blue[javadoc,link=https://www.javadoc.io/doc/org.meeuw.i18n/i18n-subdivision-enums]
 
@@ -82,7 +82,7 @@ The resulting list is however converted to .txt in a test-case and compared to a
 |===
 | version | changes/remarks | date
 
-|0.6 | also dropped region provider stuff again. This will be done in i18n-regions-subdivisions This is now just a clean set of dependency-less enums.
+|0.6 | also dropped region provider stuff again. This will be done in i18n-regions-subdivisions This is now just a clean set of dependency-less enums. | oktober 2025
 
 |0.5 | dropped  direct nvi18n dependency, renamed interface to 'CountrySubdivision'. Being a 'RegionProvider' | september 2025
 
