@@ -45,7 +45,7 @@ jobs:
       - name: Build and deploy with Maven
         run: |
           mvn compiler:compile
-          mvn -B -Pdeploy ${{ matrix.target }}
+          mvn -B ${{ matrix.target }}
         env:
           CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
           CENTRAL_PASSWORD: ${{ secrets.CENTRAL_PASSWORD }}
