@@ -12,10 +12,10 @@ image:https://www.javadoc.io/badge/org.meeuw.i18n/i18n-subdivision-enums.svg?col
 == Overview
 
 
-Package to support internationalization, specifically the Subdivision (provinces/states/region)
+Package to support subdivision (provinces/states/region) of countries
 defined in ISO 3166-2.
 
-It depends on the link:https://github.com/mihxil/i18n-regions#countries[i18n-regions-countries] package for defining all the Countries used.
+It can be used in conjuction with  link:https://github.com/mihxil/i18n-regions#countries[i18n-regions-countries] package for defining all the countries.   link:https://github.com/mihxil/i18n-regions/[i18n-regions-subdivisions] applies this to `Region` objects.
 
 This is forked from https://github.com/tobias-/i18n-subdivisions which doesn't seem to be maintained. I changed the coordinates and package and I am maintaining it myself now.
 
@@ -23,26 +23,25 @@ The author is well aware that there are bound to be problems in the data set. If
 
 While the information on what kind of subdivision it is (region, island, state, province, city etc), they are too many different kinds for them to be readily usable and thus they are not available.
 
-
 == Examples
 
 List all the subdivision codes available for a specific country.
 
 [source,java]
 ----
-include::src/test/java/org/meeuw/i18n/subdivisions/SubdivisionsTest.java[tag=belgium,indent=0]
+include::src/test/java/org/meeuw/i18n/subdivisions/codes/SubdivisionsTest.java[tag=belgium,indent=0]
 ----
 
 This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-countries[i18n-regions], which would make every enum defined in this project available as a more generic 'Region' object, and also be accessible via the RegionService.
 [source,java]
 ----
-include::src/test/java/org/meeuw/i18n/subdivisions/SubdivisionsTest.java[tag=utrecht,indent=0]
+include::src/test/java/org/meeuw/i18n/subdivisions/codes/SubdivisionsTest.java[tag=utrecht,indent=0]
 ----
 
 Another example
 [source,java]
 ----
-include::src/test/java/org/meeuw/i18n/subdivisions/SubdivisionsTest.java[tag=greatbritain,indent=0]
+include::src/test/java/org/meeuw/i18n/subdivisions/codes/SubdivisionsTest.java[tag=greatbritain,indent=0]
 ----
 
 
@@ -82,7 +81,7 @@ The resulting list is however converted to .txt in a test-case and compared to a
 |===
 | version | changes/remarks | date
 
-|0.6 | also dropped region provider stuff again. This will be done in i18n-regions-subdivisions This is now just a clean set of dependency-less enums. | oktober 2025
+|0.6 | also dropped region provider stuff again. This will be done in i18n-regions-subdivisions This is now just a clean set of dependency-less enums. Pckage was changd to `org.meeuw.i18n.subdivisions.codes` to avoid confusion with the module in i18n-regions, | oktober 2025
 
 |0.5 | dropped  direct nvi18n dependency, renamed interface to 'CountrySubdivision'. Being a 'RegionProvider' | september 2025
 
