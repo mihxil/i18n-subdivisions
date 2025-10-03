@@ -1,4 +1,4 @@
-package org.meeuw.i18n.subdivision;
+package org.meeuw.i18n.subdivisions.codes;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -30,7 +30,7 @@ public class SubdivisionFactory {
             buffer.flush();
             String listContent = new String(buffer.toByteArray(), StandardCharsets.UTF_8);
             for (String code : listContent.split("\t")) {
-                map.put(code, (Class<CountrySubdivisionCode>) Class.forName("org.meeuw.i18n.subdivision.Subdivision" + code));
+                map.put(code, (Class<CountrySubdivisionCode>) Class.forName("org.meeuw.i18n.subdivisions.codes.Subdivision" + code));
             }
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();

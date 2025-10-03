@@ -1,5 +1,5 @@
 
-package org.meeuw.i18n.subdivision;
+package org.meeuw.i18n.subdivisions.codes;
 
 
 

@@ -36,7 +36,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <buildresources>${project.basedir}/src/build/resources/</buildresources>
-    <subdivision.java.sources>${project.build.directory}/I cans/subdivisions</subdivision.java.sources>
+    <subdivision.java.sources>${project.build.directory}/generated-sources/subdivisions</subdivision.java.sources>
 
 
     <regions.version>2.5.2</regions.version>

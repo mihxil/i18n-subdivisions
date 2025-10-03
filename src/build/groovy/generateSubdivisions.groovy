@@ -8,14 +8,14 @@ import org.jsoup.nodes.Document
 import org.jsoup.safety.Cleaner
 import org.jsoup.safety.Safelist
 import org.jsoup.select.Elements
-import org.meeuw.i18n.subdivision.CountrySubdivisionCode
+import org.meeuw.i18n.subdivisions.codes.CountrySubdivisionCode
 
 import java.util.stream.Collectors
 
 import static org.apache.commons.text.StringEscapeUtils.escapeHtml4
 
 @Field
-final String JAVA_PACKAGE = "org.meeuw.i18n.subdivision"
+final String JAVA_PACKAGE = "org.meeuw.i18n.subdivisions.codes"
 
 @Field
 final JCodeModel cm = new JCodeModel()
@@ -275,6 +275,6 @@ try {
 outputDir.mkdirs()
 cm.build(outputDir)
 
-new File(userDir, "/src/main/resources/org/meeuw/i18n/subdivision/LIST").withWriter( writer -> {writer.write(existing.keySet().stream().collect(Collectors.joining("\t")))});
+new File(userDir, "/src/main/resources/org/meeuw/i18n/subdivisions/codes/LIST").withWriter( writer -> {writer.write(existing.keySet().stream().sorted().collect(Collectors.joining("\t")))});
 System.out.println("ready")
 
