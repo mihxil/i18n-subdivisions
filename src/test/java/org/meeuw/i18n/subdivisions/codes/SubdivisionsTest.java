@@ -6,15 +6,15 @@ import java.nio.charset.StandardCharsets;
 import java.util.Comparator;
 
 import org.apache.commons.io.IOUtils;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.assertThatThrownBy;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.meeuw.i18n.countries.Country;
 import org.meeuw.i18n.countries.UserAssignedCountry;
 import org.meeuw.i18n.regions.RegionService;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+
 
 public class SubdivisionsTest {
 
@@ -103,6 +103,11 @@ public class SubdivisionsTest {
         assertThatThrownBy(() -> SubdivisionFactory.getSubdivisions("XX")).isInstanceOf(java.util.NoSuchElementException.class);
         assertThat(SubdivisionFactory.getSubdivision("NL", "XX")).isEmpty();
 
+    }
+
+    @Test
+    public void stream() {
+        assertThat(SubdivisionFactory.stream().count()).isEqualTo(5869L);
     }
 
     static class MyCountrySubdivision extends UserAssignedCountry {
