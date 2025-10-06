@@ -8,7 +8,6 @@ import org.jsoup.nodes.Document
 import org.jsoup.safety.Cleaner
 import org.jsoup.safety.Safelist
 import org.jsoup.select.Elements
-import org.meeuw.i18n.subdivisions.codes.CountrySubdivisionCode
 
 import java.util.stream.Collectors
 
@@ -21,7 +20,7 @@ final String JAVA_PACKAGE = "org.meeuw.i18n.subdivisions.codes"
 final JCodeModel cm = new JCodeModel()
 
 @Field
-final JClass countrySubdivisionInterface = cm.ref(CountrySubdivisionCode.class)
+final JClass countrySubdivisionInterface = cm.ref(JAVA_PACKAGE + ".CountrySubdivisionCode")
 
 
 @Field
