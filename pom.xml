@@ -134,12 +134,6 @@
                   <goal>execute</goal>
                 </goals>
                 <configuration>
-                  <properties>
-                    <property>
-                      <name>project</name>
-                      <value>${project}</value>
-                    </property>
-                  </properties>
                   <scripts>
                     <source>${project.basedir}/src/build/groovy/downloadSubdivisions.groovy</source>
                   </scripts>
