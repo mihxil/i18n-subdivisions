@@ -36,7 +36,6 @@ void belgium() {
     for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("BE")) {
         System.out.format("[%s] %s\n", code, code.getName());
     }
-
 }
 ----
 
@@ -45,28 +44,21 @@ This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-c
 ----
 @Test
 void utrecht() {
-
     CountrySubdivisionCode u = SubdivisionNL.valueOf("UT");
 
     assertThat(u.getCountryCode()).isEqualTo("NL");
     assertThat(u.getName()).isEqualTo("Utrecht");
 }
-
 ----
 
 Another example
 [source,java]
 ----
-
 @Test
 void greatBritain() {
-
     for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("GB")) {
         System.out.format("[%s] %s\n", code, code.getName());
     }
-
-
-
 }
 ----
 
