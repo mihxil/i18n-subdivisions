@@ -1,5 +1,5 @@
 = I18n Country Subdivisions
-:version: 0.5
+:version: 0.6
 :toc:
 :toclevels: 1
 
