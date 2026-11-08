@@ -53,6 +53,7 @@
 
   <dependencies>
     <dependency>
+      <!-- @Generated annotation -->
       <groupId>jakarta.annotation</groupId>
       <artifactId>jakarta.annotation-api</artifactId>
       <version>${annotation.version}</version>
