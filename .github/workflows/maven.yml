@@ -24,8 +24,6 @@ jobs:
           - java: 25
             target: 'test'
           - java: 17
-            target: 'test'
-          - java: 11
             target: 'deploy'
     runs-on: ubuntu-latest
     env:
