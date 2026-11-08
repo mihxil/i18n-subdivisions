@@ -16,6 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 
+@SuppressWarnings({"OptionalGetWithoutIsPresent", "DataFlowIssue"})
 class SubdivisionsTest {
 
     @Test
@@ -36,8 +37,6 @@ class SubdivisionsTest {
                     }
                     builder.append("\n");
                 });
-
-
         });
         String expected = IOUtils.toString(getClass().getResource("/current.txt").toURI(), StandardCharsets.UTF_8);
         Assertions.assertEquals(expected, builder.toString());
@@ -46,13 +45,11 @@ class SubdivisionsTest {
     // tag::utrecht[]
     @Test
     void utrecht() {
-
         CountrySubdivisionCode u = SubdivisionNL.valueOf("UT");
 
         assertThat(u.getCountryCode()).isEqualTo("NL");
         assertThat(u.getName()).isEqualTo("Utrecht");
     }
-
     // end::utrecht[]
 
 
@@ -76,23 +73,17 @@ class SubdivisionsTest {
         for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("BE")) {
             System.out.format("[%s] %s\n", code, code.getName());
         }
-
     }
     // end::belgium[]
 
 
 
     // tag::greatbritain[]
-
     @Test
     void greatBritain() {
-
         for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("GB")) {
             System.out.format("[%s] %s\n", code, code.getName());
         }
-
-
-
     }
     // end::greatbritain[]
 
@@ -102,7 +93,6 @@ class SubdivisionsTest {
     void notFound() {
         assertThatThrownBy(() -> SubdivisionFactory.getSubdivisions("XX")).isInstanceOf(java.util.NoSuchElementException.class);
         assertThat(SubdivisionFactory.getSubdivision("NL", "XX")).isEmpty();
-
     }
 
     @Test
