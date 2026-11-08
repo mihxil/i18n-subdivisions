@@ -51,6 +51,15 @@ Map<String, SubDiv> parseHtmlWiki(String cc, URI uri, String sourceUrl) {
             }
         })
         Document parse = new Cleaner(safelist).clean(unclean)
+        // javadoc warns about empty <span> tags
+        parse.select("span:empty").remove()
+        // javadoc's doclint rejects non-ASCII characters in URIs, so percent-encode them
+        parse.select("a[href]").forEach(a -> {
+            try {
+                a.attr("href", new URI(a.attr("href")).toASCIIString())
+            } catch (URISyntaxException ignored) {
+            }
+        })
 
         Elements rows = parse.select("table.wikitable > tbody > tr:gt(0)")
         rows.each { row ->

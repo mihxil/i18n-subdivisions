@@ -12,9 +12,12 @@ import java.time.format.DateTimeFormatter
 
 String dir;
 try {
-    dir = "${project.properties.buildresources}"
+    dir = project.properties.getProperty("buildresources")
 } catch (MissingPropertyException pe) {
     dir = "/Users/michiel/github/mihxil/i18n-subdivisions-clean/src/build/resources/"
+}
+if (dir == null) {
+    throw new IllegalStateException("Property 'buildresources' not found in project " + project)
 }
 File buildResources = new File(dir)
 buildResources.mkdirs()
