@@ -27,7 +27,7 @@ jobs:
             target: 'deploy'
     runs-on: ubuntu-latest
     env:
-      MAVEN_ARGS: '--no-transfer-progress'
+      MAVEN_ARGS: '--no-transfer-progress --color always'
     steps:
       - uses: actions/checkout@v7
       - name: Set up JDK ${{ matrix.java }}
