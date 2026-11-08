@@ -45,6 +45,8 @@ public class SubdivisionFactory {
 
     /**
      * Obtains the Enum class associated with the country with code country.
+     * @param country ISO 3166-1 alpha-2 code of the country
+     * @return the enum class, or {@code null} if there is none for this country
      */
     public static Class<? extends CountrySubdivisionCode> getEnum(String country) {
         return ENUM_MAP.get(country);
@@ -63,6 +65,7 @@ public class SubdivisionFactory {
 
 
     /**
+     * Get one subdivision of a country by its code.
      * @param country Country to resolve for
      * @param subdivisionCodeName The code of the subdivision to resolve
      * @return The subdivision, if found, otherwise {@link Optional#empty()}
@@ -71,6 +74,12 @@ public class SubdivisionFactory {
         return streamSubdivisions(country).filter(c -> c.getSubdivisionCode().equals(subdivisionCodeName)).findFirst();
     }
 
+    /**
+     * Streams all subdivisions of a country.
+     * @param country Country to resolve for
+     * @return a stream of the subdivisions
+     * @throws NoSuchElementException if there are no subdivisions for this country
+     */
     protected static Stream<CountrySubdivisionCode> streamSubdivisions(String country) {
         Class<? extends CountrySubdivisionCode> result = getEnum(country);
         if (result == null) {
@@ -86,6 +95,7 @@ public class SubdivisionFactory {
 
     /**
      * Stream all known {@link CountrySubdivisionCode}s.
+     * @return a stream of all subdivisions of all countries
      */
     public static Stream<CountrySubdivisionCode> stream() {
         Spliterator<CountrySubdivisionCode> spliterator = new Spliterator<CountrySubdivisionCode>() {
