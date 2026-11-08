@@ -6,6 +6,7 @@ on:
   push:
     paths:
     - README-source.adoc
+    - 'src/test/java/**/SubdivisionsTest.java'
     - '.github/workflows/reduce-readme.yml'
     branches: ['**']
   workflow_dispatch:
