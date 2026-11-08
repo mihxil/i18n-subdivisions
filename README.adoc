@@ -32,7 +32,7 @@ List all the subdivision codes available for a specific country.
 ----
 
 @Test
-public void belgium() {
+void belgium() {
     for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("BE")) {
         System.out.format("[%s] %s\n", code, code.getName());
     }
@@ -44,7 +44,7 @@ This is wrapped also in https://github.com/mihxil/i18n-regions#subdivisions-of-c
 [source,java]
 ----
 @Test
-public void utrecht() {
+void utrecht() {
 
     CountrySubdivisionCode u = SubdivisionNL.valueOf("UT");
 
@@ -59,7 +59,7 @@ Another example
 ----
 
 @Test
-public void greatBritain() {
+void greatBritain() {
 
     for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("GB")) {
         System.out.format("[%s] %s\n", code, code.getName());
