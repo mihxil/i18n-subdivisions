@@ -16,10 +16,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 
-public class SubdivisionsTest {
+class SubdivisionsTest {
 
     @Test
-    public void showAll() throws URISyntaxException, IOException {
+    void showAll() throws URISyntaxException, IOException {
         StringBuilder builder = new StringBuilder();
         RegionService.getInstance(SubdivisionsTest.class.getClassLoader()).values(Country.class)
             .sorted(Comparator.comparing(Country::getCode))
@@ -45,7 +45,7 @@ public class SubdivisionsTest {
 
     // tag::utrecht[]
     @Test
-    public void utrecht() {
+    void utrecht() {
 
         CountrySubdivisionCode u = SubdivisionNL.valueOf("UT");
 
@@ -59,7 +59,7 @@ public class SubdivisionsTest {
     // tag::utrechtRegionFactory[]
 
     @Test
-    public void utrechtFactory() {
+    void utrechtFactory() {
         CountrySubdivisionCode u = SubdivisionFactory.getSubdivision("NL", "UT").get();
 
         assertThat(u.getCountryCode()).isEqualTo("NL");
@@ -72,7 +72,7 @@ public class SubdivisionsTest {
     // tag::belgium[]
 
     @Test
-    public void belgium() {
+    void belgium() {
         for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("BE")) {
             System.out.format("[%s] %s\n", code, code.getName());
         }
@@ -85,7 +85,7 @@ public class SubdivisionsTest {
     // tag::greatbritain[]
 
     @Test
-    public void greatBritain() {
+    void greatBritain() {
 
         for (CountrySubdivisionCode code : SubdivisionFactory.getSubdivisions("GB")) {
             System.out.format("[%s] %s\n", code, code.getName());
@@ -99,14 +99,14 @@ public class SubdivisionsTest {
 
 
     @Test
-    public void notFound() {
+    void notFound() {
         assertThatThrownBy(() -> SubdivisionFactory.getSubdivisions("XX")).isInstanceOf(java.util.NoSuchElementException.class);
         assertThat(SubdivisionFactory.getSubdivision("NL", "XX")).isEmpty();
 
     }
 
     @Test
-    public void stream() {
+    void stream() {
         assertThat(SubdivisionFactory.stream().count()).isEqualTo(5869L);
     }
 
